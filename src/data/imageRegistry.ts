@@ -7,6 +7,30 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "re-monster": {
+  poster: "/re-monster.jpg",
+  banner: "/re-monster-banner.jpg"
+},
+  "trapped-in-a-dating-sim": {
+  poster: "/dating-sim.jpg",
+  banner: "/dating-sim-banner.jpg"
+},
+  "the-reincarnation-of-the-strongest-exorcist-in-another-world": {
+  poster: "/strongest-exorcist.jpg",
+  banner: "/strongest-exorcist-banner.jpg"
+},
+  "even-given-the-worthless-appraiser-class": {
+  poster: "/appraiser.jpg",
+  banner: "/appraiser-banner.webp"
+},
+  "hero-without-a-class": {
+  poster: "/hero-without-class.webp",
+  banner: "/hero-without-class-banner.webp"
+},
+  "my-isekai-life": {
+  poster: "/my-isekai-life.jpg",
+  banner: "/my-isekai-life-banner.webp"
+},
   "alya-sometimes-hides-her-feelings-in-russian": {
   poster: "/alya.jpg",
   banner: "/alya-banner.jpg"
