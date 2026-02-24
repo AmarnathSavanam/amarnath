@@ -90,7 +90,7 @@ const imageRegistry: Record<string, ImageEntry> = {
 
 "shangri-la-frontier": {
   poster: "/shangri-la-frontier.jpg",
-  banner: "/shangri-la-frontier-banner.png",
+  banner: "/shangri-la-frontier.jpg",
 },
 
 "slugterra": {
@@ -152,54 +152,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/eminence-in-shadow-banner.jpg",
 },
 
-"tsukimichi-moonlit-fantasy": {
-  poster: "/tsukimichi.jpg",
-  banner: "/tsukimichi.jpg",
-},
-
-"rascal-does-not-dream-of-bunny-girl-senpai": {
-  poster: "/bunny-girl-senpai.jpg",
-  banner: "/bunny-girl-senpai.jpg",
-},
-
-"the-misfit-of-demon-king-academy": {
-  poster: "/misfit-demon-king.jpg",
-  banner: "/misfit-demon-king.jpg",
-},
-
-"tower-of-god": {
-  poster: "/tower-of-god.jpg",
-  banner: "/tower-of-god.jpg",
-},
-
-"frieren-beyond-journeys-end": {
-  poster: "/frieren.jpg",
-  banner: "/frieren.jpg",
-},
-
-"one-punch-man": {
-  poster: "/one-punch-man.jpg",
-  banner: "/one-punch-man.jpg",
-},
-"kaiju-no-8": {
-  poster: "/kaiju-no-8.jpg",
-  banner: "/kaiju-no-8.jpg",
-},
-
-"dandadan": {
-  poster: "/dandadan.jpg",
-  banner: "/dandadan.jpg",
-},
-
-"parasyte": {
-  poster: "/parasyte.jpg",
-  banner: "/parasyte-banner.png",
-},
-
-"wind-breaker": {
-  poster: "/wind-breaker.jpg",
-  banner: "/wind-breaker-banner.jpg",
-},
+// Removed entries for non-existent image files - placeholder generator handles these
 
 "mashle-magic-and-muscles": {
   poster: "/mashle.jpg",
@@ -662,11 +615,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   
   "elegant-yokai-apartment-life": {
     poster: "/elegant-yokai-apartment-life.jpg",
-    banner: "/elegant-yokai-apartment-lifeb.jpg",
+    banner: "/elegant-yokai-apartment-lifeb.png",
   },
   "val-x-love": {
     poster: "/val-x-love.jpg",
-    banner: "/val-x-loveb.jpg",
+    banner: "/val-x-loveb.webp",
   },
   "how-a-realist-hero-rebuilt-the-kingdom": {
     poster: "/how-a-realist-hero-rebuilt-the-kingdom.jpg",
@@ -678,7 +631,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "tsugumomo": {
     poster: "/tsugumomo.jpg",
-    banner: "/tsugumomob.jpg",
+    banner: "/tsugumomob.webp",
   },
   "horimiya": {
     poster: "/horimiya.jpg",
@@ -690,23 +643,23 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "welcome-to-demon-school-iruma-kun": {
     poster: "/welcome-to-demon-school-iruma-kun.jpg",
-    banner: "/welcome-to-demon-school-iruma-kunb.jpg",
+    banner: "/welcome-to-demon-school-iruma-kunb.webp",
   },
   "the-daily-life-of-a-middle-aged-online-shopper-in-another-world": {
     poster: "/the-daily-life-of-a-middle-aged-online-shopper-in-another-world.jpg",
     banner: "/the-daily-life-of-a-middle-aged-online-shopper-in-another-worldb.jpg",
   },
   "aesthetica-of-a-rogue-hero": {
-    poster: "/aesthetica-of-a-rogue-hero.jpg",
-    banner: "/aesthetica-of-a-rogue-herob.jpg",
+    poster: "/esthetica-of-a-rogue-hero.jpg",
+    banner: "/esthetica-of-a-rogue-herob.jpg",
   },
   "a-harem-in-a-fantasy-world-labyrinth": {
     poster: "/a-harem-in-a-fantasy-world-labyrinth.jpg",
     banner: "/a-harem-in-a-fantasy-world-labyrinthb.jpg",
   },
   "demon-sword-master-of-excalibur-academy": {
-    poster: "/demon-sword-master-of-excalibur-academy.jpg",
-    banner: "/demon-sword-master-of-excalibur-academyb.jpg",
+    poster: "/emon-sword-master-of-excalibur-academy.jpg",
+    banner: "/emon-sword-master-of-excalibur-academyb.webp",
   },
   "clockwork-planet": {
     poster: "/clockwork-planet.jpg",
@@ -738,23 +691,23 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "our-last-crusade-or-the-rise-of-a-new-world": {
     poster: "/our-last-crusade-or-the-rise-of-a-new-world.jpg",
-    banner: "/our-last-crusade-or-the-rise-of-a-new-worldb.jpg",
+    banner: "/our-last-crusade-or-the-rise-of-a-new-worldb.webp",
   },
   "unnamed-memory": {
     poster: "/unnamed-memory.jpg",
-    banner: "/unnamed-memoryb.jpg",
+    banner: "/unnamed-memoryb.webp",
   },
   "studio-apartment-good-lighting-angel-included": {
     poster: "/studio-apartment-good-lighting-angel-included.jpg",
-    banner: "/studio-apartment-good-lighting-angel-includedb.jpg",
+    banner: "/studio-apartment-good-lighting-angel-includedb.webp",
   },
   "chainsaw-man-reze-arc": {
     poster: "/chainsaw-man-reze-arc.jpg",
-    banner: "/chainsaw-man-reze-arcb.jpg",
+    banner: "/chainsaw-man-reze-arcb.webp",
   },
   "chronos-ruler": {
-    poster: "/chronos-ruler.jpg",
-    banner: "/chronos-rulerb.jpg",
+    poster: "/hronos-ruler.jpg",
+    banner: "/hronos-rulerb.jpg",
   },
   "trinity-seven": {
     poster: "/trinity-seven.jpg",
@@ -786,7 +739,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "mother-of-the-goddess-dormitory": {
     poster: "/mother-of-the-goddess-dormitory.jpg",
-    banner: "/mother-of-the-goddess-dormitoryb.jpg",
+    banner: "/mother-of-the-goddess-dormitoryb.webp",
   },
   "taboo-tattoo": {
     poster: "/taboo-tattoo.jpg",
@@ -798,7 +751,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "welcome-to-japan-ms-elf": {
     poster: "/welcome-to-japan-ms-elf.jpg",
-    banner: "/welcome-to-japan-ms-elfb.jpg",
+    banner: "/welcome-to-japan-ms-elfb.webp",
   },
   "shimoneta": {
     poster: "/shimoneta.jpg",
@@ -806,15 +759,15 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness": {
     poster: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness.jpg",
-    banner: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtinessb.jpg",
+    banner: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtinessb.webp",
   },
   "miss-caretaker-of-sunohara-sou": {
     poster: "/miss-caretaker-of-sunohara-sou.jpg",
     banner: "/miss-caretaker-of-sunohara-soub.jpg",
   },
   "waiting-in-the-summer": {
-    poster: "/waiting-in-the-summer.jpg",
-    banner: "/waiting-in-the-summerb.jpg",
+    poster: "/waiting-in-the-summer.webp",
+    banner: "/waiting-in-the-summerb.webp",
   },
   "recovery-of-an-mmo-junkie": {
     poster: "/recovery-of-an-mmo-junkie.jpg",
@@ -834,15 +787,15 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "in-another-world-with-my-smartphone": {
     poster: "/in-another-world-with-my-smartphone.jpg",
-    banner: "/in-another-world-with-my-smartphoneb.jpg",
+    banner: "/in-another-world-with-my-smartphoneb.webp",
   },
   "yu-no-a-girl-who-chants-love-at-the-bound-of-this-world": {
     poster: "/yu-no.jpg",
     banner: "/yu-nob.jpg",
   },
   "the-beginning-after-the-end": {
-    poster: "/the-beginning-after-the-end.jpg",
-    banner: "/the-beginning-after-the-endb.jpg",
+    poster: "/the-beginning-after-the-end.webp",
+    banner: "/the-beginning-after-the-endb.webp",
   },
   "demon-king-daimao": {
     poster: "/demon-king-daimao.jpg",
@@ -878,19 +831,19 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "bastard-heavy-metal-dark-fantasy": {
     poster: "/bastard.jpg",
-    banner: "/bastardb.jpg",
+    banner: "/bastardb.webp",
   },
   "monster-musume-everyday-life-with-monster-girls": {
-    poster: "/monster-musume.jpg",
-    banner: "/monster-musumeb.jpg",
+    poster: "/monster-musume.png",
+    banner: "/monster-musumeb.webp",
   },
   "worlds-end-harem": {
     poster: "/worlds-end-harem.jpg",
     banner: "/worlds-end-haremb.jpg",
   },
   "sekirei": {
-    poster: "/sekirei.jpg",
-    banner: "/sekireib.jpg",
+    poster: "/sekirei.webp",
+    banner: "/sekireib.webp",
   },
   "plunderer": {
     poster: "/plunderer.jpg",
@@ -898,7 +851,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "domestic-girlfriend": {
     poster: "/domestic-girlfriend.jpg",
-    banner: "/domestic-girlfriendb.jpg",
+    banner: "/domestic-girlfriendb.webp",
   },
   "akame-ga-kill": {
     poster: "/akame-ga-kill.jpg",
@@ -910,31 +863,31 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-new-gate": {
     poster: "/the-new-gate.jpg",
-    banner: "/the-new-gateb.jpg",
+    banner: "/the-new-gateb.webp",
   },
   "dragon-raja": {
     poster: "/dragon-raja.jpg",
-    banner: "/dragon-rajab.jpg",
+    banner: "/dragon-rajab.webp",
   },
   "the-unwanted-undead-adventurer": {
     poster: "/the-unwanted-undead-adventurer.jpg",
-    banner: "/the-unwanted-undead-adventurerb.jpg",
+    banner: "/the-unwanted-undead-adventurerb.webp",
   },
   "angels-of-death": {
     poster: "/angels-of-death.jpg",
     banner: "/angels-of-deathb.jpg",
   },
   "dealing-with-mikadono-sisters-is-a-breeze": {
-    poster: "/dealing-with-mikadono-sisters-is-a-breeze.jpg",
-    banner: "/dealing-with-mikadono-sisters-is-a-breezeb.jpg",
+    poster: "/ealing-with-mikadono-sisters-is-a-breeze.jpg",
+    banner: "/ealing-with-mikadono-sisters-is-a-breezeb.webp",
   },
   "a-nobodys-way-up-to-an-exploration-hero-lv": {
-    poster: "/a-nobodys-way-up-to-an-exploration-hero-lv.jpg",
-    banner: "/a-nobodys-way-up-to-an-exploration-hero-lvb.jpg",
+    poster: "/a-nobodys-way-up-to-an-exploration-hero-lv.webp",
+    banner: "/a-nobodys-way-up-to-an-exploration-hero-lvb.webp",
   },
   "welcome-to-the-outcasts-restaurant": {
     poster: "/welcome-to-the-outcasts-restaurant.jpg",
-    banner: "/welcome-to-the-outcasts-restaurantb.jpg",
+    banner: "/welcome-to-the-outcasts-restaurantb.webp",
   },
   "so-i-cant-play-h": {
     poster: "/so-i-cant-play-h.jpg",
@@ -942,19 +895,19 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-last-summoner": {
     poster: "/the-last-summoner.jpg",
-    banner: "/the-last-summonerb.jpg",
+    banner: "/the-last-summonerb.webp",
   },
   "the-chosen-one": {
-    poster: "/the-chosen-one.jpg",
-    banner: "/the-chosen-oneb.jpg",
+    poster: "/the-chosen-one.webp",
+    banner: "/the-chosen-oneb.webp",
   },
   "choyoyu-high-school-prodigies-have-it-easy-even-in-another-world": {
-    poster: "/choyoyu.jpg",
+    poster: "/choyoyu.webp",
     banner: "/choyoyub.jpg",
   },
   "maburaho": {
     poster: "/maburaho.jpg",
-    banner: "/maburahob.jpg",
+    banner: "/maburahob.webp",
   },
   "hanaukyo-maid-team": {
     poster: "/hanaukyo-maid-team.jpg",
@@ -966,10 +919,10 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-aristocrats-otherworldly-adventure-serving-gods-who-go-too-far": {
     poster: "/the-aristocrats-otherworldly-adventure.jpg",
-    banner: "/the-aristocrats-otherworldly-adventureb.jpg",
+    banner: "/the-aristocrats-otherworldly-adventureb.webp",
   },
   "yuragi-sou-no-yuuna-san": {
-    poster: "/yuragi-sou-no-yuuna-san.jpg",
+    poster: "/yuragi-sou-no-yuuna-san.webp",
     banner: "/yuragi-sou-no-yuuna-sanb.jpg",
   },
   "hero-return": {
@@ -982,10 +935,10 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "tenpuru-no-one-can-live-on-loneliness": {
     poster: "/tenpuru.jpg",
-    banner: "/tenpulrub.jpg",
+    banner: "/tenpurub.webp",
   },
   "chained-soldier": {
-    poster: "/chained-soldier.jpg",
+    poster: "/chained-soldier.webp",
     banner: "/chained-soldierb.jpg",
   },
   "apocalypse-bringer-mynoghra": {
@@ -998,15 +951,15 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "please-teacher": {
     poster: "/please-teacher.jpg",
-    banner: "/please-teacherb.jpg",
+    banner: "/please-teacherb.png",
   },
   "the-foolish-angel-dances-with-the-devil": {
     poster: "/the-foolish-angel-dances-with-the-devil.jpg",
-    banner: "/the-foolish-angel-dances-with-the-devilb.jpg",
+    banner: "/the-foolish-angel-dances-with-the-devilb.webp",
   },
   "a-girl-and-her-guard-dog": {
-    poster: "/a-girl-and-her-guard-dog.jpg",
-    banner: "/a-girl-and-her-guard-dogb.jpg",
+    poster: "/a-girl-and-her-guard-dog.webp",
+    banner: "/a-girl-and-her-guard-dogb.webp",
   },
   "bogus-skill-fruitmaster": {
     poster: "/bogus-skill-fruitmaster.jpg",
@@ -1014,27 +967,27 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "sword-of-the-demon-hunter-kijin-gentosho": {
     poster: "/sword-of-the-demon-hunter-kijin-gentosho.jpg",
-    banner: "/sword-of-the-demon-hunter-kijin-gentosho b.jpg",
+    banner: "/sword-of-the-demon-hunter-kijin-gentoshob.webp",
   },
   "spare-me-great-lord": {
     poster: "/spare-me-great-lord.jpg",
     banner: "/spare-me-great-lordb.jpg",
   },
   "the-summer-hikaru-died": {
-    poster: "/the-summer-hikaru-died.jpg",
+    poster: "/the-summer-hikaru-died.webp",
     banner: "/the-summer-hikaru-diedb.jpg",
   },
   "combatants-will-be-dispatched": {
     poster: "/combatants-will-be-dispatched.jpg",
-    banner: "/combatants-will-be-dispatchedb.jpg",
+    banner: "/combatants-will-be-dispatchedb.webp",
   },
   "the-strongest-tanks-labyrinth-raids": {
     poster: "/the-strongest-tanks-labyrinth-raids.jpg",
-    banner: "/the-strongest-tanks-labyrinth-raidsb.jpg",
+    banner: "/the-strongest-tanks-labyrinth-raidsb.webp",
   },
   "mission-yozakura-family": {
     poster: "/mission-yozakura-family.jpg",
-    banner: "/mission-yozakura-familyb.jpg",
+    banner: "/mission-yozakura-familyb.webp",
   },
   "our-dating-story-the-experienced-you-and-the-inexperienced-me": {
     poster: "/our-dating-story.jpg",
@@ -1042,7 +995,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "chivalry-of-a-failed-knight": {
     poster: "/chivalry-of-a-failed-knight.jpg",
-    banner: "/chivalry-of-a-failed-knightb.jpg",
+    banner: "/chivalry-of-a-failed-knightb.webp",
   },
   "the-angel-next-door-spoils-me-rotten": {
     poster: "/the-angel-next-door-spoils-me-rotten.jpg",
@@ -1054,7 +1007,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-banished-former-hero-lives-as-he-pleases": {
     poster: "/the-banished-former-hero-lives-as-he-pleases.jpg",
-    banner: "/the-banished-former-hero-lives-as-he-pleasesb.jpg",
+    banner: "/the-banished-former-hero-lives-as-he-pleasesb.webp",
   }
 
 };

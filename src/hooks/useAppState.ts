@@ -3,7 +3,7 @@ import type { EntertainmentItem, Category } from "@/data/entertainment";
 import { getAllData } from "@/data/entertainment";
 
 export function useAppState() {
-  const [activeCategory, setActiveCategory] = useState<Category | "all">("all");
+  const [activeCategory, setActiveCategory] = useState<Category>("anime");
   const [selectedItem, setSelectedItem] = useState<EntertainmentItem | null>(null);
   const [activeGenre, setActiveGenre] = useState<string | null>(null);
   const isPoppingState = useRef(false);
@@ -37,7 +37,7 @@ export function useAppState() {
 
   const goHome = useCallback(() => {
     setSelectedItem(null);
-    setActiveCategory("all");
+    setActiveCategory("anime");
     setActiveGenre(null);
     window.scrollTo({ top: 0, behavior: "smooth" });
     window.history.pushState({}, "", "/");
