@@ -13,7 +13,19 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "parasyte": {
   poster: "/parasyte.jpg",
-  banner: "/parasyte-banner.webp"
+  banner: "/parasyte-banner.png",
+},
+  "re:zero": {
+  poster: "/re-zero.jpg",
+  banner: "/re-zero-banner.jpg",
+},
+  "bucchigiri": {
+  poster: "/bucchigiri.jpg",
+  banner: "/bucchigiri-banner.webp"
+},
+  "hells-paradise": {
+  poster: "/hell-paradise.jpg",
+  banner: "/hell-paradise-banner.jpg"
 },
 
   "attack-on-titan": {
