@@ -257,7 +257,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/wistoria-banner.webp",
 },
 
-"the-god-of-high-school": {
+"god-of-high-school": {
   poster: "/god-of-high-school.jpg",
   banner: "/god-of-high-school-banner.jpg",
 },
