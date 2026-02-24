@@ -15,7 +15,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   poster: "/parasyte.jpg",
   banner: "/parasyte-banner.png",
 },
-  "re:zero": {
+  "re-zero": {
   poster: "/re-zero.jpg",
   banner: "/re-zero-banner.jpg",
 },
