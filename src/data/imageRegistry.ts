@@ -12,7 +12,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/magic-maker-banner.jpg"
 },
   "gorilla-gods-go-to-girl": {
-  poster: "/gorilla-gods.jpg",
+  poster: "/gorilla-gods.webp",
   banner: "/gorilla-gods-banner.jpg"
 },
   "one-punch-man": {
