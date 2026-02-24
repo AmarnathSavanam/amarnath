@@ -322,7 +322,7 @@ const imageRegistry: Record<string, ImageEntry> = {
 
 "good-bye-dragon-life": {
   poster: "/images/goodbye-dragon-life.jpg",
-  banner: "/images/goodbye-dragon-life-banner.jpg",
+  banner: "/images/goodbye-dragon-life-banner.png",
 },
 
 "irina-the-vampire-cosmonaut": {
@@ -472,7 +472,7 @@ const imageRegistry: Record<string, ImageEntry> = {
 
 "zenshu": {
   poster: "/images/zenshu.jpg",
-  banner: "/images/zenshu-banner.jpg",
+  banner: "/images/zenshu-banner.png",
 },
 
 "the-gorilla-gods-go-to-girl": {
@@ -659,6 +659,404 @@ const imageRegistry: Record<string, ImageEntry> = {
   poster: "/images/gatherer.jpg",
   banner: "/images/gatherer-banner.jpg",
 },
+  
+  "elegant-yokai-apartment-life": {
+    poster: "/elegant-yokai-apartment-life.jpg",
+    banner: "/elegant-yokai-apartment-lifeb.jpg",
+  },
+  "val-x-love": {
+    poster: "/val-x-love.jpg",
+    banner: "/val-x-loveb.jpg",
+  },
+  "how-a-realist-hero-rebuilt-the-kingdom": {
+    poster: "/how-a-realist-hero-rebuilt-the-kingdom.jpg",
+    banner: "/how-a-realist-hero-rebuilt-the-kingdomb.jpg",
+  },
+  "to-the-abandoned-sacred-beasts": {
+    poster: "/to-the-abandoned-sacred-beasts.jpg",
+    banner: "/to-the-abandoned-sacred-beastsb.jpg",
+  },
+  "tsugumomo": {
+    poster: "/tsugumomo.jpg",
+    banner: "/tsugumomob.jpg",
+  },
+  "horimiya": {
+    poster: "/horimiya.jpg",
+    banner: "/horimiyab.jpg",
+  },
+  "my-hero-academia-vigilantes": {
+    poster: "/my-hero-academia-vigilantes.jpg",
+    banner: "/my-hero-academia-vigilantesb.jpg",
+  },
+  "welcome-to-demon-school-iruma-kun": {
+    poster: "/welcome-to-demon-school-iruma-kun.jpg",
+    banner: "/welcome-to-demon-school-iruma-kunb.jpg",
+  },
+  "the-daily-life-of-a-middle-aged-online-shopper-in-another-world": {
+    poster: "/the-daily-life-of-a-middle-aged-online-shopper-in-another-world.jpg",
+    banner: "/the-daily-life-of-a-middle-aged-online-shopper-in-another-worldb.jpg",
+  },
+  "aesthetica-of-a-rogue-hero": {
+    poster: "/aesthetica-of-a-rogue-hero.jpg",
+    banner: "/aesthetica-of-a-rogue-herob.jpg",
+  },
+  "a-harem-in-a-fantasy-world-labyrinth": {
+    poster: "/a-harem-in-a-fantasy-world-labyrinth.jpg",
+    banner: "/a-harem-in-a-fantasy-world-labyrinthb.jpg",
+  },
+  "demon-sword-master-of-excalibur-academy": {
+    poster: "/demon-sword-master-of-excalibur-academy.jpg",
+    banner: "/demon-sword-master-of-excalibur-academyb.jpg",
+  },
+  "clockwork-planet": {
+    poster: "/clockwork-planet.jpg",
+    banner: "/clockwork-planetb.jpg",
+  },
+  "konosuba-gods-blessing-on-this-wonderful-world": {
+    poster: "/konosuba-gods-blessing-on-this-wonderful-world.jpg",
+    banner: "/konosuba-gods-blessing-on-this-wonderful-worldb.jpg",
+  },
+  "classroom-of-the-elite": {
+    poster: "/classroom-of-the-elite.jpg",
+    banner: "/classroom-of-the-eliteb.jpg",
+  },
+  "the-dungeon-of-black-company": {
+    poster: "/the-dungeon-of-black-company.jpg",
+    banner: "/the-dungeon-of-black-companyb.jpg",
+  },
+  "summoned-to-another-world-for-a-second-time": {
+    poster: "/summoned-to-another-world-for-a-second-time.jpg",
+    banner: "/summoned-to-another-world-for-a-second-timeb.jpg",
+  },
+  "campione": {
+    poster: "/campione.jpg",
+    banner: "/campioneb.jpg",
+  },
+  "chobits": {
+    poster: "/chobits.jpg",
+    banner: "/chobitsb.jpg",
+  },
+  "our-last-crusade-or-the-rise-of-a-new-world": {
+    poster: "/our-last-crusade-or-the-rise-of-a-new-world.jpg",
+    banner: "/our-last-crusade-or-the-rise-of-a-new-worldb.jpg",
+  },
+  "unnamed-memory": {
+    poster: "/unnamed-memory.jpg",
+    banner: "/unnamed-memoryb.jpg",
+  },
+  "studio-apartment-good-lighting-angel-included": {
+    poster: "/studio-apartment-good-lighting-angel-included.jpg",
+    banner: "/studio-apartment-good-lighting-angel-includedb.jpg",
+  },
+  "chainsaw-man-reze-arc": {
+    poster: "/chainsaw-man-reze-arc.jpg",
+    banner: "/chainsaw-man-reze-arcb.jpg",
+  },
+  "chronos-ruler": {
+    poster: "/chronos-ruler.jpg",
+    banner: "/chronos-rulerb.jpg",
+  },
+  "trinity-seven": {
+    poster: "/trinity-seven.jpg",
+    banner: "/trinity-sevenb.jpg",
+  },
+  "infinite-stratos": {
+    poster: "/infinite-stratos.jpg",
+    banner: "/infinite-stratosb.jpg",
+  },
+  "mayo-chiki": {
+    poster: "/mayo-chiki.jpg",
+    banner: "/mayo-chikib.jpg",
+  },
+  "yumeria": {
+    poster: "/yumeria.jpg",
+    banner: "/yumeriab.jpg",
+  },
+  "shuffle": {
+    poster: "/shuffle.jpg",
+    banner: "/shuffleb.jpg",
+  },
+  "full-time-magister": {
+    poster: "/full-time-magister.jpg",
+    banner: "/full-time-magisterb.jpg",
+  },
+  "elfen-lied": {
+    poster: "/elfen-lied.jpg",
+    banner: "/elfen-liedb.jpg",
+  },
+  "mother-of-the-goddess-dormitory": {
+    poster: "/mother-of-the-goddess-dormitory.jpg",
+    banner: "/mother-of-the-goddess-dormitoryb.jpg",
+  },
+  "taboo-tattoo": {
+    poster: "/taboo-tattoo.jpg",
+    banner: "/taboo-tattoob.jpg",
+  },
+  "date-a-live": {
+    poster: "/date-a-live.jpg",
+    banner: "/date-a-liveb.jpg",
+  },
+  "welcome-to-japan-ms-elf": {
+    poster: "/welcome-to-japan-ms-elf.jpg",
+    banner: "/welcome-to-japan-ms-elfb.jpg",
+  },
+  "shimoneta": {
+    poster: "/shimoneta.jpg",
+    banner: "/shimonetab.jpg",
+  },
+  "im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness": {
+    poster: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness.jpg",
+    banner: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtinessb.jpg",
+  },
+  "miss-caretaker-of-sunohara-sou": {
+    poster: "/miss-caretaker-of-sunohara-sou.jpg",
+    banner: "/miss-caretaker-of-sunohara-soub.jpg",
+  },
+  "waiting-in-the-summer": {
+    poster: "/waiting-in-the-summer.jpg",
+    banner: "/waiting-in-the-summerb.jpg",
+  },
+  "recovery-of-an-mmo-junkie": {
+    poster: "/recovery-of-an-mmo-junkie.jpg",
+    banner: "/recovery-of-an-mmo-junkieb.jpg",
+  },
+  "cautious-hero-the-hero-is-overpowered-but-overly-cautious": {
+    poster: "/cautious-hero.jpg",
+    banner: "/cautious-herob.jpg",
+  },
+  "restaurant-to-another-world": {
+    poster: "/restaurant-to-another-world.jpg",
+    banner: "/restaurant-to-another-worldb.jpg",
+  },
+  "rerided-derrida-who-leaps-through-time": {
+    poster: "/rerided.jpg",
+    banner: "/reridedb.jpg",
+  },
+  "in-another-world-with-my-smartphone": {
+    poster: "/in-another-world-with-my-smartphone.jpg",
+    banner: "/in-another-world-with-my-smartphoneb.jpg",
+  },
+  "yu-no-a-girl-who-chants-love-at-the-bound-of-this-world": {
+    poster: "/yu-no.jpg",
+    banner: "/yu-nob.jpg",
+  },
+  "the-beginning-after-the-end": {
+    poster: "/the-beginning-after-the-end.jpg",
+    banner: "/the-beginning-after-the-endb.jpg",
+  },
+  "demon-king-daimao": {
+    poster: "/demon-king-daimao.jpg",
+    banner: "/demon-king-daimaob.jpg",
+  },
+  "golden-time": {
+    poster: "/golden-time.jpg",
+    banner: "/golden-timeb.jpg",
+  },
+  "engage-kiss": {
+    poster: "/engage-kiss.jpg",
+    banner: "/engage-kissb.jpg",
+  },
+  "rokka-braves-of-the-six-flowers": {
+    poster: "/rokka.jpg",
+    banner: "/rokkab.jpg",
+  },
+  "high-school-dxd": {
+    poster: "/high-school-dxd.jpg",
+    banner: "/high-school-dxdb.jpg",
+  },
+  "rosario-vampire": {
+    poster: "/rosario-vampire.jpg",
+    banner: "/rosario-vampireb.jpg",
+  },
+  "witch-craft-works": {
+    poster: "/witch-craft-works.jpg",
+    banner: "/witch-craft-worksb.jpg",
+  },
+  "a-galaxy-next-door": {
+    poster: "/a-galaxy-next-door.jpg",
+    banner: "/a-galaxy-next-doorb.jpg",
+  },
+  "bastard-heavy-metal-dark-fantasy": {
+    poster: "/bastard.jpg",
+    banner: "/bastardb.jpg",
+  },
+  "monster-musume-everyday-life-with-monster-girls": {
+    poster: "/monster-musume.jpg",
+    banner: "/monster-musumeb.jpg",
+  },
+  "worlds-end-harem": {
+    poster: "/worlds-end-harem.jpg",
+    banner: "/worlds-end-haremb.jpg",
+  },
+  "sekirei": {
+    poster: "/sekirei.jpg",
+    banner: "/sekireib.jpg",
+  },
+  "plunderer": {
+    poster: "/plunderer.jpg",
+    banner: "/plundererb.jpg",
+  },
+  "domestic-girlfriend": {
+    poster: "/domestic-girlfriend.jpg",
+    banner: "/domestic-girlfriendb.jpg",
+  },
+  "akame-ga-kill": {
+    poster: "/akame-ga-kill.jpg",
+    banner: "/akame-ga-killb.jpg",
+  },
+  "my-happy-marriage": {
+    poster: "/my-happy-marriage.jpg",
+    banner: "/my-happy-marriageb.jpg",
+  },
+  "the-new-gate": {
+    poster: "/the-new-gate.jpg",
+    banner: "/the-new-gateb.jpg",
+  },
+  "dragon-raja": {
+    poster: "/dragon-raja.jpg",
+    banner: "/dragon-rajab.jpg",
+  },
+  "the-unwanted-undead-adventurer": {
+    poster: "/the-unwanted-undead-adventurer.jpg",
+    banner: "/the-unwanted-undead-adventurerb.jpg",
+  },
+  "angels-of-death": {
+    poster: "/angels-of-death.jpg",
+    banner: "/angels-of-deathb.jpg",
+  },
+  "dealing-with-mikadono-sisters-is-a-breeze": {
+    poster: "/dealing-with-mikadono-sisters-is-a-breeze.jpg",
+    banner: "/dealing-with-mikadono-sisters-is-a-breezeb.jpg",
+  },
+  "a-nobodys-way-up-to-an-exploration-hero-lv": {
+    poster: "/a-nobodys-way-up-to-an-exploration-hero-lv.jpg",
+    banner: "/a-nobodys-way-up-to-an-exploration-hero-lvb.jpg",
+  },
+  "welcome-to-the-outcasts-restaurant": {
+    poster: "/welcome-to-the-outcasts-restaurant.jpg",
+    banner: "/welcome-to-the-outcasts-restaurantb.jpg",
+  },
+  "so-i-cant-play-h": {
+    poster: "/so-i-cant-play-h.jpg",
+    banner: "/so-i-cant-play-hb.jpg",
+  },
+  "the-last-summoner": {
+    poster: "/the-last-summoner.jpg",
+    banner: "/the-last-summonerb.jpg",
+  },
+  "the-chosen-one": {
+    poster: "/the-chosen-one.jpg",
+    banner: "/the-chosen-oneb.jpg",
+  },
+  "choyoyu-high-school-prodigies-have-it-easy-even-in-another-world": {
+    poster: "/choyoyu.jpg",
+    banner: "/choyoyub.jpg",
+  },
+  "maburaho": {
+    poster: "/maburaho.jpg",
+    banner: "/maburahob.jpg",
+  },
+  "hanaukyo-maid-team": {
+    poster: "/hanaukyo-maid-team.jpg",
+    banner: "/hanaukyo-maid-teamb.jpg",
+  },
+  "nyan-koi": {
+    poster: "/nyan-koi.jpg",
+    banner: "/nyan-koib.jpg",
+  },
+  "the-aristocrats-otherworldly-adventure-serving-gods-who-go-too-far": {
+    poster: "/the-aristocrats-otherworldly-adventure.jpg",
+    banner: "/the-aristocrats-otherworldly-adventureb.jpg",
+  },
+  "yuragi-sou-no-yuuna-san": {
+    poster: "/yuragi-sou-no-yuuna-san.jpg",
+    banner: "/yuragi-sou-no-yuuna-sanb.jpg",
+  },
+  "hero-return": {
+    poster: "/hero-return.jpg",
+    banner: "/hero-returnb.jpg",
+  },
+  "cat-planet-cuties": {
+    poster: "/cat-planet-cuties.jpg",
+    banner: "/cat-planet-cutiesb.jpg",
+  },
+  "tenpuru-no-one-can-live-on-loneliness": {
+    poster: "/tenpuru.jpg",
+    banner: "/tenpulrub.jpg",
+  },
+  "chained-soldier": {
+    poster: "/chained-soldier.jpg",
+    banner: "/chained-soldierb.jpg",
+  },
+  "apocalypse-bringer-mynoghra": {
+    poster: "/apocalypse-bringer-mynoghra.jpg",
+    banner: "/apocalypse-bringer-mynoghrab.jpg",
+  },
+  "yandere-dark-elf-she-chased-me-all-the-way-from-another-world": {
+    poster: "/yandere-dark-elf.jpg",
+    banner: "/yandere-dark-elfb.jpg",
+  },
+  "please-teacher": {
+    poster: "/please-teacher.jpg",
+    banner: "/please-teacherb.jpg",
+  },
+  "the-foolish-angel-dances-with-the-devil": {
+    poster: "/the-foolish-angel-dances-with-the-devil.jpg",
+    banner: "/the-foolish-angel-dances-with-the-devilb.jpg",
+  },
+  "a-girl-and-her-guard-dog": {
+    poster: "/a-girl-and-her-guard-dog.jpg",
+    banner: "/a-girl-and-her-guard-dogb.jpg",
+  },
+  "bogus-skill-fruitmaster": {
+    poster: "/bogus-skill-fruitmaster.jpg",
+    banner: "/bogus-skill-fruitmasterb.jpg",
+  },
+  "sword-of-the-demon-hunter-kijin-gentosho": {
+    poster: "/sword-of-the-demon-hunter-kijin-gentosho.jpg",
+    banner: "/sword-of-the-demon-hunter-kijin-gentosho b.jpg",
+  },
+  "spare-me-great-lord": {
+    poster: "/spare-me-great-lord.jpg",
+    banner: "/spare-me-great-lordb.jpg",
+  },
+  "the-summer-hikaru-died": {
+    poster: "/the-summer-hikaru-died.jpg",
+    banner: "/the-summer-hikaru-diedb.jpg",
+  },
+  "combatants-will-be-dispatched": {
+    poster: "/combatants-will-be-dispatched.jpg",
+    banner: "/combatants-will-be-dispatchedb.jpg",
+  },
+  "the-strongest-tanks-labyrinth-raids": {
+    poster: "/the-strongest-tanks-labyrinth-raids.jpg",
+    banner: "/the-strongest-tanks-labyrinth-raidsb.jpg",
+  },
+  "mission-yozakura-family": {
+    poster: "/mission-yozakura-family.jpg",
+    banner: "/mission-yozakura-familyb.jpg",
+  },
+  "our-dating-story-the-experienced-you-and-the-inexperienced-me": {
+    poster: "/our-dating-story.jpg",
+    banner: "/our-dating-storyb.jpg",
+  },
+  "chivalry-of-a-failed-knight": {
+    poster: "/chivalry-of-a-failed-knight.jpg",
+    banner: "/chivalry-of-a-failed-knightb.jpg",
+  },
+  "the-angel-next-door-spoils-me-rotten": {
+    poster: "/the-angel-next-door-spoils-me-rotten.jpg",
+    banner: "/the-angel-next-door-spoils-me-rottenb.jpg",
+  },
+  "the-super-cube": {
+    poster: "/the-super-cube.jpg",
+    banner: "/the-super-cubeb.jpg",
+  },
+  "the-banished-former-hero-lives-as-he-pleases": {
+    poster: "/the-banished-former-hero-lives-as-he-pleases.jpg",
+    banner: "/the-banished-former-hero-lives-as-he-pleasesb.jpg",
+  }
+
 };
 
 
