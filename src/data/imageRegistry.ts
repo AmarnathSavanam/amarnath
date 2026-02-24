@@ -7,6 +7,26 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "the-worlds-finest-assassin": {
+  poster: "/worlds-finest-assassin.jpg",
+  banner: "/worlds-finest-assassin-banner.webp"
+},
+  "let-this-grieving-soul-retire": {
+  poster: "/grieving-soul.jpg",
+  banner: "/grieving-soul-banner.jpg"
+},
+  "the-gorilla-gods-go-to-girl": {
+  poster: "/gorilla-gods.jpg",
+  banner: "/gorilla-gods-banner.jpg"
+},
+  "zenshu": {
+  poster: "/zenshu.jpg",
+  banner: "/zenshu-banner.png"
+},
+  "new-saga": {
+  poster: "/new-saga.jpg",
+  banner: "/new-saga-banner.jpg"
+},
   "re-monster": {
   poster: "/re-monster.jpg",
   banner: "/re-monster-banner.jpg"
@@ -15,7 +35,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   poster: "/dating-sim.jpg",
   banner: "/dating-sim-banner.jpg"
 },
-  "the-reincarnation-of-the-strongest-exorcist-in-another-world": {
+  "the-reincarnation-of-the-strongest-exorcist": {
   poster: "/strongest-exorcist.jpg",
   banner: "/strongest-exorcist-banner.jpg"
 },
