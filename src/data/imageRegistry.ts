@@ -7,6 +7,54 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "shikkakumon-no-saikyou-kenja": {
+  poster: "/strongest-sage.jpg",
+  banner: "/strongest-sage-banner.webp"
+},
+  "maoyu-archenemy-and-hero": {
+  poster: "/maoyu.jpg",
+  banner: "/maoyu-banner.jpg"
+},
+  "scooped-up-by-an-s-rank-adventurer": {
+  poster: "/s-rank-adventurer.jpg",
+  banner: "/s-rank-adventurer-banner.jpg"
+},
+  "frieren-beyond-journeys-end": {
+  poster: "/frieren.jpg",
+  banner: "/frieren-banner.webp"
+},
+  "tower-of-god": {
+  poster: "/tower-of-god.jpg",
+  banner: "/tower-of-god-banner.jpg"
+},
+  "the-misfit-of-demon-king-academy": {
+  poster: "/misfit-demon-king.jpg",
+  banner: "/misfit-demon-king-banner.jpg"
+},
+  "tsukimichi-moonlit-fantasy": {
+  poster: "/tsukimichi.jpg",
+  banner: "/tsukimichi-banner.jpg"
+},
+  "i-left-my-a-rank-party-to-help-my-former-students": {
+  poster: "/a-rank-party.jpg",
+  banner: "/a-rank-party-banner.webp"
+},
+  "i-was-reincarnated-as-the-7th-prince": {
+  poster: "/7th-prince.webp",
+  banner: "/7th-prince-banner.webp"
+},
+  "reborn-as-a-vending-machine": {
+  poster: "/vending-machine.jpg",
+  banner: "/vending-machine-banner.jpg"
+},
+  "spirit-chronicles": {
+  poster: "/spirit-chronicles.jpg",
+  banner: "/spirit-chronicles-banner.png"
+},
+  "the-fruit-of-evolution": {
+  poster: "/fruit-of-evolution.jpg",
+  banner: "/fruit-of-evolution-banner.jpg"
+},
   "the-worlds-finest-assassin": {
   poster: "/worlds-finest-assassin.jpg",
   banner: "/worlds-finest-assassin-banner.webp"
