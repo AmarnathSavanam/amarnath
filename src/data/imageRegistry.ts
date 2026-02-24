@@ -7,6 +7,30 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "chillin-in-my-30s-after-getting-fired-from-the-demon-kings-army": {
+  poster: "/chillin-in-my-30s.jpg",
+  banner: "/chillin-in-my-30s-banner.jpg"
+},
+  "if-its-for-my-daughter-id-even-defeat-a-demon-lord": {
+  poster: "/for-my-daughter.jpg",
+  banner: "/for-my-daughter-banner.jpg"
+},
+  "campfire-cooking-in-another-world": {
+  poster: "/campfire-cooking.jpg",
+  banner: "/campfire-cooking-banner.webp"
+},
+  "as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill": {
+  poster: "/reincarnated-aristocrat.jpg",
+  banner: "/reincarnated-aristocrat-banner.webp"
+},
+  "tougen-anki": {
+  poster: "/tougen-anki.jpg",
+  banner: "/tougen-anki-banner.jpg"
+},
+  "dandadan": {
+  poster: "/dandadan.jpg",
+  banner: "/dandadan-banner.jpg"
+},
   "zom-100": {
     poster: "/zom100.jpg",
     banner: "/zom100b.jpg",
