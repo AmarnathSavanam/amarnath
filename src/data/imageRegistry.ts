@@ -7,6 +7,14 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "one-punch-man": {
+  poster: "/one-punch-man.jpg",
+  banner: "/one-punch-man-banner.jpg"
+},
+  "wind-breaker": {
+  poster: "/wind-breaker.jpg",
+  banner: "/wind-breaker-banner.jpg"
+},
   "shikkakumon-no-saikyou-kenja": {
   poster: "/strongest-sage.jpg",
   banner: "/strongest-sage-banner.webp"
