@@ -37,627 +37,627 @@ const imageRegistry: Record<string, ImageEntry> = {
     banner: "/yokai-banner.jpg",
   },
   "re-zero-starting-life-in-another-world": {
-  poster: "/images/re-zero.jpg",
-  banner: "/images/re-zero-banner.jpg",
+  poster: "/re-zero.jpg",
+  banner: "/re-zero-banner.jpg",
 },
   "demon-slayer": {
-  poster: "/images/demon-slayer.jpg",
-  banner: "/images/demon-slayer-banner.jpg",
+  poster: "/demon-slayer.jpg",
+  banner: "/demon-slayer-banner.jpg",
 },
   "dr-stone": {
-  poster: "/images/dr-stone.jpg",
-  banner: "/images/dr-stone-banner.jpg",
+  poster: "/dr-stone.jpg",
+  banner: "/dr-stone-banner.jpg",
 },
   "that-time-i-got-reincarnated-as-a-slime": {
-  poster: "/images/slime.jpg",
-  banner: "/images/slime-banner.jpg",
+  poster: "/slime.jpg",
+  banner: "/slime-banner.jpg",
 },
   "haikyuu": {
-  poster: "/images/haikyuu.jpg",
-  banner: "/images/haikyuu-banner.jpg",
+  poster: "/haikyuu.jpg",
+  banner: "/haikyuu-banner.jpg",
 },
   "monster": {
-  poster: "/images/monster.jpg",
-  banner: "/images/monster-banner.jpg",
+  poster: "/monster.jpg",
+  banner: "/monster-banner.jpg",
 },
   "the-rising-of-the-shield-hero": {
-  poster: "/images/shield-hero.jpg",
-  banner: "/images/shield-hero-banner.jpg",
+  poster: "/shield-hero.jpg",
+  banner: "/shield-hero-banner.jpg",
 },
   "overlord": {
-  poster: "/images/overlord.jpg",
-  banner: "/images/overlord-banner.jpg",
+  poster: "/overlord.jpg",
+  banner: "/overlord-banner.jpg",
 },
   "vinland-saga": {
-  poster: "/images/vinland-saga.jpg",
-  banner: "/images/vinland-saga-banner.jpg",
+  poster: "/vinland-saga.jpg",
+  banner: "/vinland-saga-banner.jpg",
 },
 
 "jujutsu-kaisen": {
-  poster: "/images/jujutsu-kaisen.jpg",
-  banner: "/images/jujutsu-kaisen-banner.jpg",
+  poster: "/jujutsu-kaisen.jpg",
+  banner: "/jujutsu-kaisen-banner.jpg",
 },
 
 "tokyo-revengers": {
-  poster: "/images/tokyo-revengers.jpg",
-  banner: "/images/tokyo-revengers-banner.jpg",
+  poster: "/tokyo-revengers.jpg",
+  banner: "/tokyo-revengers-banner.jpg",
 },
 
 "tokyo-ghoul": {
-  poster: "/images/tokyo-ghoul.jpg",
-  banner: "/images/tokyo-ghoul-banner.jpg",
+  poster: "/tokyo-ghoul.jpg",
+  banner: "/tokyo-ghoul-banner.jpg",
 },
 
 "shangri-la-frontier": {
-  poster: "/images/shangri-la-frontier.jpg",
-  banner: "/images/shangri-la-frontier-banner.png",
+  poster: "/shangri-la-frontier.jpg",
+  banner: "/shangri-la-frontier-banner.png",
 },
 
 "slugterra": {
-  poster: "/images/slugterra.jpg",
-  banner: "/images/slugterra-banner.jpg",
+  poster: "/slugterra.jpg",
+  banner: "/slugterra-banner.jpeg",
 },
 
 "spy-x-family": {
-  poster: "/images/spy-x-family.jpg",
-  banner: "/images/spy-x-family-banner.jpg",
+  poster: "/spy-x-family.jpg",
+  banner: "/spy-x-family-banner.jpg",
 },
 
 "the-daily-life-of-the-immortal-king": {
-  poster: "/images/immortal-king.jpg",
-  banner: "/images/immortal-king-banner.jpg",
+  poster: "/immortal-king.jpg",
+  banner: "/immortal-king-banner.jpg",
 },
 
 "arifureta-from-commonplace-to-worlds-strongest": {
-  poster: "/images/arifureta.jpg",
-  banner: "/images/arifureta-banner.jpg",
+  poster: "/arifureta.jpg",
+  banner: "/arifureta-banner.jpg",
 },
 
 "blue-lock": {
-  poster: "/images/blue-lock.jpg",
-  banner: "/images/blue-lock-banner.jpg",
+  poster: "/blue-lock.jpg",
+  banner: "/blue-lock-banner.jpg",
 },
 
 "assassination-classroom": {
-  poster: "/images/assassination-classroom.jpg",
-  banner: "/images/assassination-classroom-banner.jpg",
+  poster: "/assassination-classroom.jpg",
+  banner: "/assassination-classroom-banner.jpg",
 },
 
 "the-ancient-magus-bride": {
-  poster: "/images/ancient-magus-bride.jpg",
-  banner: "/images/ancient-magus-bride-banner.jpg",
+  poster: "/ancient-magus-bride.jpg",
+  banner: "/ancient-magus-bride-banner.jpg",
 },
 
 "the-apothecary-diaries": {
-  poster: "/images/apothecary-diaries.jpg",
-  banner: "/images/apothecary-diaries-banner.jpg",
+  poster: "/apothecary-diaries.jpg",
+  banner: "/apothecary-diaries-banner.webp",
 },
 
 "mushoku-tensei-jobless-reincarnation": {
-  poster: "/images/mushoku-tensei.jpg",
-  banner: "/images/mushoku-tensei-banner.jpg",
+  poster: "/mushoku-tensei.jpg",
+  banner: "/mushoku-tensei.jpg",
 },
 
 "tottemo-luckyman": {
-  poster: "/images/luckyman.jpg",
-  banner: "/images/luckyman-banner.jpg",
+  poster: "/luckyman.jpg",
+  banner: "/luckyman-banner.jpg",
 },
   "death-note": {
-  poster: "/images/death-note.jpg",
-  banner: "/images/death-note-banner.jpg",
+  poster: "/death-note.jpg",
+  banner: "/death-note-banner.jpg",
 },
 
 "the-eminence-in-shadow": {
-  poster: "/images/eminence-in-shadow.jpg",
-  banner: "/images/eminence-in-shadow-banner.jpg",
+  poster: "/eminence-in-shadow.jpg",
+  banner: "/eminence-in-shadow-banner.jpg",
 },
 
 "tsukimichi-moonlit-fantasy": {
-  poster: "/images/tsukimichi.jpg",
-  banner: "/images/tsukimichi-banner.jpg",
+  poster: "/tsukimichi.jpg",
+  banner: "/tsukimichi.jpg",
 },
 
 "rascal-does-not-dream-of-bunny-girl-senpai": {
-  poster: "/images/bunny-girl-senpai.jpg",
-  banner: "/images/bunny-girl-senpai-banner.jpg",
+  poster: "/bunny-girl-senpai.jpg",
+  banner: "/bunny-girl-senpai.jpg",
 },
 
 "the-misfit-of-demon-king-academy": {
-  poster: "/images/misfit-demon-king.jpg",
-  banner: "/images/misfit-demon-king-banner.jpg",
+  poster: "/misfit-demon-king.jpg",
+  banner: "/misfit-demon-king.jpg",
 },
 
 "tower-of-god": {
-  poster: "/images/tower-of-god.jpg",
-  banner: "/images/tower-of-god-banner.jpg",
+  poster: "/tower-of-god.jpg",
+  banner: "/tower-of-god.jpg",
 },
 
 "frieren-beyond-journeys-end": {
-  poster: "/images/frieren.jpg",
-  banner: "/images/frieren-banner.jpg",
+  poster: "/frieren.jpg",
+  banner: "/frieren.jpg",
 },
 
 "one-punch-man": {
-  poster: "/images/one-punch-man.jpg",
-  banner: "/images/one-punch-man-banner.jpg",
+  poster: "/one-punch-man.jpg",
+  banner: "/one-punch-man.jpg",
 },
 "kaiju-no-8": {
-  poster: "/images/kaiju-no-8.jpg",
-  banner: "/images/kaiju-no-8-banner.jpg",
+  poster: "/kaiju-no-8.jpg",
+  banner: "/kaiju-no-8.jpg",
 },
 
 "dandadan": {
-  poster: "/images/dandadan.jpg",
-  banner: "/images/dandadan-banner.jpg",
+  poster: "/dandadan.jpg",
+  banner: "/dandadan.jpg",
 },
 
 "parasyte": {
-  poster: "/images/parasyte.jpg",
-  banner: "/images/parasyte-banner.png",
+  poster: "/parasyte.jpg",
+  banner: "/parasyte-banner.png",
 },
 
 "wind-breaker": {
-  poster: "/images/wind-breaker.jpg",
-  banner: "/images/wind-breaker-banner.jpg",
+  poster: "/wind-breaker.jpg",
+  banner: "/wind-breaker-banner.jpg",
 },
 
 "mashle-magic-and-muscles": {
-  poster: "/images/mashle.jpg",
-  banner: "/images/mashle-banner.jpg",
+  poster: "/mashle.jpg",
+  banner: "/mashle-banner.jpg",
 },
 
 "ragna-crimson": {
-  poster: "/images/ragna-crimson.jpg",
-  banner: "/images/ragna-crimson-banner.jpg",
+  poster: "/ragna-crimson.jpg",
+  banner: "/ragna-crimson-banner.jpg",
 },
 
 "lord-of-mysteries": {
-  poster: "/images/lord-of-mysteries.jpg",
-  banner: "/images/lord-of-mysteries-banner.jpg",
+  poster: "/lord-of-mysteries.jpg",
+  banner: "/lord-of-mysteries-banner.jpg",
 },
 
 "sakamoto-days": {
-  poster: "/images/sakamoto-days.jpg",
-  banner: "/images/sakamoto-days-banner.jpg",
+  poster: "/sakamoto-days.jpg",
+  banner: "/sakamoto-days-banner.webp",
 },
 
 "dead-mount-death-play": {
-  poster: "/images/dead-mount-death-play.jpg",
-  banner: "/images/dead-mount-death-play-banner.jpg",
+  poster: "/dead-mount-death-play.jpg",
+  banner: "/dead-mount-death-play-banner.jpg",
 },
 
 "as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world": {
-  poster: "/images/reincarnated-aristocrat.jpg",
-  banner: "/images/reincarnated-aristocrat-banner.jpg",
+  poster: "/reincarnated-aristocrat.jpg",
+  banner: "/reincarnated-aristocrat-banner.jpg",
 },
 
 "tougen-anki-dark-demon-of-paradise": {
-  poster: "/images/tougen-anki.jpg",
-  banner: "/images/tougen-anki-banner.jpg",
+  poster: "/tougen-anki.jpg",
+  banner: "/tougen-anki-banner.jpg",
 },
 
 "the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made": {
-  poster: "/images/fruit-of-evolution.jpg",
-  banner: "/images/fruit-of-evolution-banner.jpg",
+  poster: "/fruit-of-evolution.jpg",
+  banner: "/fruit-of-evolution-banner.jpg",
 },
 
 "seirei-gensouki-spirit-chronicles": {
-  poster: "/images/spirit-chronicles.jpg",
-  banner: "/images/spirit-chronicles-banner.png",
+  poster: "/spirit-chronicles.jpg",
+  banner: "/spirit-chronicles-banner.png",
 },
 
 "reborn-as-a-vending-machine-now-i-wander-the-dungeon": {
-  poster: "/images/vending-machine.jpg",
-  banner: "/images/vending-machine-banner.jpg",
+  poster: "/vending-machine.jpg",
+  banner: "/vending-machine-banner.jpg",
 },
 
 "i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability": {
-  poster: "/images/7th-prince.jpg",
-  banner: "/images/7th-prince-banner.jpg",
+  poster: "/7th-prince.webp",
+  banner: "/7th-prince-banner.webp",
 },
 
 "darling-in-the-franxx": {
-  poster: "/images/darling-franxx.jpg",
-  banner: "/images/darling-franxx-banner.jpg",
+  poster: "/darling-franxx.jpg",
+  banner: "/darling-franxx-banner.jpg",
 },
 
 "i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths": {
-  poster: "/images/a-rank-party.jpg",
-  banner: "/images/a-rank-party-banner.jpg",
+  poster: "/a-rank-party.jpg",
+  banner: "/a-rank-party-banner.webp",
 },
 
 "banished-from-the-heros-party": {
-  poster: "/images/banished-hero-party.jpg",
-  banner: "/images/banished-hero-party-banner.jpg",
+  poster: "/banished-hero-party.jpg",
+  banner: "/banished-hero-party-banner.jpg",
 },
 
 "how-not-to-summon-a-demon-lord": {
-  poster: "/images/demon-lord.jpg",
-  banner: "/images/demon-lord-banner.jpg",
+  poster: "/demon-lord.jpg",
+  banner: "/demon-lord-banner.jpg",
 },
 
 "my-dress-up-darling": {
-  poster: "/images/dress-up-darling.jpg",
-  banner: "/images/dress-up-darling-banner.jpg",
+  poster: "/dress-up-darling.jpg",
+  banner: "/dress-up-darling-banner.jpg",
 },
 
 "tying-the-knot-with-an-amagami-sister": {
-  poster: "/images/amagami-sister.jpg",
-  banner: "/images/amagami-sister-banner.jpg",
+  poster: "/amagami-sister.jpg",
+  banner: "/amagami-sister-banner.webp",
 },
 
 "gachiakuta": {
-  poster: "/images/gachiakuta.jpg",
-  banner: "/images/gachiakuta-banner.jpg",
+  poster: "/gachiakuta.jpg",
+  banner: "/gachiakuta-banner.jpg",
 },
   "demon-lord-2099": {
-  poster: "/images/demon-lord-2099.jpg",
-  banner: "/images/demon-lord-2099-banner.jpg",
+  poster: "/demon-lord-2099.jpg",
+  banner: "/demon-lord-2099-banner.webp",
 },
 
 "wistoria-wand-and-sword": {
-  poster: "/images/wistoria.jpg",
-  banner: "/images/wistoria-banner.jpg",
+  poster: "/wistoria.jpg",
+  banner: "/wistoria-banner.webp",
 },
 
 "the-god-of-high-school": {
-  poster: "/images/god-of-high-school.jpg",
-  banner: "/images/god-of-high-school-banner.jpg",
+  poster: "/god-of-high-school.jpg",
+  banner: "/god-of-high-school-banner.jpg",
 },
 
 "berserk-of-gluttony": {
-  poster: "/images/berserk-of-gluttony.jpg",
-  banner: "/images/berserk-of-gluttony-banner.jpg",
+  poster: "/berserk-of-gluttony.jpg",
+  banner: "/berserk-of-gluttony-banner.webp",
 },
 
 "the-great-cleric": {
-  poster: "/images/great-cleric.jpg",
-  banner: "/images/great-cleric-banner.jpg",
+  poster: "/great-cleric.jpg",
+  banner: "/great-cleric-banner.png",
 },
 
 "takopis-original-sin": {
-  poster: "/images/takopi.jpg",
-  banner: "/images/takopi-banner.jpg",
+  poster: "/takopi.jpg",
+  banner: "/takopi-banner.jpg",
 },
 
 "good-bye-dragon-life": {
-  poster: "/images/goodbye-dragon-life.jpg",
-  banner: "/images/goodbye-dragon-life-banner.png",
+  poster: "/goodbye-dragon-life.jpg",
+  banner: "/goodbye-dragon-life-banner.png",
 },
 
 "irina-the-vampire-cosmonaut": {
-  poster: "/images/irina.jpg",
-  banner: "/images/irina-banner.jpg",
+  poster: "/irina-banner.webp",
+  banner: "/irina-banner.webp",
 },
 
 "the-brilliant-healers-new-life-in-the-shadows": {
-  poster: "/images/brilliant-healer.jpg",
-  banner: "/images/brilliant-healer-banner.jpg",
+  poster: "/brilliant-healer.jpg",
+  banner: "/brilliant-healer-banner.jpg",
 },
 
 "skeleton-knight-in-another-world": {
-  poster: "/images/skeleton-knight.jpg",
-  banner: "/images/skeleton-knight-banner.jpg",
+  poster: "/skeleton-knight.jpg",
+  banner: "/skeleton-knight-banner.jpg",
 },
 
 "akashic-records-of-bastard-magic-instructor": {
-  poster: "/images/akashic-records.jpg",
-  banner: "/images/akashic-records-banner.jpg",
+  poster: "/akashic-records.jpg",
+  banner: "/akashic-records-banner.webp",
 },
 
 "more-than-a-married-couple-but-not-lovers": {
-  poster: "/images/married-couple.jpg",
-  banner: "/images/married-couple-banner.jpg",
+  poster: "/married-couple.jpg",
+  banner: "/married-couple-banner.jpg",
 },
 
 "my-isekai-life-i-gained-a-second-character-class-and-became-the-strongest-sage-in-the-world": {
-  poster: "/images/my-isekai-life.jpg",
-  banner: "/images/my-isekai-life-banner.jpg",
+  poster: "/my-isekai-life.jpg",
+  banner: "/my-isekai-life-banner.webp",
 },
 
 "chainsaw-man": {
-  poster: "/images/chainsaw-man.jpg",
-  banner: "/images/chainsaw-man-banner.jpg",
+  poster: "/chainsaw-man.jpg",
+  banner: "/chainsaw-man-banner.jpg",
 },
 
 "lookism": {
-  poster: "/images/lookism.jpg",
-  banner: "/images/lookism-banner.jpg",
+  poster: "/lookism.jpg",
+  banner: "/lookism-banner.jpg",
 },
 
 "viral-hit": {
-  poster: "/images/viral-hit.jpg",
-  banner: "/images/viral-hit-banner.jpg",
+  poster: "/viral-hit.webp",
+  banner: "/viral-hit-banner.webp",
 },
 
 "hero-without-a-class-who-even-needs-skills": {
-  poster: "/images/hero-without-class.jpg",
-  banner: "/images/hero-without-class-banner.jpg",
+  poster: "/hero-without-class.webp",
+  banner: "/hero-without-class-banner.webp",
 },
 
 "handyman-saitou-in-another-world": {
-  poster: "/images/handyman-saitou.jpg",
-  banner: "/images/handyman-saitou-banner.jpg",
+  poster: "/handyman-saitou.jpg",
+  banner: "/handyman-saitou-banner.webp",
 },
 
 "death-march-to-the-parallel-world-rhapsody": {
-  poster: "/images/death-march.jpg",
-  banner: "/images/death-march-banner.jpg",
+  poster: "/death-march.jpg",
+  banner: "/death-march.jpg",
 },
 
 "the-iceblade-sorcerer-shall-rule-the-world": {
-  poster: "/images/iceblade-sorcerer.jpg",
-  banner: "/images/iceblade-sorcerer-banner.jpg",
+  poster: "/iceblade-sorcerer.jpg",
+  banner: "/iceblade-sorcerer-banner.jpg",
 },
 
 "the-water-magician": {
-  poster: "/images/water-magician.jpg",
-  banner: "/images/water-magician-banner.jpg",
+  poster: "/water-magician.jpg",
+  banner: "/water-magician-banner.webp",
 },
 
 "even-given-the-worthless-appraiser-class-im-actually-the-strongest": {
-  poster: "/images/appraiser.jpg",
-  banner: "/images/appraiser-banner.jpg",
+  poster: "/appraiser.jpg",
+  banner: "/appraiser-banner.webp",
 },
 
 "why-does-nobody-remember-me-in-this-world": {
-  poster: "/images/nobody-remembers.jpg",
-  banner: "/images/nobody-remembers-banner.jpg",
+  poster: "/nobody-remembers.jpg",
+  banner: "/nobody-remembers-banner.jpg",
 },
 
 "campfire-cooking-in-another-world-with-my-absurd-skill": {
-  poster: "/images/campfire-cooking.jpg",
-  banner: "/images/campfire-cooking-banner.jpg",
+  poster: "/campfire-cooking.jpg",
+  banner: "/campfire-cooking-banner.webp",
 },
 
 "the-reincarnation-of-the-strongest-exorcist-in-another-world": {
-  poster: "/images/strongest-exorcist.jpg",
-  banner: "/images/strongest-exorcist-banner.jpg",
+  poster: "/strongest-exorcist.jpg",
+  banner: "/strongest-exorcist-banner.jpg",
 },
 
 "i-got-a-cheat-skill-in-another-world": {
-  poster: "/images/cheat-skill.jpg",
-  banner: "/images/cheat-skill-banner.jpg",
+  poster: "/cheat-skill.jpg",
+  banner: "/cheat-skill-banner.webp",
 },
 
 "trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs": {
-  poster: "/images/dating-sim.jpg",
-  banner: "/images/dating-sim-banner.jpg",
+  poster: "/dating-sim.jpg",
+  banner: "/dating-sim-banner.jpg",
 },
 
 "re-monster": {
-  poster: "/images/re-monster.jpg",
-  banner: "/images/re-monster-banner.jpg",
+  poster: "/re-monster.jpg",
+  banner: "/re-monster-banner.jpg",
 },
 
 "erased": {
-  poster: "/images/erased.jpg",
-  banner: "/images/erased-banner.jpg",
+  poster: "/erased.jpg",
+  banner: "/erased-banner.jpg",
 },
 
 "the-maid-i-hired-recently-is-mysterious": {
-  poster: "/images/mysterious-maid.jpg",
-  banner: "/images/mysterious-maid-banner.jpg",
+  poster: "/mysterious-maid.jpg",
+  banner: "/mysterious-maid-banner.webp",
 },
 
 "chillin-in-another-world-with-level-2": {
-  poster: "/images/level-2.jpg",
-  banner: "/images/level-2-banner.jpg",
+  poster: "/level-2.jpg",
+  banner: "/level-2-banner.webp",
 },
 
 "no-longer-allowed-in-another-world": {
-  poster: "/images/no-longer-allowed.jpg",
-  banner: "/images/no-longer-allowed-banner.jpg",
+  poster: "/no-longer-allowed.jpg",
+  banner: "/no-longer-allowed.jpg",
 },
 
 "the-greatest-demon-lord-is-reborn-as-a-typical-nobody": {
-  poster: "/images/typical-nobody.jpg",
-  banner: "/images/typical-nobody-banner.jpg",
+  poster: "/demon-lord.jpg",
+  banner: "/demon-lord-banner.jpg",
 },
 
 "alya-sometimes-hides-her-feelings-in-russian": {
-  poster: "/images/alya.jpg",
-  banner: "/images/alya-banner.jpg",
+  poster: "/alya.jpg",
+  banner: "/alya.jpg",
 },
 
 "bucchigiri": {
-  poster: "/images/bucchigiri.jpg",
-  banner: "/images/bucchigiri-banner.jpg",
+  poster: "/bucchigiri.jpg",
+  banner: "/bucchigiri.jpg",
 },
 
 "new-saga": {
-  poster: "/images/new-saga.jpg",
-  banner: "/images/new-saga-banner.jpg",
+  poster: "/new-saga.jpg",
+  banner: "/new-saga.jpg",
 },
 
 "zenshu": {
-  poster: "/images/zenshu.jpg",
-  banner: "/images/zenshu-banner.png",
+  poster: "/zenshu.jpg",
+  banner: "/zenshu.jpg",
 },
 
 "the-gorilla-gods-go-to-girl": {
-  poster: "/images/gorilla-god.jpg",
-  banner: "/images/gorilla-god-banner.jpg",
+  poster: "/gorilla-god.jpg",
+  banner: "/gorilla-god.jpg",
 },
 
 "the-reason-why-raeliana-ended-up-at-the-dukes-mansion": {
-  poster: "/images/raeliana.jpg",
-  banner: "/images/raeliana-banner.jpg",
+  poster: "/raeliana.jpg",
+  banner: "/raeliana.jpg",
 },
 
 "let-this-grieving-soul-retire": {
-  poster: "/images/grieving-soul.jpg",
-  banner: "/images/grieving-soul-banner.jpg",
+  poster: "/grieving-soul.jpg",
+  banner: "/grieving-soul.jpg",
 },
 
 "failure-frame": {
-  poster: "/images/failure-frame.jpg",
-  banner: "/images/failure-frame-banner.jpg",
+  poster: "/failure-frame.jpg",
+  banner: "/failure-frame-banner.jpg",
 },
 
 "the-unaware-atelier-meister": {
-  poster: "/images/atelier-meister.jpg",
-  banner: "/images/atelier-meister-banner.jpg",
+  poster: "/atelier-meister.jpg",
+  banner: "/atelier-meister-banner.webp",
 },
 
 "black-summoner": {
-  poster: "/images/black-summoner.jpg",
-  banner: "/images/black-summoner-banner.jpg",
+  poster: "/black-summoner.jpg",
+  banner: "/black-summoner-banner.jpg",
 },
 
 "my-unique-skill-makes-me-op-even-at-level-1": {
-  poster: "/images/unique-skill.jpg",
-  banner: "/images/unique-skill-banner.jpg",
+  poster: "/unique-skill.jpg",
+  banner: "/unique-skill-banner.webp",
 },
 
 "you-are-ms-servant": {
-  poster: "/images/ms-servant.jpg",
-  banner: "/images/ms-servant-banner.jpg",
+  poster: "/ms-servant.jpg",
+  banner: "/ms-servant-banner.webp",
 },
 
 "i-parry-everything": {
-  poster: "/images/parry-everything.jpg",
-  banner: "/images/parry-everything-banner.jpg",
+  poster: "/parry-everything.jpg",
+  banner: "/parry-everything-banner.jpg",
 },
 
 "tales-of-wedding-rings": {
-  poster: "/images/wedding-rings.jpg",
-  banner: "/images/wedding-rings-banner.jpg",
+  poster: "/wedding-rings.webp",
+  banner: "/wedding-rings-banner.jpg",
 },
 
 "possibly-the-greatest-alchemist-of-all-time": {
-  poster: "/images/greatest-alchemist.jpg",
-  banner: "/images/greatest-alchemist-banner.jpg",
+  poster: "/greatest-alchemist.jpg",
+  banner: "/greatest-alchemist-banner.jpg",
 },
 
 "the-weakest-tamer-began-a-journey-to-pick-up-trash": {
-  poster: "/images/weakest-tamer.jpg",
-  banner: "/images/weakest-tamer-banner.jpg",
+  poster: "/weakest-tamer.jpg",
+  banner: "/weakest-tamer-banner.jpg",
 },
 
 "kamikatsu-working-for-god-in-a-godless-world": {
-  poster: "/images/kamikatsu.jpg",
-  banner: "/images/kamikatsu-banner.jpg",
+  poster: "/kamikatsu-banner.jpg",
+  banner: "/kamikatsu-banner.jpg",
 },
 
 "magic-maker-how-to-make-magic-in-another-world": {
-  poster: "/images/magic-maker.jpg",
-  banner: "/images/magic-maker-banner.jpg",
+  poster: "/magic-maker.jpg",
+  banner: "/magic-maker-banner.jpg",
 },
 
 "the-worlds-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat": {
-  poster: "/images/finest-assassin.jpg",
-  banner: "/images/finest-assassin-banner.jpg",
+  poster: "/finest-assassin.jpg",
+  banner: "/finest-assassin-banner.webp",
 },
 
 "my-tiny-senpai": {
-  poster: "/images/tiny-senpai.jpg",
-  banner: "/images/tiny-senpai-banner.jpg",
+  poster: "/tiny-senpai.jpg",
+  banner: "/tiny-senpai-banner.jpg",
 },
 
 "demon-lord-retry": {
-  poster: "/images/demon-lord-retry.jpg",
-  banner: "/images/demon-lord-retry-banner.jpg",
+  poster: "/demon-lord-retry.webp",
+  banner: "/demon-lord-retry-banner.webp",
 },
 
 "i-shall-survive-using-potions": {
-  poster: "/images/survive-using-potions.jpg",
-  banner: "/images/survive-using-potions-banner.jpg",
+  poster: "/survive-using-potion.webp",
+  banner: "/survive-using-potion-banner.jpg",
 },
 
 "am-i-actually-the-strongest": {
-  poster: "/images/actually-strongest.jpg",
-  banner: "/images/actually-strongest-banner.jpg",
+  poster: "/actually-strongest.jpg",
+  banner: "/actually-strongest-banner.jpg",
 },
 
 "beast-tamer": {
-  poster: "/images/beast-tamer.jpg",
-  banner: "/images/beast-tamer-banner.jpg",
+  poster: "/beast-tamer.jpg",
+  banner: "/beast-tamer-banner.jpg",
 },
 
 "gods-games-we-play": {
-  poster: "/images/gods-games.jpg",
-  banner: "/images/gods-games-banner.jpg",
+  poster: "/gods-games.jpg",
+  banner: "/gods-games-banner.jpg",
 },
 
 "ive-somehow-gotten-stronger-when-i-improved-my-farm-related-skills": {
-  poster: "/images/farm-skills.jpg",
-  banner: "/images/farm-skills-banner.jpg",
+  poster: "/farm-skills.jpg",
+  banner: "/farm-skills-banner.jpg",
 },
 
 "friends-game": {
-  poster: "/images/friends-game.jpg",
-  banner: "/images/friends-game-banner.jpg",
+  poster: "/friends-game.jpg",
+  banner: "/friends-game-banner.jpg",
 },
 
 "the-detective-is-already-dead": {
-  poster: "/images/detective-dead.jpg",
-  banner: "/images/detective-dead-banner.jpg",
+  poster: "/detective-dead.jpg",
+  banner: "/detective-dead-banner.webp",
 },
 
 "re-life": {
-  poster: "/images/re-life.jpg",
-  banner: "/images/re-life-banner.jpg",
+  poster: "/re-life.jpg",
+  banner: "/re-life-banner.jpg",
 },
 
 "hell-paradise": {
-  poster: "/images/hell-paradise.jpg",
-  banner: "/images/hell-paradise-banner.jpg",
+  poster: "/hell-paradise.jpg",
+  banner: "/hell-paradise-banner.jpg",
 },
 
 "the-red-ranger-becomes-an-adventurer-in-another-world": {
-  poster: "/images/red-ranger.jpg",
-  banner: "/images/red-ranger-banner.jpg",
+  poster: "/red-ranger.jpg",
+  banner: "/red-ranger-banner.jpg",
 },
 
 "farming-life-in-another-world": {
-  poster: "/images/farming-life.jpg",
-  banner: "/images/farming-life-banner.jpg",
+  poster: "/farming-life.jpg",
+  banner: "/farming-life-banner.webp",
 },
 
 "vermeil-in-gold": {
-  poster: "/images/vermeil.jpg",
-  banner: "/images/vermeil-banner.jpg",
+  poster: "/vermeil.jpg",
+  banner: "/vermeil-banner.jpg",
 },
 
 "im-quitting-heroing": {
-  poster: "/images/quitting-heroing.jpg",
-  banner: "/images/quitting-heroing-banner.jpg",
+  poster: "/quitting-heroing.jpg",
+  banner: "/quitting-heroing-banner.jpg",
 },
 
 "the-strongest-magician-in-the-demon-lords-army-was-a-human": {
-  poster: "/images/strongest-magician.jpg",
-  banner: "/images/strongest-magician-banner.jpg",
+  poster: "/strongest-magician.jpg",
+  banner: "/strongest-magician-banner.jpg",
 },
 
 "the-legendary-hero-is-dead": {
-  poster: "/images/legendary-hero-dead.jpg",
-  banner: "/images/legendary-hero-dead-banner.jpg",
+  poster: "/legendary-hero-dead.jpg",
+  banner: "/legendary-hero-dead-banner.jpg",
 },
 
 "the-hidden-dungeon-only-i-can-enter": {
-  poster: "/images/hidden-dungeon.jpg",
-  banner: "/images/hidden-dungeon-banner.jpg",
+  poster: "/hidden-dungeon.jpg",
+  banner: "/hidden-dungeon-banner.webp",
 },
 
 "an-archdemons-dilemma-how-to-love-your-elf-bride": {
-  poster: "/images/archdemon-dilemma.jpg",
-  banner: "/images/archdemon-dilemma-banner.jpg",
+  poster: "/archdemon-dilemma.jpg",
+  banner: "/archdemon-dilemma-banner.jpg",
 },
 
 "hokkaido-gals-are-super-adorable": {
-  poster: "/images/hokkaido-gals.jpg",
-  banner: "/images/hokkaido-gals-banner.jpg",
+  poster: "/hokkaido-gals.jpg",
+  banner: "/hokkaido-gals-banner.webp",
 },
 
 "im-getting-married-to-a-girl-i-hate-in-my-class": {
-  poster: "/images/girl-i-hate.jpg",
-  banner: "/images/girl-i-hate-banner.jpg",
+  poster: "/girl-i-hate.jpg",
+  banner: "/girl-i-hate-banner.jpg",
 },
 
 "a-gatherers-adventure-in-isekai": {
-  poster: "/images/gatherer.jpg",
-  banner: "/images/gatherer-banner.jpg",
+  poster: "/gatherer.jpg",
+  banner: "/gatherer-banner.webp",
 },
   
   "elegant-yokai-apartment-life": {
