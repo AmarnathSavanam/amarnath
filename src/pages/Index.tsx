@@ -58,8 +58,8 @@ const Index = () => {
   const allItems = useMemo(() => getAllData(), []);
 
   const categoryItems = useMemo(() =>
-    activeCategory === "all" ? allItems : getItemsByCategory(activeCategory),
-    [activeCategory, allItems]
+    getItemsByCategory(activeCategory),
+    [activeCategory]
   );
 
   const genreFiltered = useMemo(() => {
@@ -72,13 +72,13 @@ const Index = () => {
   const { query, setQuery, clearSearch, filtered, isSearching } = useSearch(genreFiltered);
 
   const heroItem = useMemo(() => {
-    const pool = activeCategory === "all" ? allItems : getItemsByCategory(activeCategory);
+    const pool = getItemsByCategory(activeCategory);
     return pool.reduce((best, item) => (item.rating > best.rating ? item : best), pool[0]);
-  }, [activeCategory, allItems]);
+  }, [activeCategory]);
 
   const rows = useMemo(() => buildRows(categoryItems), [categoryItems]);
 
-  const handleCategoryChange = (cat: Category | "all") => {
+  const handleCategoryChange = (cat: Category) => {
     clearSearch();
     setActiveGenre(null);
     setActiveCategory(cat);
@@ -125,7 +125,7 @@ const Index = () => {
           ) : activeGenre ? (
             <div className="px-4 sm:px-6 lg:px-12 pt-6 pb-12">
               <GenreFilter items={categoryItems} activeGenre={activeGenre} onGenreChange={setActiveGenre} />
-              <CardGrid items={genreFiltered} onCardClick={openDetail} categoryLabel={`${activeGenre}${activeCategory !== "all" ? ` in ${categoryLabels[activeCategory]}` : ""}`} />
+              <CardGrid items={genreFiltered} onCardClick={openDetail} categoryLabel={`${activeGenre} in ${categoryLabels[activeCategory]}`} />
             </div>
           ) : (
             <div className={heroItem ? "mt-4 sm:-mt-20 relative z-10 pb-12" : "pt-20 pb-12"}>

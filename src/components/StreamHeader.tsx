@@ -4,8 +4,8 @@ import { categoryLabels } from "@/data/entertainment";
 import SearchBar from "./SearchBar";
 
 interface HeaderProps {
-  activeCategory: Category | "all";
-  onCategoryChange: (category: Category | "all") => void;
+  activeCategory: Category;
+  onCategoryChange: (category: Category) => void;
   hasSelectedItem: boolean;
   searchQuery: string;
   onSearchChange: (value: string) => void;
@@ -13,7 +13,7 @@ interface HeaderProps {
   onLogoClick: () => void;
 }
 
-const categories: (Category | "all")[] = ["all", "marvel", "series", "anime"];
+const categories: Category[] = ["marvel", "series", "anime"];
 
 export default function Header({ activeCategory, onCategoryChange, hasSelectedItem, searchQuery, onSearchChange, onSearchClear, onLogoClick }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false);
@@ -42,7 +42,7 @@ export default function Header({ activeCategory, onCategoryChange, hasSelectedIt
                   const isActive = activeCategory === cat;
                   return (
                     <button key={cat} onClick={() => onCategoryChange(cat)} className={`relative px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${isActive ? "text-foreground bg-secondary/60 shadow-[0_0_12px_-3px_hsl(var(--neon-purple)/0.3)]" : "text-muted-foreground hover:text-foreground hover:bg-secondary/30"}`}>
-                      {cat === "all" ? "All" : categoryLabels[cat]}
+                      {categoryLabels[cat]}
                       {isActive && <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4 h-0.5 rounded-full bg-neon-purple" />}
                     </button>
                   );
