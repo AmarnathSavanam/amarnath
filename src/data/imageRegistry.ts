@@ -11,6 +11,10 @@ const imageRegistry: Record<string, ImageEntry> = {
     poster: "/zom100.jpg",
     banner: "/zom100b.jpg",
   },
+  "parasyte": {
+  poster: "/parasyte.jpg",
+  banner: "/parasyte-banner.webp"
+},
 
   "attack-on-titan": {
     poster: "/aot.jpg",
