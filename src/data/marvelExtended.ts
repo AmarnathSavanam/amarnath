@@ -402,7 +402,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "banner": heroMarvel
   },
   {
-    "title": "She-Hulk: Attorney at Law",
+    "title": "She Hulk",
     "tagline": "Justice has a new side.",
     "description": "Lawyer Jennifer Walters balances her career and life as a green super-powered Hulk.",
     "category": "marvel",
