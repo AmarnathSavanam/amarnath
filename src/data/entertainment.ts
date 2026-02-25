@@ -1,7 +1,4 @@
-import posterMarvel1 from "@/assets/poster-marvel-1.jpg";
-import posterMarvel2 from "@/assets/poster-marvel-2.jpg";
-import posterMarvel3 from "@/assets/poster-marvel-3.jpg";
-import posterMarvel4 from "@/assets/poster-marvel-4.jpg";
+
 import posterAnime1 from "@/assets/poster-anime-1.jpg";
 import posterAnime2 from "@/assets/poster-anime-2.jpg";
 import posterAnime3 from "@/assets/poster-anime-3.jpg";
