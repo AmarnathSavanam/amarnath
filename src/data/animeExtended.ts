@@ -4,6 +4,50 @@ import heroAnime from "@/assets/hero-anime.jpg";
 const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
+    {
+    title: "Naruto",
+    tagline: "Believe it!",
+    description: "A young ninja outcast dreams of becoming the leader of his village, carrying a powerful beast sealed within him.",
+    category: "anime",
+    genres: ["Action", "Adventure"],
+    year: 2002,
+    rating: 8.6,
+    poster: placeholder,
+    banner: heroAnime,
+  },
+  {
+    title: "Dragon Ball",
+    tagline: "Push beyond your limits",
+    description: "A martial artist with extraordinary power protects Earth from increasingly powerful threats across the universe.",
+    category: "anime",
+    genres: ["Action", "Adventure"],
+    year: 1986,
+    rating: 8.7,
+    poster: placeholder,
+    banner: heroAnime,
+  },
+  {
+    title: "Bleach",
+  tagline: "Protect the living, guide the souls",
+  description: "A teenager with the ability to see spirits becomes a Soul Reaper, defending the living world from Hollows while uncovering the hidden conflicts of the spirit realm.",
+  category: "anime",
+  genres: ["Action", "Supernatural", "Adventure"],
+  year: 2004,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "Solo Leveling",
+  tagline: "Arise, and hunt beyond limits",
+  description: "The world’s weakest hunter gains a mysterious system that lets him level up alone, transforming him into humanity’s most formidable weapon against monstrous threats.",
+  category: "anime",
+  genres: ["Action", "Fantasy", "Adventure"],
+  year: 2024,
+  rating: 8.6,
+  poster: placeholder,
+  banner: heroAnime
+},
   { title: "Zom 100", tagline: "Bucket list before the apocalypse", description: "After quitting his soul-crushing job during a zombie outbreak, Akira decides to live life to the fullest by completing his bucket list.", category: "anime", genres: ["Action", "Comedy"], year: 2023, rating: 8.0, poster: placeholder, banner: heroAnime },
   { title: "Demon Lord 2099", tagline: "Magic meets technology", description: "A demon lord awakens in a cyberpunk future and must adapt to a world of technology while reclaiming power.", category: "anime", genres: ["Sci-Fi", "Fantasy"], year: 2024, rating: 7.5, poster: placeholder, banner: heroAnime },
   { title: "Wistoria: Wand and Sword", tagline: "No magic, all courage", description: "A young man without magical ability fights to become a top magician at a prestigious academy using only his sword skills.", category: "anime", genres: ["Action", "Fantasy"], year: 2024, rating: 7.8, poster: placeholder, banner: heroAnime },
