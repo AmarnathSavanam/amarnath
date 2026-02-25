@@ -1,10 +1,7 @@
-
 import posterSeries1 from "@/assets/poster-series-1.jpg";
 import posterSeries2 from "@/assets/poster-series-2.jpg";
 import posterSeries3 from "@/assets/poster-series-3.jpg";
 import posterSeries4 from "@/assets/poster-series-4.jpg";
-import heroMarvel from "@/assets/hero-marvel.jpg";
-import heroAnime from "@/assets/hero-anime.jpg";
 import heroSeries from "@/assets/hero-series.jpg";
 import { extendedAnimeData } from "./animeExtended";
 import { extendedMarvelData } from "./marvelExtended";
