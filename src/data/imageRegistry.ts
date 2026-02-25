@@ -9,15 +9,15 @@ interface ImageEntry {
 const imageRegistry: Record<string, ImageEntry> = {
   "deadpool-and-wolverine": {
     "poster": "/deadpool-wolverine.jpg",
-    "banner": "/deadpool-wolverine-banner.webp"
+    "banner": "/deadpool-wolverine-banner.jpg"
   },
   "agatha-all-along": {
     "poster": "/agatha.jpg",
-    "banner": "/agatha-banner.webp"
+    "banner": "/agatha-banner.jpg"
   },
   "daredevil-born-again-season-1": {
     "poster": "/daredevil-born-again-s1.jpg",
-    "banner": "/daredevil-born-again-s1-banner.webp"
+    "banner": "/daredevil-born-again-s1-banner.jpg"
   },
   "captain-america-brave-new-world": {
     "poster": "/brave-new-world.jpg",
@@ -29,68 +29,68 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-fantastic-four-first-steps": {
     "poster": "/fantastic-four-first-steps.jpg",
-    "banner": "/fantastic-four-first-steps-banner.webp"
+    "banner": "/fantastic-four-first-steps-banner.jpg"
   },
   "daredevil-born-again-season-2": {
     "poster": "/daredevil-born-again-s2.jpg",
-    "banner": "/daredevil-born-again-s2-banner.webp"
+    "banner": "/daredevil-born-again-s2-banner.jpg"
   },
   "wonder-man": {
     "poster": "/wonder-man.jpg",
-    "banner": "/wonder-man-banner.webp"
+    "banner": "/wonder-man-banner.jpg"
   },
   "the-punisher-special-presentation": {
     "poster": "/punisher-special.jpg",
-    "banner": "/punisher-special-banner.webp"
+    "banner": "/punisher-special-banner.jpg"
   },
   "spider-man-brand-new-day": {
     "poster": "/brand-new-day.jpg",
-    "banner": "/brand-new-day-banner.webp"
+    "banner": "/brand-new-day-banner.jpg"
   },
   "avengers-doomsday": {
     "poster": "/avengers-doomsday.jpg",
-    "banner": "/avengers-doomsday-banner.webp"
+    "banner": "/avengers-doomsday-banner.png"
   }
   ,
   "ms-marvel": {
     "poster": "/ms-marvel.jpg",
-    "banner": "/ms-marvel-banner.webp"
+    "banner": "/ms-marvel-banner.png"
   },
   "thor-love-and-thunder": {
     "poster": "/thor-love-thunder.jpg",
-    "banner": "/thor-love-thunder-banner.webp"
+    "banner": "/thor-love-thunder-banner.png"
   },
   "black-panther-wakanda-forever": {
     "poster": "/wakanda-forever.jpg",
-    "banner": "/wakanda-forever-banner.webp"
+    "banner": "/wakanda-forever-banner.jpg"
   },
   "ironheart": {
     "poster": "/ironheart.jpg",
-    "banner": "/ironheart-banner.webp"
+    "banner": "/ironheart-banner.jpg"
   },
   "werewolf-by-night": {
     "poster": "/werewolf-by-night.jpg",
-    "banner": "/werewolf-by-night-banner.webp"
+    "banner": "/werewolf-by-night-banner.png"
   },
   "guardians-of-the-galaxy-holiday-special": {
-    "poster": "/gotg-holiday.jpg",
-    "banner": "/gotg-holiday-banner.webp"
+    "poster": "/gotg-holiday.webp",
+    "banner": "/gotg-holiday-banner.jpg"
   },
   "ant-man-and-the-wasp-quantumania": {
     "poster": "/quantumania.jpg",
-    "banner": "/quantumania-banner.webp"
+    "banner": "/quantumania-banner.jpg"
   },
   "guardians-of-the-galaxy-vol-3": {
     "poster": "/gotg-3.jpg",
-    "banner": "/gotg-3-banner.webp"
+    "banner": "/gotg-3-banner.jpg"
   },
   "secret-invasion": {
     "poster": "/secret-invasion.jpg",
-    "banner": "/secret-invasion-banner.webp"
+    "banner": "/secret-invasion-banner.jpg"
   },
   "the-marvels": {
     "poster": "/the-marvels.jpg",
-    "banner": "/the-marvels-banner.webp"
+    "banner": "/the-marvels-banner.jpg"
   },
   "loki-season-2": {
     "poster": "/loki-s2.jpg",
@@ -98,20 +98,20 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "logan": {
     "poster": "/logan.jpg",
-    "banner": "/logan-banner.webp"
+    "banner": "/logan-banner.jpg"
   },
   "deadpool-2": {
     "poster": "/deadpool-2.jpg",
-    "banner": "/deadpool-2-banner.webp"
+    "banner": "/deadpool-2-banner.jpg"
   }
   ,
   "wandavision": {
     "poster": "/wandavision.jpg",
-    "banner": "/wandavision-banner.webp"
+    "banner": "/wandavision-banner.jpg"
   },
   "the-falcon-and-the-winter-soldier": {
     "poster": "/falcon-winter-soldier.jpg",
-    "banner": "/falcon-winter-soldier-banner.webp"
+    "banner": "/falcon-winter-soldier-banner.jpg"
   },
   "spider-man-far-from-home": {
     "poster": "/far-from-home.jpg",
@@ -119,108 +119,108 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "venom-let-there-be-carnage": {
     "poster": "/venom-2.jpg",
-    "banner": "/venom-2-banner.webp"
+    "banner": "/venom-2-banner.jpg"
   },
   "spider-man-no-way-home": {
     "poster": "/no-way-home.jpg",
-    "banner": "/no-way-home-banner.webp"
+    "banner": "/no-way-home-banner.jpg"
   },
   "spider-man-across-the-spider-verse": {
     "poster": "/across-spider-verse.jpg",
-    "banner": "/across-spider-verse-banner.webp"
+    "banner": "/across-spider-verse-banner.png"
   },
   "morbius": {
     "poster": "/morbius.jpg",
-    "banner": "/morbius-banner.webp"
+    "banner": "/morbius-banner.jpg"
   },
   "venom-the-last-dance": {
     "poster": "/venom-last-dance.jpg",
-    "banner": "/venom-last-dance-banner.webp"
+    "banner": "/venom-last-dance-banner.jpg"
   },
   "madame-web": {
     "poster": "/madame-web.jpg",
-    "banner": "/madame-web-banner.webp"
+    "banner": "/madame-web-banner.jpg"
   },
   "kraven-the-hunter": {
     "poster": "/kraven.jpg",
-    "banner": "/kraven-banner.webp"
+    "banner": "/kraven-banner.jpg"
   },
   "shang-chi-and-the-legend-of-the-ten-rings": {
     "poster": "/shang-chi.jpg",
-    "banner": "/shang-chi-banner.webp"
+    "banner": "/shang-chi-banner.jpg"
   },
   "eternals": {
     "poster": "/eternals.jpg",
-    "banner": "/eternals-banner.webp"
+    "banner": "/eternals-banner.jpg"
   },
   "doctor-strange-in-the-multiverse-of-madness": {
     "poster": "/ds-multiverse.jpg",
-    "banner": "/ds-multiverse-banner.webp"
+    "banner": "/ds-multiverse-banner.jpg"
   },
   "hawkeye": {
     "poster": "/hawkeye.jpg",
-    "banner": "/hawkeye-banner.webp"
+    "banner": "/hawkeye-banner.jpg"
   },
   "moon-knight": {
     "poster": "/moon-knight.jpg",
-    "banner": "/moon-knight-banner.webp"
+    "banner": "/moon-knight-banner.jpg"
   },
   "echo": {
     "poster": "/echo.jpg",
-    "banner": "/echo-banner.webp"
+    "banner": "/echo-banner.jpg"
   },
   "she-hulk": {
     "poster": "/she-hulk.jpg",
-    "banner": "/she-hulk-banner.webp"
+    "banner": "/she-hulk-banner.png"
   }
   ,
   "daredevil-season-1": {
     "poster": "/daredevil-s1.jpg",
-    "banner": "/daredevil-s1-banner.webp"
+    "banner": "/daredevil-s1-banner.jpg"
   },
   "jessica-jones": {
     "poster": "/jessica-jones.jpg",
-    "banner": "/jessica-jones-banner.webp"
+    "banner": "/jessica-jones-banner.jpg"
   },
   "avengers-age-of-ultron": {
     "poster": "/ultron.jpg",
-    "banner": "/ultron-banner.webp"
+    "banner": "/ultron-banner.jpg"
   },
   "ant-man": {
     "poster": "/ant-man.jpg",
-    "banner": "/ant-man-banner.webp"
+    "banner": "/ant-man-banner.jpg"
   },
   "luke-cage": {
     "poster": "/luke-cage.jpg",
-    "banner": "/luke-cage-banner.webp"
+    "banner": "/luke-cage-banner.jpg"
   },
   "daredevil-season-2": {
     "poster": "/daredevil-s2.jpg",
-    "banner": "/daredevil-s2-banner.webp"
+    "banner": "/daredevil-s2-banner.jpg"
   },
   "iron-fist": {
     "poster": "/iron-fist.jpg",
-    "banner": "/iron-fist-banner.webp"
+    "banner": "/iron-fist-banner.png"
   },
   "the-defenders": {
     "poster": "/defenders.jpg",
-    "banner": "/defenders-banner.webp"
+    "banner": "/defenders-banner.jpg"
   },
   "captain-america-civil-war": {
     "poster": "/civil-war.jpg",
-    "banner": "/civil-war-banner.webp"
+    "banner": "/civil-war-banner.jpg"
   },
   "black-widow": {
     "poster": "/black-widow.jpg",
-    "banner": "/black-widow-banner.webp"
+    "banner": "/black-widow-banner.jpg"
   },
   "black-panther": {
     "poster": "/black-panther.jpg",
-    "banner": "/black-panther-banner.webp"
+    "banner": "/black-panther-banner.jpg"
   },
   "spider-man-homecoming": {
     "poster": "/homecoming.jpg",
-    "banner": "/homecoming-banner.webp"
+    "banner": "/homecoming-banner.jpg"
   },
   "doctor-strange": {
     "poster": "/doctor-strange.jpg",
@@ -228,23 +228,23 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "thor-ragnarok": {
     "poster": "/thor-ragnarok.jpg",
-    "banner": "/thor-ragnarok-banner.webp"
+    "banner": "/thor-ragnarok-banner.jpg"
   },
   "venom": {
     "poster": "/venom.jpg",
-    "banner": "/venom-banner.webp"
+    "banner": "/venom-banner.jpg"
   },
   "spider-man-into-the-spider-verse": {
     "poster": "/spider-verse.jpg",
-    "banner": "/spider-verse-banner.webp"
+    "banner": "/spider-verse-banner.jpg"
   },
   "deadpool": {
     "poster": "/deadpool.jpg",
-    "banner": "/deadpool-banner.webp"
+    "banner": "/deadpool-banner.png"
   },
   "ant-man-and-the-wasp": {
     "poster": "/ant-man-wasp.jpg",
-    "banner": "/ant-man-wasp-banner.webp"
+    "banner": "/ant-man-wasp-banner.jpg"
   },
   "avengers-infinity-war": {
     "poster": "/infinity-war.jpg",
@@ -252,19 +252,19 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "avengers-endgame": {
     "poster": "/endgame.jpg",
-    "banner": "/endgame-banner.webp"
+    "banner": "/endgame-banner.jpg"
   },
   "the-new-mutants": {
     "poster": "/new-mutants.jpg",
-    "banner": "/new-mutants-banner.webp"
+    "banner": "/new-mutants-banner.jpg"
   },
   "loki": {
     "poster": "/loki.jpg",
-    "banner": "/loki-banner.webp"
+    "banner": "/loki-banner.jpg"
   },
   "what-if": {
     "poster": "/what-if.jpg",
-    "banner": "/what-if-banner.webp"
+    "banner": "/what-if-banner.jpg"
   },
   "eyes-of-wakanda": {
     "poster": "/eyes-of-wakanda.jpg",
@@ -280,23 +280,23 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "agent-carter-season-2": {
     "poster": "/agent-carter-s2.jpg",
-    "banner": "/agent-carter-s2-banner.webp"
+    "banner": "/agent-carter-s2-banner.jpg"
   },
   "x-men-first-class": {
     "poster": "/x-men-first-class.jpg",
-    "banner": "/x-men-first-class-banner.webp"
+    "banner": "/x-men-first-class-banner.jpg"
   },
   "x-men-origins-wolverine": {
-    "poster": "/x-men-origins-wolverine.jpg",
-    "banner": "/x-men-origins-wolverine-banner.webp"
+    "poster": "/x-men-origins-wolverine.png",
+    "banner": "/x-men-origins-wolverine-banner.jpg"
   },
   "howard-the-duck": {
     "poster": "/howard-the-duck.jpg",
-    "banner": "/howard-the-duck-banner.webp"
+    "banner": "/howard-the-duck-banner.jpg"
   },
   "captain-marvel": {
     "poster": "/captain-marvel.jpg",
-    "banner": "/captain-marvel-banner.webp"
+    "banner": "/captain-marvel-banner.jpg"
   },
   "blade": {
     "poster": "/blade.jpg",
@@ -304,15 +304,15 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "x-men": {
     "poster": "/x-men.jpg",
-    "banner": "/x-men-banner.webp"
+    "banner": "/x-men-banner.jpg"
   },
   "spider-man": {
     "poster": "/spider-man.jpg",
-    "banner": "/spider-man-banner.webp"
+    "banner": "/spider-man-banner.jpg"
   },
   "x2-x-men-united": {
     "poster": "/x2.jpg",
-    "banner": "/x2-banner.webp"
+    "banner": "/x2-banner.jpg"
   },
   "elektra": {
     "poster": "/elektra.jpg",
@@ -320,67 +320,67 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "daredevil": {
     "poster": "/daredevil.jpg",
-    "banner": "/daredevil-banner.webp"
+    "banner": "/daredevil-banner.jpg"
   },
   "the-punisher": {
     "poster": "/punisher.jpg",
-    "banner": "/punisher-banner.webp"
+    "banner": "/punisher-banner.jpg"
   },
   "spider-man-2": {
     "poster": "/spider-man-2.jpg",
-    "banner": "/spider-man-2-banner.webp"
+    "banner": "/spider-man-2-banner.png"
   },
   "fantastic-four": {
     "poster": "/fantastic-four.jpg",
-    "banner": "/fantastic-four-banner.webp"
+    "banner": "/fantastic-four-banner.png"
   },
   "fantastic-four-rise-of-the-silver-surfer": {
-    "poster": "/fantastic-four-2.jpg",
+    "poster": "/fantastic-four-2.webp",
     "banner": "/fantastic-four-2-banner.webp"
   },
   "x-men-the-last-stand": {
     "poster": "/x-men-last-stand.jpg",
-    "banner": "/x-men-last-stand-banner.webp"
+    "banner": "/x-men-last-stand-banner.jpg"
   },
   "ghost-rider": {
     "poster": "/ghost-rider.jpg",
-    "banner": "/ghost-rider-banner.webp"
+    "banner": "/ghost-rider-banner.jpg"
   },
   "ghost-rider-spirit-of-vengeance": {
     "poster": "/ghost-rider-2.jpg",
-    "banner": "/ghost-rider-2-banner.webp"
+    "banner": "/ghost-rider-2-banner.jpg"
   },
   "spider-man-3": {
     "poster": "/spider-man-3.jpg",
-    "banner": "/spider-man-3-banner.webp"
+    "banner": "/spider-man-3-banner.jpg"
   },
   "the-incredible-hulk-2008": {
     "poster": "/incredible-hulk.jpg",
-    "banner": "/incredible-hulk-banner.webp"
+    "banner": "/incredible-hulk-banner.jpg"
   },
   "iron-man": {
     "poster": "/iron-man.jpg",
-    "banner": "/iron-man-banner.webp"
+    "banner": "/iron-man-banner.jpg"
   },
   "iron-man-2": {
     "poster": "/iron-man-2.jpg",
-    "banner": "/iron-man-2-banner.webp"
+    "banner": "/iron-man-2-banner.jpg"
   },
   "hulk-2003": {
     "poster": "/hulk-2003.jpg",
-    "banner": "/hulk-2003-banner.webp"
+    "banner": "/hulk-2003-banner.jpg"
   },
   "thor": {
     "poster": "/thor.jpg",
-    "banner": "/thor-banner.webp"
+    "banner": "/thor-banner.jpg"
   },
   "the-avengers": {
     "poster": "/avengers.jpg",
-    "banner": "/avengers-banner.webp"
+    "banner": "/avengers-banner.jpg"
   },
   "agents-of-shield": {
     "poster": "/agents-of-shield.jpg",
-    "banner": "/agents-of-shield-banner.webp"
+    "banner": "/agents-of-shield-banner.jpg"
   },
   "thor-the-dark-world": {
     "poster": "/thor-dark-world.jpg",
@@ -388,31 +388,31 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-wolverine": {
     "poster": "/the-wolverine.jpg",
-    "banner": "/the-wolverine-banner.webp"
+    "banner": "/the-wolverine-banner.jpg"
   },
   "x-men-days-of-future-past": {
     "poster": "/days-of-future-past.jpg",
-    "banner": "/days-of-future-past-banner.webp"
+    "banner": "/days-of-future-past-banner.jpg"
   },
   "x-men-apocalypse": {
     "poster": "/x-men-apocalypse.jpg",
-    "banner": "/x-men-apocalypse-banner.webp"
+    "banner": "/x-men-apocalypse-banner.jpg"
   },
   "x-men-dark-phoenix": {
     "poster": "/x-men-dark-phoenix.jpg",
-    "banner": "/x-men-dark-phoenix-banner.webp"
+    "banner": "/x-men-dark-phoenix-banner.jpg"
   },
   "the-amazing-spider-man": {
     "poster": "/amazing-spider-man.jpg",
-    "banner": "/amazing-spider-man-banner.webp"
+    "banner": "/amazing-spider-man-banner.jpg"
   },
   "iron-man-3": {
     "poster": "/iron-man-3.jpg",
-    "banner": "/iron-man-3-banner.webp"
+    "banner": "/iron-man-3-banner.jpg"
   },
   "captain-america-the-winter-soldier": {
     "poster": "/winter-soldier.jpg",
-    "banner": "/winter-soldier-banner.webp"
+    "banner": "/winter-soldier-banner.jpg"
   },
   "the-amazing-spider-man-2": {
     "poster": "/amazing-spider-man-2.jpg",
@@ -420,11 +420,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "guardians-of-the-galaxy": {
     "poster": "/gotg.jpg",
-    "banner": "/gotg-banner.webp"
+    "banner": "/gotg-banner.jpg"
   },
   "guardians-of-the-galaxy-vol-2": {
     "poster": "/gotg-2.jpg",
-    "banner": "/gotg-2-banner.webp"
+    "banner": "/gotg-2-banner.jpg"
   },
   "magic-maker": {
   poster: "/magic-maker.jpg",
