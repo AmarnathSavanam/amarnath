@@ -559,7 +559,87 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "rating": 7.5,
     "poster": placeholder,
     "banner": heroMovie
+  },
+  
+  {
+    "title": "Thunderbolts*",
+    "tagline": "Not super. Not heroes.",
+    "description": "A group of antiheroes is assembled for a dangerous government mission that could redefine heroism.",
+    "category": "marvel",
+    "genres": ["Action", "Adventure", "Crime"],
+    "year": 2025,
+    "rating": 7.4,
+    "poster": placeholder,
+    "banner": heroMovie
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "tagline": "The future begins here.",
+    "description": "Marvel’s first family embarks on a journey that sets the foundation for a new era of heroes.",
+    "category": "marvel",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "year": 2025,
+    "rating": 7.8,
+    "poster": placeholder,
+    "banner": heroMovie
+  },
+  {
+    "title": "Daredevil: Born Again Season 2",
+    "tagline": "The fight continues.",
+    "description": "Matt Murdock faces escalating threats as the battle for New York intensifies.",
+    "category": "marvel",
+    "genres": ["Action", "Crime", "Drama"],
+    "year": 2026,
+    "rating": 8.1,
+    "poster": placeholder,
+    "banner": heroSeries
+  },
+  {
+    "title": "Wonder Man",
+    "tagline": "Fame is the ultimate superpower.",
+    "description": "Simon Williams navigates Hollywood and heroism while discovering what it truly means to be a hero.",
+    "category": "marvel",
+    "genres": ["Action", "Comedy", "Sci-Fi"],
+    "year": 2026,
+    "rating": 7.2,
+    "poster": placeholder,
+    "banner": heroSeries
+  },
+  {
+    "title": "The Punisher (Special Presentation)",
+    "tagline": "Vengeance never rests.",
+    "description": "Frank Castle returns for a brutal mission that pushes his war on crime to the edge.",
+    "category": "marvel",
+    "genres": ["Action", "Crime", "Thriller"],
+    "year": 2026,
+    "rating": 8.0,
+    "poster": placeholder,
+    "banner": heroSpecial
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "tagline": "A new chapter begins.",
+    "description": "Peter Parker starts fresh while facing new challenges and enemies in a changing world.",
+    "category": "marvel",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "year": 2026,
+    "rating": 7.9,
+    "poster": placeholder,
+    "banner": heroMovie
+  },
+  {
+    "title": "Avengers: Doomsday",
+    "tagline": "The end of everything begins.",
+    "description": "Earth’s heroes unite once again to face a threat that could reshape reality itself.",
+    "category": "marvel",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "year": 2027,
+    "rating": 8.5,
+    "poster": placeholder,
+    "banner": heroMovie
   }
+
+  
 
 ];
 
