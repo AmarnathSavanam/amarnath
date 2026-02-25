@@ -140,8 +140,8 @@ export const entertainmentData: EntertainmentItem[] = [
   genres: ["Action", "Fantasy", "Adventure"],
   year: 2024,
   rating: 8.6,
-  poster: posterAnime4,
-  banner: heroAnime
+  poster: placeholder,
+  banner: placeholder
 },
  
   // Series
