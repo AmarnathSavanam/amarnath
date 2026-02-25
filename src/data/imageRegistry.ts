@@ -7,6 +7,23 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "from": {
+    "poster": "/from.jpg",
+    "banner": "/from-banner.jpg"
+  }
+  ,
+  "breaking-bad": {
+    "poster": "/breaking-bad.webp",
+    "banner": "/breaking-bad-banner.jpg"
+  },
+  "dark": {
+    "poster": "/dark.jpg",
+    "banner": "/dark-banner.webp"
+  },
+  "12-monkeys": {
+    "poster": "/12-monkeys.jpg",
+    "banner": "/12-monkeys-banner.webp"
+  },
   "1899": {
     "poster": "/1899.jpg",
     "banner": "/1899-banner.jpg"
