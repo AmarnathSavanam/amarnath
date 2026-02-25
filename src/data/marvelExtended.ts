@@ -8,7 +8,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   {
     "title": "Eyes of Wakanda",
     "tagline": "Legacy shapes the future.",
-    "description": "Stories across generations reveal Wakanda’s hidden missions and the warriors who protected its secrets around the world.",
+    "description": "Stories across generations reveal Wakanda's hidden missions and the warriors who protected its secrets around the world.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Animation"],
     "year": 2025,
@@ -25,7 +25,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2011,
     "rating": 7.8,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Agent Carter Season 1",
@@ -52,35 +52,35 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   {
     "title": "Captain Marvel",
     "tagline": "Higher. Further. Faster.",
-    "description": "Carol Danvers becomes one of the universe’s most powerful heroes while uncovering the truth behind an intergalactic war.",
+    "description": "Carol Danvers becomes one of the universe's most powerful heroes while uncovering the truth behind an intergalactic war.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2019,
     "rating": 6.8,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Iron Man",
-    "tagline": "Heroes aren’t born. They’re built.",
+    "tagline": "Heroes aren't born. They're built.",
     "description": "Tony Stark builds a high-tech suit to escape captivity and becomes the armored hero who launches a new era of heroes.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2008,
     "rating": 8.0,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Iron Man 2",
-    "tagline": "It’s not the armor that makes the hero.",
+    "tagline": "It's not the armor that makes the hero.",
     "description": "Tony Stark faces government pressure, new enemies, and his own mortality while refining the Iron Man legacy.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2010,
     "rating": 7.0,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Thor",
@@ -91,18 +91,18 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2011,
     "rating": 7.0,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "The Avengers",
-    "tagline": "Earth’s mightiest heroes unite.",
+    "tagline": "Earth's mightiest heroes unite.",
     "description": "Nick Fury assembles a team of heroes to stop Loki and an alien invasion threatening the planet.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2012,
     "rating": 8.0,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Captain America: The Winter Soldier",
@@ -113,7 +113,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2014,
     "rating": 8.1,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Guardians of the Galaxy",
@@ -124,40 +124,40 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2014,
     "rating": 8.0,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Guardians of the Galaxy Vol. 2",
     "tagline": "Obviously.",
-    "description": "The Guardians face cosmic threats while unraveling the mystery behind Peter Quill’s parentage.",
+    "description": "The Guardians face cosmic threats while unraveling the mystery behind Peter Quill's parentage.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2017,
     "rating": 7.6,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Avengers: Age of Ultron",
     "tagline": "A new age begins.",
-    "description": "The Avengers battle Ultron, an AI created by Tony Stark that threatens humanity’s survival.",
+    "description": "The Avengers battle Ultron, an AI created by Tony Stark that threatens humanity's survival.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2015,
     "rating": 7.3,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Ant-Man",
-    "tagline": "Heroes don’t get any bigger.",
+    "tagline": "Heroes don't get any bigger.",
     "description": "Scott Lang becomes Ant-Man and learns to harness shrinking technology to pull off a high-stakes heist.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Comedy"],
     "year": 2015,
     "rating": 7.3,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Captain America: Civil War",
@@ -168,7 +168,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2016,
     "rating": 7.8,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Black Widow",
@@ -179,29 +179,29 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2021,
     "rating": 6.7,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Black Panther",
     "tagline": "Long live the king.",
-    "description": "T’Challa returns home to Wakanda and must defend his throne from a challenger with global ambitions.",
+    "description": "T'Challa returns home to Wakanda and must defend his throne from a challenger with global ambitions.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2018,
     "rating": 7.3,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Spider-Man: Homecoming",
-    "tagline": "Homework can wait. The city can’t.",
+    "tagline": "Homework can wait. The city can't.",
     "description": "Peter Parker balances high school life with being a hero while facing the tech-powered Vulture.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Comedy"],
     "year": 2017,
     "rating": 7.4,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Doctor Strange",
@@ -212,7 +212,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2016,
     "rating": 7.5,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Thor: Ragnarok",
@@ -223,9 +223,8 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2017,
     "rating": 7.9,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
-  
   {
     "title": "Ant-Man and the Wasp",
     "tagline": "Real heroes. Not actual size.",
@@ -235,7 +234,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2018,
     "rating": 7.1,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Avengers: Infinity War",
@@ -246,7 +245,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2018,
     "rating": 8.4,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Avengers: Endgame",
@@ -257,7 +256,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2019,
     "rating": 8.4,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Loki",
@@ -312,31 +311,30 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2019,
     "rating": 7.4,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Spider-Man: No Way Home",
     "tagline": "The multiverse unleashed.",
-    "description": "Peter’s identity crisis fractures reality, bringing villains from other universes into his world.",
+    "description": "Peter's identity crisis fractures reality, bringing villains from other universes into his world.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2021,
     "rating": 8.2,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Shang-Chi and the Legend of the Ten Rings",
     "tagline": "A hero will rise.",
-    "description": "Shang-Chi confronts his past and his father’s powerful secret organization.",
+    "description": "Shang-Chi confronts his past and his father's powerful secret organization.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Fantasy"],
     "year": 2021,
     "rating": 7.4,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
-  
   {
     "title": "Eternals",
     "tagline": "When you love something, you protect it.",
@@ -346,7 +344,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2021,
     "rating": 6.3,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Hawkeye",
@@ -379,7 +377,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2022,
     "rating": 6.9,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Ms. Marvel",
@@ -401,7 +399,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2022,
     "rating": 6.2,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "She-Hulk: Attorney at Law",
@@ -423,7 +421,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2022,
     "rating": 6.7,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Werewolf by Night",
@@ -434,22 +432,19 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2022,
     "rating": 7.1,
     "poster": placeholder,
-    "banner": heroSpecial
+    "banner": heroMarvel
   },
-  
   {
     "title": "The Guardians of the Galaxy Holiday Special",
     "tagline": "The perfect present.",
-    "description": "The Guardians plan a festive adventure to lift Peter Quill’s spirits.",
+    "description": "The Guardians plan a festive adventure to lift Peter Quill's spirits.",
     "category": "marvel",
     "genres": ["Comedy", "Adventure", "Sci-Fi"],
     "year": 2022,
     "rating": 7.0,
     "poster": placeholder,
-    "banner": heroSpecial
-  }
-,
-  
+    "banner": heroMarvel
+  },
   {
     "title": "Ant-Man and the Wasp: Quantumania",
     "tagline": "Witness the beginning of a new dynasty.",
@@ -459,7 +454,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2023,
     "rating": 6.1,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Guardians of the Galaxy Vol. 3",
@@ -470,7 +465,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2023,
     "rating": 8.0,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Secret Invasion",
@@ -503,7 +498,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2023,
     "rating": 5.8,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Echo",
@@ -525,7 +520,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2024,
     "rating": 8.1,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Agatha All Along",
@@ -558,9 +553,8 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2025,
     "rating": 7.5,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
-  
   {
     "title": "Thunderbolts*",
     "tagline": "Not super. Not heroes.",
@@ -570,18 +564,18 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2025,
     "rating": 7.4,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "The Fantastic Four: First Steps",
     "tagline": "The future begins here.",
-    "description": "Marvel’s first family embarks on a journey that sets the foundation for a new era of heroes.",
+    "description": "Marvel's first family embarks on a journey that sets the foundation for a new era of heroes.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2025,
     "rating": 7.8,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Daredevil: Born Again Season 2",
@@ -614,7 +608,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2026,
     "rating": 8.0,
     "poster": placeholder,
-    "banner": heroSpecial
+    "banner": heroMarvel
   },
   {
     "title": "Spider-Man: Brand New Day",
@@ -625,22 +619,19 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "year": 2026,
     "rating": 7.9,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   },
   {
     "title": "Avengers: Doomsday",
     "tagline": "The end of everything begins.",
-    "description": "Earth’s heroes unite once again to face a threat that could reshape reality itself.",
+    "description": "Earth's heroes unite once again to face a threat that could reshape reality itself.",
     "category": "marvel",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "year": 2027,
     "rating": 8.5,
     "poster": placeholder,
-    "banner": heroMovie
+    "banner": heroMarvel
   }
-
-  
-
 ];
 
 export const extendedMarvelData: EntertainmentItem[] = marvelTitles.map(

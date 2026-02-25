@@ -1051,10 +1051,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/dating-sim-banner.jpg",
 },
 
-"re-monster": {
-  poster: "/re-monster.jpg",
-  banner: "/re-monster-banner.jpg",
-},
+// re-monster already defined above
 
 "erased": {
   poster: "/erased.jpg",
@@ -1081,40 +1078,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/demon-lord-banner.jpg",
 },
 
-"alya-sometimes-hides-her-feelings-in-russian": {
-  poster: "/alya.jpg",
-  banner: "/alya.jpg",
-},
-
-"bucchigiri": {
-  poster: "/bucchigiri.jpg",
-  banner: "/bucchigiri.jpg",
-},
-
-"new-saga": {
-  poster: "/new-saga.jpg",
-  banner: "/new-saga.jpg",
-},
-
-"zenshu": {
-  poster: "/zenshu.jpg",
-  banner: "/zenshu.jpg",
-},
-
-"the-gorilla-gods-go-to-girl": {
-  poster: "/gorilla-god.jpg",
-  banner: "/gorilla-god.jpg",
-},
-
-"the-reason-why-raeliana-ended-up-at-the-dukes-mansion": {
-  poster: "/raeliana.jpg",
-  banner: "/raeliana.jpg",
-},
-
-"let-this-grieving-soul-retire": {
-  poster: "/grieving-soul.jpg",
-  banner: "/grieving-soul.jpg",
-},
+// Duplicates removed — these entries already exist above with proper banner paths
 
 "failure-frame": {
   poster: "/failure-frame.jpg",
@@ -1426,10 +1390,7 @@ const imageRegistry: Record<string, ImageEntry> = {
     poster: "/welcome-to-japan-ms-elf.jpg",
     banner: "/welcome-to-japan-ms-elfb.webp",
   },
-  "shimoneta": {
-    poster: "/shimoneta.jpg",
-    banner: "/shimonetab.jpg",
-  },
+  // shimoneta already defined above
   "im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness": {
     poster: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness.jpg",
     banner: "/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtinessb.webp",
@@ -1630,10 +1591,7 @@ const imageRegistry: Record<string, ImageEntry> = {
     poster: "/the-foolish-angel-dances-with-the-devil.jpg",
     banner: "/the-foolish-angel-dances-with-the-devilb.webp",
   },
-  "a-girl-and-her-guard-dog": {
-    poster: "/a-girl-and-her-guard-dog.webp",
-    banner: "/a-girl-and-her-guard-dogb.webp",
-  },
+  // a-girl-and-her-guard-dog already defined above
   "bogus-skill-fruitmaster": {
     poster: "/bogus-skill-fruitmaster.jpg",
     banner: "/bogus-skill-fruitmasterb.jpg",
