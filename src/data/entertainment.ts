@@ -41,54 +41,7 @@ export const entertainmentData: EntertainmentItem[] = [
   // Marvel
  
   // Anime
-  {
-    id: "a1",
-    title: "Naruto",
-    tagline: "Believe it!",
-    description: "A young ninja outcast dreams of becoming the leader of his village, carrying a powerful beast sealed within him.",
-    category: "anime",
-    genres: ["Action", "Adventure"],
-    year: 2002,
-    rating: 8.6,
-    poster: posterAnime2,
-    banner: heroAnime,
-  },
-  {
-    id: "a2",
-    title: "Dragon Ball",
-    tagline: "Push beyond your limits",
-    description: "A martial artist with extraordinary power protects Earth from increasingly powerful threats across the universe.",
-    category: "anime",
-    genres: ["Action", "Adventure"],
-    year: 1986,
-    rating: 8.7,
-    poster: posterAnime1,
-    banner: heroAnime,
-  },
-  {
-    id: "a3",
-    title: "Bleach",
-  tagline: "Protect the living, guide the souls",
-  description: "A teenager with the ability to see spirits becomes a Soul Reaper, defending the living world from Hollows while uncovering the hidden conflicts of the spirit realm.",
-  category: "anime",
-  genres: ["Action", "Supernatural", "Adventure"],
-  year: 2004,
-  rating: 8.2,
-  poster: posterAnime3,
-  banner: heroAnime
-},
-  {
-    id: "a4",
-  title: "Solo Leveling",
-  tagline: "Arise, and hunt beyond limits",
-  description: "The world’s weakest hunter gains a mysterious system that lets him level up alone, transforming him into humanity’s most formidable weapon against monstrous threats.",
-  category: "anime",
-  genres: ["Action", "Fantasy", "Adventure"],
-  year: 2024,
-  rating: 8.6,
-  poster: posterAnime3,
-  banner: heroAnime
-},
+  
  
   // Series
   {
