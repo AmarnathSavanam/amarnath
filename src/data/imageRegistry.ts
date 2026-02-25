@@ -7,6 +7,425 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "deadpool-and-wolverine": {
+    "poster": "/deadpool-wolverine.jpg",
+    "banner": "/deadpool-wolverine-banner.webp"
+  },
+  "agatha-all-along": {
+    "poster": "/agatha.jpg",
+    "banner": "/agatha-banner.webp"
+  },
+  "daredevil-born-again-season-1": {
+    "poster": "/daredevil-born-again-s1.jpg",
+    "banner": "/daredevil-born-again-s1-banner.webp"
+  },
+  "captain-america-brave-new-world": {
+    "poster": "/brave-new-world.jpg",
+    "banner": "/brave-new-world-banner.webp"
+  },
+  "thunderbolts": {
+    "poster": "/thunderbolts.jpg",
+    "banner": "/thunderbolts-banner.webp"
+  },
+  "the-fantastic-four-first-steps": {
+    "poster": "/fantastic-four-first-steps.jpg",
+    "banner": "/fantastic-four-first-steps-banner.webp"
+  },
+  "daredevil-born-again-season-2": {
+    "poster": "/daredevil-born-again-s2.jpg",
+    "banner": "/daredevil-born-again-s2-banner.webp"
+  },
+  "wonder-man": {
+    "poster": "/wonder-man.jpg",
+    "banner": "/wonder-man-banner.webp"
+  },
+  "the-punisher-special-presentation": {
+    "poster": "/punisher-special.jpg",
+    "banner": "/punisher-special-banner.webp"
+  },
+  "spider-man-brand-new-day": {
+    "poster": "/brand-new-day.jpg",
+    "banner": "/brand-new-day-banner.webp"
+  },
+  "avengers-doomsday": {
+    "poster": "/avengers-doomsday.jpg",
+    "banner": "/avengers-doomsday-banner.webp"
+  }
+  ,
+  "ms-marvel": {
+    "poster": "/ms-marvel.jpg",
+    "banner": "/ms-marvel-banner.webp"
+  },
+  "thor-love-and-thunder": {
+    "poster": "/thor-love-thunder.jpg",
+    "banner": "/thor-love-thunder-banner.webp"
+  },
+  "black-panther-wakanda-forever": {
+    "poster": "/wakanda-forever.jpg",
+    "banner": "/wakanda-forever-banner.webp"
+  },
+  "ironheart": {
+    "poster": "/ironheart.jpg",
+    "banner": "/ironheart-banner.webp"
+  },
+  "werewolf-by-night": {
+    "poster": "/werewolf-by-night.jpg",
+    "banner": "/werewolf-by-night-banner.webp"
+  },
+  "guardians-of-the-galaxy-holiday-special": {
+    "poster": "/gotg-holiday.jpg",
+    "banner": "/gotg-holiday-banner.webp"
+  },
+  "ant-man-and-the-wasp-quantumania": {
+    "poster": "/quantumania.jpg",
+    "banner": "/quantumania-banner.webp"
+  },
+  "guardians-of-the-galaxy-vol-3": {
+    "poster": "/gotg-3.jpg",
+    "banner": "/gotg-3-banner.webp"
+  },
+  "secret-invasion": {
+    "poster": "/secret-invasion.jpg",
+    "banner": "/secret-invasion-banner.webp"
+  },
+  "the-marvels": {
+    "poster": "/the-marvels.jpg",
+    "banner": "/the-marvels-banner.webp"
+  },
+  "loki-season-2": {
+    "poster": "/loki-s2.jpg",
+    "banner": "/loki-s2-banner.webp"
+  },
+  "logan": {
+    "poster": "/logan.jpg",
+    "banner": "/logan-banner.webp"
+  },
+  "deadpool-2": {
+    "poster": "/deadpool-2.jpg",
+    "banner": "/deadpool-2-banner.webp"
+  }
+  ,
+  "wandavision": {
+    "poster": "/wandavision.jpg",
+    "banner": "/wandavision-banner.webp"
+  },
+  "the-falcon-and-the-winter-soldier": {
+    "poster": "/falcon-winter-soldier.jpg",
+    "banner": "/falcon-winter-soldier-banner.webp"
+  },
+  "spider-man-far-from-home": {
+    "poster": "/far-from-home.jpg",
+    "banner": "/far-from-home-banner.webp"
+  },
+  "venom-let-there-be-carnage": {
+    "poster": "/venom-2.jpg",
+    "banner": "/venom-2-banner.webp"
+  },
+  "spider-man-no-way-home": {
+    "poster": "/no-way-home.jpg",
+    "banner": "/no-way-home-banner.webp"
+  },
+  "spider-man-across-the-spider-verse": {
+    "poster": "/across-spider-verse.jpg",
+    "banner": "/across-spider-verse-banner.webp"
+  },
+  "morbius": {
+    "poster": "/morbius.jpg",
+    "banner": "/morbius-banner.webp"
+  },
+  "venom-the-last-dance": {
+    "poster": "/venom-last-dance.jpg",
+    "banner": "/venom-last-dance-banner.webp"
+  },
+  "madame-web": {
+    "poster": "/madame-web.jpg",
+    "banner": "/madame-web-banner.webp"
+  },
+  "kraven-the-hunter": {
+    "poster": "/kraven.jpg",
+    "banner": "/kraven-banner.webp"
+  },
+  "shang-chi-and-the-legend-of-the-ten-rings": {
+    "poster": "/shang-chi.jpg",
+    "banner": "/shang-chi-banner.webp"
+  },
+  "eternals": {
+    "poster": "/eternals.jpg",
+    "banner": "/eternals-banner.webp"
+  },
+  "doctor-strange-in-the-multiverse-of-madness": {
+    "poster": "/ds-multiverse.jpg",
+    "banner": "/ds-multiverse-banner.webp"
+  },
+  "hawkeye": {
+    "poster": "/hawkeye.jpg",
+    "banner": "/hawkeye-banner.webp"
+  },
+  "moon-knight": {
+    "poster": "/moon-knight.jpg",
+    "banner": "/moon-knight-banner.webp"
+  },
+  "echo": {
+    "poster": "/echo.jpg",
+    "banner": "/echo-banner.webp"
+  },
+  "she-hulk": {
+    "poster": "/she-hulk.jpg",
+    "banner": "/she-hulk-banner.webp"
+  }
+  ,
+  "daredevil-season-1": {
+    "poster": "/daredevil-s1.jpg",
+    "banner": "/daredevil-s1-banner.webp"
+  },
+  "jessica-jones": {
+    "poster": "/jessica-jones.jpg",
+    "banner": "/jessica-jones-banner.webp"
+  },
+  "avengers-age-of-ultron": {
+    "poster": "/ultron.jpg",
+    "banner": "/ultron-banner.webp"
+  },
+  "ant-man": {
+    "poster": "/ant-man.jpg",
+    "banner": "/ant-man-banner.webp"
+  },
+  "luke-cage": {
+    "poster": "/luke-cage.jpg",
+    "banner": "/luke-cage-banner.webp"
+  },
+  "daredevil-season-2": {
+    "poster": "/daredevil-s2.jpg",
+    "banner": "/daredevil-s2-banner.webp"
+  },
+  "iron-fist": {
+    "poster": "/iron-fist.jpg",
+    "banner": "/iron-fist-banner.webp"
+  },
+  "the-defenders": {
+    "poster": "/defenders.jpg",
+    "banner": "/defenders-banner.webp"
+  },
+  "captain-america-civil-war": {
+    "poster": "/civil-war.jpg",
+    "banner": "/civil-war-banner.webp"
+  },
+  "black-widow": {
+    "poster": "/black-widow.jpg",
+    "banner": "/black-widow-banner.webp"
+  },
+  "black-panther": {
+    "poster": "/black-panther.jpg",
+    "banner": "/black-panther-banner.webp"
+  },
+  "spider-man-homecoming": {
+    "poster": "/homecoming.jpg",
+    "banner": "/homecoming-banner.webp"
+  },
+  "doctor-strange": {
+    "poster": "/doctor-strange.jpg",
+    "banner": "/doctor-strange-banner.webp"
+  },
+  "thor-ragnarok": {
+    "poster": "/thor-ragnarok.jpg",
+    "banner": "/thor-ragnarok-banner.webp"
+  },
+  "venom": {
+    "poster": "/venom.jpg",
+    "banner": "/venom-banner.webp"
+  },
+  "spider-man-into-the-spider-verse": {
+    "poster": "/spider-verse.jpg",
+    "banner": "/spider-verse-banner.webp"
+  },
+  "deadpool": {
+    "poster": "/deadpool.jpg",
+    "banner": "/deadpool-banner.webp"
+  },
+  "ant-man-and-the-wasp": {
+    "poster": "/ant-man-wasp.jpg",
+    "banner": "/ant-man-wasp-banner.webp"
+  },
+  "avengers-infinity-war": {
+    "poster": "/infinity-war.jpg",
+    "banner": "/infinity-war-banner.webp"
+  },
+  "avengers-endgame": {
+    "poster": "/endgame.jpg",
+    "banner": "/endgame-banner.webp"
+  },
+  "the-new-mutants": {
+    "poster": "/new-mutants.jpg",
+    "banner": "/new-mutants-banner.webp"
+  },
+  "loki": {
+    "poster": "/loki.jpg",
+    "banner": "/loki-banner.webp"
+  },
+  "what-if": {
+    "poster": "/what-if.jpg",
+    "banner": "/what-if-banner.webp"
+  },
+  "eyes-of-wakanda": {
+    "poster": "/eyes-of-wakanda.jpg",
+    "banner": "/eyes-of-wakanda-banner.webp"
+  },
+  "captain-america-the-first-avenger": {
+    "poster": "/captain-america-first-avenger.jpg",
+    "banner": "/captain-america-first-avenger-banner.webp"
+  },
+  "agent-carter-season-1": {
+    "poster": "/agent-carter-s1.jpg",
+    "banner": "/agent-carter-s1-banner.webp"
+  },
+  "agent-carter-season-2": {
+    "poster": "/agent-carter-s2.jpg",
+    "banner": "/agent-carter-s2-banner.webp"
+  },
+  "x-men-first-class": {
+    "poster": "/x-men-first-class.jpg",
+    "banner": "/x-men-first-class-banner.webp"
+  },
+  "x-men-origins-wolverine": {
+    "poster": "/x-men-origins-wolverine.jpg",
+    "banner": "/x-men-origins-wolverine-banner.webp"
+  },
+  "howard-the-duck": {
+    "poster": "/howard-the-duck.jpg",
+    "banner": "/howard-the-duck-banner.webp"
+  },
+  "captain-marvel": {
+    "poster": "/captain-marvel.jpg",
+    "banner": "/captain-marvel-banner.webp"
+  },
+  "blade": {
+    "poster": "/blade.jpg",
+    "banner": "/blade-banner.webp"
+  },
+  "x-men": {
+    "poster": "/x-men.jpg",
+    "banner": "/x-men-banner.webp"
+  },
+  "spider-man": {
+    "poster": "/spider-man.jpg",
+    "banner": "/spider-man-banner.webp"
+  },
+  "x2-x-men-united": {
+    "poster": "/x2.jpg",
+    "banner": "/x2-banner.webp"
+  },
+  "elektra": {
+    "poster": "/elektra.jpg",
+    "banner": "/elektra-banner.webp"
+  },
+  "daredevil": {
+    "poster": "/daredevil.jpg",
+    "banner": "/daredevil-banner.webp"
+  },
+  "the-punisher": {
+    "poster": "/punisher.jpg",
+    "banner": "/punisher-banner.webp"
+  },
+  "spider-man-2": {
+    "poster": "/spider-man-2.jpg",
+    "banner": "/spider-man-2-banner.webp"
+  },
+  "fantastic-four": {
+    "poster": "/fantastic-four.jpg",
+    "banner": "/fantastic-four-banner.webp"
+  },
+  "fantastic-four-rise-of-the-silver-surfer": {
+    "poster": "/fantastic-four-2.jpg",
+    "banner": "/fantastic-four-2-banner.webp"
+  },
+  "x-men-the-last-stand": {
+    "poster": "/x-men-last-stand.jpg",
+    "banner": "/x-men-last-stand-banner.webp"
+  },
+  "ghost-rider": {
+    "poster": "/ghost-rider.jpg",
+    "banner": "/ghost-rider-banner.webp"
+  },
+  "ghost-rider-spirit-of-vengeance": {
+    "poster": "/ghost-rider-2.jpg",
+    "banner": "/ghost-rider-2-banner.webp"
+  },
+  "spider-man-3": {
+    "poster": "/spider-man-3.jpg",
+    "banner": "/spider-man-3-banner.webp"
+  },
+  "the-incredible-hulk-2008": {
+    "poster": "/incredible-hulk.jpg",
+    "banner": "/incredible-hulk-banner.webp"
+  },
+  "iron-man": {
+    "poster": "/iron-man.jpg",
+    "banner": "/iron-man-banner.webp"
+  },
+  "iron-man-2": {
+    "poster": "/iron-man-2.jpg",
+    "banner": "/iron-man-2-banner.webp"
+  },
+  "hulk-2003": {
+    "poster": "/hulk-2003.jpg",
+    "banner": "/hulk-2003-banner.webp"
+  },
+  "thor": {
+    "poster": "/thor.jpg",
+    "banner": "/thor-banner.webp"
+  },
+  "the-avengers": {
+    "poster": "/avengers.jpg",
+    "banner": "/avengers-banner.webp"
+  },
+  "agents-of-shield": {
+    "poster": "/agents-of-shield.jpg",
+    "banner": "/agents-of-shield-banner.webp"
+  },
+  "thor-the-dark-world": {
+    "poster": "/thor-dark-world.jpg",
+    "banner": "/thor-dark-world-banner.webp"
+  },
+  "the-wolverine": {
+    "poster": "/the-wolverine.jpg",
+    "banner": "/the-wolverine-banner.webp"
+  },
+  "x-men-days-of-future-past": {
+    "poster": "/days-of-future-past.jpg",
+    "banner": "/days-of-future-past-banner.webp"
+  },
+  "x-men-apocalypse": {
+    "poster": "/x-men-apocalypse.jpg",
+    "banner": "/x-men-apocalypse-banner.webp"
+  },
+  "x-men-dark-phoenix": {
+    "poster": "/x-men-dark-phoenix.jpg",
+    "banner": "/x-men-dark-phoenix-banner.webp"
+  },
+  "the-amazing-spider-man": {
+    "poster": "/amazing-spider-man.jpg",
+    "banner": "/amazing-spider-man-banner.webp"
+  },
+  "iron-man-3": {
+    "poster": "/iron-man-3.jpg",
+    "banner": "/iron-man-3-banner.webp"
+  },
+  "captain-america-the-winter-soldier": {
+    "poster": "/winter-soldier.jpg",
+    "banner": "/winter-soldier-banner.webp"
+  },
+  "the-amazing-spider-man-2": {
+    "poster": "/amazing-spider-man-2.jpg",
+    "banner": "/amazing-spider-man-2-banner.webp"
+  },
+  "guardians-of-the-galaxy": {
+    "poster": "/gotg.jpg",
+    "banner": "/gotg-banner.webp"
+  },
+  "guardians-of-the-galaxy-vol-2": {
+    "poster": "/gotg-2.jpg",
+    "banner": "/gotg-2-banner.webp"
+  },
   "magic-maker": {
   poster: "/magic-maker.jpg",
   banner: "/magic-maker-banner.jpg"
