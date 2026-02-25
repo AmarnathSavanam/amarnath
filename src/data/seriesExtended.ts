@@ -4,6 +4,54 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+    {
+    
+    title: "Dark",
+    tagline: "Time is a closed loop. Escape is an illusion.",
+    description: "In the small town of Winden, the disappearance of a child unravels a multi-generational conspiracy bound by time itself.",
+    category: "series",
+    genres: ["Sci-Fi", "Mystery", "Psychological Thriller"],
+    year: 2017,
+    rating: 9.0,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+  {
+   
+    title: "12 Monkeys",
+    tagline: "To save the future, rewrite the past.",
+    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
+    category: "series",
+    genres: ["Sci-Fi", "Thriller", "Mystery"],
+    year: 2015,
+    rating: 8.7,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+  {
+    
+    title: "From",
+    tagline: "You can enter. You can't leave.",
+    description: "A mysterious town traps everyone who arrives, forcing strangers to build a fragile society while nightfall unleashes terrifying creatures.",
+    category: "series",
+    genres: ["Horror", "Mystery", "Sci-Fi"],
+    year: 2022,
+    rating: 8.1,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+  {
+    
+    title: "Breaking Bad",
+    tagline: "Power is a choice. Consequences are inevitable.",
+    description: "After a terminal diagnosis, a high school chemistry teacher partners with a former student to build a meth empire.",
+    category: "series",
+    genres: ["Crime", "Drama", "Thriller"],
+    year: 2008,
+    rating: 9.5,
+    poster: placeholder,
+    banner: heroSeries,
+  },
   { title: "1899", tagline: "The ship holds secrets beneath the surface.", description: "Migrants on a steamship heading to New York encounter a second vessel adrift on the open sea, triggering a horrifying chain of events that connects them all.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2022, rating: 7.3, poster: placeholder, banner: heroSeries },
   { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
   { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
