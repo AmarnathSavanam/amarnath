@@ -276,7 +276,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "agent-carter-season-1": {
     "poster": "/agent-carter-s1.jpg",
-    "banner": "/agent-carter-s1-banner.webp"
+    "banner": "/agent-carter-s1-banner.jpg"
   },
   "agent-carter-season-2": {
     "poster": "/agent-carter-s2.jpg",
