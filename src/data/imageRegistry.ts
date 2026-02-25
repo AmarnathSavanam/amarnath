@@ -7,6 +7,86 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "1899": {
+    "poster": "/1899.jpg",
+    "banner": "/1899-banner.webp"
+  },
+  "squid-game": {
+    "poster": "/squid-game.jpg",
+    "banner": "/squid-game-banner.webp"
+  },
+  "better-call-saul": {
+    "poster": "/better-call-saul.jpg",
+    "banner": "/better-call-saul-banner.webp"
+  },
+  "cashero": {
+    "poster": "/cashero.jpg",
+    "banner": "/cashero-banner.webp"
+  },
+  "the-last-samurai": {
+    "poster": "/last-samurai.jpg",
+    "banner": "/last-samurai-banner.webp"
+  },
+  "stranger-things": {
+    "poster": "/stranger-things.jpg",
+    "banner": "/stranger-things-banner.webp"
+  },
+  "the-witcher": {
+    "poster": "/the-witcher.jpg",
+    "banner": "/the-witcher-banner.webp"
+  },
+  "the-mandalorian": {
+    "poster": "/mandalorian.jpg",
+    "banner": "/mandalorian-banner.webp"
+  },
+  "peaky-blinders": {
+    "poster": "/peaky-blinders.jpg",
+    "banner": "/peaky-blinders-banner.webp"
+  },
+  "game-of-thrones": {
+    "poster": "/game-of-thrones.jpg",
+    "banner": "/game-of-thrones-banner.webp"
+  },
+  "money-heist": {
+    "poster": "/money-heist.jpg",
+    "banner": "/money-heist-banner.webp"
+  },
+  "the-boys": {
+    "poster": "/the-boys.jpg",
+    "banner": "/the-boys-banner.webp"
+  },
+  "severance": {
+    "poster": "/severance.jpg",
+    "banner": "/severance-banner.webp"
+  },
+  "true-detective": {
+    "poster": "/true-detective.jpg",
+    "banner": "/true-detective-banner.webp"
+  },
+  "the-last-of-us": {
+    "poster": "/the-last-of-us.jpg",
+    "banner": "/the-last-of-us-banner.webp"
+  },
+  "shogun": {
+    "poster": "/shogun.jpg",
+    "banner": "/shogun-banner.webp"
+  },
+  "chernobyl": {
+    "poster": "/chernobyl.jpg",
+    "banner": "/chernobyl-banner.webp"
+  },
+  "mr-robot": {
+    "poster": "/mr-robot.jpg",
+    "banner": "/mr-robot-banner.webp"
+  },
+  "black-mirror": {
+    "poster": "/black-mirror.jpg",
+    "banner": "/black-mirror-banner.webp"
+  },
+  "arcane": {
+    "poster": "/arcane.jpg",
+    "banner": "/arcane-banner.webp"
+  },
   "deadpool-and-wolverine": {
     "poster": "/deadpool-wolverine.jpg",
     "banner": "/deadpool-wolverine-banner.jpg"
