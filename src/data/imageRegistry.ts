@@ -17,7 +17,7 @@ const imageRegistry: Record<string, ImageEntry> = {
     "banner": "/breaking-bad-banner.jpg"
   },
   "dark": {
-    "poster": "/dark.jpg",
+    "poster": "/dark.webp",
     "banner": "/dark-banner.webp"
   },
   "12-monkeys": {
