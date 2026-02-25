@@ -512,7 +512,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     "banner": heroSeries
   },
   {
-    "title": "Deadpool & Wolverine",
+    "title": "Deadpool and Wolverine",
     "tagline": "Best. Team-up. Ever.",
     "description": "Deadpool disrupts timelines and teams up with Wolverine for a chaotic multiversal mission.",
     "category": "marvel",
