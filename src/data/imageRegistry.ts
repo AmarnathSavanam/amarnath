@@ -9,27 +9,27 @@ interface ImageEntry {
 const imageRegistry: Record<string, ImageEntry> = {
   "1899": {
     "poster": "/1899.jpg",
-    "banner": "/1899-banner.webp"
+    "banner": "/1899-banner.jpg"
   },
   "squid-game": {
     "poster": "/squid-game.jpg",
-    "banner": "/squid-game-banner.webp"
+    "banner": "/squid-game-banner.jpg"
   },
   "better-call-saul": {
     "poster": "/better-call-saul.jpg",
-    "banner": "/better-call-saul-banner.webp"
+    "banner": "/better-call-saul-banner.jpg"
   },
   "cashero": {
     "poster": "/cashero.jpg",
-    "banner": "/cashero-banner.webp"
+    "banner": "/cashero-banner.jpg"
   },
   "the-last-samurai": {
-    "poster": "/last-samurai.jpg",
-    "banner": "/last-samurai-banner.webp"
+    "poster": "/last-samurai.webp",
+    "banner": "/last-samurai-banner.jpg"
   },
   "stranger-things": {
     "poster": "/stranger-things.jpg",
-    "banner": "/stranger-things-banner.webp"
+    "banner": "/stranger-things-banner.jpg"
   },
   "the-witcher": {
     "poster": "/the-witcher.jpg",
@@ -41,27 +41,27 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "peaky-blinders": {
     "poster": "/peaky-blinders.jpg",
-    "banner": "/peaky-blinders-banner.webp"
+    "banner": "/peaky-blinders-banner.jpg"
   },
   "game-of-thrones": {
     "poster": "/game-of-thrones.jpg",
-    "banner": "/game-of-thrones-banner.webp"
+    "banner": "/game-of-thrones-banner.jpg"
   },
   "money-heist": {
     "poster": "/money-heist.jpg",
-    "banner": "/money-heist-banner.webp"
+    "banner": "/money-heist-banner.jpg"
   },
   "the-boys": {
     "poster": "/the-boys.jpg",
-    "banner": "/the-boys-banner.webp"
+    "banner": "/the-boys-banner.jpg"
   },
   "severance": {
-    "poster": "/severance.jpg",
-    "banner": "/severance-banner.webp"
+    "poster": "/severance.webp",
+    "banner": "/severance-banner.jpg"
   },
   "true-detective": {
     "poster": "/true-detective.jpg",
-    "banner": "/true-detective-banner.webp"
+    "banner": "/true-detective-banner.jpg"
   },
   "the-last-of-us": {
     "poster": "/the-last-of-us.jpg",
@@ -69,11 +69,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "shogun": {
     "poster": "/shogun.jpg",
-    "banner": "/shogun-banner.webp"
+    "banner": "/shogun-banner.jpg"
   },
   "chernobyl": {
     "poster": "/chernobyl.jpg",
-    "banner": "/chernobyl-banner.webp"
+    "banner": "/chernobyl-banner.jpg"
   },
   "mr-robot": {
     "poster": "/mr-robot.jpg",
@@ -81,11 +81,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "black-mirror": {
     "poster": "/black-mirror.jpg",
-    "banner": "/black-mirror-banner.webp"
+    "banner": "/black-mirror-banner.jpg"
   },
   "arcane": {
     "poster": "/arcane.jpg",
-    "banner": "/arcane-banner.webp"
+    "banner": "/arcane-banner.png"
   },
   "deadpool-and-wolverine": {
     "poster": "/deadpool-wolverine.jpg",
