@@ -46,18 +46,7 @@ export const categoryLabels: Record<Category, string> = {
 
 export const entertainmentData: EntertainmentItem[] = [
   // Marvel
-  {
-    id: "m1",
-    title: "Shadow Protocol",
-    tagline: "When darkness falls, heroes rise",
-    description: "In a world where shadows hold ancient power, a former soldier discovers an artifact that grants extraordinary abilities. As a secret organization hunts him down, he must master his new powers before an interdimensional threat consumes everything he loves.",
-    category: "marvel",
-    genres: ["Action", "Sci-Fi"],
-    year: 2024,
-    rating: 8.7,
-    poster: posterMarvel1,
-    banner: heroMarvel,
-  },
+
   {
     id: "m2",
     title: "Crimson Guardian",
