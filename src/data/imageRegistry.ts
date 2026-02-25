@@ -169,7 +169,7 @@ const imageRegistry: Record<string, ImageEntry> = {
     "poster": "/werewolf-by-night.jpg",
     "banner": "/werewolf-by-night-banner.png"
   },
-  "guardians-of-the-galaxy-holiday-special": {
+  "the-guardians-of-the-galaxy-holiday-special": {
     "poster": "/gotg-holiday.webp",
     "banner": "/gotg-holiday-banner.jpg"
   },
