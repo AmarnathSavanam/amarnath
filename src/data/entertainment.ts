@@ -46,43 +46,7 @@ export const categoryLabels: Record<Category, string> = {
 
 export const entertainmentData: EntertainmentItem[] = [
   // Marvel
-
-  {
-    id: "m2",
-    title: "Crimson Guardian",
-    tagline: "The shield that never breaks",
-    description: "A legendary warrior forges an unbreakable shield from a fallen star, swearing to protect the realm from an ancient evil awakening beneath the earth.",
-    category: "marvel",
-    genres: ["Action", "Fantasy"],
-    year: 2023,
-    rating: 9.1,
-    poster: posterMarvel2,
-    banner: heroMarvel,
-  },
-  {
-    id: "m3",
-    title: "Void Walker",
-    tagline: "Between worlds, beyond fear",
-    description: "A mysterious figure with the ability to traverse dimensions discovers a conspiracy that threatens the fabric of reality itself.",
-    category: "marvel",
-    genres: ["Sci-Fi", "Thriller"],
-    year: 2024,
-    rating: 8.4,
-    poster: posterMarvel3,
-    banner: heroMarvel,
-  },
-  {
-    id: "m4",
-    title: "Omega Squadron",
-    tagline: "United we stand, divided we fall",
-    description: "Earth's mightiest heroes assemble for the final time as an extinction-level event threatens to erase all life.",
-    category: "marvel",
-    genres: ["Action", "Adventure"],
-    year: 2025,
-    rating: 9.3,
-    poster: posterMarvel4,
-    banner: heroMarvel,
-  },
+ 
   // Anime
   {
     id: "a1",
