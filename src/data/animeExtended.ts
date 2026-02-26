@@ -38,7 +38,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroAnime
 },
 {
-  title: "My Status as an Assassin Obviously Exceeds the Hero's",
+  title: "My Status as an Assassin Obviously Exceeds the Heros",
   tagline: "Silent power rules.",
   description: "A reincarnated assassin finds his abilities far surpass the chosen hero’s strength.",
   category: "anime",
