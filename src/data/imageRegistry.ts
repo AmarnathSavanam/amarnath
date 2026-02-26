@@ -7,6 +7,158 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "a-silent-voice": {
+    "poster": "/a-silent-voice.jpg",
+    "banner": "/a-silent-voice-banner.webp"
+  },
+  "a-star-brighter-than-the-sun": {
+    "poster": "/a-star-brighter-than-the-sun.jpg",
+    "banner": "/a-star-brighter-than-the-sun-banner.webp"
+  },
+  "a-whisker-away": {
+    "poster": "/a-whisker-away.jpg",
+    "banner": "/a-whisker-away-banner.webp"
+  },
+  "a-wild-last-boss-appeared": {
+    "poster": "/wild-last-boss.jpg",
+    "banner": "/wild-last-boss-banner.webp"
+  },
+  "children-who-chase-lost-voices": {
+    "poster": "/children-who-chase-lost-voices.jpg",
+    "banner": "/children-who-chase-lost-voices-banner.webp"
+  },
+  "dusk-beyond-the-end-of-the-world": {
+    "poster": "/dusk-beyond.jpg",
+    "banner": "/dusk-beyond-banner.webp"
+  },
+  "i-want-to-eat-your-pancreas": {
+    "poster": "/pancreas.jpg",
+    "banner": "/pancreas-banner.webp"
+  },
+  "josee-the-tiger-and-the-fish": {
+    "poster": "/josee.jpg",
+    "banner": "/josee-banner.webp"
+  },
+  "lost-in-starlight": {
+    "poster": "/lost-in-starlight.jpg",
+    "banner": "/lost-in-starlight-banner.webp"
+  },
+  "may-i-ask-for-one-final-thing": {
+    "poster": "/one-final-thing.jpg",
+    "banner": "/one-final-thing-banner.webp"
+  },
+  "my-gift-lvl-9999-unlimited-gacha": {
+    "poster": "/gacha.jpg",
+    "banner": "/gacha-banner.webp"
+  },
+  "my-hero-academia-final-season": {
+    "poster": "/mha-final.jpg",
+    "banner": "/mha-final-banner.webp"
+  },
+  "my-status-as-an-assassin-exceeds-the-heros": {
+    "poster": "/assassin-status.jpg",
+    "banner": "/assassin-status-banner.webp"
+  },
+  "pass-the-monster-meat-milady": {
+    "poster": "/monster-meat.jpg",
+    "banner": "/monster-meat-banner.webp"
+  },
+  "spice-and-wolf-merchant-meets-the-wise-wolf": {
+    "poster": "/spice-wolf.jpg",
+    "banner": "/spice-wolf-banner.webp"
+  },
+  "summer-ghost": {
+    "poster": "/summer-ghost.jpg",
+    "banner": "/summer-ghost-banner.webp"
+  },
+  "suzume": {
+    "poster": "/suzume.jpg",
+    "banner": "/suzume-banner.webp"
+  },
+  "the-banished-court-magician-aims-to-become-the-strongest": {
+    "poster": "/banished-magician.jpg",
+    "banner": "/banished-magician-banner.webp"
+  },
+  "the-fragrant-flower-blooms-with-dignity": {
+    "poster": "/fragrant-flower.jpg",
+    "banner": "/fragrant-flower-banner.webp"
+  },
+  "the-garden-of-words": {
+    "poster": "/garden-of-words.jpg",
+    "banner": "/garden-of-words-banner.webp"
+  },
+  "the-greatest-demon-lord-is-reborn-as-a-typical-nobody": {
+    "poster": "/demon-lord-reborn.jpg",
+    "banner": "/demon-lord-reborn-banner.webp"
+  },
+  "the-tunnel-to-summer-the-exit-of-goodbye": {
+    "poster": "/tunnel-to-summer.jpg",
+    "banner": "/tunnel-to-summer-banner.webp"
+  },
+  "this-monster-wants-to-eat-me": {
+    "poster": "/monster-wants.jpg",
+    "banner": "/monster-wants-banner.webp"
+  },
+  "weathering-with-you": {
+    "poster": "/weathering-with-you.jpg",
+    "banner": "/weathering-with-you-banner.webp"
+  },
+  "wise-mans-grandchild": {
+    "poster": "/wise-mans-grandchild.jpg",
+    "banner": "/wise-mans-grandchild-banner.webp"
+  },
+  "your-name": {
+    "poster": "/your-name.jpg",
+    "banner": "/your-name-banner.webp"
+  },
+  "zom-100": {
+    "poster": "/zom-100.jpg",
+    "banner": "/zom-100-banner.webp"
+  },
+  "5-centimeters-per-second": {
+    "poster": "/5cm-per-second.jpg",
+    "banner": "/5cm-per-second-banner.webp"
+  },
+  "a-returners-magic-should-be-special": {
+    "poster": "/returners-magic.jpg",
+    "banner": "/returners-magic-banner.webp"
+  },
+  "dad-is-a-hero-mom-is-a-spirit-im-a-reincarnator": {
+    "poster": "/hero-mom-spirit.jpg",
+    "banner": "/hero-mom-spirit-banner.webp"
+  },
+  "dororo": {
+    "poster": "/dororo.jpg",
+    "banner": "/dororo-banner.webp"
+  },
+  "mechanical-marie": {
+    "poster": "/mechanical-marie.jpg",
+    "banner": "/mechanical-marie-banner.webp"
+  },
+  "noragami": {
+    "poster": "/noragami.jpg",
+    "banner": "/noragami-banner.webp"
+  },
+  "summer-time-rendering": {
+    "poster": "/summer-time-rendering.jpg",
+    "banner": "/summer-time-rendering-banner.webp"
+  },
+  "the-kingdoms-of-ruin": {
+    "poster": "/kingdoms-of-ruin.jpg",
+    "banner": "/kingdoms-of-ruin-banner.webp"
+  },
+  "the-light-of-a-firefly-forest": {
+    "poster": "/firefly-forest.jpg",
+    "banner": "/firefly-forest-banner.webp"
+  },
+  "my-instant-death-ability-is-so-overpowered": {
+    "poster": "/instant-death.jpg",
+    "banner": "/instant-death-banner.webp"
+  },
+  "parallel-world-pharmacy": {
+    "poster": "/parallel-world-pharmacy.jpg",
+    "banner": "/parallel-world-pharmacy-banner.webp"
+  }
   "naruto": {
     "poster": "/naruto.jpg",
     "banner": "/naruto-banner.jpg"
