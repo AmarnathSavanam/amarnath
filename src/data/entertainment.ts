@@ -7,6 +7,7 @@ import { extendedMarvelData } from "./marvelExtended";
 import { extendedSeriesData } from "./seriesExtended";
 
 export type Category = "marvel" | "series" | "anime";
+export type ViewMode = Category | "all";
 
 export interface EntertainmentItem {
   id: string;
@@ -27,7 +28,8 @@ export const heroImages: Record<Category, string> = {
   series: heroSeries,
 };
 
-export const categoryLabels: Record<Category, string> = {
+export const categoryLabels: Record<ViewMode, string> = {
+  all: "All",
   marvel: "Marvel",
   anime: "Anime",
   series: "Series",

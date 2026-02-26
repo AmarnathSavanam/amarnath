@@ -41,7 +41,7 @@ export default function ContentRow({ title, items, onCardClick }: ContentRowProp
         )}
         <div ref={scrollRef} onScroll={updateScrollState} className="flex gap-2.5 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-12 snap-x snap-mandatory scroll-smooth">
           {items.map((item, i) => (
-            <div key={item.id} className="flex-shrink-0 w-[130px] sm:w-[155px] lg:w-[180px] xl:w-[195px] snap-start">
+            <div key={item.id} className="flex-shrink-0 w-[160px] sm:w-[155px] lg:w-[180px] xl:w-[195px] snap-start">
               <EntertainmentCard item={item} onClick={onCardClick} index={i} />
             </div>
           ))}

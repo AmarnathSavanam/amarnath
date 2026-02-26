@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import type { Category } from "@/data/entertainment";
+import type { ViewMode } from "@/data/entertainment";
 import { categoryLabels } from "@/data/entertainment";
 import SearchBar from "./SearchBar";
 
 interface HeaderProps {
-  activeCategory: Category;
-  onCategoryChange: (category: Category) => void;
+  activeCategory: ViewMode;
+  onCategoryChange: (category: ViewMode) => void;
   hasSelectedItem: boolean;
   searchQuery: string;
   onSearchChange: (value: string) => void;
@@ -13,7 +13,7 @@ interface HeaderProps {
   onLogoClick: () => void;
 }
 
-const categories: Category[] = ["marvel", "series", "anime"];
+const categories: ViewMode[] = ["all", "marvel", "series", "anime"];
 
 export default function Header({ activeCategory, onCategoryChange, hasSelectedItem, searchQuery, onSearchChange, onSearchClear, onLogoClick }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false);

@@ -150,7 +150,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   "parallel-world-pharmacy": {
     "poster": "/parallel-world-pharmacy.jpg",
     "banner": "/parallel-world-pharmacy-banner.jpg"
-  }
+  },
   "naruto": {
     "poster": "/naruto.jpg",
     "banner": "/naruto-banner.jpg"
@@ -1250,10 +1250,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/no-longer-allowed.jpg",
 },
 
-"the-greatest-demon-lord-is-reborn-as-a-typical-nobody": {
-  poster: "/demon-lord.jpg",
-  banner: "/demon-lord-banner.jpg",
-},
+// the-greatest-demon-lord already defined above
 
 // Duplicates removed — these entries already exist above with proper banner paths
 
