@@ -51,7 +51,7 @@ const imageRegistry: Record<string, ImageEntry> = {
     "poster": "/gacha.jpg",
     "banner": "/gacha-banner.jpg"
   },
-  "my-status-as-an-assassin-exceeds-the-heros": {
+  "my-status-as-an-assassin-obviously-exceeds-the-heros": {
     "poster": "/assassin-status.jpg",
     "banner": "/assassin-status-banner.png"
   },
