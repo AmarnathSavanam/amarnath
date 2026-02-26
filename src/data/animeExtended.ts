@@ -4,6 +4,406 @@ import heroAnime from "@/assets/hero-anime.jpg";
 const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+    "title": "Lost in Starlight",
+    "tagline": "Dreams shine in the dark.",
+    "description": "A heartfelt coming-of-age story about finding hope and purpose beneath the night sky.",
+    "category": "anime",
+    "genres": ["Drama", "Slice of Life"],
+    "year": 2025,
+    "rating": 7.4,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "May I Ask for One Final Thing?",
+    "tagline": "One last wish can change everything.",
+    "description": "A dramatic fantasy tale where a final request reshapes destiny and relationships.",
+    "category": "anime",
+    "genres": ["Fantasy", "Drama"],
+    "year": 2025,
+    "rating": 7.1,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "My Gift Lvl 9999 Unlimited Gacha",
+    "tagline": "Luck becomes power.",
+    "description": "After betrayal, a hero discovers an unlimited gacha ability that turns fate in his favor.",
+    "category": "anime",
+    "genres": ["Fantasy", "Action"],
+    "year": 2025,
+    "rating": 7.0,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "My Status as an Assassin Obviously Exceeds the Hero's",
+    "tagline": "Silent power rules.",
+    "description": "A reincarnated assassin finds his abilities far surpass the chosen hero’s strength.",
+    "category": "anime",
+    "genres": ["Action", "Fantasy"],
+    "year": 2025,
+    "rating": 7.2,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
+    "tagline": "A family beyond worlds.",
+    "description": "Born to extraordinary parents, a child navigates life with unique powers and expectations.",
+    "category": "anime",
+    "genres": ["Fantasy", "Adventure"],
+    "year": 2025,
+    "rating": 7.0,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Mechanical Marie",
+    "tagline": "Heart within steel.",
+    "description": "A girl with mechanical enhancements searches for identity and belonging.",
+    "category": "anime",
+    "genres": ["Sci-Fi", "Drama"],
+    "year": 2025,
+    "rating": 7.1,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Dusk Beyond the End of the World",
+    "tagline": "Hope after the fall.",
+    "description": "Survivors journey through a fading world to uncover the truth behind its collapse.",
+    "category": "anime",
+    "genres": ["Sci-Fi", "Adventure"],
+    "year": 2025,
+    "rating": 7.3,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "A Star Brighter Than the Sun",
+    "tagline": "Shine beyond limits.",
+    "description": "A heartfelt story of ambition and friendship set against a backdrop of dreams and growth.",
+    "category": "anime",
+    "genres": ["Drama", "Romance"],
+    "year": 2025,
+    "rating": 7.5,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+    "tagline": "Power reborn in simplicity.",
+    "description": "A legendary demon lord reincarnates seeking a normal life but finds his power still sets him apart.",
+    "category": "anime",
+    "genres": ["Fantasy", "Action"],
+    "year": 2022,
+    "rating": 6.2,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "A Returner's Magic Should Be Special",
+    "tagline": "Rewrite destiny.",
+    "description": "A mage returns to the past after a catastrophic future and vows to change fate.",
+    "category": "anime",
+    "genres": ["Action", "Fantasy"],
+    "year": 2023,
+    "rating": 7.2,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Parallel World Pharmacy",
+    "tagline": "Medicine saves worlds.",
+    "description": "A modern pharmacist reincarnates in a fantasy world and revolutionizes healthcare.",
+    "category": "anime",
+    "genres": ["Fantasy", "Slice of Life"],
+    "year": 2022,
+    "rating": 7.3,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "My Instant Death Ability is So Overpowered",
+    "tagline": "One thought ends it all.",
+    "description": "A student transported to another world discovers he can defeat any enemy instantly.",
+    "category": "anime",
+    "genres": ["Fantasy", "Action"],
+    "year": 2024,
+    "rating": 6.8,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  
+  {
+    "title": "A Wild Last Boss Appeared!",
+    "tagline": "A ruler returns.",
+    "description": "A player awakens as the final boss of a game world and must survive in a changed reality.",
+    "category": "anime",
+    "genres": ["Fantasy", "Adventure"],
+    "year": 2025,
+    "rating": 7.0,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Pass the Monster Meat, Milady!",
+    "tagline": "Cuisine meets fantasy.",
+    "description": "A noblewoman with a passion for monster cuisine turns cooking into a magical adventure.",
+    "category": "anime",
+    "genres": ["Fantasy", "Comedy"],
+    "year": 2025,
+    "rating": 7.1,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "The Banished Court Magician Aims to Become the Strongest",
+    "tagline": "Exile sparks ambition.",
+    "description": "A disgraced court magician trains relentlessly to prove his true power.",
+    "category": "anime",
+    "genres": ["Fantasy", "Action"],
+    "year": 2025,
+    "rating": 7.0,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "The Fragrant Flower Blooms with Dignity",
+    "tagline": "A gentle love story.",
+    "description": "Two students from rival schools discover an unexpected and heartfelt connection.",
+    "category": "anime",
+    "genres": ["Romance", "Slice of Life"],
+    "year": 2025,
+    "rating": 7.8,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "This Monster Wants to Eat Me",
+    "tagline": "Love and danger intertwine.",
+    "description": "A strange supernatural romance unfolds between a human and a mysterious creature.",
+    "category": "anime",
+    "genres": ["Romance", "Supernatural"],
+    "year": 2025,
+    "rating": 7.2,
+    "poster": placeholder,
+    "banner": heroAnime
+  }
+    ,
+  {
+    "title": "The Tunnel to Summer, the Exit of Goodbye",
+    "tagline": "A wish comes with a price.",
+    "description": "Two teens discover a mysterious tunnel that grants wishes but steals time from their lives.",
+    "category": "anime",
+    "genres": ["Romance", "Sci-Fi"],
+    "year": 2022,
+    "rating": 7.3,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "5 Centimeters Per Second",
+    "tagline": "Distance changes everything.",
+    "description": "A poetic tale of love and separation following two childhood friends drifting apart over time.",
+    "category": "anime",
+    "genres": ["Romance", "Drama"],
+    "year": 2007,
+    "rating": 7.6,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "The Light of a Firefly Forest",
+    "tagline": "A touch can change everything.",
+    "description": "A girl befriends a mysterious forest spirit, but their bond is bound by a fragile rule.",
+    "category": "anime",
+    "genres": ["Romance", "Fantasy"],
+    "year": 2011,
+    "rating": 7.9,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Dororo",
+    "tagline": "Reclaim your humanity.",
+    "description": "A young swordsman hunts demons to reclaim the body parts stolen from him at birth.",
+    "category": "anime",
+    "genres": ["Action", "Adventure"],
+    "year": 2019,
+    "rating": 8.3,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Noragami",
+    "tagline": "A god without followers.",
+    "description": "A minor deity takes odd jobs to gain recognition while protecting humans from spirits.",
+    "category": "anime",
+    "genres": ["Action", "Supernatural"],
+    "year": 2014,
+    "rating": 7.9,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Summer Time Rendering",
+    "tagline": "Every loop reveals the truth.",
+    "description": "A young man returns to his hometown and gets caught in a deadly time loop mystery.",
+    "category": "anime",
+    "genres": ["Mystery", "Thriller"],
+    "year": 2022,
+    "rating": 8.4,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Wise Man's Grandchild",
+    "tagline": "Power beyond limits.",
+    "description": "A reincarnated prodigy with overwhelming magic enrolls in a royal academy.",
+    "category": "anime",
+    "genres": ["Fantasy", "Action"],
+    "year": 2019,
+    "rating": 6.5,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Spice and Wolf: Merchant Meets the Wise Wolf",
+    "tagline": "A journey of trade and trust.",
+    "description": "A traveling merchant teams up with a wolf deity to navigate economics and companionship.",
+    "category": "anime",
+    "genres": ["Adventure", "Romance"],
+    "year": 2024,
+    "rating": 8.1,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "The Kingdoms of Ruin",
+    "tagline": "Revenge ignites war.",
+    "description": "After witches are hunted to extinction, a young mage seeks vengeance against the empire.",
+    "category": "anime",
+    "genres": ["Action", "Fantasy"],
+    "year": 2023,
+    "rating": 6.7,
+    "poster": placeholder,
+    "banner": heroAnime
+  }
+
+    ,
+  {
+    "title": "A Silent Voice",
+    "tagline": "Redemption begins with understanding.",
+    "description": "A former bully seeks redemption by reconnecting with the deaf girl he once hurt.",
+    "category": "anime",
+    "genres": ["Drama", "Romance"],
+    "year": 2016,
+    "rating": 8.9,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "A Whisker Away",
+    "tagline": "Love finds a way.",
+    "description": "A girl transforms into a cat to get closer to her crush, blurring the line between fantasy and reality.",
+    "category": "anime",
+    "genres": ["Fantasy", "Romance"],
+    "year": 2020,
+    "rating": 6.7,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Children Who Chase Lost Voices",
+    "tagline": "Adventure beyond the sky.",
+    "description": "A young girl journeys to a mythical land to reunite with what she has lost.",
+    "category": "anime",
+    "genres": ["Fantasy", "Adventure"],
+    "year": 2011,
+    "rating": 7.1,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "I Want to Eat Your Pancreas",
+    "tagline": "Live each day fully.",
+    "description": "An introverted boy befriends a terminally ill girl who teaches him how to truly live.",
+    "category": "anime",
+    "genres": ["Drama", "Romance"],
+    "year": 2018,
+    "rating": 8.6,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Josee, the Tiger and the Fish",
+    "tagline": "Dreams take courage.",
+    "description": "A student and a wheelchair-bound girl form an unexpected bond that changes their futures.",
+    "category": "anime",
+    "genres": ["Romance", "Drama"],
+    "year": 2020,
+    "rating": 7.6,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Summer Ghost",
+    "tagline": "A fleeting encounter.",
+    "description": "Three teens meet a ghost during one summer night, changing their outlook on life.",
+    "category": "anime",
+    "genres": ["Drama", "Supernatural"],
+    "year": 2021,
+    "rating": 7.2,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Suzume",
+    "tagline": "Close the door to the past.",
+    "description": "A girl travels across Japan closing mysterious doors that unleash disasters.",
+    "category": "anime",
+    "genres": ["Adventure", "Fantasy"],
+    "year": 2022,
+    "rating": 7.8,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "The Garden of Words",
+    "tagline": "Rain brings them together.",
+    "description": "Two strangers form a quiet bond during rainy mornings in a Tokyo garden.",
+    "category": "anime",
+    "genres": ["Romance", "Drama"],
+    "year": 2013,
+    "rating": 7.5,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Weathering With You",
+    "tagline": "Change the weather, change the world.",
+    "description": "A runaway teen meets a girl who can control the weather in a rain-soaked Tokyo.",
+    "category": "anime",
+    "genres": ["Romance", "Fantasy"],
+    "year": 2019,
+    "rating": 7.5,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
+  {
+    "title": "Your Name",
+    "tagline": "Connected beyond time.",
+    "description": "Two teenagers mysteriously swap bodies and form a bond that transcends space and time.",
+    "category": "anime",
+    "genres": ["Romance", "Fantasy"],
+    "year": 2016,
+    "rating": 8.4,
+    "poster": placeholder,
+    "banner": heroAnime
+  },
     {
     title: "Naruto",
     tagline: "Believe it!",
