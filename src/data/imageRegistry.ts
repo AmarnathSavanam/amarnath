@@ -51,10 +51,6 @@ const imageRegistry: Record<string, ImageEntry> = {
     "poster": "/gacha.jpg",
     "banner": "/gacha-banner.webp"
   },
-  "my-hero-academia-final-season": {
-    "poster": "/mha-final.jpg",
-    "banner": "/mha-final-banner.webp"
-  },
   "my-status-as-an-assassin-exceeds-the-heros": {
     "poster": "/assassin-status.jpg",
     "banner": "/assassin-status-banner.webp"
@@ -110,10 +106,6 @@ const imageRegistry: Record<string, ImageEntry> = {
   "your-name": {
     "poster": "/your-name.jpg",
     "banner": "/your-name-banner.webp"
-  },
-  "zom-100": {
-    "poster": "/zom-100.jpg",
-    "banner": "/zom-100-banner.webp"
   },
   "5-centimeters-per-second": {
     "poster": "/5cm-per-second.jpg",
