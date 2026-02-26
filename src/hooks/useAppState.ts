@@ -1,9 +1,9 @@
 import { useState, useCallback, useEffect, useRef } from "react";
-import type { EntertainmentItem, Category } from "@/data/entertainment";
+import type { EntertainmentItem, Category, ViewMode } from "@/data/entertainment";
 import { getAllData } from "@/data/entertainment";
 
 export function useAppState() {
-  const [activeCategory, setActiveCategory] = useState<Category>("anime");
+  const [activeCategory, setActiveCategory] = useState<ViewMode>("all");
   const [selectedItem, setSelectedItem] = useState<EntertainmentItem | null>(null);
   const [activeGenre, setActiveGenre] = useState<string | null>(null);
   const isPoppingState = useRef(false);
@@ -37,7 +37,7 @@ export function useAppState() {
 
   const goHome = useCallback(() => {
     setSelectedItem(null);
-    setActiveCategory("anime");
+    setActiveCategory("all");
     setActiveGenre(null);
     window.scrollTo({ top: 0, behavior: "smooth" });
     window.history.pushState({}, "", "/");
