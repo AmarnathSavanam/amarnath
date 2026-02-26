@@ -29,7 +29,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "dusk-beyond-the-end-of-the-world": {
     "poster": "/dusk-beyond.jpg",
-    "banner": "/dusk-beyond-banner.webp"
+    "banner": "/dusk-beyond-banner.jpg"
   },
   "i-want-to-eat-your-pancreas": {
     "poster": "/pancreas.jpg",
@@ -37,27 +37,27 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "josee-the-tiger-and-the-fish": {
     "poster": "/josee.jpg",
-    "banner": "/josee-banner.webp"
+    "banner": "/josee-banner.jpg"
   },
   "lost-in-starlight": {
     "poster": "/lost-in-starlight.jpg",
-    "banner": "/lost-in-starlight-banner.webp"
+    "banner": "/lost-in-starlight-banner.jpg"
   },
   "may-i-ask-for-one-final-thing": {
     "poster": "/one-final-thing.jpg",
-    "banner": "/one-final-thing-banner.webp"
+    "banner": "/one-final-thing-banner.png"
   },
   "my-gift-lvl-9999-unlimited-gacha": {
     "poster": "/gacha.jpg",
-    "banner": "/gacha-banner.webp"
+    "banner": "/gacha-banner.jpg"
   },
   "my-status-as-an-assassin-exceeds-the-heros": {
     "poster": "/assassin-status.jpg",
-    "banner": "/assassin-status-banner.webp"
+    "banner": "/assassin-status-banner.png"
   },
   "pass-the-monster-meat-milady": {
     "poster": "/monster-meat.jpg",
-    "banner": "/monster-meat-banner.webp"
+    "banner": "/monster-meat-banner.jpg"
   },
   "spice-and-wolf-merchant-meets-the-wise-wolf": {
     "poster": "/spice-wolf.jpg",
@@ -65,7 +65,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "summer-ghost": {
     "poster": "/summer-ghost.jpg",
-    "banner": "/summer-ghost-banner.webp"
+    "banner": "/summer-ghost-banner.jpg"
   },
   "suzume": {
     "poster": "/suzume.jpg",
@@ -77,11 +77,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-fragrant-flower-blooms-with-dignity": {
     "poster": "/fragrant-flower.jpg",
-    "banner": "/fragrant-flower-banner.webp"
+    "banner": "/fragrant-flower-banner.jpg"
   },
   "the-garden-of-words": {
     "poster": "/garden-of-words.jpg",
-    "banner": "/garden-of-words-banner.webp"
+    "banner": "/garden-of-words-banner.jpg"
   },
   "the-greatest-demon-lord-is-reborn-as-a-typical-nobody": {
     "poster": "/demon-lord-reborn.jpg",
@@ -89,7 +89,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-tunnel-to-summer-the-exit-of-goodbye": {
     "poster": "/tunnel-to-summer.jpg",
-    "banner": "/tunnel-to-summer-banner.webp"
+    "banner": "/tunnel-to-summer-banner.jpg"
   },
   "this-monster-wants-to-eat-me": {
     "poster": "/monster-wants.jpg",
@@ -97,15 +97,15 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "weathering-with-you": {
     "poster": "/weathering-with-you.jpg",
-    "banner": "/weathering-with-you-banner.webp"
+    "banner": "/weathering-with-you-banner.jpg"
   },
   "wise-mans-grandchild": {
     "poster": "/wise-mans-grandchild.jpg",
-    "banner": "/wise-mans-grandchild-banner.webp"
+    "banner": "/wise-mans-grandchild-banner.jpg"
   },
   "your-name": {
     "poster": "/your-name.jpg",
-    "banner": "/your-name-banner.webp"
+    "banner": "/your-name-banner.jpg"
   },
   "5-centimeters-per-second": {
     "poster": "/5cm-per-second.jpg",
@@ -113,7 +113,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "a-returners-magic-should-be-special": {
     "poster": "/returners-magic.jpg",
-    "banner": "/returners-magic-banner.webp"
+    "banner": "/returners-magic-banner.jpg"
   },
   "dad-is-a-hero-mom-is-a-spirit-im-a-reincarnator": {
     "poster": "/hero-mom-spirit.jpg",
@@ -141,7 +141,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "the-light-of-a-firefly-forest": {
     "poster": "/firefly-forest.jpg",
-    "banner": "/firefly-forest-banner.webp"
+    "banner": "/firefly-forest-banner.jpg"
   },
   "my-instant-death-ability-is-so-overpowered": {
     "poster": "/instant-death.jpg",
@@ -149,7 +149,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   },
   "parallel-world-pharmacy": {
     "poster": "/parallel-world-pharmacy.jpg",
-    "banner": "/parallel-world-pharmacy-banner.webp"
+    "banner": "/parallel-world-pharmacy-banner.jpg"
   }
   "naruto": {
     "poster": "/naruto.jpg",
