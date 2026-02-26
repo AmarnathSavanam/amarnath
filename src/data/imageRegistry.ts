@@ -6,7 +6,7 @@ interface ImageEntry {
   poster?: string;
   banner?: string;
 }
-const imageRegistry: Record<string, ImageEntry> = {
+const imageRegistry: Record<string, ImageEntry> = [
   "a-silent-voice": {
     "poster": "/a-silent-voice.jpg",
     "banner": "/a-silent-voice-banner.webp"
