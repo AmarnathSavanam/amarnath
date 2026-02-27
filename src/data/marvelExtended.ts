@@ -3,6 +3,8 @@ import heroMarvel from "@/assets/hero-marvel.jpg";
 import heroSeries from "@/assets/hero-series.jpg";
 
 const placeholder = "/placeholder.svg";
+const heroMovie = heroMarvel;
+const heroSpecial = heroMarvel;
 
 const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   {
