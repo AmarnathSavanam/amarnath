@@ -1010,7 +1010,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroMovie
   },
   {
-    title: "Loki2",
+    title: "Loki 2",
     tagline: "The timeline is at stake.",
     description: "Loki fights to stabilize the collapsing multiverse.",
     category: "marvel",
