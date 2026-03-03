@@ -5,7 +5,7 @@ import { SAMPLE_VIDEO_URL, SAMPLE_MP4_URL } from "./types";
 
 const RESUME_KEY = "player-resume-";
 
-export function usePlayerState(videoId: string) {
+export function usePlayerState(videoId: string, videoUrl?: string | null) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const hlsRef = useRef<Hls | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -42,7 +42,7 @@ export function usePlayerState(videoId: string) {
     const video = videoRef.current;
     if (!video) return;
 
-    const src = SAMPLE_VIDEO_URL;
+    const src = videoUrl || SAMPLE_VIDEO_URL;
 
     if (Hls.isSupported() && src.includes(".m3u8")) {
       const hls = new Hls({ startLevel: -1 });
@@ -69,7 +69,7 @@ export function usePlayerState(videoId: string) {
       video.src = src.includes(".m3u8") ? SAMPLE_MP4_URL : src;
       video.addEventListener("loadeddata", () => update({ loading: false }), { once: true });
     }
-  }, [videoId, update]);
+  }, [videoId, videoUrl, update]);
 
   // Save position periodically
   useEffect(() => {
