@@ -48,7 +48,7 @@ export interface PlayerState {
   autoNextCountdown: number | null;
 }
 
-export const SAMPLE_VIDEO_URL = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8";
+export const SAMPLE_VIDEO_URL = "https://as-cdn21.top/video/0a09c8844ba8f0936c20bd791130d6b6";
 export const SAMPLE_MP4_URL = "https://as-cdn21.top/video/0a09c8844ba8f0936c20bd791130d6b6";
 
 export const PLAYBACK_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.5, 3];
