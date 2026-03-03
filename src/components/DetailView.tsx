@@ -1,13 +1,10 @@
-import { ArrowLeft, Star, Calendar, Film, Play } from "lucide-react";
-import { useState } from "react";
+import { ArrowLeft, Star, Calendar, Film } from "lucide-react";
 import type { EntertainmentItem, Category } from "@/data/entertainment";
 import { getRecommendations } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 import { resolveTrailer } from "@/data/trailerRegistry";
-import { resolveVideoUrl } from "@/data/videoRegistry";
 import EntertainmentCard from "./EntertainmentCard";
 import TrailerPlayer from "./TrailerPlayer";
-import PremiumPlayer from "./player/PremiumPlayer";
 
 interface DetailViewProps {
   item: EntertainmentItem;
@@ -29,11 +26,9 @@ const accentBadge: Record<Category, string> = {
 };
 
 export default function DetailView({ item, onBack, onCardClick, onGenreClick }: DetailViewProps) {
-  const [showPlayer, setShowPlayer] = useState(false);
   const recommendations = getRecommendations(item, 6);
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
   const trailerUrl = resolveTrailer(item.title);
-  const videoUrl = resolveVideoUrl(item.title);
 
   return (
     <div className="animate-fade-in-scale">
@@ -55,29 +50,10 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 -mt-4 relative z-10">
         <div className="lg:grid lg:grid-cols-[1fr_1fr] lg:gap-12">
           <div>
-            {showPlayer ? (
-              <div className="mb-8">
-                <PremiumPlayer videoId={item.id} title={item.title} videoUrl={videoUrl} />
-              </div>
-            ) : trailerUrl ? (
+            {trailerUrl && (
               <div className="mb-8">
                 <h3 className="font-display text-lg font-semibold text-foreground mb-3 tracking-tight">Trailer</h3>
                 <TrailerPlayer trailerUrl={trailerUrl} posterUrl={images.banner} title={item.title} />
-                <button
-                  onClick={() => setShowPlayer(true)}
-                  className="mt-3 flex items-center gap-2 glass-panel rounded-xl px-5 py-2.5 text-sm font-semibold text-foreground hover:bg-secondary/60 transition-all border border-border/50 hover:border-neon-purple/40 hover:shadow-[0_0_20px_-5px_hsl(265_80%_60%/0.3)]"
-                >
-                  <Play className="w-4 h-4 fill-foreground/30" /> Open Player
-                </button>
-              </div>
-            ) : (
-              <div className="mb-8">
-                <button
-                  onClick={() => setShowPlayer(true)}
-                  className="flex items-center gap-2 glass-panel rounded-xl px-5 py-2.5 text-sm font-semibold text-foreground hover:bg-secondary/60 transition-all border border-border/50 hover:border-neon-purple/40 hover:shadow-[0_0_20px_-5px_hsl(265_80%_60%/0.3)]"
-                >
-                  <Play className="w-4 h-4 fill-foreground/30" /> Watch Now
-                </button>
               </div>
             )}
           </div>
