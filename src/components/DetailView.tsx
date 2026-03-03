@@ -4,6 +4,7 @@ import type { EntertainmentItem, Category } from "@/data/entertainment";
 import { getRecommendations } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 import { resolveTrailer } from "@/data/trailerRegistry";
+import { resolveVideoUrl } from "@/data/videoRegistry";
 import EntertainmentCard from "./EntertainmentCard";
 import TrailerPlayer from "./TrailerPlayer";
 import PremiumPlayer from "./player/PremiumPlayer";
@@ -32,6 +33,7 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
   const recommendations = getRecommendations(item, 6);
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
   const trailerUrl = resolveTrailer(item.title);
+  const videoUrl = resolveVideoUrl(item.title);
 
   return (
     <div className="animate-fade-in-scale">
@@ -55,7 +57,7 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
           <div>
             {showPlayer ? (
               <div className="mb-8">
-                <PremiumPlayer videoId={item.id} title={item.title} />
+                <PremiumPlayer videoId={item.id} title={item.title} videoUrl={videoUrl} />
               </div>
             ) : trailerUrl ? (
               <div className="mb-8">

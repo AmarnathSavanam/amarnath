@@ -9,16 +9,17 @@ import CommentsPanel from "./CommentsPanel";
 interface PremiumPlayerProps {
   videoId?: string;
   title?: string;
+  videoUrl?: string | null;
   onBack?: () => void;
 }
 
-export default function PremiumPlayer({ videoId = "demo", title = "Now Playing" }: PremiumPlayerProps) {
+export default function PremiumPlayer({ videoId = "demo", title = "Now Playing", videoUrl }: PremiumPlayerProps) {
   const {
     videoRef, containerRef, state, update,
     togglePlay, seek, seekRelative, setVolume, toggleMute,
     setPlaybackRate, toggleFullscreen, togglePip, toggleLock,
     skipIntro, showControlsTemporarily,
-  } = usePlayerState(videoId);
+  } = usePlayerState(videoId, videoUrl);
 
   const [doubleTapSide, setDoubleTapSide] = useState<"left" | "right" | null>(null);
   const [brightnessOverlay, setBrightnessOverlay] = useState<number | null>(null);
