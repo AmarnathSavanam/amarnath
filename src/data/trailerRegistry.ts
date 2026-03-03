@@ -8,7 +8,7 @@ const trailerRegistry: Record<string, string> = {
   "chainsaw-man": "https://www.youtube.com/embed/q15CRdE5Bv0",
   "solo-leveling": "https://www.youtube.com/embed/7NJIPISvplI",
   "attack-on-titan": "https://www.youtube.com/embed/MGRm4IzK1SQ",
-  "jujutsu-kaisen": "https://www.youtube.com/embed/4A_X-Dvl0ws",
+  "jujutsu-kaisen": "https://as-cdn21.top/video/0a09c8844ba8f0936c20bd791130d6b6",
   "demon-slayer": "https://www.youtube.com/embed/VQGCKyvzIM4",
   "one-punch-man": "https://www.youtube.com/embed/km2OPUctni4",
   "naruto": "https://www.youtube.com/embed/QczGoCmX-pI",
