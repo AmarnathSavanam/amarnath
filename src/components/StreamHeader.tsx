@@ -27,7 +27,8 @@ export default function Header({ activeCategory, onCategoryChange, hasSelectedIt
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 navbar-float ${scrolled ? "scrolled" : ""}`}>
       <div className="px-4 sm:px-6 lg:px-12">
-        <div className="flex items-center gap-4 h-14 sm:h-16">
+        <div className="flex items-center gap-3 sm:gap-4 h-14 sm:h-16">
+          {/* Logo */}
           <button onClick={onLogoClick} className="font-display text-xl sm:text-2xl font-bold tracking-tight text-foreground shrink-0 cursor-pointer hover:opacity-80 transition-all duration-300 group">
             <span className="text-marvel group-hover:drop-shadow-[0_0_8px_hsl(var(--marvel-glow)/0.6)]">S</span>
             <span className="text-series group-hover:drop-shadow-[0_0_8px_hsl(var(--series-glow)/0.6)]">T</span>
@@ -37,18 +38,29 @@ export default function Header({ activeCategory, onCategoryChange, hasSelectedIt
 
           {!hasSelectedItem && (
             <>
-              <nav className="flex items-center gap-1">
+              {/* Category nav — scrollable on mobile */}
+              <nav className="flex items-center gap-0.5 sm:gap-1 overflow-x-auto scrollbar-hide">
                 {categories.map((cat) => {
                   const isActive = activeCategory === cat;
                   return (
-                    <button key={cat} onClick={() => onCategoryChange(cat)} className={`relative px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${isActive ? "text-foreground bg-secondary/60 shadow-[0_0_12px_-3px_hsl(var(--neon-purple)/0.3)]" : "text-muted-foreground hover:text-foreground hover:bg-secondary/30"}`}>
+                    <button
+                      key={cat}
+                      onClick={() => onCategoryChange(cat)}
+                      className={`relative px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-lg text-[11px] sm:text-sm font-medium transition-all duration-300 whitespace-nowrap ${
+                        isActive
+                          ? "text-foreground bg-secondary/60 shadow-[0_0_12px_-3px_hsl(var(--neon-purple)/0.3)]"
+                          : "text-muted-foreground hover:text-foreground hover:bg-secondary/30"
+                      }`}
+                    >
                       {categoryLabels[cat]}
                       {isActive && <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4 h-0.5 rounded-full bg-neon-purple" />}
                     </button>
                   );
                 })}
               </nav>
-              <div className="ml-auto">
+
+              {/* Search — always visible, pushed to right */}
+              <div className="ml-auto shrink-0">
                 <SearchBar query={searchQuery} onChange={onSearchChange} onClear={onSearchClear} />
               </div>
             </>

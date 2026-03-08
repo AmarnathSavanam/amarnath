@@ -20,6 +20,12 @@ const accentBorders: Record<Category, string> = {
   series: "group-hover:border-series/30",
 };
 
+const categoryBadge: Record<Category, string> = {
+  marvel: "bg-marvel/20 text-marvel-glow",
+  anime: "bg-anime/20 text-anime-glow",
+  series: "bg-series/20 text-series-glow",
+};
+
 export default function EntertainmentCard({ item, onClick, index }: EntertainmentCardProps) {
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
 
@@ -31,15 +37,23 @@ export default function EntertainmentCard({ item, onClick, index }: Entertainmen
     >
       <div className="relative aspect-[2/3] overflow-hidden">
         <img src={images.poster} alt={item.title} className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-110 group-hover:brightness-110" loading="lazy" />
+        {/* Play overlay */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-          <div className="w-12 h-12 rounded-full glass-panel flex items-center justify-center transform scale-75 group-hover:scale-100 transition-transform duration-300">
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full glass-panel flex items-center justify-center transform scale-75 group-hover:scale-100 transition-transform duration-300">
             <Play className="w-5 h-5 text-foreground ml-0.5 fill-foreground/80" />
           </div>
         </div>
+        {/* Category badge */}
+        <div className="absolute top-2 right-2">
+          <span className={`text-[8px] sm:text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-md ${categoryBadge[item.category]}`}>
+            {item.category}
+          </span>
+        </div>
+        {/* Info overlay */}
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background via-background/90 to-transparent p-2.5 sm:p-3 pt-10 sm:pt-14">
-          <h3 className="font-display text-xs sm:text-sm font-semibold text-foreground leading-tight line-clamp-1">{item.title}</h3>
+          <h3 className="font-display text-xs sm:text-sm font-semibold text-foreground leading-tight line-clamp-2">{item.title}</h3>
           <p className="mt-0.5 text-[9px] sm:text-[10px] text-muted-foreground line-clamp-1">{item.tagline}</p>
-          <div className="mt-1 sm:mt-1.5 flex items-center gap-1.5">
+          <div className="mt-1.5 flex items-center gap-1.5">
             <span className="text-[9px] sm:text-[10px] font-medium text-muted-foreground">{item.year}</span>
             <span className="w-0.5 h-0.5 rounded-full bg-muted-foreground/40" />
             <span className="text-[9px] sm:text-[10px] font-medium text-amber-400/80">★ {item.rating}</span>

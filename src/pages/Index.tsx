@@ -18,7 +18,6 @@ import { useMemo } from "react";
 
 const categories: Category[] = ["marvel", "series", "anime"];
 
-/** Shuffle array using Fisher-Yates (seeded by length for consistency per render) */
 function shuffleArray<T>(arr: T[]): T[] {
   const shuffled = [...arr];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -39,9 +38,15 @@ function buildRows(items: EntertainmentItem[], isAll: boolean) {
 
   const rows: { title: string; items: EntertainmentItem[] }[] = [];
 
+  // Recently Added — newest titles first
+  const recentlyAdded = [...items].sort((a, b) => b.year - a.year).slice(0, 14);
+  rows.push({ title: "✨ Recently Added", items: recentlyAdded });
+
+  // Trending
   const trending = [...items].sort((a, b) => b.rating - a.rating).slice(0, 12);
   rows.push({ title: "🔥 Trending Now", items: isAll ? shuffleArray(trending) : trending });
 
+  // Category rows
   if (isAll) {
     categories.forEach((cat) => {
       const catItems = shuffleArray(items.filter((i) => i.category === cat));
@@ -58,6 +63,7 @@ function buildRows(items: EntertainmentItem[], isAll: boolean) {
     });
   }
 
+  // Genre rows
   genreMap.forEach((genreItems, genre) => {
     if (genreItems.length >= 3) {
       rows.push({ title: genre, items: isAll ? shuffleArray(genreItems) : genreItems });
