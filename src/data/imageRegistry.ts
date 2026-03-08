@@ -10,11 +10,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   
   "shinobi-no-ittoki": {
     "poster": "/shinobi-no-ittoki.jpg",
-    "banner": "/shinobi-no-ittoki-banner.webp"
+    "banner": "/shinobi-no-ittoki-banner.jpg"
   },
   "miss-kuroitsu-from-the-monster-development-department": {
     "poster": "/miss-kuroitsu.jpg",
-    "banner": "/miss-kuroitsu-banner.webp"
+    "banner": "/miss-kuroitsu-banner.jpg"
   },
   "to-be-hero-x": {
     "poster": "/to-be-hero-x.jpg",
