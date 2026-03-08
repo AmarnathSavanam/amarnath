@@ -3,7 +3,43 @@ import heroAnime from "@/assets/hero-anime.jpg";
 
 const placeholder = "/placeholder.svg";
 
-const animeTitles: Omit<EntertainmentItem, "id">[] = [
+const animeTitles: Omit<EntertainmentItem, "id">[] = 
+  [
+  {
+    title: "Shinobi no Ittoki",
+    tagline: "A hidden world of ninjas.",
+    description: "A normal student discovers he is the heir to a ninja clan and must survive deadly rival factions.",
+    category: "anime",
+    genres: ["Action", "Adventure"],
+    year: 2022,
+    rating: 6.5,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Miss Kuroitsu From the Monster Development Department",
+    tagline: "Evil needs great engineers.",
+    description: "A scientist working for an evil organization struggles to develop monsters while dealing with strict bosses and budget problems.",
+    category: "anime",
+    genres: ["Comedy", "Fantasy"],
+    year: 2022,
+    rating: 6.7,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "To Be Hero X",
+    tagline: "Heroes are made by belief.",
+    description: "In a world where public trust determines power, heroes compete for the title of the strongest.",
+    category: "anime",
+    genres: ["Action", "Superhero"],
+    year: 2025,
+    rating: 7.8,
+    poster: placeholder,
+    banner: heroAnime
+  }
+
+  ,
   {
   title: "Lost in Starlight",
   tagline: "Dreams shine in the dark.",
