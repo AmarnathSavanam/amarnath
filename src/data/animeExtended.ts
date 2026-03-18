@@ -4,7 +4,30 @@ import heroAnime from "@/assets/hero-anime.jpg";
 const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = 
-  [
+ [
+  {
+    title: "Hana-Kimi",
+    tagline: "Disguise. Desire. Belonging.",
+    description: "A determined girl disguises herself as a boy to enroll in an all-boys school, navigating friendships, rivalry, and hidden emotions while protecting her true identity.",
+    category: "anime",
+    genres: ["Romance", "Comedy", "School", "Drama"],
+    year: 2007,
+    rating: 8.0,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "The Demon King's Daughter Is Too Kind!!",
+    tagline: "Kindness in a world built on chaos.",
+    description: "The daughter of a fearsome demon king defies expectations with her overwhelming kindness, transforming enemies into allies and challenging the very nature of evil.",
+    category: "anime",
+    genres: ["Fantasy", "Comedy", "Slice of Life"],
+    year: 2019,
+    rating: 7.5,
+    poster: placeholder,
+    banner: heroAnime
+  }
+ ,
   {
     title: "Shinobi no Ittoki",
     tagline: "A hidden world of ninjas.",
