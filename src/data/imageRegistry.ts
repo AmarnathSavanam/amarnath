@@ -7,7 +7,15 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
-  
+  {
+  "hana-kimi": {
+    "poster": "/hana-kimi.jpg",
+    "banner": "/hana-kimi-banner.jpg"
+  },
+  "the-demon-kings-daughter-too-kind!": {
+    "poster": "/demon-kings-daughter-too-kind.jpg",
+    "banner": "/demon-kings-daughter-too-kind-banner.webp"
+  },
   "shinobi-no-ittoki": {
     "poster": "/shinobi-no-ittoki.jpg",
     "banner": "/shinobi-no-ittoki-banner.jpg"
