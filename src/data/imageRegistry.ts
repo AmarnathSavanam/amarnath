@@ -1827,8 +1827,15 @@ const imageRegistry: Record<string, ImageEntry> = {
   "the-banished-former-hero-lives-as-he-pleases": {
     poster: "/the-banished-former-hero-lives-as-he-pleases.jpg",
     banner: "/the-banished-former-hero-lives-as-he-pleasesb.webp",
+  },
+  "hana-kimi": {
+    poster: "/hana-kimi.jpg",
+    banner: "/hana-kimib.webp",
+  },
+  "the-demon-kings-daughter-is-too-kind": {
+    poster: "/demon-kings-daughter-too-kind.jpg",
+    banner: "/demon-kings-daughter-too-kindb.webp",
   }
-
 };
     
 
