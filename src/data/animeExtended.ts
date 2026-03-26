@@ -5,7 +5,7 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = 
   [{
-  title: "Jack of All Trades, Party of None",
+  title: "Jack of All Trades Party of None",
   tagline: "Master everything. Belong nowhere.",
   description: "A versatile adventurer with unmatched multi-class skills is rejected by every party, forcing him to redefine strength, independence, and what it truly means to survive in a world obsessed with specialization.",
   category: "anime",
