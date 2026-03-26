@@ -3,8 +3,113 @@ import heroAnime from "@/assets/hero-anime.jpg";
 
 const placeholder = "/placeholder.svg";
 
-const animeTitles: Omit<EntertainmentItem, "id">[] = 
-  [{
+const animeTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+  title: "Release That Witch",
+  tagline: "Science meets magic. Power gets redefined.",
+  description: "An engineer reincarnates as a prince in a medieval world and teams up with persecuted witches, using science and strategy to build a modern empire and challenge superstition.",
+  category: "anime",
+  genres: ["Fantasy", "Isekai", "Strategy"],
+  year: 2024,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "An Adventurer's Daily Grind at Age 29",
+  tagline: "No glory. Just survival.",
+  description: "A late-blooming adventurer struggles through harsh realities, proving that persistence—not talent—is what defines survival in a dangerous world.",
+  category: "anime",
+  genres: ["Fantasy", "Slice of Life", "Adventure"],
+  year: 2025,
+  rating: 7.4,
+  poster: placeholder,
+  banner: heroAnime
+},{
+  title: "Easygoing Territory Defense by the Optimistic Lord",
+  tagline: "Build smart. Rule easy.",
+  description: "A laid-back noble uses strategy, innovation, and optimism to transform a weak territory into a thriving domain without relying on brute force.",
+  category: "anime",
+  genres: ["Fantasy", "Strategy", "Slice of Life"],
+  year: 2025,
+  rating: 7.6,
+  poster: placeholder,
+  banner: heroAnime
+},{
+  title: "There Was a Cute Girl in the Hero's Party, So I Tried Confessing to Her",
+  tagline: "Love is harder than saving the world.",
+  description: "A side-character adventurer risks everything to confess his feelings, discovering that romance in a hero’s party is far more complicated than battles.",
+  category: "anime",
+  genres: ["Romance", "Comedy", "Fantasy"],
+  year: 2025,
+  rating: 7.3,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "Tune In to the Midnight Heart",
+  tagline: "Some voices are meant to be found.",
+  description: "A mysterious late-night radio voice captivates a listener, leading to an emotional journey of identity, connection, and unseen bonds.",
+  category: "anime",
+  genres: ["Romance", "Drama", "Slice of Life"],
+  year: 2024,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroAnime
+},{
+  title: "You Can't Be In a Rom-Com with Your Childhood Friends!",
+  tagline: "Too close for clichés.",
+  description: "A boy rejects typical rom-com tropes when his childhood friends become love interests, forcing everyone to confront real emotions beyond scripted romance.",
+  category: "anime",
+  genres: ["Romance", "Comedy", "Slice of Life"],
+  year: 2025,
+  rating: 7.5,
+  poster: placeholder,
+  banner: heroAnime
+},
+    {
+  title: "The Holy Grail of Eris",
+  tagline: "Truth never dies. It waits.",
+  description: "A noble girl begins seeing the ghost of a disgraced noblewoman, uncovering buried conspiracies, twisted justice, and the price of truth in high society.",
+  category: "anime",
+  genres: ["Mystery", "Supernatural", "Drama"],
+  year: 2025,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroAnime
+},{
+  title: "Blue Exorcist",
+  tagline: "Born from a demon. Fighting for humanity.",
+  description: "A teenager discovers he is the son of Satan and enrolls in an exorcist academy, battling inner darkness while protecting the world from demonic forces.",
+  category: "anime",
+  genres: ["Action", "Supernatural", "Fantasy"],
+  year: 2011,
+  rating: 7.5,
+  poster: placeholder,
+  banner: heroAnime
+},
+    {
+  title: "Amagi Brilliant Park",
+  tagline: "Save the park. Save the magic.",
+  description: "A narcissistic genius is forced to manage a failing magical theme park, discovering that its survival depends on real magic and human connection.",
+  category: "anime",
+  genres: ["Comedy", "Fantasy", "Slice of Life"],
+  year: 2014,
+  rating: 7.3,
+  poster: placeholder,
+  banner: heroAnime
+},{
+  title: "Hunter x Hunter",
+  tagline: "Adventure isn’t about the destination.",
+  description: "A young boy sets out to become a Hunter and find his father, facing deadly trials, powerful enemies, and the true cost of ambition.",
+  category: "anime",
+  genres: ["Action", "Adventure", "Fantasy"],
+  year: 2011,
+  rating: 9.0,
+  poster: placeholder,
+  banner: heroAnime
+},
+    {
   title: "Jack of All Trades Party of None",
   tagline: "Master everything. Belong nowhere.",
   description: "A versatile adventurer with unmatched multi-class skills is rejected by every party, forcing him to redefine strength, independence, and what it truly means to survive in a world obsessed with specialization.",
