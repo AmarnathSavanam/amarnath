@@ -7,6 +7,55 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "an-adventurers-daily-grind-at-age-29": {
+    "poster": "/an-adventurers-daily-grind-at-age-29.jpg",
+    "banner": "/an-adventurers-daily-grind-at-age-29-banner.jpg"
+  },
+
+  "the-holy-grail-of-eris": {
+    "poster": "/the-holy-grail-of-eris.jpg",
+    "banner": "/the-holy-grail-of-eris-banner.jpg"
+  },
+
+  "blue-exorcist": {
+    "poster": "/blue-exorcist.jpg",
+    "banner": "/blue-exorcist-banner.jpg"
+  },
+
+  "amagi-brilliant-park": {
+    "poster": "/amagi-brilliant-park.jpg",
+    "banner": "/amagi-brilliant-park-banner.jpg"
+  },
+
+  "hunter-x-hunter": {
+    "poster": "/hunter-x-hunter.jpg",
+    "banner": "/hunter-x-hunter-banner.jpg"
+  },
+
+  "easygoing-territory-defense-by-the-optimistic-lord": {
+    "poster": "/easygoing-territory-defense-by-the-optimistic-lord.jpg",
+    "banner": "/easygoing-territory-defense-by-the-optimistic-lord-banner.jpg"
+  },
+
+  "there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her": {
+    "poster": "/cute-girl-heroes-party.jpg",
+    "banner": "/cute-girl-heroes-party-banner.jpg"
+  },
+
+  "tune-in-to-the-midnight-heart": {
+    "poster": "/tune-in-to-the-midnight-heart.jpg",
+    "banner": "/tune-in-to-the-midnight-heart-banner.jpg"
+  },
+
+  "you-cant-be-in-a-rom-com-with-your-childhood-friends": {
+    "poster": "/rom-com-childhood-friends.jpg",
+    "banner": "/rom-com-childhood-friends-banner.jpg"
+  },
+
+  "release-that-witch": {
+    "poster": "/release-that-witch.jpg",
+    "banner": "/release-that-witch-banner.jpg"
+  },
   "the-darwin-incident": {
   "poster": "/the-darwin-incident.jpg",
   "banner": "/the-darwin-incident-banner.jpg"
