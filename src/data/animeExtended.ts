@@ -4,7 +4,28 @@ import heroAnime from "@/assets/hero-anime.jpg";
 const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = 
-  [
+  [{
+  title: "Jack of All Trades, Party of None",
+  tagline: "Master everything. Belong nowhere.",
+  description: "A versatile adventurer with unmatched multi-class skills is rejected by every party, forcing him to redefine strength, independence, and what it truly means to survive in a world obsessed with specialization.",
+  category: "anime",
+  genres: ["Fantasy", "Adventure", "Action"],
+  year: 2025,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroAnime
+},
+    {
+  title: "The Darwin Incident",
+  tagline: "Half human. Half something evolution never planned.",
+  description: "A human–chimpanzee hybrid is raised in secrecy, but when he enters society, he becomes the center of a violent clash between animal rights extremism and human fear.",
+  category: "anime",
+  genres: ["Sci-Fi", "Psychological", "Drama"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroAnime
+},
   {
     title: "Shinobi no Ittoki",
     tagline: "A hidden world of ninjas.",
