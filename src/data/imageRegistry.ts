@@ -14,7 +14,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   "jack-of-all-trades-party-of-none": {
   "poster": "/jack-of-all-trades-party-of-none.jpg",
   "banner": "/jack-of-all-trades-party-of-none-banner.jpg"
-}
+},
   "shinobi-no-ittoki": {
     "poster": "/shinobi-no-ittoki.jpg",
     "banner": "/shinobi-no-ittoki-banner.jpg"
