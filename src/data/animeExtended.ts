@@ -5,6 +5,18 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Record of Ragnarok",
+  tagline: "Gods vs humans. Extinction on the line.",
+  description: "Humanity faces annihilation as gods decide their fate, but 13 legendary humans rise to battle divine beings in brutal one-on-one duels to decide mankind’s survival.",
+  category: "anime",
+  genres: ["Action", "Mythology", "Supernatural"],
+  year: 2021,
+  rating: 7.6,
+  poster: placeholder,
+  banner: heroAnime
+}
+  ,
+  {
   title: "Hell Mode The Hardcore Gamer Dominates in Another World",
   tagline: "Maximum difficulty. Zero mercy.",
   description: "A hardcore gamer chooses the hardest possible mode in a new world, using relentless grinding and strategy to rise beyond limits others can’t survive.",
