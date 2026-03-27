@@ -7,6 +7,19 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "dark-moon-the-blood-altar": {
+  "poster": "/dark-moon-the-blood-altar.jpg",
+  "banner": "/dark-moon-the-blood-altar-banner.jpg"
+}
+  ,
+ "hell-mode-the-hardcore-gamer-dominates-in-another-world": {
+  "poster": "/hell-mode.jpg",
+  "banner": "/hell-mode-banner.jpg"
+} ,
+  "record-of-ragnarok": {
+  "poster": "/record-of-ragnarok.jpg",
+  "banner": "/record-of-ragnarok-banner.jpg"
+},
   "an-adventurers-daily-grind-at-age-29": {
     "poster": "/an-adventurers-daily-grind-at-age-29.jpg",
     "banner": "/an-adventurers-daily-grind-at-age-29-banner.jpg"
