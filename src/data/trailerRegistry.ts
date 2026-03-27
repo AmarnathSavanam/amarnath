@@ -226,7 +226,7 @@ const trailerRegistry: Record<string, string> = {
   "recovery-of-an-mmo-junkie": "https://www.youtube.com/embed/A-jNJxJjYmk",
   "cautious-hero-the-hero-is-overpowered-but-overly-cautious": "https://www.youtube.com/embed/Y1bMjOEdGEM",
   "restaurant-to-another-world": "https://www.youtube.com/embed/JLFe3W05NhE",
-  "reridedderrida-who-leaps-through-time": "https://www.youtube.com/embed/FMabhPbGMpk",
+  "rerided-derrida-who-leaps-through-time": "https://www.youtube.com/embed/FMabhPbGMpk",
   "dealing-with-mikadono-sisters-is-a-breeze": "https://www.youtube.com/embed/FMabhPbGMpk",
   "in-another-world-with-my-smartphone": "https://www.youtube.com/embed/F3fECbLOiUc",
   "a-nobody-s-way-up-to-an-exploration-hero-lv": "https://www.youtube.com/embed/FMabhPbGMpk",
