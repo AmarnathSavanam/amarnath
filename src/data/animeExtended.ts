@@ -36,7 +36,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   rating: 7.7,
   poster: placeholder,
   banner: heroAnime
-}
+},
   {
   title: "Release That Witch",
   tagline: "Science meets magic. Power gets redefined.",
