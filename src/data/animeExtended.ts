@@ -5,6 +5,27 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Hell Mode The Hardcore Gamer Dominates in Another World",
+  tagline: "Maximum difficulty. Zero mercy.",
+  description: "A hardcore gamer chooses the hardest possible mode in a new world, using relentless grinding and strategy to rise beyond limits others can’t survive.",
+  category: "anime",
+  genres: ["Isekai", "Fantasy", "Action"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroAnime
+},{
+  title: "Dark Moon The Blood Altar",
+  tagline: "Love written in blood and fate.",
+  description: "A mysterious girl is drawn into a world of vampires, ancient curses, and forbidden bonds, where destiny is shaped by blood and sacrifice.",
+  category: "anime",
+  genres: ["Fantasy", "Romance", "Supernatural"],
+  year: 2023,
+  rating: 7.7,
+  poster: placeholder,
+  banner: heroAnime
+}
+  {
   title: "Release That Witch",
   tagline: "Science meets magic. Power gets redefined.",
   description: "An engineer reincarnates as a prince in a medieval world and teams up with persecuted witches, using science and strategy to build a modern empire and challenge superstition.",
