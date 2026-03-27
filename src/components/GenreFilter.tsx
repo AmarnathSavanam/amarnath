@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { Sparkles } from "lucide-react";
 import type { EntertainmentItem } from "@/data/entertainment";
 
 interface GenreFilterProps {
@@ -17,10 +18,22 @@ export default function GenreFilter({ items, activeGenre, onGenreChange }: Genre
   if (genres.length === 0) return null;
 
   return (
-    <div className="flex gap-2 mb-6 overflow-x-auto scrollbar-hide sm:flex-wrap sm:overflow-visible pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 snap-x snap-mandatory">
-      <button onClick={() => onGenreChange(null)} className={`mood-pill shrink-0 snap-start ${!activeGenre ? "active" : ""}`}>All Moods</button>
+    <div className="flex gap-2 mb-5 sm:mb-6 overflow-x-auto scrollbar-hide sm:flex-wrap sm:overflow-visible pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 snap-x snap-mandatory">
+      <button
+        onClick={() => onGenreChange(null)}
+        className={`mood-pill shrink-0 snap-start flex items-center gap-1.5 ${!activeGenre ? "active" : ""}`}
+      >
+        <Sparkles className="w-3 h-3" />
+        All Moods
+      </button>
       {genres.map((genre) => (
-        <button key={genre} onClick={() => onGenreChange(activeGenre === genre ? null : genre)} className={`mood-pill shrink-0 snap-start ${activeGenre === genre ? "active" : ""}`}>{genre}</button>
+        <button
+          key={genre}
+          onClick={() => onGenreChange(activeGenre === genre ? null : genre)}
+          className={`mood-pill shrink-0 snap-start ${activeGenre === genre ? "active" : ""}`}
+        >
+          {genre}
+        </button>
       ))}
     </div>
   );

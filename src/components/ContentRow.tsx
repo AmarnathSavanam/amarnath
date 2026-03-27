@@ -31,24 +31,46 @@ export default function ContentRow({ title, items, onCardClick }: ContentRowProp
   if (items.length === 0) return null;
 
   return (
-    <section className="mb-10 sm:mb-14 relative group/row">
-      <h3 className="font-display text-base sm:text-lg lg:text-xl font-semibold text-foreground mb-4 sm:mb-5 px-4 sm:px-6 lg:px-12 tracking-tight">{title}</h3>
+    <section className="mb-8 sm:mb-12 lg:mb-14 relative group/row">
+      <div className="flex items-center gap-3 px-4 sm:px-6 lg:px-12 mb-3 sm:mb-5">
+        <h3 className="font-display text-sm sm:text-lg lg:text-xl font-semibold text-foreground tracking-tight">{title}</h3>
+        <div className="flex-1 h-px bg-gradient-to-r from-border/50 to-transparent" />
+      </div>
+
       <div className="relative">
         {canScrollLeft && (
-          <button onClick={() => scroll("left")} className="absolute left-0 top-0 bottom-0 z-10 w-12 sm:w-16 flex items-center justify-center bg-gradient-to-r from-background via-background/80 to-transparent opacity-0 group-hover/row:opacity-100 transition-opacity duration-300" aria-label="Scroll left">
-            <div className="w-9 h-9 rounded-full glass-panel flex items-center justify-center"><ChevronLeft className="w-5 h-5 text-foreground" /></div>
+          <button
+            onClick={() => scroll("left")}
+            className="absolute left-0 top-0 bottom-0 z-10 w-10 sm:w-14 flex items-center justify-center bg-gradient-to-r from-background via-background/90 to-transparent opacity-0 group-hover/row:opacity-100 transition-opacity duration-300"
+            aria-label="Scroll left"
+          >
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full glass-panel flex items-center justify-center hover:bg-secondary/60 transition-colors">
+              <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 text-foreground" />
+            </div>
           </button>
         )}
-        <div ref={scrollRef} onScroll={updateScrollState} className="flex gap-2.5 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-12 snap-x snap-mandatory scroll-smooth">
+
+        <div
+          ref={scrollRef}
+          onScroll={updateScrollState}
+          className="flex gap-2 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-12 snap-x snap-mandatory scroll-smooth pb-2"
+        >
           {items.map((item, i) => (
-            <div key={item.id} className="flex-shrink-0 w-[160px] sm:w-[155px] lg:w-[180px] xl:w-[195px] snap-start">
+            <div key={item.id} className="flex-shrink-0 w-[140px] sm:w-[160px] lg:w-[185px] xl:w-[200px] snap-start">
               <EntertainmentCard item={item} onClick={onCardClick} index={i} />
             </div>
           ))}
         </div>
+
         {canScrollRight && (
-          <button onClick={() => scroll("right")} className="absolute right-0 top-0 bottom-0 z-10 w-12 sm:w-16 flex items-center justify-center bg-gradient-to-l from-background via-background/80 to-transparent opacity-0 group-hover/row:opacity-100 transition-opacity duration-300" aria-label="Scroll right">
-            <div className="w-9 h-9 rounded-full glass-panel flex items-center justify-center"><ChevronRight className="w-5 h-5 text-foreground" /></div>
+          <button
+            onClick={() => scroll("right")}
+            className="absolute right-0 top-0 bottom-0 z-10 w-10 sm:w-14 flex items-center justify-center bg-gradient-to-l from-background via-background/90 to-transparent opacity-0 group-hover/row:opacity-100 transition-opacity duration-300"
+            aria-label="Scroll right"
+          >
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full glass-panel flex items-center justify-center hover:bg-secondary/60 transition-colors">
+              <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-foreground" />
+            </div>
           </button>
         )}
       </div>
