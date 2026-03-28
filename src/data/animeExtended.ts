@@ -5,6 +5,54 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "B King",
+  tagline: "Strength defines the throne.",
+  description: "In a brutal world ruled by power, a lone fighter rises through chaos and conflict, chasing dominance and redefining what it means to be king.",
+  category: "anime",
+  genres: ["Action", "Adventure", "Fantasy"],
+  year: 2024,
+  rating: 7.2,
+  poster: placeholder,
+  banner: heroAnime
+}
+  ,
+{
+  title: "Reincarnated as a Dragon Hatchling",
+  tagline: "Born weak. Destined to dominate.",
+  description: "Reborn as the weakest dragon, a former human must evolve, adapt, and survive in a brutal ecosystem to climb the food chain and reclaim power.",
+  category: "anime",
+  genres: ["Fantasy", "Isekai", "Adventure"],
+  year: 2024,
+  rating: 7.7,
+  poster: placeholder,
+  banner: heroAnime
+}
+,
+{
+  title: "Dead Account",
+  tagline: "Your online past never dies.",
+  description: "A delinquent enters a digital exorcism system where online sins manifest as real threats, forcing him to confront identity, guilt, and redemption.",
+  category: "anime",
+  genres: ["Action", "Supernatural", "Psychological"],
+  year: 2024,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroAnime
+}
+  ,
+  {
+  title: "A Misanthrope Teaches a Class for Demi-Humans",
+  tagline: "He hates people. Now he must teach them.",
+  description: "A cynical teacher is assigned to educate demi-human students, confronting prejudice, identity, and his own broken worldview in a divided society.",
+  category: "anime",
+  genres: ["Fantasy", "Drama", "School"],
+  year: 2025,
+  rating: 7.6,
+  poster: placeholder,
+  banner: heroAnime
+}
+  ,
+  {
   title: "Record of Ragnarok",
   tagline: "Gods vs humans. Extinction on the line.",
   description: "Humanity faces annihilation as gods decide their fate, but 13 legendary humans rise to battle divine beings in brutal one-on-one duels to decide mankind’s survival.",
