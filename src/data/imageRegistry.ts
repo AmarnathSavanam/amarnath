@@ -7,6 +7,27 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "a-misanthrope-teaches-a-class-for-demi-humans": {
+    "poster": "/a-misanthrope-teaches-a-class-for-demi-humans.jpg",
+    "banner": "/a-misanthrope-teaches-a-class-for-demi-humans-banner.jpg"
+  },
+
+  "dead-account": {
+    "poster": "/dead-account.jpg",
+    "banner": "/dead-account-banner.jpg"
+  },
+
+  "reincarnated-as-a-dragon-hatchling": {
+    "poster": "/reincarnated-as-a-dragon-hatchling.jpg",
+    "banner": "/reincarnated-as-a-dragon-hatchling-banner.jpg"
+  },
+
+  "b-king": {
+    "poster": "/b-king.jpg",
+    "banner": "/b-king-banner.jpg"
+  }
+,
+  
   "dark-moon-the-blood-altar": {
   "poster": "/dark-moon-the-blood-altar.jpg",
   "banner": "/dark-moon-the-blood-altar-banner.jpg"
