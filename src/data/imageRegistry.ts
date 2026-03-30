@@ -7,6 +7,31 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "gleipnir": {
+    "poster": "/gleipnir.jpg",
+    "banner": "/gleipnir-banner.jpg"
+  },
+  "darwins-game": {
+    "poster": "/darwins-game.jpg",
+    "banner": "/darwins-game-banner.jpg"
+  },
+  "kunon-the-sorcerer-can-see": {
+    "poster": "/kunon-the-sorcerer-can-see.jpg",
+    "banner": "/kunon-the-sorcerer-can-see-banner.jpg"
+  },
+  "the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom": {
+    "poster": "/the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom.jpg",
+    "banner": "/the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom-banner.jpg"
+  },
+  "noble-reincarnation-born-blessed-so-i-obtain-ultimate-power": {
+    "poster": "/noble-reincarnation-born-blessed-so-ill-obtain-ultimate-power.jpg",
+    "banner": "/noble-reincarnation-born-blessed-so-ill-obtain-ultimate-power-banner.jpg"
+  },
+  "kayachan-is-not-scary": {
+    "poster": "/kaya-chan-isnt-scary.jpg",
+    "banner": "/kaya-chan-isnt-scary-banner.jpg"
+  }
+,
   "a-misanthrope-teaches-a-class-for-demi-humans": {
     "poster": "/a-misanthrope-teaches-a-class-for-demi-humans.jpg",
     "banner": "/a-misanthrope-teaches-a-class-for-demi-humans-banner.jpg"
