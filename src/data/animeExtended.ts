@@ -247,16 +247,6 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   rating: 7.3,
   poster: placeholder,
   banner: heroAnime
-},{
-  title: "Hunter x Hunter",
-  tagline: "Adventure isn’t about the destination.",
-  description: "A young boy sets out to become a Hunter and find his father, facing deadly trials, powerful enemies, and the true cost of ambition.",
-  category: "anime",
-  genres: ["Action", "Adventure", "Fantasy"],
-  year: 2011,
-  rating: 9.0,
-  poster: placeholder,
-  banner: heroAnime
 },
     {
   title: "Jack of All Trades Party of None",
