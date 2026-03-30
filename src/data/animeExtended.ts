@@ -49,7 +49,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroAnime
 },
   {
-  title: "Darwin's Game",
+  title: "Darwins Game",
   tagline: "Play the game. Survive the chaos.",
   description: "Kaname Sudou accepts a mysterious mobile app invitation, only to be pulled into Darwin’s Game—a brutal real-world survival game where players wield unique abilities called Sigils. As alliances form and enemies emerge, Kaname must evolve from an ordinary student into a strategist capable of surviving deadly battles and reshaping the rules of the game itself.",
   category: "anime",
