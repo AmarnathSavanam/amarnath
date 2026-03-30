@@ -5,6 +5,74 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Kayachan Is not Scary",
+  tagline: "Looks harmless. Feels terrifying.",
+  description: "Kaya may appear like an ordinary girl, but her unsettling aura and unpredictable behavior blur the line between innocence and fear, turning everyday life into an eerie psychological experience.",
+  category: "anime",
+  genres: ["Horror", "Comedy", "Slice of Life", "Supernatural"],
+  year: null,
+  rating: null,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "Noble Reincarnation Born Blessed So I Obtain Ultimate Power",
+  tagline: "Born at the top. Aiming beyond it.",
+  description: "Reincarnated into nobility with overwhelming blessings, a young prodigy sets out not just to enjoy privilege—but to surpass all limits, building power, influence, and a legacy that reshapes the world.",
+  category: "anime",
+  genres: ["Fantasy", "Reincarnation", "Adventure", "Action"],
+  year: null,
+  rating: null,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
+  tagline: "Rewritten fate. Unexpected love.",
+  description: "After being condemned as a villainess, a noblewoman finds herself unexpectedly cherished by a powerful prince from a neighboring kingdom, flipping her doomed destiny into a story of romance, politics, and redemption.",
+  category: "anime",
+  genres: ["Romance", "Fantasy", "Isekai", "Drama"],
+  year: null,
+  rating: null,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "Kunon the Sorcerer Can See",
+  tagline: "Blind to the world. Limitless in vision.",
+  description: "Born without sight, Kunon refuses to accept darkness as his fate. Through relentless innovation in magic, he begins to 'see' the world in his own way, redefining perception itself while challenging the limits of sorcery.",
+  category: "anime",
+  genres: ["Fantasy", "Magic", "Reincarnation"],
+  year: null,
+  rating: null,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "Darwin's Game",
+  tagline: "Play the game. Survive the chaos.",
+  description: "Kaname Sudou accepts a mysterious mobile app invitation, only to be pulled into Darwin’s Game—a brutal real-world survival game where players wield unique abilities called Sigils. As alliances form and enemies emerge, Kaname must evolve from an ordinary student into a strategist capable of surviving deadly battles and reshaping the rules of the game itself.",
+  category: "anime",
+  genres: ["Action", "Survival", "Sci-Fi", "Mystery", "Psychological"],
+  year: 2020,
+  rating: 7.3,
+  poster: placeholder,
+  banner: heroAnime
+}
+  ,
+{
+  title: "Gleipnir",
+  tagline: "A monster suit. A twisted bond. Survival has a price.",
+  description: "Shuichi Kagaya, a seemingly normal high schooler, hides a disturbing secret—he can transform into a powerful mascot-like monster. When he meets the ruthless and mysterious Claire Aoki, the two form a dangerous partnership, diving into a brutal game of collecting coins that grant immense power, where trust, identity, and humanity are constantly tested.",
+  category: "anime",
+  genres: ["Action", "Mystery", "Psychological", "Supernatural", "Ecchi"],
+  year: 2020,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroAnime
+}
+  ,
+  {
   title: "B King",
   tagline: "Strength defines the throne.",
   description: "In a brutal world ruled by power, a lone fighter rises through chaos and conflict, chasing dominance and redefining what it means to be king.",
