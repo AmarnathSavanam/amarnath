@@ -7,9 +7,10 @@ interface ContentRowProps {
   title: string;
   items: EntertainmentItem[];
   onCardClick: (item: EntertainmentItem) => void;
+  showRank?: boolean;
 }
 
-export default function ContentRow({ title, items, onCardClick }: ContentRowProps) {
+export default function ContentRow({ title, items, onCardClick, showRank }: ContentRowProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
@@ -31,48 +32,41 @@ export default function ContentRow({ title, items, onCardClick }: ContentRowProp
   if (items.length === 0) return null;
 
   return (
-    <section className="mb-8 sm:mb-12 lg:mb-14 relative group/row">
-      <div className="flex items-center gap-3 px-4 sm:px-6 lg:px-12 mb-3 sm:mb-5">
-        <h3 className="font-display text-sm sm:text-lg lg:text-xl font-semibold text-foreground tracking-tight">{title}</h3>
-        <div className="flex-1 h-px bg-gradient-to-r from-border/50 to-transparent" />
+    <section className="mb-8 sm:mb-10 relative group/row">
+      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-12 mb-3 sm:mb-4">
+        <h3 className="font-display text-sm sm:text-lg font-semibold text-primary tracking-tight">{title}</h3>
+        <div className="flex items-center gap-1">
+          <button
+            onClick={() => scroll("left")}
+            disabled={!canScrollLeft}
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-md bg-secondary/60 border border-border/50 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary disabled:opacity-30 disabled:cursor-default transition-colors"
+            aria-label="Scroll left"
+          >
+            <ChevronLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          </button>
+          <button
+            onClick={() => scroll("right")}
+            disabled={!canScrollRight}
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-md bg-secondary/60 border border-border/50 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary disabled:opacity-30 disabled:cursor-default transition-colors"
+            aria-label="Scroll right"
+          >
+            <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          </button>
+        </div>
       </div>
 
       <div className="relative">
-        {canScrollLeft && (
-          <button
-            onClick={() => scroll("left")}
-            className="absolute left-0 top-0 bottom-0 z-10 w-10 sm:w-14 flex items-center justify-center bg-gradient-to-r from-background via-background/90 to-transparent opacity-0 group-hover/row:opacity-100 transition-opacity duration-300"
-            aria-label="Scroll left"
-          >
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full glass-panel flex items-center justify-center hover:bg-secondary/60 transition-colors">
-              <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 text-foreground" />
-            </div>
-          </button>
-        )}
-
         <div
           ref={scrollRef}
           onScroll={updateScrollState}
-          className="flex gap-2 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-12 snap-x snap-mandatory scroll-smooth pb-2"
+          className="flex gap-2 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-12 scroll-smooth pb-2"
         >
           {items.map((item, i) => (
-            <div key={item.id} className="flex-shrink-0 w-[140px] sm:w-[160px] lg:w-[185px] xl:w-[200px] snap-start">
-              <EntertainmentCard item={item} onClick={onCardClick} index={i} />
+            <div key={item.id} className="flex-shrink-0 w-[130px] sm:w-[155px] lg:w-[175px] xl:w-[190px]">
+              <EntertainmentCard item={item} onClick={onCardClick} index={i} showRank={showRank} />
             </div>
           ))}
         </div>
-
-        {canScrollRight && (
-          <button
-            onClick={() => scroll("right")}
-            className="absolute right-0 top-0 bottom-0 z-10 w-10 sm:w-14 flex items-center justify-center bg-gradient-to-l from-background via-background/90 to-transparent opacity-0 group-hover/row:opacity-100 transition-opacity duration-300"
-            aria-label="Scroll right"
-          >
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full glass-panel flex items-center justify-center hover:bg-secondary/60 transition-colors">
-              <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-foreground" />
-            </div>
-          </button>
-        )}
       </div>
     </section>
   );
