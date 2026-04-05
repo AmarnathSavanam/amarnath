@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,38 +6,37 @@
 
 @layer base {
   :root {
-    /* Deep cinematic dark base */
-    --background: 235 25% 3%;
-    --foreground: 220 25% 95%;
+    --background: 228 14% 10%;
+    --foreground: 40 10% 92%;
 
-    --card: 235 22% 7%;
-    --card-foreground: 220 25% 95%;
+    --card: 228 14% 13%;
+    --card-foreground: 40 10% 92%;
 
-    --popover: 235 22% 7%;
-    --popover-foreground: 220 25% 95%;
+    --popover: 228 14% 13%;
+    --popover-foreground: 40 10% 92%;
 
-    --primary: 220 25% 95%;
-    --primary-foreground: 235 25% 3%;
+    --primary: 43 100% 60%;
+    --primary-foreground: 228 14% 10%;
 
-    --secondary: 235 18% 11%;
-    --secondary-foreground: 220 20% 82%;
+    --secondary: 228 12% 16%;
+    --secondary-foreground: 40 10% 80%;
 
-    --muted: 235 18% 11%;
-    --muted-foreground: 230 12% 50%;
+    --muted: 228 12% 16%;
+    --muted-foreground: 228 8% 55%;
 
-    --accent: 235 18% 13%;
-    --accent-foreground: 220 25% 95%;
+    --accent: 228 12% 18%;
+    --accent-foreground: 40 10% 92%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 220 25% 95%;
+    --destructive-foreground: 40 10% 92%;
 
-    --border: 235 15% 13%;
-    --input: 235 15% 13%;
-    --ring: 250 50% 55%;
+    --border: 228 12% 18%;
+    --input: 228 12% 18%;
+    --ring: 43 100% 60%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Neon accent spectrum — vivid */
+    /* Category accents */
     --marvel: 0 78% 50%;
     --marvel-glow: 355 90% 62%;
     --anime: 268 65% 60%;
@@ -45,34 +44,32 @@
     --series: 198 75% 54%;
     --series-glow: 192 85% 64%;
 
+    /* Golden accent */
+    --gold: 43 100% 60%;
+    --gold-dim: 43 60% 45%;
+
     /* Neon highlights */
     --neon-blue: 210 100% 62%;
     --neon-purple: 265 85% 62%;
     --neon-cyan: 185 95% 56%;
 
-    /* Glass — deeper, richer */
-    --glass-bg: 235 25% 6% / 0.65;
-    --glass-border: 235 18% 20% / 0.3;
-    --glass-blur: 28px;
-    --glass-glow: 265 65% 55% / 0.06;
-
-    /* Shadows — cinematic */
-    --shadow-card: 0 8px 32px -8px hsl(265 50% 8% / 0.6);
-    --shadow-elevated: 0 24px 72px -18px hsl(265 50% 6% / 0.7);
-    --shadow-neon: 0 0 40px -8px hsl(265 65% 50% / 0.3);
+    /* Glass */
+    --glass-bg: 228 14% 10% / 0.7;
+    --glass-border: 228 12% 22% / 0.4;
+    --glass-blur: 20px;
 
     /* Fonts */
-    --font-display: 'Space Grotesk', sans-serif;
+    --font-display: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
 
-    --sidebar-background: 235 25% 3%;
-    --sidebar-foreground: 220 25% 95%;
-    --sidebar-primary: 220 25% 95%;
-    --sidebar-primary-foreground: 235 25% 3%;
-    --sidebar-accent: 235 18% 11%;
-    --sidebar-accent-foreground: 220 25% 95%;
-    --sidebar-border: 235 15% 13%;
-    --sidebar-ring: 250 50% 55%;
+    --sidebar-background: 228 14% 10%;
+    --sidebar-foreground: 40 10% 92%;
+    --sidebar-primary: 43 100% 60%;
+    --sidebar-primary-foreground: 228 14% 10%;
+    --sidebar-accent: 228 12% 16%;
+    --sidebar-accent-foreground: 40 10% 92%;
+    --sidebar-border: 228 12% 18%;
+    --sidebar-ring: 43 100% 60%;
   }
 }
 
@@ -90,7 +87,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
   }
 }
 
@@ -100,28 +97,19 @@
     backdrop-filter: blur(var(--glass-blur));
     -webkit-backdrop-filter: blur(var(--glass-blur));
     border: 1px solid hsl(var(--glass-border));
-    box-shadow: inset 0 1px 0 0 hsl(220 25% 95% / 0.04), 0 0 24px 0 hsl(var(--glass-glow));
   }
 
   .glass-card {
-    background: hsl(var(--glass-bg));
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border: 1px solid hsl(var(--glass-border));
-    box-shadow:
-      inset 0 1px 0 0 hsl(220 25% 95% / 0.05),
-      0 8px 36px -8px hsl(265 50% 8% / 0.45),
-      0 0 0 0 transparent;
-    transition: box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1), transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease;
+    background: hsl(228 14% 12% / 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid hsl(228 12% 20% / 0.5);
+    transition: all 0.3s ease;
   }
 
   .glass-card:hover {
-    box-shadow:
-      inset 0 1px 0 0 hsl(220 25% 95% / 0.08),
-      0 24px 64px -16px hsl(265 50% 6% / 0.55),
-      0 0 36px -6px hsl(265 65% 50% / 0.18);
-    border-color: hsl(265 45% 42% / 0.45);
-    transform: translateY(-2px);
+    border-color: hsl(228 12% 28% / 0.6);
+    background: hsl(228 14% 14% / 0.9);
   }
 
   .gradient-marvel {
@@ -161,103 +149,68 @@
   .glow-ring-anime { box-shadow: 0 0 30px -5px hsl(var(--anime) / 0.35); }
   .glow-ring-series { box-shadow: 0 0 30px -5px hsl(var(--series) / 0.35); }
 
-  .bg-grain {
-    position: relative;
-  }
-  .bg-grain::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    opacity: 0.02;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 1;
-  }
-
+  /* AniWatch-style navbar */
   .navbar-float {
-    background: hsl(235 25% 3% / 0.6);
-    backdrop-filter: blur(32px) saturate(1.8);
-    -webkit-backdrop-filter: blur(32px) saturate(1.8);
-    border-bottom: 1px solid hsl(235 15% 18% / 0.2);
-    transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    background: hsl(228 14% 10% / 0.85);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    border-bottom: 1px solid hsl(228 12% 18% / 0.5);
+    transition: all 0.3s ease;
   }
 
   .navbar-float.scrolled {
-    background: hsl(235 25% 3% / 0.92);
-    border-bottom-color: hsl(265 35% 32% / 0.25);
-    box-shadow: 0 8px 40px -8px hsl(265 50% 8% / 0.5);
+    background: hsl(228 14% 8% / 0.95);
+    border-bottom-color: hsl(228 12% 22% / 0.6);
+    box-shadow: 0 4px 20px -4px hsl(228 14% 5% / 0.5);
   }
 
-  @keyframes shimmer {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
+  /* Genre pills - AniWatch style */
+  .mood-pill {
+    @apply px-3.5 py-1.5 rounded-full text-xs font-medium border transition-all duration-200 cursor-pointer whitespace-nowrap;
+    border-color: hsl(var(--border));
+    color: hsl(var(--muted-foreground));
+    background: transparent;
   }
 
-  .shimmer-text {
-    background: linear-gradient(
-      90deg,
-      hsl(var(--foreground)) 0%,
-      hsl(var(--neon-purple)) 25%,
-      hsl(var(--foreground)) 50%,
-      hsl(var(--neon-cyan)) 75%,
-      hsl(var(--foreground)) 100%
-    );
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: shimmer 6s linear infinite;
+  .mood-pill:hover {
+    border-color: hsl(var(--gold) / 0.5);
+    color: hsl(var(--foreground));
+    background: hsl(var(--gold) / 0.08);
+  }
+
+  .mood-pill.active {
+    background: hsl(var(--gold) / 0.15);
+    border-color: hsl(var(--gold) / 0.5);
+    color: hsl(var(--primary));
+  }
+
+  .hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.12;
+    pointer-events: none;
   }
 
   @keyframes hero-pulse {
-    0%, 100% { opacity: 0.3; transform: scale(1); }
-    50% { opacity: 0.6; transform: scale(1.05); }
+    0%, 100% { opacity: 0.2; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(1.05); }
   }
 
   .hero-ambient {
     animation: hero-pulse 8s ease-in-out infinite;
   }
 
-  .mood-pill {
-    @apply px-4 py-2 rounded-full text-xs font-medium border transition-all duration-300 cursor-pointer whitespace-nowrap;
-    border-color: hsl(var(--border));
-    color: hsl(var(--muted-foreground));
-    background: hsl(235 22% 7% / 0.5);
-  }
-
-  .mood-pill:hover {
-    border-color: hsl(var(--neon-purple) / 0.5);
-    color: hsl(var(--foreground));
-    background: hsl(var(--neon-purple) / 0.08);
-    box-shadow: 0 0 20px -4px hsl(var(--neon-purple) / 0.35);
-    transform: translateY(-1px);
-  }
-
-  .mood-pill.active {
-    background: hsl(var(--neon-purple) / 0.18);
-    border-color: hsl(var(--neon-purple) / 0.55);
-    color: hsl(var(--foreground));
-    box-shadow: 0 0 24px -4px hsl(var(--neon-purple) / 0.4), inset 0 1px 0 0 hsl(var(--neon-purple) / 0.15);
-  }
-
-  /* Ambient glow orbs for hero */
-  .hero-orb {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(100px);
-    opacity: 0.15;
-    pointer-events: none;
-  }
-
-  /* Smooth scroll snapping */
   .scroll-row {
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
   }
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -266,11 +219,11 @@
 
 ::-webkit-scrollbar-thumb {
   background: hsl(var(--muted-foreground) / 0.15);
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--muted-foreground) / 0.35);
+  background: hsl(var(--muted-foreground) / 0.3);
 }
 
 .scrollbar-hide::-webkit-scrollbar {
