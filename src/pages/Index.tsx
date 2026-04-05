@@ -36,15 +36,15 @@ function buildRows(items: EntertainmentItem[], isAll: boolean) {
     });
   });
 
-  const rows: { title: string; items: EntertainmentItem[] }[] = [];
+  const rows: { title: string; items: EntertainmentItem[]; showRank?: boolean }[] = [];
 
-  // Recently Added — newest titles first
-  const recentlyAdded = [...items].sort((a, b) => b.year - a.year).slice(0, 14);
-  rows.push({ title: "✨ Recently Added", items: recentlyAdded });
-
-  // Trending
+  // Trending - ranked
   const trending = [...items].sort((a, b) => b.rating - a.rating).slice(0, 12);
-  rows.push({ title: "🔥 Trending Now", items: isAll ? shuffleArray(trending) : trending });
+  rows.push({ title: "Trending", items: isAll ? shuffleArray(trending) : trending, showRank: true });
+
+  // Recently Added
+  const recentlyAdded = [...items].sort((a, b) => b.year - a.year).slice(0, 14);
+  rows.push({ title: "Recently Added", items: recentlyAdded });
 
   // Category rows
   if (isAll) {
@@ -82,7 +82,6 @@ const Index = () => {
   } = useAppState();
 
   const isAll = activeCategory === "all";
-
   const allItems = useMemo(() => getAllData(), []);
 
   const categoryItems = useMemo(() => {
@@ -114,7 +113,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background bg-grain">
+    <div className="min-h-screen bg-background">
       <StreamHeader
         activeCategory={activeCategory}
         onCategoryChange={handleCategoryChange}
@@ -141,28 +140,28 @@ const Index = () => {
           )}
 
           {isSearching ? (
-            <div className="px-4 sm:px-6 lg:px-12 pt-6 pb-12">
+            <div className="px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto pt-6 pb-12">
               {filtered.length > 0 ? (
                 <CardGrid items={filtered} onCardClick={openDetail} categoryLabel={`Results for "${query}"`} />
               ) : (
                 <div className="flex flex-col items-center justify-center py-24 text-center animate-fade-in">
-                  <p className="font-display text-xl text-muted-foreground mb-2">No titles found</p>
-                  <p className="text-sm text-muted-foreground/60">Try a different search or explore the mood filters above.</p>
+                  <p className="font-display text-lg text-muted-foreground mb-2">No titles found</p>
+                  <p className="text-sm text-muted-foreground/60">Try a different search term.</p>
                 </div>
               )}
             </div>
           ) : activeGenre ? (
-            <div className="px-4 sm:px-6 lg:px-12 pt-6 pb-12">
+            <div className="px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto pt-6 pb-12">
               <GenreFilter items={categoryItems} activeGenre={activeGenre} onGenreChange={setActiveGenre} />
               <CardGrid items={genreFiltered} onCardClick={openDetail} categoryLabel={`${activeGenre} in ${categoryLabels[activeCategory]}`} />
             </div>
           ) : (
-            <div className={heroItem ? "mt-4 sm:-mt-20 relative z-10 pb-12" : "pt-20 pb-12"}>
-              <div className="px-4 sm:px-6 lg:px-12 mb-6 pt-2">
+            <div className={heroItem ? "mt-2 relative z-10 pb-12" : "pt-20 pb-12"}>
+              <div className="px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto mb-4 pt-2">
                 <GenreFilter items={categoryItems} activeGenre={activeGenre} onGenreChange={setActiveGenre} />
               </div>
               {rows.map((row) => (
-                <ContentRow key={row.title} title={row.title} items={row.items} onCardClick={openDetail} />
+                <ContentRow key={row.title} title={row.title} items={row.items} onCardClick={openDetail} showRank={row.showRank} />
               ))}
             </div>
           )}
