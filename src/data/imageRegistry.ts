@@ -7,6 +7,14 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "code-Geass": {
+  "poster": "/code-geass.jpg",
+  "banner": "/code-geass-banner.jpg"
+},
+"actually-I-Am": {
+  "poster": "/actually-i-am.jpg",
+  "banner": "/actually-i-am-banner.jpg"
+},
   "gleipnir": {
     "poster": "/gleipnir.jpg",
     "banner": "/gleipnir-banner.jpg"
