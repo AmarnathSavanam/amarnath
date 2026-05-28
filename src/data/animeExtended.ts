@@ -5,6 +5,28 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Code Geass",
+  tagline: "The world can be rewritten by one command.",
+  description: "An exiled prince gains a mysterious power that allows him to command absolute obedience, leading him to spark a rebellion against the Britannian Empire as the masked vigilante Zero.",
+  category: "anime",
+  genres: ["Sci-Fi", "Mecha", "Psychological Thriller"],
+  year: 2006,
+  rating: 8.7,
+  poster: placeholder,
+  banner: heroAnime
+},
+{
+  title: "Actually, I Am...",
+  tagline: "Some secrets are impossible to hide.",
+  description: "A shy high school student discovers that his crush is actually a vampire, pulling him into a chaotic world filled with supernatural classmates and hilarious misunderstandings.",
+  category: "anime",
+  genres: ["Comedy", "Romance", "Supernatural"],
+  year: 2015,
+  rating: 6.8,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Kayachan Is not Scary",
   tagline: "Looks harmless. Feels terrifying.",
   description: "Kaya may appear like an ordinary girl, but her unsettling aura and unpredictable behavior blur the line between innocence and fear, turning everyday life into an eerie psychological experience.",
