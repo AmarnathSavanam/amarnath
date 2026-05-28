@@ -7,6 +7,170 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "scam1992": {
+  "poster": "/scam-1992.jpg",
+  "banner": "/scam-1992-banner.jpg"
+},
+"theBoys": {
+  "poster": "/the-boys.jpg",
+  "banner": "/the-boys-banner.jpg"
+},
+"thePeripheral": {
+  "poster": "/the-peripheral.jpg",
+  "banner": "/the-peripheral-banner.jpg"
+},
+"theHeavenlyIdol": {
+  "poster": "/the-heavenly-idol.jpg",
+  "banner": "/the-heavenly-idol-banner.jpg"
+},
+"athidhi": {
+  "poster": "/athidhi.jpg",
+  "banner": "/athidhi-banner.jpg"
+},
+"dhoota": {
+  "poster": "/dhoota.jpg",
+  "banner": "/dhoota-banner.jpg"
+},
+"berlin": {
+  "poster": "/berlin.jpg",
+  "banner": "/berlin-banner.jpg"
+},
+"harikatha": {
+  "poster": "/harikatha.jpg",
+  "banner": "/harikatha-banner.jpg"
+},
+"mansion24": {
+  "poster": "/mansion-24.jpg",
+  "banner": "/mansion-24-banner.jpg"
+},
+"gyeongseongCreature": {
+  "poster": "/gyeongseong-creature.jpg",
+  "banner": "/gyeongseong-creature-banner.jpg"
+},
+"vikkatakavi": {
+  "poster": "/vikkatakavi.jpg",
+  "banner": "/vikkatakavi-banner.jpg"
+},
+"aindhamVedham": {
+  "poster": "/aindham-vedham.jpg",
+  "banner": "/aindham-vedham-banner.jpg"
+},
+"inspectorRishi": {
+  "poster": "/inspector-rishi.jpg",
+  "banner": "/inspector-rishi-banner.jpg"
+},
+"theSecretsOfShiledars": {
+  "poster": "/the-secrets-of-shiledars.jpg",
+  "banner": "/the-secrets-of-shiledars-banner.jpg"
+},
+"yakshini": {
+  "poster": "/yakshini.jpg",
+  "banner": "/yakshini-banner.jpg"
+},
+"bet": {
+  "poster": "/bet.jpg",
+  "banner": "/bet-banner.jpg"
+},
+"theSandman": {
+  "poster": "/the-sandman.jpg",
+  "banner": "/the-sandman-banner.jpg"
+},
+"theBondsman": {
+  "poster": "/the-bondsman.jpg",
+  "banner": "/the-bondsman-banner.jpg"
+},
+"confidenceQueen": {
+  "poster": "/confidence-queen.jpg",
+  "banner": "/confidence-queen-banner.jpg"
+},
+"trigger": {
+  "poster": "/trigger.jpg",
+  "banner": "/trigger-banner.jpg"
+},
+"weakHero": {
+  "poster": "/weak-hero.jpg",
+  "banner": "/weak-hero-banner.jpg"
+},
+"wednesday": {
+  "poster": "/wednesday.jpg",
+  "banner": "/wednesday-banner.jpg"
+},
+"genieMakeAWish": {
+  "poster": "/genie-make-a-wish.jpg",
+  "banner": "/genie-make-a-wish-banner.jpg"
+},
+"agentFromAbove": {
+  "poster": "/agent-from-above.jpg",
+  "banner": "/agent-from-above-banner.jpg"
+},
+"youngSherlock": {
+  "poster": "/young-sherlock.jpg",
+  "banner": "/young-sherlock-banner.jpg"
+},
+"gyaarahGyaarah": {
+  "poster": "/gyaarah-gyaarah.jpg",
+  "banner": "/gyaarah-gyaarah-banner.jpg"
+},
+"mercyForNone": {
+  "poster": "/mercy-for-none.jpg",
+  "banner": "/mercy-for-none-banner.jpg"
+},
+"theWonderFools": {
+  "poster": "/the-wonderfools.jpg",
+  "banner": "/the-wonderfools-banner.jpg"
+},
+"aliceInBorderland": {
+  "poster": "/alice-in-borderland.jpg",
+  "banner": "/alice-in-borderland-banner.jpg"
+},
+"lupin": {
+  "poster": "/lupin.jpg",
+  "banner": "/lupin-banner.jpg"
+},
+"puliMeka": {
+  "poster": "/puli-meka.jpg",
+  "banner": "/puli-meka-banner.jpg"
+},
+"allOfUsAreDead": {
+  "poster": "/all-of-us-are-dead.jpg",
+  "banner": "/all-of-us-are-dead-banner.jpg"
+},
+"theMysteryOfMokshaIsland": {
+  "poster": "/the-mystery-of-moksha-island.jpg",
+  "banner": "/the-mystery-of-moksha-island-banner.jpg"
+},
+"welcomeToDerry": {
+  "poster": "/welcome-to-derry.jpg",
+  "banner": "/welcome-to-derry-banner.jpg"
+},
+"alienEarth": {
+  "poster": "/alien-earth.jpg",
+  "banner": "/alien-earth-banner.jpg"
+},
+"kaos": {
+  "poster": "/kaos.jpg",
+  "banner": "/kaos-banner.jpg"
+},
+"onePiece": {
+  "poster": "/one-piece.jpg",
+  "banner": "/one-piece-banner.jpg"
+},
+"avatarTheLastAirbender": {
+  "poster": "/avatar-the-last-airbender.jpg",
+  "banner": "/avatar-the-last-airbender-banner.jpg"
+},
+"deadBoyDetectives": {
+  "poster": "/dead-boy-detectives.jpg",
+  "banner": "/dead-boy-detectives-banner.jpg"
+},
+"farzi": {
+  "poster": "/farzi.jpg",
+  "banner": "/farzi-banner.jpg"
+},
+"threeBodyProblem": {
+  "poster": "/3-body-problem.jpg",
+  "banner": "/3-body-problem-banner.jpg"
+},
   "code-Geass": {
   "poster": "/code-geass.jpg",
   "banner": "/code-geass-banner.jpg"
