@@ -16,7 +16,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroAnime
 },
 {
-  title: "Actually, I Am...",
+  title: "Actually I Am",
   tagline: "Some secrets are impossible to hide.",
   description: "A shy high school student discovers that his crush is actually a vampire, pulling him into a chaotic world filled with supernatural classmates and hilarious misunderstandings.",
   category: "anime",
