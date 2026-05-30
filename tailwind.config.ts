@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         display: ["Outfit", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        body: ["Figtree", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
