@@ -49,23 +49,23 @@ export default function SearchBar({ query, onChange, onClear }: SearchBarProps) 
       {!isActive && (
         <button
           onClick={() => setExpanded(true)}
-          className="flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-secondary/50 border border-border/50 text-muted-foreground hover:text-foreground hover:border-primary/30 transition-all duration-200"
+          className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5 rounded-2xl vapor-glass text-muted-foreground hover:text-foreground hover:border-primary/40 transition-all duration-200"
           aria-label="Search"
         >
           <Search className="w-4 h-4" />
-          <span className="text-xs hidden sm:inline">Search...</span>
+          <span className="text-xs hidden md:inline">Search the multiverse…</span>
         </button>
       )}
 
       {isActive && (
-        <div className="flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-secondary/60 border border-primary/30 w-[180px] sm:w-[280px] md:w-[340px] transition-all duration-300">
+        <div className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5 rounded-2xl vapor-glass-strong border border-primary/40 w-[200px] sm:w-[280px] md:w-[340px] transition-all duration-300">
           <Search className="w-4 h-4 text-primary shrink-0" />
           <input
             ref={inputRef}
             type="text"
             value={query}
             onChange={(e) => onChange(e.target.value)}
-            placeholder="Search anime, series..."
+            placeholder="Search titles, genres…"
             className="flex-1 bg-transparent text-xs sm:text-sm text-foreground placeholder:text-muted-foreground/50 outline-none min-w-0"
           />
           <button

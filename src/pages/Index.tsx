@@ -1,9 +1,11 @@
-import StreamHeader from "@/components/StreamHeader";
+import VaporRail from "@/components/VaporRail";
+import TopBar from "@/components/TopBar";
 import HeroSpotlight from "@/components/HeroSpotlight";
 import ContentRow from "@/components/ContentRow";
 import CardGrid from "@/components/CardGrid";
 import DetailView from "@/components/DetailView";
 import GenreFilter from "@/components/GenreFilter";
+import MosaicSection from "@/components/MosaicSection";
 import { useAppState } from "@/hooks/useAppState";
 import { useSearch } from "@/hooks/useSearch";
 import {
@@ -106,6 +108,21 @@ const Index = () => {
 
   const rows = useMemo(() => buildRows(categoryItems, isAll), [categoryItems, isAll]);
 
+  const sideItem = useMemo(() => {
+    const sorted = [...categoryItems].sort((a, b) => b.rating - a.rating);
+    return sorted.find((i) => i.id !== heroItem?.id) ?? null;
+  }, [categoryItems, heroItem]);
+
+  const resumeItem = useMemo(() => {
+    const sorted = [...categoryItems].sort((a, b) => b.year - a.year);
+    return sorted.find((i) => i.id !== heroItem?.id && i.id !== sideItem?.id) ?? null;
+  }, [categoryItems, heroItem, sideItem]);
+
+  const mosaicItems = useMemo(() => {
+    const sorted = [...categoryItems].sort((a, b) => b.rating - a.rating);
+    return sorted.filter((i) => i.id !== heroItem?.id && i.id !== sideItem?.id && i.id !== resumeItem?.id).slice(0, 5);
+  }, [categoryItems, heroItem, sideItem, resumeItem]);
+
   const handleCategoryChange = (cat: ViewMode) => {
     clearSearch();
     setActiveGenre(null);
@@ -113,60 +130,74 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <StreamHeader
-        activeCategory={activeCategory}
-        onCategoryChange={handleCategoryChange}
-        hasSelectedItem={!!selectedItem}
-        searchQuery={query}
-        onSearchChange={setQuery}
-        onSearchClear={clearSearch}
-        onLogoClick={goHome}
-      />
+    <div className="min-h-screen bg-background text-foreground relative overflow-x-hidden">
+      {/* Ambient orbs */}
+      <div className="vapor-orb vapor-orb-anim" style={{ top: "-12%", left: "-8%", width: "55vw", height: "55vw", background: "hsl(var(--vapor-indigo) / 0.18)" }} />
+      <div className="vapor-orb vapor-orb-anim" style={{ bottom: "-15%", right: "-10%", width: "50vw", height: "50vw", background: "hsl(var(--vapor-cyan) / 0.14)", animationDelay: "4s" }} />
+      <div className="vapor-orb" style={{ top: "30%", right: "10%", width: "30vw", height: "30vw", background: "hsl(var(--vapor-lavender) / 0.08)" }} />
 
-      {selectedItem ? (
-        <main className="pt-14">
-          <DetailView
-            item={selectedItem}
-            onBack={closeDetail}
-            onCardClick={openDetail}
-            onGenreClick={handleGenreFromDetail}
+      <VaporRail activeCategory={activeCategory} onCategoryChange={handleCategoryChange} onLogoClick={goHome} />
+
+      <div className="md:ml-24 lg:ml-32 relative z-10">
+        <main className="px-4 sm:px-6 lg:pr-8 xl:pr-10 max-w-[1600px] mx-auto pb-16">
+          <TopBar
+            activeCategory={activeCategory}
+            onCategoryChange={handleCategoryChange}
+            searchQuery={query}
+            onSearchChange={setQuery}
+            onSearchClear={clearSearch}
+            onLogoClick={goHome}
           />
-        </main>
-      ) : (
-        <main>
-          {!isSearching && !activeGenre && heroItem && (
-            <HeroSpotlight item={heroItem} onPlay={openDetail} onMoreInfo={openDetail} />
-          )}
 
-          {isSearching ? (
-            <div className="px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto pt-6 pb-12">
+          {selectedItem ? (
+            <DetailView
+              item={selectedItem}
+              onBack={closeDetail}
+              onCardClick={openDetail}
+              onGenreClick={handleGenreFromDetail}
+            />
+          ) : isSearching ? (
+            <div className="pt-6">
               {filtered.length > 0 ? (
                 <CardGrid items={filtered} onCardClick={openDetail} categoryLabel={`Results for "${query}"`} />
               ) : (
                 <div className="flex flex-col items-center justify-center py-24 text-center animate-fade-in">
-                  <p className="font-display text-lg text-muted-foreground mb-2">No titles found</p>
-                  <p className="text-sm text-muted-foreground/60">Try a different search term.</p>
+                  <p className="font-display text-2xl vapor-gradient-text mb-2">No titles found</p>
+                  <p className="text-sm text-foreground/50">Try a different search term.</p>
                 </div>
               )}
             </div>
           ) : activeGenre ? (
-            <div className="px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto pt-6 pb-12">
+            <div className="pt-6">
               <GenreFilter items={categoryItems} activeGenre={activeGenre} onGenreChange={setActiveGenre} />
               <CardGrid items={genreFiltered} onCardClick={openDetail} categoryLabel={`${activeGenre} in ${categoryLabels[activeCategory]}`} />
             </div>
           ) : (
-            <div className={heroItem ? "mt-2 relative z-10 pb-12" : "pt-20 pb-12"}>
-              <div className="px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto mb-4 pt-2">
-                <GenreFilter items={categoryItems} activeGenre={activeGenre} onGenreChange={setActiveGenre} />
-              </div>
+            <div className="pt-6 space-y-12 sm:space-y-14">
+              {heroItem && (
+                <HeroSpotlight
+                  item={heroItem}
+                  onPlay={openDetail}
+                  onMoreInfo={openDetail}
+                  sideItem={sideItem}
+                  resumeItem={resumeItem}
+                  onSideClick={openDetail}
+                />
+              )}
+
+              <GenreFilter items={categoryItems} activeGenre={activeGenre} onGenreChange={setActiveGenre} />
+
+              {mosaicItems.length >= 5 && (
+                <MosaicSection items={mosaicItems} onCardClick={openDetail} />
+              )}
+
               {rows.map((row) => (
                 <ContentRow key={row.title} title={row.title} items={row.items} onCardClick={openDetail} showRank={row.showRank} />
               ))}
             </div>
           )}
         </main>
-      )}
+      </div>
     </div>
   );
 };
