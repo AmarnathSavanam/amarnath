@@ -1,5 +1,5 @@
 import { ArrowLeft, Star, Calendar, Film } from "lucide-react";
-import type { EntertainmentItem, Category } from "@/data/entertainment";
+import type { EntertainmentItem } from "@/data/entertainment";
 import { getRecommendations } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 import { resolveTrailer } from "@/data/trailerRegistry";
@@ -12,12 +12,6 @@ interface DetailViewProps {
   onCardClick: (item: EntertainmentItem) => void;
   onGenreClick?: (genre: string) => void;
 }
-
-const accentText: Record<Category, string> = {
-  marvel: "text-gradient-marvel",
-  anime: "text-gradient-anime",
-  series: "text-gradient-series",
-};
 
 export default function DetailView({ item, onBack, onCardClick, onGenreClick }: DetailViewProps) {
   const recommendations = getRecommendations(item, 6);
@@ -44,7 +38,7 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
 
         {/* Title overlay */}
         <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8 lg:p-12 max-w-[1400px] mx-auto">
-          <h1 className={`font-display text-2xl sm:text-4xl lg:text-5xl font-bold ${accentText[item.category]} mb-2`}>
+          <h1 className="font-display text-2xl sm:text-4xl lg:text-6xl font-extrabold vapor-gradient-text mb-2 tracking-tight">
             {item.title}
           </h1>
           <p className="text-xs sm:text-sm text-muted-foreground/70 italic max-w-xl">"{item.tagline}"</p>

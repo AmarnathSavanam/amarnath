@@ -1,76 +1,123 @@
-import { Play, Info, Star, Clock, Tv } from "lucide-react";
-import type { EntertainmentItem, Category } from "@/data/entertainment";
+import { Play, Info, Star } from "lucide-react";
+import type { EntertainmentItem } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 
 interface HeroSpotlightProps {
   item: EntertainmentItem;
   onPlay: (item: EntertainmentItem) => void;
   onMoreInfo: (item: EntertainmentItem) => void;
+  resumeItem?: EntertainmentItem | null;
+  sideItem?: EntertainmentItem | null;
+  onSideClick?: (item: EntertainmentItem) => void;
 }
 
-export default function HeroSpotlight({ item, onPlay, onMoreInfo }: HeroSpotlightProps) {
+export default function HeroSpotlight({ item, onPlay, onMoreInfo, resumeItem, sideItem, onSideClick }: HeroSpotlightProps) {
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
+  const sideImages = sideItem ? resolveImages(sideItem.title, sideItem.poster, sideItem.banner, sideItem.category) : null;
+  const resumeImages = resumeItem ? resolveImages(resumeItem.title, resumeItem.poster, resumeItem.banner, resumeItem.category) : null;
+  const titleWords = item.title.split(" ");
+  const lastWord = titleWords.length > 1 ? titleWords.pop()! : "";
+  const firstWords = titleWords.join(" ");
 
   return (
-    <section className="relative w-full h-[55vh] sm:h-[65vh] lg:h-[75vh] overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img src={images.banner} alt={item.title} className="w-full h-full object-cover" />
+    <section className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-8 animate-fade-in">
+      {/* Main spotlight 8 cols */}
+      <div className="lg:col-span-8 relative rounded-[1.75rem] sm:rounded-[2.5rem] border border-white/10 overflow-hidden group shadow-2xl min-h-[360px] sm:min-h-[440px] lg:min-h-[520px]">
+        <img
+          src={images.banner}
+          alt={item.title}
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/55 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/20 to-transparent" />
+
+        <div className="relative z-10 h-full flex flex-col justify-end p-6 sm:p-10 lg:p-14">
+          <div className="flex items-center gap-3 mb-3 sm:mb-4">
+            <span className="px-2.5 py-1 vapor-gradient-bg text-background text-[10px] font-black uppercase rounded-md tracking-wider">#1 Trending</span>
+            <span className="text-[var(--vapor-ice)] text-[10px] sm:text-xs font-medium tracking-[0.2em] uppercase" style={{ color: "hsl(var(--vapor-ice))" }}>
+              Spotlight Selection
+            </span>
+          </div>
+
+          <h1 className="font-display font-black tracking-tight leading-[0.9] mb-4 sm:mb-6 text-4xl sm:text-6xl lg:text-7xl xl:text-8xl">
+            {firstWords}{firstWords && lastWord ? " " : ""}
+            {lastWord && <span className="vapor-gradient-text drop-shadow-[0_0_40px_hsl(var(--vapor-lavender)/0.4)]">{lastWord}</span>}
+          </h1>
+
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mb-5 sm:mb-7 text-xs sm:text-sm text-foreground/60">
+            <div className="flex items-center gap-1.5 font-semibold text-foreground/85">
+              <Star className="w-4 h-4 text-primary fill-primary" />
+              {item.rating} Score
+            </div>
+            <span className="capitalize">{item.year} • {item.category}</span>
+            <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-primary/15 text-primary border border-primary/30">HD</span>
+          </div>
+
+          <p className="hidden sm:block text-sm text-foreground/70 max-w-xl leading-relaxed mb-6 sm:mb-8 line-clamp-2">
+            {item.description}
+          </p>
+
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => onPlay(item)}
+              className="flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-2xl bg-foreground text-background font-bold text-xs sm:text-sm transition-all duration-200 hover:bg-primary hover:shadow-[0_0_30px_hsl(var(--vapor-cyan)/0.5)] active:scale-95"
+            >
+              <Play className="w-4 h-4 fill-current" />
+              Watch Now
+            </button>
+            <button
+              onClick={() => onMoreInfo(item)}
+              className="flex items-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-2xl vapor-glass-strong text-foreground font-bold text-xs sm:text-sm hover:bg-white/10 transition-all active:scale-95"
+            >
+              <Info className="w-4 h-4" />
+              Details
+            </button>
+          </div>
+        </div>
       </div>
 
-      {/* Gradients - AniWatch style: heavy left gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-
-      {/* Content */}
-      <div className="absolute bottom-[10%] sm:bottom-[14%] left-0 right-0 px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto animate-fade-in z-10">
-        {/* Spotlight badge */}
-        <p className="text-primary font-display font-semibold text-xs sm:text-sm mb-2 sm:mb-3">
-          #1 Spotlight
-        </p>
-
-        <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-[1.05] mb-3 sm:mb-4">
-          {item.title}
-        </h2>
-
-        {/* Meta row */}
-        <div className="flex items-center gap-2 sm:gap-3 mb-3 flex-wrap">
-          <div className="flex items-center gap-1">
-            <Tv className="w-3.5 h-3.5 text-muted-foreground" />
-            <span className="text-xs text-muted-foreground capitalize">{item.category}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <Clock className="w-3.5 h-3.5 text-muted-foreground" />
-            <span className="text-xs text-muted-foreground">{item.year}</span>
-          </div>
-          <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-primary/20 text-primary border border-primary/30">HD</span>
-          <div className="flex items-center gap-1">
-            <Star className="w-3.5 h-3.5 text-primary fill-primary" />
-            <span className="text-xs font-bold text-foreground">{item.rating}</span>
-          </div>
-        </div>
-
-        <p className="text-xs sm:text-sm text-muted-foreground/80 line-clamp-2 sm:line-clamp-3 mb-4 sm:mb-6 max-w-lg leading-relaxed">
-          {item.description}
-        </p>
-
-        <div className="flex items-center gap-2.5 sm:gap-3">
+      {/* Side stack 4 cols */}
+      <div className="lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 sm:gap-6">
+        {sideItem && sideImages && (
           <button
-            onClick={() => onPlay(item)}
-            className="group flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg bg-primary text-primary-foreground font-semibold text-xs sm:text-sm transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-95"
+            onClick={() => onSideClick?.(sideItem)}
+            className="group relative flex-1 rounded-[1.5rem] lg:rounded-[2rem] border border-white/10 p-6 sm:p-7 text-left overflow-hidden vapor-glass min-h-[170px] sm:min-h-[200px] lg:min-h-0"
           >
-            <Play className="w-4 h-4 fill-current" />
-            Watch Now
+            <img src={sideImages.banner} alt={sideItem.title} className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-30 transition-opacity" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--vapor-indigo)/0.35)] via-background/40 to-transparent" />
+            <div className="relative">
+              <div className="text-[10px] font-bold tracking-[0.22em] uppercase mb-2" style={{ color: "hsl(var(--vapor-ice))" }}>
+                Editor's Pick
+              </div>
+              <h3 className="font-display text-xl sm:text-2xl font-bold mb-2 leading-tight line-clamp-2">{sideItem.title}</h3>
+              <p className="text-xs sm:text-sm text-foreground/55 line-clamp-2 mb-4">{sideItem.tagline}</p>
+              <div className="inline-flex items-center gap-2 text-[11px] font-bold tracking-widest text-primary group-hover:gap-3 transition-all">
+                ENTER HUB →
+              </div>
+            </div>
           </button>
+        )}
+
+        {resumeItem && resumeImages && (
           <button
-            onClick={() => onMoreInfo(item)}
-            className="group flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg bg-secondary/80 border border-border font-semibold text-xs sm:text-sm text-foreground transition-all duration-200 hover:bg-secondary hover:scale-[1.02] active:scale-95"
+            onClick={() => onSideClick?.(resumeItem)}
+            className="relative rounded-[1.5rem] lg:rounded-[2rem] border border-white/10 p-6 sm:p-7 text-left vapor-glass flex flex-col justify-between min-h-[170px] sm:min-h-[200px] lg:min-h-0 group"
           >
-            <Info className="w-4 h-4" />
-            Detail
+            <div className="flex justify-between items-start">
+              <div className="text-[10px] text-foreground/40 font-bold tracking-[0.22em] uppercase">Continue Watching</div>
+              <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+              </div>
+            </div>
+            <div>
+              <div className="font-display text-lg font-bold mb-1 line-clamp-1">{resumeItem.title}</div>
+              <div className="text-xs text-foreground/40 mb-4">S1: E4 • 32 mins left</div>
+              <div className="w-full h-1 bg-white/8 rounded-full overflow-hidden">
+                <div className="w-[58%] h-full vapor-gradient-bg" />
+              </div>
+            </div>
           </button>
-        </div>
+        )}
       </div>
     </section>
   );

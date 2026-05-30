@@ -32,14 +32,16 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
   if (items.length === 0) return null;
 
   return (
-    <section className="mb-8 sm:mb-10 relative group/row">
-      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-12 mb-3 sm:mb-4">
-        <h3 className="font-display text-sm sm:text-lg font-semibold text-primary tracking-tight">{title}</h3>
+    <section className="mb-10 sm:mb-12 relative group/row">
+      <div className="flex items-center justify-between mb-4 sm:mb-5">
+        <h3 className="font-display text-lg sm:text-2xl font-extrabold tracking-tight">
+          <span className="vapor-gradient-text">{title}</span>
+        </h3>
         <div className="flex items-center gap-1">
           <button
             onClick={() => scroll("left")}
             disabled={!canScrollLeft}
-            className="w-7 h-7 sm:w-8 sm:h-8 rounded-md bg-secondary/60 border border-border/50 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary disabled:opacity-30 disabled:cursor-default transition-colors"
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl vapor-glass flex items-center justify-center text-foreground/60 hover:text-primary hover:border-primary/40 disabled:opacity-30 disabled:cursor-default transition-colors"
             aria-label="Scroll left"
           >
             <ChevronLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -47,7 +49,7 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
           <button
             onClick={() => scroll("right")}
             disabled={!canScrollRight}
-            className="w-7 h-7 sm:w-8 sm:h-8 rounded-md bg-secondary/60 border border-border/50 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary disabled:opacity-30 disabled:cursor-default transition-colors"
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl vapor-glass flex items-center justify-center text-foreground/60 hover:text-primary hover:border-primary/40 disabled:opacity-30 disabled:cursor-default transition-colors"
             aria-label="Scroll right"
           >
             <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -59,10 +61,10 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
         <div
           ref={scrollRef}
           onScroll={updateScrollState}
-          className="flex gap-2 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-12 scroll-smooth pb-2"
+          className="flex gap-3 sm:gap-4 overflow-x-auto scrollbar-hide scroll-smooth pb-2 -mx-1 px-1"
         >
           {items.map((item, i) => (
-            <div key={item.id} className="flex-shrink-0 w-[130px] sm:w-[155px] lg:w-[175px] xl:w-[190px]">
+            <div key={item.id} className="flex-shrink-0 w-[140px] sm:w-[160px] lg:w-[180px] xl:w-[200px]">
               <EntertainmentCard item={item} onClick={onCardClick} index={i} showRank={showRank} />
             </div>
           ))}
