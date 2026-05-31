@@ -139,7 +139,7 @@ const Index = () => {
       <VaporRail activeCategory={activeCategory} onCategoryChange={handleCategoryChange} onLogoClick={goHome} />
 
       <div className="md:ml-24 lg:ml-32 relative z-10">
-        <main className="px-4 sm:px-6 lg:pr-8 xl:pr-10 max-w-[1600px] mx-auto pb-16">
+        <main className="px-3 sm:px-6 lg:pr-8 xl:pr-10 max-w-[1600px] mx-auto pb-16">
           <TopBar
             activeCategory={activeCategory}
             onCategoryChange={handleCategoryChange}
