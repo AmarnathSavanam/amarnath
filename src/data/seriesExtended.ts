@@ -5,6 +5,29 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     {
+  title: "Study Group",
+  tagline: "Brains fight harder than fists.",
+  description: "A determined student forms a secret study group inside one of the toughest schools, battling bullies and academic pressure to achieve his dream of college success.",
+  category: "series",
+  genres: ["Action", "Comedy", "School"],
+  year: 2025,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "If Wishes Could Kill",
+  tagline: "Every wish demands a price.",
+  description: "A dark fantasy thriller where mysterious wishes begin coming true, slowly dragging a group of teenagers into deadly consequences and hidden truths.",
+  category: "series",
+  genres: ["Fantasy", "Mystery", "Thriller"],
+  year: 2024,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
   title: "Bloodhounds",
   tagline: "Debt turns friendship into war.",
   description: "Two young boxers step into the brutal world of private money lending and ruthless loan sharks to protect the people they love.",
