@@ -5,6 +5,7 @@ import { resolveImages } from "@/data/imageRegistry";
 import { resolveTrailer } from "@/data/trailerRegistry";
 import EntertainmentCard from "./EntertainmentCard";
 import TrailerPlayer from "./TrailerPlayer";
+import CommentSection from "./CommentSection";
 
 interface DetailViewProps {
   item: EntertainmentItem;
@@ -77,18 +78,17 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
               <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-primary/20 text-primary border border-primary/30">HD</span>
             </div>
 
-            {/* Genres */}
-            <div className="flex flex-wrap gap-1.5 mb-4">
-              {item.genres.map((genre) => (
-                <button
-                  key={genre}
-                  onClick={() => onGenreClick?.(genre)}
-                  className="text-[10px] sm:text-xs px-2.5 py-1 rounded-md border border-border/50 bg-secondary/50 text-muted-foreground hover:text-foreground hover:border-primary/30 transition-colors"
-                >
-                  {genre}
-                </button>
-              ))}
-            </div>
+        {/* Genres (display only, no filter navigation) */}
+        <div className="flex flex-wrap gap-1.5 mb-4">
+          {item.genres.map((genre) => (
+            <span
+              key={genre}
+              className="text-[10px] sm:text-xs px-2.5 py-1 rounded-md border border-white/10 bg-white/[0.04] text-foreground/65"
+            >
+              {genre}
+            </span>
+          ))}
+        </div>
 
             {/* Description */}
             <div className="rounded-lg bg-secondary/40 border border-border/30 p-4 sm:p-5 mb-10">
@@ -111,6 +111,9 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
             </div>
           </section>
         )}
+
+        {/* Comments */}
+        <CommentSection itemId={item.id} itemTitle={item.title} />
       </div>
     </div>
   );
