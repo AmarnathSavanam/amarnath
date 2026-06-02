@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import { Play, Info, Star, Search, X, ArrowLeft } from "lucide-react";
 import type { Category, EntertainmentItem } from "@/data/entertainment";
 import { categoryLabels, getItemsByCategory } from "@/data/entertainment";
-import { resolveImages } from "@/data/imageRegistry";
 import EntertainmentCard from "./EntertainmentCard";
 
 interface CategoryViewProps {
@@ -42,8 +41,6 @@ export default function CategoryView({ category, onCardClick, onBack }: Category
     () => filtered.filter((i) => i.id !== hero?.id),
     [filtered, hero]
   );
-
-  const heroImages = hero ? resolveImages(hero.title, hero.poster, hero.banner, hero.category) : null;
 
   return (
     <div className={`${themeClassFor[category]} animate-fade-in-scale`}>
