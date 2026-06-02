@@ -25,7 +25,7 @@ const subtitleFor: Record<Category, string> = {
 export default function CategoryView({ category, onCardClick, onBack }: CategoryViewProps) {
   const items = useMemo(() => getItemsByCategory(category), [category]);
   const hero = useMemo(
-    () => [...items].sort((a, b) => b.rating - a.rating)[0] ?? null,
+    () => (items.length ? items[Math.floor(Math.random() * items.length)] : null),
     [items]
   );
   const [query, setQuery] = useState("");
@@ -46,7 +46,7 @@ export default function CategoryView({ category, onCardClick, onBack }: Category
     <div className={`${themeClassFor[category]} animate-fade-in-scale`}>
       {/* Cinematic hero — transparent glass, no background photo */}
       {hero && (
-        <section className="relative vapor-glass rounded-[1.75rem] sm:rounded-[2.5rem] overflow-hidden min-h-[300px] sm:min-h-[360px] lg:min-h-[420px] mb-8 sm:mb-12">
+        <section className="relative vapor-glass rounded-2xl sm:rounded-[2.5rem] overflow-hidden min-h-[220px] sm:min-h-[340px] lg:min-h-[420px] mb-6 sm:mb-12">
           {/* Floating ambient orbs (only color) */}
           <div className="absolute -top-24 -left-16 w-72 h-72 rounded-full blur-3xl opacity-40 theme-gradient" />
           <div className="absolute -bottom-28 -right-10 w-80 h-80 rounded-full blur-3xl opacity-25 theme-gradient" />
@@ -93,14 +93,14 @@ export default function CategoryView({ category, onCardClick, onBack }: Category
           </div>
 
           {/* Content */}
-          <div className="relative z-10 h-full flex flex-col justify-end p-5 sm:p-8 lg:p-12 pt-20">
-            <p className="text-[10px] sm:text-xs font-medium tracking-[0.35em] uppercase text-foreground/55 mb-2.5">
+          <div className="relative z-10 h-full flex flex-col justify-end p-4 sm:p-8 lg:p-12 pt-16 sm:pt-20">
+            <p className="text-[9px] sm:text-xs font-medium tracking-[0.3em] sm:tracking-[0.35em] uppercase text-foreground/55 mb-2">
               {subtitleFor[category]}
             </p>
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight theme-gradient-text leading-[0.95] max-w-3xl">
+            <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight theme-gradient-text leading-[0.95] max-w-3xl">
               {categoryLabels[category]}
             </h1>
-            <p className="mt-3 sm:mt-4 text-xs sm:text-sm text-foreground/65 max-w-xl line-clamp-2">
+            <p className="mt-2 sm:mt-4 text-[11px] sm:text-sm text-foreground/65 max-w-xl line-clamp-2">
               {hero.description}
             </p>
 
