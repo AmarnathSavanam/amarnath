@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import { Play, Info, Star, Search, X, ArrowLeft } from "lucide-react";
 import type { Category, EntertainmentItem } from "@/data/entertainment";
 import { categoryLabels, getItemsByCategory } from "@/data/entertainment";
-import { resolveImages } from "@/data/imageRegistry";
 import EntertainmentCard from "./EntertainmentCard";
 
 interface CategoryViewProps {
@@ -43,26 +42,14 @@ export default function CategoryView({ category, onCardClick, onBack }: Category
     [filtered, hero]
   );
 
-  const heroImages = hero ? resolveImages(hero.title, hero.poster, hero.banner, hero.category) : null;
-
   return (
     <div className={`${themeClassFor[category]} animate-fade-in-scale`}>
-      {/* Cinematic hero */}
-      {hero && heroImages && (
-        <section className="relative rounded-[1.75rem] sm:rounded-[2.5rem] overflow-hidden border border-white/10 min-h-[420px] sm:min-h-[520px] lg:min-h-[600px] mb-10 sm:mb-14">
-          <img
-            src={heroImages.banner}
-            alt={hero.title}
-            className="absolute inset-0 w-full h-full object-cover scale-105"
-          />
-          {/* Theme wash */}
-          <div className="absolute inset-0 theme-gradient holo-sheen opacity-30 mix-blend-overlay" />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/10" />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/35 to-transparent" />
-
-          {/* Floating ambient orbs */}
-          <div className="absolute -top-20 -left-10 w-72 h-72 rounded-full blur-3xl opacity-40 theme-gradient" />
-          <div className="absolute -bottom-24 right-0 w-80 h-80 rounded-full blur-3xl opacity-30 theme-gradient" />
+      {/* Cinematic hero — transparent glass, no background photo */}
+      {hero && (
+        <section className="relative vapor-glass rounded-[1.75rem] sm:rounded-[2.5rem] overflow-hidden min-h-[300px] sm:min-h-[360px] lg:min-h-[420px] mb-8 sm:mb-12">
+          {/* Floating ambient orbs (only color) */}
+          <div className="absolute -top-24 -left-16 w-72 h-72 rounded-full blur-3xl opacity-40 theme-gradient" />
+          <div className="absolute -bottom-28 -right-10 w-80 h-80 rounded-full blur-3xl opacity-25 theme-gradient" />
 
           {/* Top bar inside hero */}
           <div className="absolute top-4 sm:top-6 left-4 sm:left-6 right-4 sm:right-6 z-20 flex items-center justify-between gap-3">
@@ -106,30 +93,30 @@ export default function CategoryView({ category, onCardClick, onBack }: Category
           </div>
 
           {/* Content */}
-          <div className="relative z-10 h-full flex flex-col justify-end p-6 sm:p-10 lg:p-14 pt-24">
-            <p className="text-[10px] sm:text-xs font-medium tracking-[0.35em] uppercase text-foreground/55 mb-3">
+          <div className="relative z-10 h-full flex flex-col justify-end p-5 sm:p-8 lg:p-12 pt-20">
+            <p className="text-[10px] sm:text-xs font-medium tracking-[0.35em] uppercase text-foreground/55 mb-2.5">
               {subtitleFor[category]}
             </p>
-            <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight theme-gradient-text leading-[0.95] max-w-3xl">
+            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight theme-gradient-text leading-[0.95] max-w-3xl">
               {categoryLabels[category]}
             </h1>
-            <p className="mt-4 sm:mt-5 text-sm sm:text-base text-foreground/75 max-w-xl line-clamp-3">
+            <p className="mt-3 sm:mt-4 text-xs sm:text-sm text-foreground/65 max-w-xl line-clamp-2">
               {hero.description}
             </p>
 
-            <div className="mt-6 sm:mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-5 sm:mt-6 flex flex-wrap items-center gap-2.5">
               <button
                 onClick={() => onCardClick(hero)}
-                className="group inline-flex items-center gap-2 theme-gradient text-background font-semibold rounded-full pl-5 pr-6 py-3 text-sm hover:scale-[1.03] active:scale-[0.98] transition shadow-[0_10px_30px_-8px_hsl(var(--theme-a)/0.6)]"
+                className="group inline-flex items-center gap-2 theme-gradient text-background font-semibold rounded-full pl-4 pr-5 py-2.5 text-xs sm:text-sm hover:scale-[1.03] active:scale-[0.98] transition shadow-[0_10px_30px_-8px_hsl(var(--theme-a)/0.5)]"
               >
-                <Play className="w-4 h-4 fill-background" />
+                <Play className="w-3.5 h-3.5 fill-background" />
                 <span className="tracking-wide">Play Featured</span>
               </button>
               <button
                 onClick={() => onCardClick(hero)}
-                className="inline-flex items-center gap-2 vapor-glass-strong text-foreground/90 font-semibold rounded-full pl-5 pr-6 py-3 text-sm hover:bg-white/10 transition"
+                className="inline-flex items-center gap-2 vapor-glass-strong text-foreground/90 font-semibold rounded-full pl-4 pr-5 py-2.5 text-xs sm:text-sm hover:bg-white/10 transition"
               >
-                <Info className="w-4 h-4" />
+                <Info className="w-3.5 h-3.5" />
                 <span className="tracking-wide">More Info</span>
               </button>
 
