@@ -5,6 +5,29 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     {
+  title: "Deaths Game",
+  tagline: "Death is only the beginning.",
+  description: "After giving up on life, a desperate man is forced to experience multiple deaths and reincarnations in a deadly punishment designed by Death itself.",
+  category: "series",
+  genres: ["Fantasy", "Thriller", "Drama"],
+  year: 2023,
+  rating: 8.5,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "One High School Heroes",
+  tagline: "Heroes rise where fear rules.",
+  description: "A group of high school students secretly fight violence and corruption inside their school while hiding their extraordinary abilities from the world.",
+  category: "series",
+  genres: ["Action", "School", "Superhero"],
+  year: 2025,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
   title: "Study Group",
   tagline: "Brains fight harder than fists.",
   description: "A determined student forms a secret study group inside one of the toughest schools, battling bullies and academic pressure to achieve his dream of college success.",
