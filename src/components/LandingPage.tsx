@@ -84,7 +84,7 @@ export default function LandingPage({ onSelectCategory }: LandingPageProps) {
               aria-label={`Enter ${t.label}`}
             >
               {/* Transparent glass tile, no photo */}
-              <div className="relative aspect-[5/6] sm:aspect-[4/5] md:aspect-[3/4]">
+              <div className="relative aspect-[16/9] sm:aspect-[4/5] md:aspect-[3/4]">
                 {/* Soft themed orbs (the only color) */}
                 <div className="absolute -top-12 -right-10 w-44 h-44 rounded-full blur-3xl opacity-40 group-hover:opacity-70 transition theme-gradient" />
                 <div className="absolute -bottom-16 -left-10 w-44 h-44 rounded-full blur-3xl opacity-25 group-hover:opacity-50 transition theme-gradient" />
