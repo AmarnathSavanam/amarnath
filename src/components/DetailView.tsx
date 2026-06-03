@@ -1,4 +1,5 @@
-import { ArrowLeft, Star, Calendar, Film } from "lucide-react";
+import { useEffect } from "react";
+import { ArrowLeft, Star, Calendar, Film, Bookmark, BookmarkCheck } from "lucide-react";
 import type { EntertainmentItem } from "@/data/entertainment";
 import { getRecommendations } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
@@ -6,6 +7,8 @@ import { resolveTrailer } from "@/data/trailerRegistry";
 import EntertainmentCard from "./EntertainmentCard";
 import TrailerPlayer from "./TrailerPlayer";
 import CommentSection from "./CommentSection";
+import { useWatchlist } from "@/hooks/useWatchlist";
+import { useContinueWatching } from "@/hooks/useContinueWatching";
 
 interface DetailViewProps {
   item: EntertainmentItem;
@@ -18,6 +21,13 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
   const recommendations = getRecommendations(item, 6);
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
   const trailerUrl = resolveTrailer(item.title);
+  const { has, toggle } = useWatchlist();
+  const { record } = useContinueWatching();
+  const saved = has(item.id);
+
+  useEffect(() => {
+    record(item.id, 0.15);
+  }, [item.id, record]);
 
   return (
     <div className="animate-fade-in-scale">
@@ -35,6 +45,18 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
           aria-label="Go back"
         >
           <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+        </button>
+
+        <button
+          onClick={() => toggle(item.id)}
+          aria-label={saved ? "Remove from watchlist" : "Add to watchlist"}
+          className={`absolute top-20 sm:top-24 right-4 sm:right-8 rounded-lg border p-2.5 transition-all duration-200 active:scale-90 ${
+            saved
+              ? "bg-primary/15 border-primary/40 text-primary"
+              : "bg-secondary/80 border-border/50 text-foreground hover:bg-secondary"
+          }`}
+        >
+          {saved ? <BookmarkCheck className="w-4 h-4 sm:w-5 sm:h-5" /> : <Bookmark className="w-4 h-4 sm:w-5 sm:h-5" />}
         </button>
 
         {/* Title overlay */}
