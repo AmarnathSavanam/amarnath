@@ -1,8 +1,10 @@
 import { ArrowRight, Sparkles, Tv, Film } from "lucide-react";
-import type { Category } from "@/data/entertainment";
+import type { Category, EntertainmentItem } from "@/data/entertainment";
+import HomeShelves from "./HomeShelves";
 
 interface LandingPageProps {
   onSelectCategory: (cat: Category) => void;
+  onOpenItem?: (item: EntertainmentItem) => void;
 }
 
 const tiles: {
@@ -39,7 +41,7 @@ const tiles: {
   },
 ];
 
-export default function LandingPage({ onSelectCategory }: LandingPageProps) {
+export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPageProps) {
   return (
     <div className="relative min-h-[100dvh] flex flex-col">
       {/* Brand mark */}
@@ -128,6 +130,8 @@ export default function LandingPage({ onSelectCategory }: LandingPageProps) {
           Cinematic · Immersive · Minimal
         </p>
       </main>
+
+      {onOpenItem && <HomeShelves onCardClick={onOpenItem} />}
     </div>
   );
 }
