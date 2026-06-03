@@ -2,6 +2,7 @@ import VaporRail from "@/components/VaporRail";
 import LandingPage from "@/components/LandingPage";
 import CategoryView from "@/components/CategoryView";
 import DetailView from "@/components/DetailView";
+import CommandPalette from "@/components/CommandPalette";
 import { useAppState } from "@/hooks/useAppState";
 import type { Category, ViewMode } from "@/data/entertainment";
 
@@ -38,7 +39,7 @@ const Index = () => {
 
       <div className={`${!isLanding ? "md:ml-24 lg:ml-32" : ""} relative z-10`}>
         {isLanding ? (
-          <LandingPage onSelectCategory={handleSelectCategory} />
+          <LandingPage onSelectCategory={handleSelectCategory} onOpenItem={openDetail} />
         ) : (
           <main className="px-3 sm:px-6 lg:pr-8 xl:pr-10 max-w-[1600px] mx-auto pt-4 sm:pt-6 pb-16">
             {selectedItem ? (
@@ -59,6 +60,8 @@ const Index = () => {
           </main>
         )}
       </div>
+
+      <CommandPalette onOpenItem={openDetail} onOpenCategory={handleSelectCategory} />
     </div>
   );
 };
