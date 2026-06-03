@@ -5,6 +5,29 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     {
+  title: "Vigilante",
+  tagline: "Justice begins after midnight.",
+  description: "A police academy student secretly hunts down criminals who escaped proper punishment, becoming a feared masked vigilante across the city.",
+  category: "series",
+  genres: ["Action", "Crime", "Thriller"],
+  year: 2023,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "Duty After School",
+  tagline: "Students become soldiers overnight.",
+  description: "When mysterious alien spheres invade Earth, high school students are forced into military training and deadly battles to survive.",
+  category: "series",
+  genres: ["Action", "Sci-Fi", "Thriller"],
+  year: 2023,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
   title: "Deaths Game",
   tagline: "Death is only the beginning.",
   description: "After giving up on life, a desperate man is forced to experience multiple deaths and reincarnations in a deadly punishment designed by Death itself.",
