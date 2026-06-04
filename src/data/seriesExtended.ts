@@ -5,6 +5,29 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     {
+  title: "Sweet Home",
+  tagline: "Monsters are born from human desires.",
+  description: "After a mysterious outbreak turns people into terrifying monsters, a reclusive teenager and his neighbors fight to survive inside their apartment complex.",
+  category: "series",
+  genres: ["Horror", "Action", "Thriller"],
+  year: 2020,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "Undercover High School",
+  tagline: "One mission. One classroom.",
+  description: "An elite intelligence agent goes undercover as a high school student to uncover a hidden conspiracy, balancing dangerous missions with teenage life.",
+  category: "series",
+  genres: ["Action", "Comedy", "Mystery"],
+  year: 2025,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
   title: "Vigilante",
   tagline: "Justice begins after midnight.",
   description: "A police academy student secretly hunts down criminals who escaped proper punishment, becoming a feared masked vigilante across the city.",
