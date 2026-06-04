@@ -40,17 +40,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroSeries
   },
-  {
-    title: "Agent Carter Season 2",
-    tagline: "New city. New enemies.",
-    description: "Peggy Carter investigates a mysterious threat in Los Angeles tied to Zero Matter.",
-    category: "marvel",
-    genres: ["Action", "Drama"],
-    year: 2016,
-    rating: 7.9,
-    poster: placeholder,
-    banner: heroSeries
-  },
+  
   {
     title: "X-Men: First Class",
     tagline: "Before he was Professor X.",
