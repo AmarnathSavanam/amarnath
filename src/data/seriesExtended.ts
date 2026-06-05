@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     {
+  title: "Light Shop",
+  tagline: "Every light hides a secret.",
+  description: "Strangers connected by mysterious pasts are drawn to a strange lamp shop that stands between the world of the living and the dead.",
+  category: "series",
+  genres: ["Mystery", "Fantasy", "Drama"],
+  year: 2024,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
   title: "Sweet Home",
   tagline: "Monsters are born from human desires.",
   description: "After a mysterious outbreak turns people into terrifying monsters, a reclusive teenager and his neighbors fight to survive inside their apartment complex.",
