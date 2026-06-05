@@ -493,17 +493,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroSeries
   },
-  {
-    title: "Daredevil Season 2",
-    tagline: "Justice meets vengeance.",
-    description: "Daredevil faces the Punisher and Elektra as threats escalate.",
-    category: "marvel",
-    genres: ["Action", "Crime"],
-    year: 2016,
-    rating: 8.3,
-    poster: placeholder,
-    banner: heroSeries
-  },
+
   {
     title: "Iron Fist",
     tagline: "Unleash the power.",
@@ -999,17 +989,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroMovie
   },
-  {
-    title: "Loki 2",
-    tagline: "The timeline is at stake.",
-    description: "Loki fights to stabilize the collapsing multiverse.",
-    category: "marvel",
-    genres: ["Action", "Sci-Fi"],
-    year: 2023,
-    rating: 8.3,
-    poster: placeholder,
-    banner: heroSeries
-  },
+
   {
     title: "Logan",
     tagline: "The end of a legend.",
@@ -1098,17 +1078,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroMovie
   },
-  {
-    title: "Daredevil: Born Again Season 2",
-    tagline: "The fight continues.",
-    description: "Matt Murdock faces escalating threats.",
-    category: "marvel",
-    genres: ["Action", "Crime"],
-    year: 2026,
-    rating: 8.1,
-    poster: placeholder,
-    banner: heroSeries
-  },
+
   {
     title: "Wonder Man",
     tagline: "Fame is the ultimate superpower.",
