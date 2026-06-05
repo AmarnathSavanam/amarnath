@@ -4,6 +4,39 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+     {
+    title: "12 Monkeys",
+    tagline: "To save the future, rewrite the past.",
+    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
+    category: "series",
+    genres: ["Sci-Fi", "Thriller", "Mystery"],
+    year: 2015,
+    rating: 8.7,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+        {
+  title: "Sweet Home",
+  tagline: "Monsters are born from human desires.",
+  description: "After a mysterious outbreak turns people into terrifying monsters, a reclusive teenager and his neighbors fight to survive inside their apartment complex.",
+  category: "series",
+  genres: ["Horror", "Action", "Thriller"],
+  year: 2020,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+    title: "From",
+    tagline: "You can enter. You can't leave.",
+    description: "A mysterious town traps everyone who arrives, forcing strangers to build a fragile society while nightfall unleashes terrifying creatures.",
+    category: "series",
+    genres: ["Horror", "Mystery", "Sci-Fi"],
+    year: 2022,
+    rating: 8.1,
+    poster: placeholder,
+    banner: heroSeries,
+  },
     {
   title: "Light Shop",
   tagline: "Every light hides a secret.",
@@ -15,18 +48,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-    {
-  title: "Sweet Home",
-  tagline: "Monsters are born from human desires.",
-  description: "After a mysterious outbreak turns people into terrifying monsters, a reclusive teenager and his neighbors fight to survive inside their apartment complex.",
-  category: "series",
-  genres: ["Horror", "Action", "Thriller"],
-  year: 2020,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
 
+  { title: "Lupin", tagline: "The gentleman thief returns.", description: "Inspired by Arsène Lupin, Assane Diop seeks revenge using masterful deception.", category: "series", genres: ["Crime", "Mystery", "Drama"], year: 2021, rating: 7.5, poster: placeholder, banner: heroSeries },
 {
   title: "Undercover High School",
   tagline: "One mission. One classroom.",
@@ -38,6 +61,9 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+    { title: "Puli Meka", tagline: "Every hunter becomes prey.", description: "A gripping crime thriller involving serial murders and a dangerous psychological chase.", category: "series", genres: ["Crime", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
+ 
+
     {
   title: "Vigilante",
   tagline: "Justice begins after midnight.",
@@ -49,6 +75,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+      { title: "Gyaarah Gyaarah", tagline: "Time reveals what truth hides.", description: "A mystery thriller where police officers across different timelines connect through a strange walkie-talkie to solve unresolved crimes.", category: "series", genres: ["Crime", "Sci-Fi", "Thriller"], year: 2024, rating: 8.0, poster: placeholder, banner: heroSeries },
 
 {
   title: "Duty After School",
@@ -60,7 +87,10 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   rating: 8.1,
   poster: placeholder,
   banner: heroSeries
-},
+},  
+    { title: "Welcome to Derry", tagline: "Every nightmare starts somewhere.", description: "A prequel exploring the horrifying origins of Pennywise and the cursed town of Derry.", category: "series", genres: ["Horror", "Mystery"], year: 2025, rating: 7.6, poster: placeholder, banner: heroSeries },
+
+    
     {
   title: "Deaths Game",
   tagline: "Death is only the beginning.",
@@ -72,7 +102,18 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-
+ {
+    
+    title: "Breaking Bad",
+    tagline: "Power is a choice. Consequences are inevitable.",
+    description: "After a terminal diagnosis, a high school chemistry teacher partners with a former student to build a meth empire.",
+    category: "series",
+    genres: ["Crime", "Drama", "Thriller"],
+    year: 2008,
+    rating: 9.5,
+    poster: placeholder,
+    banner: heroSeries,
+  },
 {
   title: "One High School Heroes",
   tagline: "Heroes rise where fear rules.",
@@ -84,6 +125,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+     { title: "The Mystery of Moksha Island", tagline: "The island hides more than treasure.", description: "A group of strangers uncovers terrifying secrets while trapped on a mysterious island.", category: "series", genres: ["Mystery", "Adventure", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries },
+ 
     {
   title: "Study Group",
   tagline: "Brains fight harder than fists.",
@@ -95,6 +138,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+  { title: "Alien Earth", tagline: "The nightmare has arrived on Earth.", description: "Humanity faces terror when deadly xenomorphs threaten life on Earth itself.", category: "series", genres: ["Sci-Fi", "Horror"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries },
 
 {
   title: "If Wishes Could Kill",
@@ -107,6 +151,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+      { title: "One Piece", tagline: "The great pirate era begins.", description: "Monkey D. Luffy sails across dangerous seas searching for the legendary One Piece treasure.", category: "series", genres: ["Adventure", "Fantasy", "Action"], year: 2023, rating: 8.4, poster: placeholder, banner: heroSeries },
+
     {
   title: "Bloodhounds",
   tagline: "Debt turns friendship into war.",
@@ -118,25 +164,19 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-      { title: "Gyaarah Gyaarah", tagline: "Time reveals what truth hides.", description: "A mystery thriller where police officers across different timelines connect through a strange walkie-talkie to solve unresolved crimes.", category: "series", genres: ["Crime", "Sci-Fi", "Thriller"], year: 2024, rating: 8.0, poster: placeholder, banner: heroSeries },
+      { title: "Kaos", tagline: "The gods are losing control.", description: "A modern reimagining of Greek mythology where gods and humans collide in chaos.", category: "series", genres: ["Fantasy", "Drama"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
   { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-  { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
-  { title: "Lupin", tagline: "The gentleman thief returns.", description: "Inspired by Arsène Lupin, Assane Diop seeks revenge using masterful deception.", category: "series", genres: ["Crime", "Mystery", "Drama"], year: 2021, rating: 7.5, poster: placeholder, banner: heroSeries },
-  { title: "Puli Meka", tagline: "Every hunter becomes prey.", description: "A gripping crime thriller involving serial murders and a dangerous psychological chase.", category: "series", genres: ["Crime", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
-  { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
-  { title: "The Mystery of Moksha Island", tagline: "The island hides more than treasure.", description: "A group of strangers uncovers terrifying secrets while trapped on a mysterious island.", category: "series", genres: ["Mystery", "Adventure", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries },
-  { title: "Welcome to Derry", tagline: "Every nightmare starts somewhere.", description: "A prequel exploring the horrifying origins of Pennywise and the cursed town of Derry.", category: "series", genres: ["Horror", "Mystery"], year: 2025, rating: 7.6, poster: placeholder, banner: heroSeries },
-  { title: "Alien Earth", tagline: "The nightmare has arrived on Earth.", description: "Humanity faces terror when deadly xenomorphs threaten life on Earth itself.", category: "series", genres: ["Sci-Fi", "Horror"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries },
-  { title: "Kaos", tagline: "The gods are losing control.", description: "A modern reimagining of Greek mythology where gods and humans collide in chaos.", category: "series", genres: ["Fantasy", "Drama"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
-  { title: "One Piece", tagline: "The great pirate era begins.", description: "Monkey D. Luffy sails across dangerous seas searching for the legendary One Piece treasure.", category: "series", genres: ["Adventure", "Fantasy", "Action"], year: 2023, rating: 8.4, poster: placeholder, banner: heroSeries },
   { title: "Avatar The Last Airbender", tagline: "Master all four elements.", description: "A young Avatar must restore balance to a world devastated by war.", category: "series", genres: ["Fantasy", "Adventure", "Action"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "Dead Boy Detectives", tagline: "Even death can't stop the investigation.", description: "Two ghost detectives solve supernatural mysteries while navigating the afterlife.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
-  { title: "Farzi", tagline: "Perfect counterfeit. Perfect crime.", description: "A struggling artist enters the dangerous world of counterfeit money.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 8.3, poster: placeholder, banner: heroSeries },
   { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
+    { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
+  { title: "The Boroughs", tagline: "Something sinister watches the neighborhood.", description: "A group of retirees discovers dark supernatural forces lurking beneath the quiet streets of their community.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
+    { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
+  { title: "Dead Boy Detectives", tagline: "Even death can't stop the investigation.", description: "Two ghost detectives solve supernatural mysteries while navigating the afterlife.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
+
+    { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
+  { title: "Farzi", tagline: "Perfect counterfeit. Perfect crime.", description: "A struggling artist enters the dangerous world of counterfeit money.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 8.3, poster: placeholder, banner: heroSeries },
   { title: "Gen V", tagline: "Superheroes are trained, not born.", description: "At a university for powered students, young superheroes compete for fame while uncovering deadly secrets hidden by Vought International.", category: "series", genres: ["Action", "Sci-Fi", "Drama"], year: 2023, rating: 7.7, poster: placeholder, banner: heroSeries },
   { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
-  { title: "The Boroughs", tagline: "Something sinister watches the neighborhood.", description: "A group of retirees discovers dark supernatural forces lurking beneath the quiet streets of their community.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
   { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries }
 ,
     {
@@ -151,42 +191,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroSeries,
   },
-  {
-   
-    title: "12 Monkeys",
-    tagline: "To save the future, rewrite the past.",
-    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
-    category: "series",
-    genres: ["Sci-Fi", "Thriller", "Mystery"],
-    year: 2015,
-    rating: 8.7,
-    poster: placeholder,
-    banner: heroSeries,
-  },
-  {
-    
-    title: "From",
-    tagline: "You can enter. You can't leave.",
-    description: "A mysterious town traps everyone who arrives, forcing strangers to build a fragile society while nightfall unleashes terrifying creatures.",
-    category: "series",
-    genres: ["Horror", "Mystery", "Sci-Fi"],
-    year: 2022,
-    rating: 8.1,
-    poster: placeholder,
-    banner: heroSeries,
-  },
-  {
-    
-    title: "Breaking Bad",
-    tagline: "Power is a choice. Consequences are inevitable.",
-    description: "After a terminal diagnosis, a high school chemistry teacher partners with a former student to build a meth empire.",
-    category: "series",
-    genres: ["Crime", "Drama", "Thriller"],
-    year: 2008,
-    rating: 9.5,
-    poster: placeholder,
-    banner: heroSeries,
-  },
+ 
+ 
   { title: "1899", tagline: "The ship holds secrets beneath the surface.", description: "Migrants on a steamship heading to New York encounter a second vessel adrift on the open sea, triggering a horrifying chain of events that connects them all.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2022, rating: 7.3, poster: placeholder, banner: heroSeries },
   { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
   { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
