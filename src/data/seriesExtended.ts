@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
      {
+  title: "Teach You a Lesson",
+  tagline: "Every action has consequences.",
+  description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
+  category: "series",
+  genres: ["Drama", "Thriller", "Revenge"],
+  year: 2024,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+     {
     title: "12 Monkeys",
     tagline: "To save the future, rewrite the past.",
     description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
