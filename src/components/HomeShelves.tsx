@@ -95,9 +95,9 @@ interface RowGridProps {
 
 function RowGrid({ items, onCardClick, progressById }: RowGridProps) {
   return (
-    <div className="flex gap-3 sm:gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-thin">
+    <div className="scroll-row flex gap-3 sm:gap-4 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide">
       {items.map((item, i) => (
-        <div key={item.id} className="snap-start flex-shrink-0 w-[42vw] sm:w-40 md:w-44 lg:w-48 relative">
+        <div key={item.id} className="flex-shrink-0 w-[42vw] sm:w-40 md:w-44 lg:w-48 relative">
           <EntertainmentCard item={item} onClick={onCardClick} index={i} />
           {progressById && progressById[item.id] != null && (
             <div className="absolute left-2 right-2 bottom-2 h-1 rounded-full bg-white/10 overflow-hidden pointer-events-none">

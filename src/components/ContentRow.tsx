@@ -61,7 +61,7 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
         <div
           ref={scrollRef}
           onScroll={updateScrollState}
-          className="flex gap-3 sm:gap-4 overflow-x-auto scrollbar-hide scroll-smooth pb-2 -mx-1 px-1"
+          className="scroll-row flex gap-3 sm:gap-4 overflow-x-auto scrollbar-hide pb-2 -mx-1 px-1"
         >
           {items.map((item, i) => (
             <div key={item.id} className="flex-shrink-0 w-[140px] sm:w-[160px] lg:w-[180px] xl:w-[200px]">
