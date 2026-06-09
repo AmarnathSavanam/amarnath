@@ -5,6 +5,32 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
      {
+  title: "Mouse",
+  tagline: "Can evil be born?",
+  description: "A rookie police officer becomes entangled in a series of brutal murders that force him to confront shocking truths about psychopathy and human nature.",
+  category: "series",
+  genres: ["Crime", "Mystery", "Thriller"],
+  year: 2021,
+  rating: 8.6,
+  poster: placeholder,
+  banner: heroSeries
+},
+  { title: "Wednesday", tagline: "Darkness runs in the family.", description: "Wednesday Addams investigates supernatural mysteries at Nevermore Academy.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
+
+{
+  title: "Reborn Rich",
+  tagline: "Revenge begins with a second life.",
+  description: "After being betrayed and murdered, a loyal employee is reborn as the youngest heir of the powerful family that destroyed him, seeking revenge from within.",
+  category: "series",
+  genres: ["Drama", "Business", "Fantasy"],
+  year: 2022,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+     { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries }
+
+     {
   title: "Teach You a Lesson",
   tagline: "Every action has consequences.",
   description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
@@ -234,11 +260,9 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
   { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
   { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
-  { title: "Wednesday", tagline: "Darkness runs in the family.", description: "Wednesday Addams investigates supernatural mysteries at Nevermore Academy.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
   { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
   { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-  { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries }
-];
+ ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
   (item, index) => ({
