@@ -4,6 +4,8 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+          { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries }
+
      {
   title: "Mouse",
   tagline: "Can evil be born?",
@@ -18,17 +20,18 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Wednesday", tagline: "Darkness runs in the family.", description: "Wednesday Addams investigates supernatural mysteries at Nevermore Academy.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
 
 {
-  title: "Reborn Rich",
-  tagline: "Revenge begins with a second life.",
-  description: "After being betrayed and murdered, a loyal employee is reborn as the youngest heir of the powerful family that destroyed him, seeking revenge from within.",
+  title: "Reborn Rookie",
+  tagline: "The boss starts from the bottom.",
+  description: "After a mysterious accident, a legendary business chairman wakes up in the body of a young athlete and returns to his own company as a rookie employee, uncovering corruption and family secrets from the ground up.",
   category: "series",
-  genres: ["Drama", "Business", "Fantasy"],
-  year: 2022,
-  rating: 8.4,
+  genres: ["Fantasy", "Business", "Mystery"],
+  year: 2026,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
-     { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries }
+    { title: "The Secrets of Shiledars", tagline: "History protects deadly secrets.", description: "A hidden order safeguards treasures and secrets tied to India's forgotten past.", category: "series", genres: ["Adventure", "Mystery", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
+ 
 
      {
   title: "Teach You a Lesson",
@@ -252,8 +255,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Vikkatakavi", tagline: "Every clue leads deeper into darkness.", description: "A mystery investigator uncovers hidden truths tied to ancient secrets and dangerous conspiracies.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries },
   { title: "Aindham Vedham", tagline: "Ancient knowledge holds terrifying power.", description: "A mystical thriller centered around hidden scriptures, forgotten history, and supernatural events.", category: "series", genres: ["Mystery", "Fantasy", "Thriller"], year: 2024, rating: 7.0, poster: placeholder, banner: heroSeries },
   { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "The Secrets of Shiledars", tagline: "History protects deadly secrets.", description: "A hidden order safeguards treasures and secrets tied to India's forgotten past.", category: "series", genres: ["Adventure", "Mystery", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "Yakshini", tagline: "A forbidden spirit awakens.", description: "A mythical yakshini enters the modern world, bringing love, danger, and dark secrets.", category: "series", genres: ["Fantasy", "Romance", "Thriller"], year: 2024, rating: 6.7, poster: placeholder, banner: heroSeries },
+ { title: "Yakshini", tagline: "A forbidden spirit awakens.", description: "A mythical yakshini enters the modern world, bringing love, danger, and dark secrets.", category: "series", genres: ["Fantasy", "Romance", "Thriller"], year: 2024, rating: 6.7, poster: placeholder, banner: heroSeries },
   { title: "BET", tagline: "High stakes change lives forever.", description: "A suspense drama revolving around power, betrayal, and dangerous gambling games.", category: "series", genres: ["Thriller", "Drama"], year: 2025, rating: 6.8, poster: placeholder, banner: heroSeries },
   { title: "The Sandman", tagline: "Dreams shape reality.", description: "After years of imprisonment, Dream escapes to restore balance between worlds.", category: "series", genres: ["Fantasy", "Drama", "Horror"], year: 2022, rating: 7.7, poster: placeholder, banner: heroSeries },
   { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
