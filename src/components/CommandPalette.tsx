@@ -58,13 +58,16 @@ export default function CommandPalette({ onOpenItem, onOpenCategory }: CommandPa
 
   useEffect(() => {
     if (open) {
-      document.body.style.overflow = "hidden";
+      document.documentElement.classList.add("scroll-locked");
+      document.body.classList.add("scroll-locked");
     } else {
-      document.body.style.overflow = "";
+      document.documentElement.classList.remove("scroll-locked");
+      document.body.classList.remove("scroll-locked");
       setQuery("");
     }
     return () => {
-      document.body.style.overflow = "";
+      document.documentElement.classList.remove("scroll-locked");
+      document.body.classList.remove("scroll-locked");
     };
   }, [open]);
 
@@ -127,7 +130,7 @@ export default function CommandPalette({ onOpenItem, onOpenCategory }: CommandPa
               </button>
             </div>
 
-            <div className="max-h-[60vh] overflow-y-auto p-2">
+            <div className="touch-scroll-free max-h-[60vh] overflow-y-auto p-2">
               {results.length === 0 ? (
                 <div className="text-center py-14">
                   <p className="font-display text-lg vapor-gradient-text mb-1">No matches</p>
