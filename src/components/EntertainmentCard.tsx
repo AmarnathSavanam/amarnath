@@ -15,7 +15,7 @@ export default function EntertainmentCard({ item, onClick, index, showRank }: En
   return (
     <button
       onClick={() => onClick(item)}
-      className="group relative overflow-hidden rounded-2xl bg-card/40 text-left w-full transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_50px_-12px_hsl(var(--vapor-cyan)/0.35)] active:scale-[0.97] animate-fade-in"
+      className="tap-target group relative overflow-hidden rounded-2xl bg-card/40 text-left w-full transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_50px_-12px_hsl(var(--vapor-cyan)/0.35)] active:scale-[0.97] animate-fade-in"
       style={{ animationDelay: `${index * 30}ms`, opacity: 0 }}
     >
       <div className="relative aspect-[2/3] overflow-hidden rounded-2xl border border-white/8 group-hover:border-primary/40 transition-colors">
