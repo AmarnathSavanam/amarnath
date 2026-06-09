@@ -4,7 +4,7 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
-          { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries }
+          { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries },
 
      {
   title: "Mouse",
@@ -263,7 +263,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
   { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
   { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
-  { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
+  { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
  ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
