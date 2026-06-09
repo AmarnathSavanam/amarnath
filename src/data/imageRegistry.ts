@@ -12,9 +12,9 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/mouse-banner.jpg"
 },
 
-"reborn-rich": {
-  poster: "/reborn-rich.jpg",
-  banner: "/reborn-rich-banner.jpg"
+"reborn-rookie": {
+  poster: "/reborn-rookie.jpg",
+  banner: "/reborn-rookie-banner.jpg"
 },
   "teach-you-a-lesson": {
   poster: "/teach-you-a-lesson.jpg",
