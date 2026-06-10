@@ -37,10 +37,7 @@ export default function CategoryView({ category, onCardClick, onBack }: Category
     return items.filter((i) => i.title.toLowerCase().includes(q));
   }, [items, query]);
 
-  const grid = useMemo(
-    () => filtered.filter((i) => i.id !== hero?.id),
-    [filtered, hero]
-  );
+  const grid = filtered;
 
   return (
     <div className={`${themeClassFor[category]} animate-fade-in-scale`}>
