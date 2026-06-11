@@ -4,17 +4,8 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
- {
-  title: "Supernatural",
-  tagline: "Saving people. Hunting things.",
-  description: "Two brothers travel across America hunting demons, ghosts, monsters, and other supernatural creatures while uncovering dark family secrets and preventing apocalyptic threats.",
-  category: "series",
-  genres: ["Supernatural", "Horror", "Drama"],
-  year: 2005,
-  rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
-},
+  { title: "Berlin", tagline: "Before the heist came the legend.", description: "Berlin assembles a skilled gang for one of the most ambitious robberies ever attempted.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 7.0, poster: placeholder, banner: heroSeries },
+
  {
   title: "Bring It On, Ghost",
   tagline: "Some ghosts need saving too.",
@@ -273,7 +264,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "The Peripheral", tagline: "The future is already connected.", description: "A young woman discovers a hidden connection to a futuristic reality and a dangerous conspiracy.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2022, rating: 8.0, poster: placeholder, banner: heroSeries },
   { title: "Athidhi", tagline: "Every guest hides a dark secret.", description: "A suspense thriller where mysterious visitors begin changing the lives of everyone around them.", category: "series", genres: ["Thriller", "Mystery"], year: 2023, rating: 6.8, poster: placeholder, banner: heroSeries },
   { title: "Dhoota", tagline: "Destiny arrives before death.", description: "A journalist discovers newspaper clippings that predict horrifying future tragedies.", category: "series", genres: ["Horror", "Mystery", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
-  { title: "Berlin", tagline: "Before the heist came the legend.", description: "Berlin assembles a skilled gang for one of the most ambitious robberies ever attempted.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 7.0, poster: placeholder, banner: heroSeries },
   { title: "Harikatha", tagline: "Stories hide terrifying truths.", description: "A dark mystery unfolds through interconnected tales filled with suspense and supernatural twists.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.0, poster: placeholder, banner: heroSeries },
   { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries },
   { title: "Vikkatakavi", tagline: "Every clue leads deeper into darkness.", description: "A mystery investigator uncovers hidden truths tied to ancient secrets and dangerous conspiracies.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries },
