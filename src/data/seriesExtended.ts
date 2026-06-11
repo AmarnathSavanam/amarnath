@@ -4,6 +4,28 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+ {
+  title: "Supernatural",
+  tagline: "Saving people. Hunting things.",
+  description: "Two brothers travel across America hunting demons, ghosts, monsters, and other supernatural creatures while uncovering dark family secrets and preventing apocalyptic threats.",
+  category: "series",
+  genres: ["Supernatural", "Horror", "Drama"],
+  year: 2005,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
+  title: "Bring It On, Ghost",
+  tagline: "Some ghosts need saving too.",
+  description: "A college student who can see ghosts teams up with a spirited ghost girl to fight evil spirits and uncover the mystery behind her lost memories.",
+  category: "series",
+  genres: ["Fantasy", "Comedy", "Romance"],
+  year: 2016,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
  { title: "Money Heist", tagline: "The plan is everything.", description: "A criminal mastermind who goes by 'The Professor' recruits a group of thieves to carry out the most ambitious heist in history.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2017, rating: 8.2, poster: placeholder, banner: heroSeries },
             { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
   { title: "The Boys", tagline: "Superheroes aren't always heroes.", description: "A group of vigilantes fights corrupt superheroes who abuse their powers behind the scenes.", category: "series", genres: ["Action", "Crime", "Sci-Fi"], year: 2019, rating: 8.7, poster: placeholder, banner: heroSeries },
