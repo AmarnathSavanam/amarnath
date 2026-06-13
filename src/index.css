@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -64,8 +64,8 @@
     --glass-border: 30 30% 90% / 0.08;
     --glass-blur: 24px;
 
-    --font-display: 'Instrument Serif', serif;
-    --font-body: 'Work Sans', sans-serif;
+    --font-display: 'Outfit', sans-serif;
+    --font-body: 'Figtree', sans-serif;
 
     --sidebar-background: 280 25% 7%;
     --sidebar-foreground: 30 25% 92%;
