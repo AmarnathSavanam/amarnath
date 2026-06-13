@@ -8,7 +8,7 @@ interface ImageEntry {
 }
 const imageRegistry: Record<string, ImageEntry> = {
   "phantom-lawyer": {
-  "poster": "/phantom-lawyer.jpg",
+  "poster": "/phantom-lawyer.jpeg",
   "banner": "/phantom-lawyer-banner.jpg"
 },
   "bring-it-on-ghost": {
