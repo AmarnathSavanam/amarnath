@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Instrument Serif", "serif"],
-        body: ["Work Sans", "sans-serif"],
+        display: ["Outfit", "sans-serif"],
+        body: ["Figtree", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
