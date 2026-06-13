@@ -16,15 +16,15 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroSeries,
   },
    {
-  "title": "Reborn Rich",
-  "tagline": "A second life. A perfect revenge.",
-  "description": "After being betrayed and murdered by the powerful Soonyang family, a loyal employee is reborn as their youngest grandson. Armed with knowledge of the future, he plots his revenge while fighting for control of the conglomerate.",
-  "category": "series",
-  "genres": ["Drama", "Fantasy", "Business", "Revenge"],
-  "year": 2022,
-  "rating": 8.1,
-  "poster": "placeholder",
-  "banner": "heroSeries"
+  title: "Reborn Rich",
+  tagline: "A second life. A perfect revenge.",
+  description: "After being betrayed and murdered by the powerful Soonyang family, a loyal employee is reborn as their youngest grandson. Armed with knowledge of the future, he plots his revenge while fighting for control of the conglomerate.",
+  category: "series",
+  genres: ["Drama", "Fantasy", "Business", "Revenge"],
+  year: 2022,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroSeries
 },
    { title: "Game of Thrones", tagline: "When you play the game of thrones, you win or you die.", description: "Noble families wage war for control of the Iron Throne while an ancient enemy returns after being dormant for millennia.", category: "series", genres: ["Fantasy", "Drama", "Adventure"], year: 2011, rating: 9.2, poster: placeholder, banner: heroSeries },
 {
