@@ -5,8 +5,7 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
    { title: "Game of Thrones", tagline: "When you play the game of thrones, you win or you die.", description: "Noble families wage war for control of the Iron Throne while an ancient enemy returns after being dormant for millennia.", category: "series", genres: ["Fantasy", "Drama", "Adventure"], year: 2011, rating: 9.2, poster: placeholder, banner: heroSeries },
-
-  {
+{
   title: "Phantom Lawyer",
   tagline: "The dead deserve justice too.",
   description: "A struggling lawyer gains the ability to see and be possessed by ghosts, taking on supernatural cases to help restless spirits uncover the truth and find justice.",
