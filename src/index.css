@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Figtree:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,76 +6,75 @@
 
 @layer base {
   :root {
-    /* Vapor Chrome OS — near-black void with iridescent pastels */
-    --background: 240 30% 6%;            /* #0a0a14 */
-    --foreground: 210 40% 96%;
+    /* Sunset Blaze — deep plum void with warm orange/magenta/indigo */
+    --background: 280 25% 7%;            /* deep plum-black */
+    --foreground: 30 30% 96%;
 
-    --card: 240 25% 10%;
-    --card-foreground: 210 40% 96%;
+    --card: 285 22% 11%;
+    --card-foreground: 30 30% 96%;
 
-    --popover: 240 25% 8%;
-    --popover-foreground: 210 40% 96%;
+    --popover: 285 22% 9%;
+    --popover-foreground: 30 30% 96%;
 
-    /* Primary: cyan #67e8f9 */
-    --primary: 187 92% 69%;
-    --primary-foreground: 240 30% 6%;
+    /* Primary: blaze orange #ff6b35 */
+    --primary: 14 100% 60%;
+    --primary-foreground: 280 25% 7%;
 
-    /* Secondary surface (glass tint) */
-    --secondary: 240 20% 14%;
-    --secondary-foreground: 210 30% 88%;
+    --secondary: 285 20% 15%;
+    --secondary-foreground: 30 25% 90%;
 
-    --muted: 240 18% 18%;
-    --muted-foreground: 230 14% 62%;
+    --muted: 285 18% 18%;
+    --muted-foreground: 25 12% 68%;
 
-    --accent: 250 95% 76%;               /* lavender #c4b5fd */
-    --accent-foreground: 240 30% 6%;
+    --accent: 330 78% 58%;               /* magenta #e84393 */
+    --accent-foreground: 280 25% 7%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 210 40% 96%;
+    --destructive-foreground: 30 30% 96%;
 
-    --border: 240 20% 20%;
-    --input: 240 20% 18%;
-    --ring: 187 92% 69%;
+    --border: 285 18% 22%;
+    --input: 285 18% 18%;
+    --ring: 14 100% 60%;
 
     --radius: 1.25rem;
 
-    /* Vapor palette */
-    --vapor-lavender: 250 95% 76%;       /* #c4b5fd */
-    --vapor-indigo:   234 89% 74%;       /* #818cf8 */
-    --vapor-cyan:     187 92% 69%;       /* #67e8f9 */
-    --vapor-ice:      187 94% 82%;       /* #a5f3fc */
-    --vapor-void:     240 30% 6%;
+    /* Sunset palette — names kept so existing class refs still resolve */
+    --vapor-lavender: 248 73% 63%;       /* indigo #6c5ce7 */
+    --vapor-indigo:   330 78% 58%;       /* magenta #e84393 */
+    --vapor-cyan:     14 100% 60%;       /* orange #ff6b35 */
+    --vapor-ice:      32 93% 54%;        /* amber #f7931e */
+    --vapor-void:     280 25% 7%;
 
-    /* Category accents — re-tinted to fit the palette */
-    --marvel: 250 95% 76%;
-    --marvel-glow: 234 89% 74%;
-    --anime: 187 92% 69%;
-    --anime-glow: 187 94% 82%;
-    --series: 234 89% 74%;
-    --series-glow: 250 95% 76%;
+    /* Category accents */
+    --marvel: 14 100% 60%;
+    --marvel-glow: 32 93% 54%;
+    --anime: 330 78% 58%;
+    --anime-glow: 248 73% 63%;
+    --series: 32 93% 54%;
+    --series-glow: 14 100% 60%;
 
-    /* Legacy aliases (kept so old refs don't break) */
-    --gold: 187 92% 69%;
-    --gold-dim: 234 89% 74%;
-    --neon-blue: 234 89% 74%;
-    --neon-purple: 250 95% 76%;
-    --neon-cyan: 187 92% 69%;
+    /* Legacy aliases */
+    --gold: 32 93% 54%;
+    --gold-dim: 14 100% 60%;
+    --neon-blue: 248 73% 63%;
+    --neon-purple: 330 78% 58%;
+    --neon-cyan: 14 100% 60%;
 
-    --glass-bg: 240 30% 6% / 0.55;
-    --glass-border: 240 30% 90% / 0.08;
+    --glass-bg: 280 25% 7% / 0.55;
+    --glass-border: 30 30% 90% / 0.08;
     --glass-blur: 24px;
 
-    --font-display: 'Outfit', sans-serif;
-    --font-body: 'Figtree', sans-serif;
+    --font-display: 'Instrument Serif', serif;
+    --font-body: 'Work Sans', sans-serif;
 
-    --sidebar-background: 240 30% 6%;
-    --sidebar-foreground: 210 30% 90%;
-    --sidebar-primary: 187 92% 69%;
-    --sidebar-primary-foreground: 240 30% 6%;
-    --sidebar-accent: 240 20% 14%;
-    --sidebar-accent-foreground: 210 30% 92%;
-    --sidebar-border: 240 20% 18%;
-    --sidebar-ring: 187 92% 69%;
+    --sidebar-background: 280 25% 7%;
+    --sidebar-foreground: 30 25% 92%;
+    --sidebar-primary: 14 100% 60%;
+    --sidebar-primary-foreground: 280 25% 7%;
+    --sidebar-accent: 285 20% 15%;
+    --sidebar-accent-foreground: 30 25% 92%;
+    --sidebar-border: 285 18% 20%;
+    --sidebar-ring: 14 100% 60%;
   }
 }
 
@@ -121,7 +120,8 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
+    font-weight: 400;
   }
 }
 
