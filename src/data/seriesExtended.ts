@@ -41,12 +41,13 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
- { title: "The Last of Us", tagline: "When you're lost in the darkness, look for the light.", description: "In a post-apocalyptic world ravaged by a fungal plague, a hardened survivor is hired to smuggle a teenage girl across what remains of the United States.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2023, rating: 8.8, poster: placeholder, banner: heroSeries },
+ { title: "The Last of Us", tagline: "When you're lost in the darkness, look for the light.", description: "In a post-apocalyptic world ravaged by a fungal plague, a hardened survivor is hired to smuggle a teenage girl across what remains of the United States.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2023, rating: 8.8, poster: placeholder, banner: heroSeries
+ },
 {
   title: "Viral Hit",
   tagline: "One video can change everything.",
   description: "A bullied high school student unexpectedly becomes an online sensation after learning how to fight and streaming his battles.",
-  category: "anime",
+  category: "series",
   genres: ["Action", "Comedy", "Drama"],
   year: 2024,
   rating: 7.6,
