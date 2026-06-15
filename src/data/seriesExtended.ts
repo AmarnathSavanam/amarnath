@@ -21,7 +21,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   title: "Twelve",
   tagline: "Twelve zodiac warriors. One deadly battle.",
   description: "Twelve warriors representing the Chinese zodiac fight in a brutal survival tournament where only one can claim victory and have their wish granted.",
-  category: "anime",
+  category: "series",
   genres: ["Action", "Fantasy", "Psychological"],
   year: 2017,
   rating: 6.5,
