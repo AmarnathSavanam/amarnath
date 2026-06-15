@@ -7,6 +7,27 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "yu-yu-hakusho": {
+    "poster": "/yu-yu-hakusho.jpg",
+    "banner": "/yu-yu-hakusho-banner.jpg"
+  },
+  "twelve": {
+    "poster": "/twelve.jpg",
+    "banner": "/twelve-banner.jpg"
+  },
+  "good-boy": {
+    "poster": "/good-boy.jpg",
+    "banner": "/good-boy-banner.jpg"
+  },
+  "viral-hit": {
+    "poster": "/viral-hit.jpg",
+    "banner": "/viral-hit-banner.jpg"
+  },
+  "parasyte-the-grey": {
+    "poster": "/parasyte-the-grey.jpg",
+    "banner": "/parasyte-the-grey-banner.jpg"
+  }
+,
   "reborn-rich": {
   "poster": "/reborn-rich.jpg",
   "banner": "/reborn-rich-banner.jpg"
