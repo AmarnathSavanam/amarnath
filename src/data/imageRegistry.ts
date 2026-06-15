@@ -1579,11 +1579,6 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/lookism-banner.jpg",
 },
 
-"viral-hit": {
-  poster: "/viral-hit.webp",
-  banner: "/viral-hit-banner.webp",
-},
-
 "hero-without-a-class-who-even-needs-skills": {
   poster: "/hero-without-class.webp",
   banner: "/hero-without-class-banner.webp",
