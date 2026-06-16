@@ -4,6 +4,28 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+       {
+    title: "From",
+    tagline: "You can enter. You can't leave.",
+    description: "A mysterious town traps everyone who arrives, forcing strangers to build a fragile society while nightfall unleashes terrifying creatures.",
+    category: "series",
+    genres: ["Horror", "Mystery", "Sci-Fi"],
+    year: 2022,
+    rating: 8.1,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+      {
+  title: "Bon Appétit, Your Majesty",
+  tagline: "Where royal tradition meets culinary excellence.",
+  description: "An elegant culinary series exploring the lavish feasts, historic recipes, and extraordinary chefs behind the world's most renowned royal courts.",
+  category: "series",
+  genres: ["Food", "Documentary", "History"],
+  year: 2024,
+  rating: 8.1,
+  poster: "/bon-appetit-your-majesty.jpg",
+  banner: "/bon-appetit-your-majesty-banner.jpg"
+},
       { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
       {
   title: "Legends from the Kitchen",
@@ -190,17 +212,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-    title: "From",
-    tagline: "You can enter. You can't leave.",
-    description: "A mysterious town traps everyone who arrives, forcing strangers to build a fragile society while nightfall unleashes terrifying creatures.",
-    category: "series",
-    genres: ["Horror", "Mystery", "Sci-Fi"],
-    year: 2022,
-    rating: 8.1,
-    poster: placeholder,
-    banner: heroSeries,
-  },
+  { title: "Yakshini", tagline: "A forbidden spirit awakens.", description: "A mythical yakshini enters the modern world, bringing love, danger, and dark secrets.", category: "series", genres: ["Fantasy", "Romance", "Thriller"], year: 2024, rating: 6.7, poster: placeholder, banner: heroSeries },
+
     {
   title: "Light Shop",
   tagline: "Every light hides a secret.",
@@ -357,7 +370,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
        { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
       { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
       
- { title: "Yakshini", tagline: "A forbidden spirit awakens.", description: "A mythical yakshini enters the modern world, bringing love, danger, and dark secrets.", category: "series", genres: ["Fantasy", "Romance", "Thriller"], year: 2024, rating: 6.7, poster: placeholder, banner: heroSeries },
   { title: "The Sandman", tagline: "Dreams shape reality.", description: "After years of imprisonment, Dream escapes to restore balance between worlds.", category: "series", genres: ["Fantasy", "Drama", "Horror"], year: 2022, rating: 7.7, poster: placeholder, banner: heroSeries },
   { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
 ];
