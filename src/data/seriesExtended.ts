@@ -4,6 +4,18 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+      { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
+      {
+  title: "Legends from the Kitchen",
+  tagline: "Every recipe tells a story.",
+  description: "A culinary journey exploring the origins, myths, and remarkable stories behind iconic dishes and legendary chefs from around the world.",
+  category: "series",
+  genres: ["Food", "Documentary", "Lifestyle"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
       { title: "The Boroughs", tagline: "Something sinister watches the neighborhood.", description: "A group of retirees discovers dark supernatural forces lurking beneath the quiet streets of their community.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
     {
   title: "Yu Yu Hakusho",
@@ -330,8 +342,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
  { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
      { title: "Gen V", tagline: "Superheroes are trained, not born.", description: "At a university for powered students, young superheroes compete for fame while uncovering deadly secrets hidden by Vought International.", category: "series", genres: ["Action", "Sci-Fi", "Drama"], year: 2023, rating: 7.7, poster: placeholder, banner: heroSeries },
  { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
-{ title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
-  { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
+{ title: "Vikkatakavi", tagline: "Every clue leads deeper into darkness.", description: "A mystery investigator uncovers hidden truths tied to ancient secrets and dangerous conspiracies.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries }, 
+      { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
  { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
   { title: "Scam 1992", tagline: "The man who shook the entire stock market.", description: "A financial thriller based on the life of stockbroker Harshad Mehta and the securities scam that changed India forever.", category: "series", genres: ["Crime", "Drama", "Biography"], year: 2020, rating: 9.3, poster: placeholder, banner: heroSeries },
@@ -343,7 +355,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries },
     { title: "BET", tagline: "High stakes change lives forever.", description: "A suspense drama revolving around power, betrayal, and dangerous gambling games.", category: "series", genres: ["Thriller", "Drama"], year: 2025, rating: 6.8, poster: placeholder, banner: heroSeries },
  
-{ title: "Vikkatakavi", tagline: "Every clue leads deeper into darkness.", description: "A mystery investigator uncovers hidden truths tied to ancient secrets and dangerous conspiracies.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries }, 
 { title: "Aindham Vedham", tagline: "Ancient knowledge holds terrifying power.", description: "A mystical thriller centered around hidden scriptures, forgotten history, and supernatural events.", category: "series", genres: ["Mystery", "Fantasy", "Thriller"], year: 2024, rating: 7.0, poster: placeholder, banner: heroSeries },
   { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
  { title: "Yakshini", tagline: "A forbidden spirit awakens.", description: "A mythical yakshini enters the modern world, bringing love, danger, and dark secrets.", category: "series", genres: ["Fantasy", "Romance", "Thriller"], year: 2024, rating: 6.7, poster: placeholder, banner: heroSeries },
