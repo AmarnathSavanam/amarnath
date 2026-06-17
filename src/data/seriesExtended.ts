@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
         {
+  title: "Widow's Bay",
+  tagline: "Some towns have secrets. This one has a curse.",
+  description: "A skeptical mayor tries to transform a remote New England island into a tourist hotspot, only to discover that the town's terrifying legends and supernatural curse may be real.",
+  category: "series",
+  genres: ["Horror", "Comedy", "Mystery", "Thriller"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries,
+},
+        {
     title: "12 Monkeys",
     tagline: "To save the future, rewrite the past.",
     description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
