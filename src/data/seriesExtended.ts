@@ -4,6 +4,28 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+        {
+    title: "12 Monkeys",
+    tagline: "To save the future, rewrite the past.",
+    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
+    category: "series",
+    genres: ["Sci-Fi", "Thriller", "Mystery"],
+    year: 2015,
+    rating: 8.7,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+       {
+  title: "Feel Good to Die",
+  tagline: "To save him, she must relive the same day.",
+  description: "A woman becomes trapped in a time loop and repeatedly relives the same day, trying to prevent her difficult boss from meeting a tragic fate while discovering unexpected truths about life and love.",
+  category: "series",
+  genres: ["Romance", "Comedy", "Fantasy"],
+  year: 2018,
+  rating: 7.7,
+  poster: placeholder,
+  banner: heroSeries,
+},
        {
     title: "From",
     tagline: "You can enter. You can't leave.",
@@ -190,17 +212,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-     {
-    title: "12 Monkeys",
-    tagline: "To save the future, rewrite the past.",
-    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
-    category: "series",
-    genres: ["Sci-Fi", "Thriller", "Mystery"],
-    year: 2015,
-    rating: 8.7,
-    poster: placeholder,
-    banner: heroSeries,
-  },
+       { title: "The Sandman", tagline: "Dreams shape reality.", description: "After years of imprisonment, Dream escapes to restore balance between worlds.", category: "series", genres: ["Fantasy", "Drama", "Horror"], year: 2022, rating: 7.7, poster: placeholder, banner: heroSeries },       
         {
   title: "Sweet Home",
   tagline: "Monsters are born from human desires.",
@@ -370,7 +382,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
        { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
       { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
       
-  { title: "The Sandman", tagline: "Dreams shape reality.", description: "After years of imprisonment, Dream escapes to restore balance between worlds.", category: "series", genres: ["Fantasy", "Drama", "Horror"], year: 2022, rating: 7.7, poster: placeholder, banner: heroSeries },
   { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
 ];
 
