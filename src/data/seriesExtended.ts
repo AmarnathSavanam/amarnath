@@ -305,8 +305,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-     { title: "The Mystery of Moksha Island", tagline: "The island hides more than treasure.", description: "A group of strangers uncovers terrifying secrets while trapped on a mysterious island.", category: "series", genres: ["Mystery", "Adventure", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries },
- 
+    { title: "BET", tagline: "High stakes change lives forever.", description: "A suspense drama revolving around power, betrayal, and dangerous gambling games.", category: "series", genres: ["Thriller", "Drama"], year: 2025, rating: 6.8, poster: placeholder, banner: heroSeries }
+, 
     {
   title: "Study Group",
   tagline: "Brains fight harder than fists.",
@@ -366,12 +366,9 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "The Last Samurai", tagline: "Honor. Courage. Loyalty.", description: "An American military officer is captured by samurai warriors and becomes immersed in their dying culture, finding himself torn between two worlds.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2003, rating: 7.8, poster: placeholder, banner: heroSeries },
   { title: "Dhoota", tagline: "Destiny arrives before death.", description: "A journalist discovers newspaper clippings that predict horrifying future tragedies.", category: "series", genres: ["Horror", "Mystery", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
     { title: "The Heavenly Idol", tagline: "A divine power trapped in an idol world.", description: "A high priest from another world suddenly wakes up in the body of an unpopular K-pop idol.", category: "series", genres: ["Fantasy", "Comedy", "Drama"], year: 2023, rating: 7.1, poster: placeholder, banner: heroSeries },
-  { title: "Harikatha", tagline: "Stories hide terrifying truths.", description: "A dark mystery unfolds through interconnected tales filled with suspense and supernatural twists.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.0, poster: placeholder, banner: heroSeries },
-    { title: "Gyeongseong Creature", tagline: "Monsters are born from human greed.", description: "During colonial Korea, two individuals battle terrifying creatures born from secret experiments.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2023, rating: 7.3, poster: placeholder, banner: heroSeries },
-  { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries },
-    { title: "BET", tagline: "High stakes change lives forever.", description: "A suspense drama revolving around power, betrayal, and dangerous gambling games.", category: "series", genres: ["Thriller", "Drama"], year: 2025, rating: 6.8, poster: placeholder, banner: heroSeries },
-       { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries }
-      
+       { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
+        { title: "Gyeongseong Creature", tagline: "Monsters are born from human greed.", description: "During colonial Korea, two individuals battle terrifying creatures born from secret experiments.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2023, rating: 7.3, poster: placeholder, banner: heroSeries },
+  { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries }
 ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
