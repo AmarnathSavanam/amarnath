@@ -369,6 +369,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
        { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
         { title: "Gyeongseong Creature", tagline: "Monsters are born from human greed.", description: "During colonial Korea, two individuals battle terrifying creatures born from secret experiments.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2023, rating: 7.3, poster: placeholder, banner: heroSeries },
   { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries }
+,{
+  title: "Viral Hit",
+  tagline: "One stream can change everything.",
+  description: "A timid high school student unexpectedly becomes an online sensation after starting a channel dedicated to fighting stronger opponents and sharing his strategies with the world.",
+  category: "series",
+  genres: ["Action", "Comedy", "Drama"],
+  year: 2024,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+}
 ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
