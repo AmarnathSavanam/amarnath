@@ -99,6 +99,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 },
  { title: "The Last of Us", tagline: "When you're lost in the darkness, look for the light.", description: "In a post-apocalyptic world ravaged by a fungal plague, a hardened survivor is hired to smuggle a teenage girl across what remains of the United States.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2023, rating: 8.8, poster: placeholder, banner: heroSeries
  },
+      { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
 
   { title: "Avatar The Last Airbender", tagline: "Master all four elements.", description: "A young Avatar must restore balance to a world devastated by war.", category: "series", genres: ["Fantasy", "Adventure", "Action"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
 {
@@ -241,7 +242,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
   { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
- 
+ ,
 
     {
   title: "Vigilante",
@@ -369,8 +370,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     { title: "Gyeongseong Creature", tagline: "Monsters are born from human greed.", description: "During colonial Korea, two individuals battle terrifying creatures born from secret experiments.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2023, rating: 7.3, poster: placeholder, banner: heroSeries },
   { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries },
     { title: "BET", tagline: "High stakes change lives forever.", description: "A suspense drama revolving around power, betrayal, and dangerous gambling games.", category: "series", genres: ["Thriller", "Drama"], year: 2025, rating: 6.8, poster: placeholder, banner: heroSeries },
-       { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-      { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
+       { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries }
       
 ];
 
