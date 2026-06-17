@@ -99,17 +99,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 },
  { title: "The Last of Us", tagline: "When you're lost in the darkness, look for the light.", description: "In a post-apocalyptic world ravaged by a fungal plague, a hardened survivor is hired to smuggle a teenage girl across what remains of the United States.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2023, rating: 8.8, poster: placeholder, banner: heroSeries
  },
-{
-  title: "Viral Hit",
-  tagline: "One video can change everything.",
-  description: "A bullied high school student unexpectedly becomes an online sensation after learning how to fight and streaming his battles.",
-  category: "series",
-  genres: ["Action", "Comedy", "Drama"],
-  year: 2024,
-  rating: 7.6,
-  poster: placeholder,
-  banner: heroSeries,
-},
+
   { title: "Avatar The Last Airbender", tagline: "Master all four elements.", description: "A young Avatar must restore balance to a world devastated by war.", category: "series", genres: ["Fantasy", "Adventure", "Action"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
 {
   title: "Parasyte: The Grey",
@@ -250,7 +240,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-    { title: "Puli Meka", tagline: "Every hunter becomes prey.", description: "A gripping crime thriller involving serial murders and a dangerous psychological chase.", category: "series", genres: ["Crime", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
+  { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
  
 
     {
@@ -382,7 +372,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
        { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
       { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
       
-  { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
 ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
