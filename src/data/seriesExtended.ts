@@ -4,6 +4,8 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+                { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
+
         {
   title: "Ghost Doctor",
   tagline: "Two doctors. One body. One extraordinary mission.",
@@ -394,7 +396,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
  { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
 { title: "Vikkatakavi", tagline: "Every clue leads deeper into darkness.", description: "A mystery investigator uncovers hidden truths tied to ancient secrets and dangerous conspiracies.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries }, 
       { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
- { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
+{
+  title: "The Mystery of Moksha Island",
+  tagline: "A deadly invitation. A mysterious island. No one is safe.",
+  description: "After a powerful scientist's death, his relatives are invited to a remote island to claim a vast inheritance. What begins as a family gathering soon turns into a terrifying survival game filled with secrets, betrayals, and shocking discoveries.",
+  category: "series",
+  genres: ["Thriller", "Mystery", "Sci-Fi", "Drama"],
+  year: 2024,
+  rating: 4.2,
+  poster: placeholder,
+  banner: heroSeries,
+},
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
   { title: "Scam 1992", tagline: "The man who shook the entire stock market.", description: "A financial thriller based on the life of stockbroker Harshad Mehta and the securities scam that changed India forever.", category: "series", genres: ["Crime", "Drama", "Biography"], year: 2020, rating: 9.3, poster: placeholder, banner: heroSeries },
   { title: "The Last Samurai", tagline: "Honor. Courage. Loyalty.", description: "An American military officer is captured by samurai warriors and becomes immersed in their dying culture, finding himself torn between two worlds.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2003, rating: 7.8, poster: placeholder, banner: heroSeries },
