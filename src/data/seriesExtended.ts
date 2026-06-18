@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
         {
+  title: "Ghost Doctor",
+  tagline: "Two doctors. One body. One extraordinary mission.",
+  description: "A brilliant surgeon becomes a spirit after a tragic accident and teams up with an inexperienced doctor by possessing his body, creating an unusual partnership that saves lives.",
+  category: "series",
+  genres: ["Medical", "Fantasy", "Comedy", "Drama"],
+  year: 2022,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries,
+},
+          {
   title: "Widow's Bay",
   tagline: "Some towns have secrets. This one has a curse.",
   description: "A skeptical mayor tries to transform a remote New England island into a tourist hotspot, only to discover that the town's terrifying legends and supernatural curse may be real.",
@@ -15,6 +26,18 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
+{
+  title: "Sisyphus: The Myth",
+  tagline: "The future is coming for him.",
+  description: "A genius engineer and a mysterious warrior from the future join forces to stop a catastrophic event and uncover the truth behind a dangerous time-travel conspiracy.",
+  category: "series",
+  genres: ["Science Fiction", "Action", "Mystery", "Thriller"],
+  year: 2021,
+  rating: 7.1,
+  poster: placeholder,
+  banner: heroSeries,
+},
+      
         {
     title: "12 Monkeys",
     tagline: "To save the future, rewrite the past.",
