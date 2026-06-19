@@ -7,6 +7,25 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional": {
+  poster: "/appraiser.jpg",
+  banner: "/appraiser-banner.jpg"
+},
+
+"the-ramparts-of-ice": {
+  poster: "/the-ramparts-of-ice.jpg",
+  banner: "/the-ramparts-of-ice-banner.jpg"
+},
+
+"petals-of-reincarnation": {
+  poster: "/petals-of-reincarnation.jpg",
+  banner: "/petals-of-reincarnation-banner.jpg"
+},
+
+"kujima-why-sing-when-you-can-warble": {
+  poster: "/kujima-why-sing-when-you-can-warble.jpg",
+  banner: "/kujima-why-sing-when-you-can-warble-banner.jpg"
+},
   "i-want-to-end-this-love-game": {
   poster: "/i-want-to-end-this-love-game.jpg",
   banner: "/i-want-to-end-this-love-game-banner.jpg"
