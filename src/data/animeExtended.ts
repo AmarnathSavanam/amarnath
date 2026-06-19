@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Witch Hat Atelier",
+  tagline: "Magic is not a gift. It's a secret.",
+  description: "Coco, a young girl who dreams of becoming a witch, discovers that magic can be learned by anyone. After a tragic accident turns her mother to stone, she becomes the apprentice of the mysterious witch Qifrey and begins a journey through a breathtaking world of magic, wonder, and hidden truths.",
+  category: "anime",
+  genres: ["Fantasy", "Adventure", "Magic"],
+  year: 2026,
+  rating: 8.7,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Always a Catch!",
   tagline: "Every cast changes fate.",
   description: "A fishing enthusiast discovers that every catch brings unexpected rewards, abilities, and adventures, turning a simple hobby into a journey of growth and survival.",
