@@ -5,6 +5,41 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "I Want to End This Love Game",
+  tagline: "The first to confess loses.",
+  description: "Yukiya and Miku turn their mutual crush into a daily battle of wits, each trying to make the other confess first. What starts as a playful competition gradually becomes a heartfelt romance where both sides are already hopelessly in love.",
+  category: "anime",
+  genres: ["Romance", "Comedy", "School Life"],
+  year: 2021,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "Even a Replica Can Fall in Love",
+  tagline: "A fake heart can still love for real.",
+  description: "A girl creates a replica of herself to handle the burdens of daily life, but the copy develops feelings and dreams of its own. As their identities blur, both must confront what it truly means to be human and to love.",
+  category: "anime",
+  genres: ["Romance", "Drama", "Supernatural"],
+  year: 2023,
+  rating: 8.5,
+   poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "I Made Friends with the Second Prettiest Girl in My Class",
+  tagline: "Sometimes second place is first in your heart.",
+  description: "A quiet high school boy unexpectedly befriends the second most popular girl in his class. Their casual friendship slowly blossoms into something deeper as they discover sides of each other hidden from everyone else.",
+  category: "anime",
+  genres: ["Romance", "Slice of Life", "School Life"],
+  year: 2021,
+  rating: 8.3,
+   poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Witch Hat Atelier",
   tagline: "Magic is not a gift. It's a secret.",
   description: "Coco, a young girl who dreams of becoming a witch, discovers that magic can be learned by anyone. After a tragic accident turns her mother to stone, she becomes the apprentice of the mysterious witch Qifrey and begins a journey through a breathtaking world of magic, wonder, and hidden truths.",
