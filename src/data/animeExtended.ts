@@ -5,6 +5,53 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
+  tagline: "The weakest class hides the greatest power.",
+  description: "Ein is born with the seemingly useless Appraiser class and is ridiculed by everyone around him. However, he soon discovers that his ability possesses hidden potential capable of surpassing heroes, sages, and even legendary warriors.",
+  category: "anime",
+  genres: ["Fantasy", "Adventure", "Action"],
+  year: 2025,
+  rating: 7.9,
+   poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "The Ramparts of Ice",
+  tagline: "Some walls are built around the heart.",
+  description: "Koyuki, a quiet girl nicknamed the Ice Queen, struggles to connect with others until unexpected friendships begin to melt the walls she has built around herself.",
+  category: "anime",
+  genres: ["Romance", "Slice of Life", "School Life"],
+  year: 2020,
+  rating: 8.4,
+   poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "Petals of Reincarnation",
+  tagline: "The past lives within us.",
+  description: "People who inherit the talents of historical figures awaken extraordinary powers through reincarnation. As rival reincarnators clash, a battle unfolds over destiny, ambition, and the future of humanity.",
+  category: "anime",
+  genres: ["Action", "Supernatural", "Mystery"],
+  year: 2014,
+  rating: 8.3,
+   poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "Kujima: Why Sing, When You Can Warble?",
+  tagline: "A strange guest changes everything.",
+  description: "A peculiar bird-like creature named Kujima unexpectedly moves into a family's home, bringing warmth, humor, and life lessons through its quirky perspective on everyday life.",
+  category: "anime",
+  genres: ["Comedy", "Slice of Life", "Family"],
+  year: 2021,
+  rating: 8.2,
+ poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "I Want to End This Love Game",
   tagline: "The first to confess loses.",
   description: "Yukiya and Miku turn their mutual crush into a daily battle of wits, each trying to make the other confess first. What starts as a playful competition gradually becomes a heartfelt romance where both sides are already hopelessly in love.",
