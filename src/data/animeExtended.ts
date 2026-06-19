@@ -5,6 +5,53 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Always a Catch!",
+  tagline: "Every cast changes fate.",
+  description: "A fishing enthusiast discovers that every catch brings unexpected rewards, abilities, and adventures, turning a simple hobby into a journey of growth and survival.",
+  category: "manhua",
+  genres: ["Fantasy", "Adventure", "Action"],
+  year: 2023,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "Killed Again, Mr. Detective",
+  tagline: "The one that got away became a nightmare.",
+  description: "A detective haunted by a failed case finds himself repeatedly facing the consequences of a mysterious creature he once failed to capture, uncovering secrets that blur reality and horror.",
+  category: "manhua",
+  genres: ["Mystery", "Supernatural", "Thriller"],
+  year: 2024,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "Monster Eater",
+  tagline: "Devour monsters. Inherit their power.",
+  description: "In a world overrun by terrifying beasts, a young warrior gains the ability to consume monsters and absorb their abilities, rapidly rising through the ranks while uncovering ancient truths.",
+  category: "manhua",
+  genres: ["Action", "Fantasy", "Adventure"],
+  year: 2022,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroAnime
+},
+
+{
+  title: "Haibara's Teenage New Game+",
+  tagline: "A second chance at youth.",
+  description: "After experiencing countless regrets, Haibara wakes up in his teenage years with memories of the future, determined to make better choices, build meaningful relationships, and reshape his destiny.",
+  category: "light_novel",
+  genres: ["Romance", "Drama", "School Life"],
+  year: 2021,
+  rating: 8.5,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Code Geass",
   tagline: "The world can be rewritten by one command.",
   description: "An exiled prince gains a mysterious power that allows him to command absolute obedience, leading him to spark a rebellion against the Britannian Empire as the masked vigilante Zero.",
