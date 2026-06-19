@@ -41,7 +41,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
 },
 
 {
-  title: "Haibara's Teenage New Game+",
+  title: "Haibara's Teenage New Game Plus",
   tagline: "A second chance at youth.",
   description: "After experiencing countless regrets, Haibara wakes up in his teenage years with memories of the future, determined to make better choices, build meaningful relationships, and reshape his destiny.",
   category: "anime",
