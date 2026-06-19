@@ -7,10 +7,24 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "i-want-to-end-this-love-game": {
+  poster: "/i-want-to-end-this-love-game.jpg",
+  banner: "/i-want-to-end-this-love-game-banner.jpg"
+},
+
+"even-a-replica-can-fall-in-love": {
+  poster: "/even-a-replica-can-fall-in-love.jpg",
+  banner: "/even-a-replica-can-fall-in-love-banner.jpg"
+},
+
+"i-made-friends-with-the-second-prettiest-girl-in-my-class": {
+  poster: "/i-made-friends-with-the-second-prettiest-girl-in-my-class.jpg",
+  banner: "/i-made-friends-with-the-second-prettiest-girl-in-my-class-banner.jpg"
+},
   "witch-hat-atelier": {
   poster: "/witch-hat-atelier.jpg",
   banner: "/witch-hat-atelier-banner.jpg"
-}
+},
   "always-a-catch": {
   poster: "/always-a-catch.jpg",
   banner: "/always-a-catch-banner.jpg"
