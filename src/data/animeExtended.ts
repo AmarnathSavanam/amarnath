@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Mistress Kanan is Devilishly Easy",
+  tagline: "A mischievous devil, an unexpected romance.",
+  description: "A charming romantic comedy that follows Kanan, a devilishly alluring girl whose playful schemes and supernatural charm turn an ordinary student's life upside down.",
+  category: "anime",
+  genres: ["Romance", "Comedy", "Supernatural", "School"],
+  year: 2025,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Agents of the Four Seasons: Dance of Spring",
   tagline: "When the seasons fall out of balance, destiny awakens.",
   description: "In a world governed by the Four Seasons, a young Spring agent embarks on a journey to restore harmony and uncover the secrets threatening the cycle of nature.",
