@@ -5,6 +5,39 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Agents of the Four Seasons: Dance of Spring",
+  tagline: "When the seasons fall out of balance, destiny awakens.",
+  description: "In a world governed by the Four Seasons, a young Spring agent embarks on a journey to restore harmony and uncover the secrets threatening the cycle of nature.",
+  category: "anime",
+  genres: ["Fantasy", "Adventure", "Romance"],
+  year: 2025,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Kill Blue",
+  tagline: "The deadliest assassin is back in school.",
+  description: "After a mysterious incident turns him into a teenager, legendary hitman Juzo Ogami must navigate high school life while continuing dangerous missions in secret.",
+  category: "anime",
+  genres: ["Action", "Comedy", "School"],
+  year: 2025,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Mao",
+  tagline: "A curse from the past awakens.",
+  description: "A girl transported between eras becomes entangled with Mao, a mysterious exorcist investigating supernatural curses, ancient secrets, and deadly yokai.",
+  category: "anime",
+  genres: ["Fantasy", "Mystery", "Supernatural", "Romance"],
+  year: 2025,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
   tagline: "The weakest class hides the greatest power.",
   description: "Ein is born with the seemingly useless Appraiser class and is ridiculed by everyone around him. However, he soon discovers that his ability possesses hidden potential capable of surpassing heroes, sages, and even legendary warriors.",
