@@ -12,8 +12,8 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Fantasy", "Adventure", "Romance"],
   year: 2025,
   rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
+    poster: placeholder,
+  banner: heroAnime
 },
 {
   title: "Kill Blue",
@@ -23,8 +23,8 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Action", "Comedy", "School"],
   year: 2025,
   rating: 8.2,
-  poster: placeholder,
-  banner: heroSeries
+   poster: placeholder,
+  banner: heroAnime
 },
 {
   title: "Mao",
@@ -34,8 +34,8 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Fantasy", "Mystery", "Supernatural", "Romance"],
   year: 2025,
   rating: 8.3,
-  poster: placeholder,
-  banner: heroSeries
+   poster: placeholder,
+  banner: heroAnime
 },
   {
   title: "The Strongest Job is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
