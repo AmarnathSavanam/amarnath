@@ -4,6 +4,28 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+  title: "The King: Eternal Monarch",
+  tagline: "Two worlds. One destiny.",
+  description: "A modern-day emperor discovers a mysterious portal connecting two parallel worlds and joins forces with a determined detective to stop evil from disrupting reality itself.",
+  category: "series",
+  genres: ["Fantasy", "Romance", "Sci-Fi", "Mystery"],
+  year: 2020,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Manipulated",
+  tagline: "Truth is the first victim.",
+  description: "A gripping thriller where hidden agendas, deception, and power struggles intertwine, forcing the protagonists to uncover the truth before they become pawns in a dangerous game.",
+  category: "series",
+  genres: ["Thriller", "Mystery", "Drama"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
                 { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
 
         {
