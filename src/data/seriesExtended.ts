@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Alchemy of Souls",
+  tagline: "Destiny changes when souls collide.",
+  description: "In the fictional kingdom of Daeho, a powerful sorceress trapped in a weak body becomes entangled with a nobleman seeking to change his fate, uncovering secrets, forbidden magic, and a destiny that could reshape the world.",
+  category: "series",
+  genres: ["Fantasy", "Romance", "Action", "Drama"],
+  year: 2022,
+  rating: 8.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "The King: Eternal Monarch",
   tagline: "Two worlds. One destiny.",
   description: "A modern-day emperor discovers a mysterious portal connecting two parallel worlds and joins forces with a determined detective to stop evil from disrupting reality itself.",
