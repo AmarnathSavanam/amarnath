@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Kusunoki's Garden of Gods",
+  tagline: "Where ancient gods bloom among mortals.",
+  description: "A heartwarming fantasy story about a young man who finds himself connected to a mysterious garden inhabited by divine beings, forging bonds with gods while uncovering secrets hidden within the natural world.",
+  category: "anime",
+  genres: ["Fantasy", "Slice of Life", "Supernatural"],
+  year: 2025,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Mistress Kanan is Devilishly Easy",
   tagline: "A mischievous devil, an unexpected romance.",
   description: "A charming romantic comedy that follows Kanan, a devilishly alluring girl whose playful schemes and supernatural charm turn an ordinary student's life upside down.",
