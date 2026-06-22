@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Big Mouth",
+  tagline: "A small-time lawyer trapped in a deadly conspiracy.",
+  description: "After being mistaken for a notorious criminal mastermind known as 'Big Mouse,' an unsuccessful lawyer is drawn into a dangerous web of corruption, power, and secrets as he fights to survive and uncover the truth.",
+  category: "series",
+  genres: ["Thriller", "Mystery", "Crime", "Drama"],
+  year: 2022,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Alchemy of Souls",
   tagline: "Destiny changes when souls collide.",
   description: "In the fictional kingdom of Daeho, a powerful sorceress trapped in a weak body becomes entangled with a nobleman seeking to change his fate, uncovering secrets, forbidden magic, and a destiny that could reshape the world.",
