@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "High School Return of a Gangster",
+  tagline: "A gangster gets a second chance at youth.",
+  description: "After a gangster's soul enters the body of a bullied high school student, he uses his life experience and fighting skills to protect his new friends, confront school violence, and uncover the truth behind the student's suffering.",
+  category: "series",
+  genres: ["Action", "Drama", "Fantasy", "School"],
+  year: 2024,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Big Mouth",
   tagline: "A small-time lawyer trapped in a deadly conspiracy.",
   description: "After being mistaken for a notorious criminal mastermind known as 'Big Mouse,' an unsuccessful lawyer is drawn into a dangerous web of corruption, power, and secrets as he fights to survive and uncover the truth.",
