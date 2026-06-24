@@ -5,6 +5,37 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Puli Meka",
+  tagline: "A hunter becomes the hunted.",
+  description: "When a serial killer begins targeting police officers, an experienced officer returns to investigate the murders. As the mystery deepens, hidden secrets, conspiracies, and dangerous truths come to light.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Drama"],
+  year: 2023,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroSeries
+},{
+  title: "Fallout",
+  tagline: "The world deserves a better ending.",
+  description: "Two hundred years after a nuclear apocalypse, a young vault dweller leaves the safety of her underground shelter and discovers a violent wasteland filled with raiders, mutants, and hidden secrets that could change the future of humanity.",
+  category: "series",
+  genres: ["Sci-Fi", "Action", "Adventure", "Drama"],
+  year: 2024,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},{
+  title: "Peaky Blinders",
+  tagline: "By order of the Peaky Blinders.",
+  description: "Set in post-World War I Birmingham, the series follows Tommy Shelby and the Peaky Blinders gang as they rise from street criminals to powerful figures, facing rival gangs, politicians, and enemies while building a criminal empire.",
+  category: "series",
+  genres: ["Crime", "Drama", "Historical"],
+  year: 2013,
+  rating: 8.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Scam 2003: The Telgi Story",
   tagline: "The man behind India's biggest stamp paper scam.",
   description: "Based on the life of Abdul Karim Telgi, the series chronicles his rise from a small-time businessman to the mastermind behind one of India's largest financial scams.",
