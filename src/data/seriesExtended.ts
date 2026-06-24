@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Mirzapur",
+  tagline: "Power. Revenge. Blood.",
+  description: "Set in the lawless city of Mirzapur, the series follows the ruthless Kaleen Bhaiya, his family, and two brothers who are drawn into a violent world of crime, politics, and revenge as they fight for power and survival.",
+  category: "series",
+  genres: ["Crime", "Action", "Thriller", "Drama"],
+  year: 2018,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Under the Dome",
   tagline: "Trapped beneath an invisible force.",
   description: "The residents of a small town suddenly find themselves cut off from the outside world by a mysterious, invisible dome. As resources dwindle and tensions rise, they must uncover the dome's origin before their community collapses.",
