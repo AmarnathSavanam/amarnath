@@ -4,6 +4,8 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+    { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
+
 
   {
   title: "Widow's Bay",
@@ -236,7 +238,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: "/bon-appetit-your-majesty.jpg",
   banner: "/bon-appetit-your-majesty-banner.jpg"
 },
-      { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
+      {
+  title: "Brinda",
+  tagline: "Every crime hides a deeper truth.",
+  description: "A determined police officer investigates a series of mysterious murders that lead her into a web of secrets, rituals, and conspiracies. As the case grows darker, she must confront her own past to uncover the truth.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Drama"],
+  year: 2024,
+  rating: 7.6,
+  poster: placeholder,
+  banner: heroSeries
+},
       {
   title: "Legends from the Kitchen",
   tagline: "Every recipe tells a story.",
