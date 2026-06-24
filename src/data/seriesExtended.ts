@@ -310,7 +310,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
-    
+     {
+  title: "Harikatha",
+  tagline: "When faith turns into fear.",
+  description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Fantasy"],
+  year: 2024,
+  rating: 7.2,
+  poster: placeholder,
+  banner: heroSeries
+},
    {
   title: "Reborn Rich",
   tagline: "A second life. A perfect revenge.",
@@ -358,17 +368,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Harikatha",
-  tagline: "When faith turns into fear.",
-  description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
-  category: "series",
-  genres: ["Crime", "Thriller", "Mystery", "Fantasy"],
-  year: 2024,
-  rating: 7.2,
-  poster: placeholder,
-  banner: heroSeries
-},
+ 
             { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
   { title: "The Boys", tagline: "Superheroes aren't always heroes.", description: "A group of vigilantes fights corrupt superheroes who abuse their powers behind the scenes.", category: "series", genres: ["Action", "Crime", "Sci-Fi"], year: 2019, rating: 8.7, poster: placeholder, banner: heroSeries },
           { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
