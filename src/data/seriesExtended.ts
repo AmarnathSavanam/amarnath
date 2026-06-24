@@ -4,14 +4,155 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+
   {
-  title: "Rana Naidu",
-  tagline: "He fixes everyone else's problems except his own.",
-  description: "Rana Naidu is the go-to fixer for the rich and powerful, solving their biggest problems behind the scenes. But when his estranged father is released from prison, his personal life begins to unravel, forcing him to confront family secrets and dangerous enemies.",
+  title: "Widow's Bay",
+  tagline: "Some towns have secrets. This one has a curse.",
+  description: "A skeptical mayor tries to transform a remote New England island into a tourist hotspot, only to discover that the town's terrifying legends and supernatural curse may be real.",
   category: "series",
-  genres: ["Crime", "Action", "Drama", "Thriller"],
-  year: 2023,
-  rating: 7.1,
+  genres: ["Horror", "Comedy", "Mystery", "Thriller"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries,
+},
+  {
+  title: "We Are All Trying Here",
+  tagline: "Growing up means finding your own place.",
+  description: "A heartfelt coming-of-age story that follows a group of young people as they navigate friendship, family, identity, and the challenges of discovering who they want to become.",
+  category: "series",
+  genres: ["Drama", "Coming-of-Age", "Slice of Life"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  
+  {
+  title: "Under the Dome",
+  tagline: "Trapped beneath an invisible force.",
+  description: "The residents of a small town suddenly find themselves cut off from the outside world by a mysterious, invisible dome. As resources dwindle and tensions rise, they must uncover the dome's origin before their community collapses.",
+  category: "series",
+  genres: ["Sci-Fi", "Mystery", "Drama", "Thriller"],
+  year: 2013,
+  rating: 6.5,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Manipulated",
+  tagline: "Truth is the first victim.",
+  description: "A gripping thriller where hidden agendas, deception, and power struggles intertwine, forcing the protagonists to uncover the truth before they become pawns in a dangerous game.",
+  category: "series",
+  genres: ["Thriller", "Mystery", "Drama"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Peaky Blinders",
+  tagline: "By order of the Peaky Blinders.",
+  description: "Set in post-World War I Birmingham, the series follows Tommy Shelby and the Peaky Blinders gang as they rise from street criminals to powerful figures, facing rival gangs, politicians, and enemies while building a criminal empire.",
+  category: "series",
+  genres: ["Crime", "Drama", "Historical"],
+  year: 2013,
+  rating: 8.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+   {
+  title: "Alchemy of Souls",
+  tagline: "Destiny changes when souls collide.",
+  description: "In the fictional kingdom of Daeho, a powerful sorceress trapped in a weak body becomes entangled with a nobleman seeking to change his fate, uncovering secrets, forbidden magic, and a destiny that could reshape the world.",
+  category: "series",
+  genres: ["Fantasy", "Romance", "Action", "Drama"],
+  year: 2022,
+  rating: 8.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Fallout",
+  tagline: "The world deserves a better ending.",
+  description: "Two hundred years after a nuclear apocalypse, a young vault dweller leaves the safety of her underground shelter and discovers a violent wasteland filled with raiders, mutants, and hidden secrets that could change the future of humanity.",
+  category: "series",
+  genres: ["Sci-Fi", "Action", "Adventure", "Drama"],
+  year: 2024,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
+  title: "Big Mouth",
+  tagline: "A small-time lawyer trapped in a deadly conspiracy.",
+  description: "After being mistaken for a notorious criminal mastermind known as 'Big Mouse,' an unsuccessful lawyer is drawn into a dangerous web of corruption, power, and secrets as he fights to survive and uncover the truth.",
+  category: "series",
+  genres: ["Thriller", "Mystery", "Crime", "Drama"],
+  year: 2022,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+    { title: "Money Heist", tagline: "The plan is everything.", description: "A criminal mastermind who goes by 'The Professor' recruits a group of thieves to carry out the most ambitious heist in history.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2017, rating: 8.2, poster: placeholder, banner: heroSeries },
+  {
+  title: "Shark: The Storm",
+  tagline: "Survival demands strength.",
+  description: "After his release from prison, Cha Woo-sol is drawn into a brutal underground fighting world where he must confront powerful enemies and fight to protect those he cares about.",
+  category: "series",
+  genres: ["Action", "Crime", "Drama"],
+  year: 2025,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+   { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
+
+{
+  title: "My Royal Nemesis",
+  tagline: "Enemies by fate, lovers by destiny.",
+  description: "A historical romance that follows two rivals from opposing sides whose conflicts gradually turn into an unexpected bond, threatening the political order around them.",
+  category: "series",
+  genres: ["Romance", "Historical", "Drama"],
+  year: 2025,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+    { title: "Wednesday", tagline: "Darkness runs in the family.", description: "Wednesday Addams investigates supernatural mysteries at Nevermore Academy.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
+
+  {
+  title: "High School Return of a Gangster",
+  tagline: "A gangster gets a second chance at youth.",
+  description: "After a gangster's soul enters the body of a bullied high school student, he uses his life experience and fighting skills to protect his new friends, confront school violence, and uncover the truth behind the student's suffering.",
+  category: "series",
+  genres: ["Action", "Drama", "Fantasy", "School"],
+  year: 2024,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+    title: "Dark",
+    tagline: "Time is a closed loop. Escape is an illusion.",
+    description: "In the small town of Winden, the disappearance of a child unravels a multi-generational conspiracy bound by time itself.",
+    category: "series",
+    genres: ["Sci-Fi", "Mystery", "Psychological Thriller"],
+    year: 2017,
+    rating: 9.0,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+ 
+ 
+  {
+  title: "The King: Eternal Monarch",
+  tagline: "Two worlds. One destiny.",
+  description: "A modern-day emperor discovers a mysterious portal connecting two parallel worlds and joins forces with a determined detective to stop evil from disrupting reality itself.",
+  category: "series",
+  genres: ["Fantasy", "Romance", "Sci-Fi", "Mystery"],
+  year: 2020,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
@@ -26,159 +167,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Under the Dome",
-  tagline: "Trapped beneath an invisible force.",
-  description: "The residents of a small town suddenly find themselves cut off from the outside world by a mysterious, invisible dome. As resources dwindle and tensions rise, they must uncover the dome's origin before their community collapses.",
-  category: "series",
-  genres: ["Sci-Fi", "Mystery", "Drama", "Thriller"],
-  year: 2013,
-  rating: 6.5,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Puli Meka",
-  tagline: "A hunter becomes the hunted.",
-  description: "When a serial killer begins targeting police officers, an experienced officer returns to investigate the murders. As the mystery deepens, hidden secrets, conspiracies, and dangerous truths come to light.",
-  category: "series",
-  genres: ["Crime", "Thriller", "Mystery", "Drama"],
-  year: 2023,
-  rating: 7.8,
-  poster: placeholder,
-  banner: heroSeries
-},{
-  title: "Fallout",
-  tagline: "The world deserves a better ending.",
-  description: "Two hundred years after a nuclear apocalypse, a young vault dweller leaves the safety of her underground shelter and discovers a violent wasteland filled with raiders, mutants, and hidden secrets that could change the future of humanity.",
-  category: "series",
-  genres: ["Sci-Fi", "Action", "Adventure", "Drama"],
-  year: 2024,
-  rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
-},{
-  title: "Peaky Blinders",
-  tagline: "By order of the Peaky Blinders.",
-  description: "Set in post-World War I Birmingham, the series follows Tommy Shelby and the Peaky Blinders gang as they rise from street criminals to powerful figures, facing rival gangs, politicians, and enemies while building a criminal empire.",
-  category: "series",
-  genres: ["Crime", "Drama", "Historical"],
-  year: 2013,
-  rating: 8.8,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Scam 2003: The Telgi Story",
-  tagline: "The man behind India's biggest stamp paper scam.",
-  description: "Based on the life of Abdul Karim Telgi, the series chronicles his rise from a small-time businessman to the mastermind behind one of India's largest financial scams.",
-  category: "series",
-  genres: ["Biography", "Crime", "Drama", "Thriller"],
-  year: 2023,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Harikatha",
-  tagline: "When faith turns into fear.",
-  description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
-  category: "series",
-  genres: ["Crime", "Thriller", "Mystery", "Fantasy"],
-  year: 2024,
-  rating: 7.2,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "We Are All Trying Here",
-  tagline: "Growing up means finding your own place.",
-  description: "A heartfelt coming-of-age story that follows a group of young people as they navigate friendship, family, identity, and the challenges of discovering who they want to become.",
-  category: "series",
-  genres: ["Drama", "Coming-of-Age", "Slice of Life"],
-  year: 2025,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Shark: The Storm",
-  tagline: "Survival demands strength.",
-  description: "After his release from prison, Cha Woo-sol is drawn into a brutal underground fighting world where he must confront powerful enemies and fight to protect those he cares about.",
-  category: "series",
-  genres: ["Action", "Crime", "Drama"],
-  year: 2025,
-  rating: 8.2,
-  poster: placeholder,
-  banner: heroSeries
-},
-{
-  title: "My Royal Nemesis",
-  tagline: "Enemies by fate, lovers by destiny.",
-  description: "A historical romance that follows two rivals from opposing sides whose conflicts gradually turn into an unexpected bond, threatening the political order around them.",
-  category: "series",
-  genres: ["Romance", "Historical", "Drama"],
-  year: 2025,
-  rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "High School Return of a Gangster",
-  tagline: "A gangster gets a second chance at youth.",
-  description: "After a gangster's soul enters the body of a bullied high school student, he uses his life experience and fighting skills to protect his new friends, confront school violence, and uncover the truth behind the student's suffering.",
-  category: "series",
-  genres: ["Action", "Drama", "Fantasy", "School"],
-  year: 2024,
-  rating: 8.3,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Big Mouth",
-  tagline: "A small-time lawyer trapped in a deadly conspiracy.",
-  description: "After being mistaken for a notorious criminal mastermind known as 'Big Mouse,' an unsuccessful lawyer is drawn into a dangerous web of corruption, power, and secrets as he fights to survive and uncover the truth.",
-  category: "series",
-  genres: ["Thriller", "Mystery", "Crime", "Drama"],
-  year: 2022,
-  rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Alchemy of Souls",
-  tagline: "Destiny changes when souls collide.",
-  description: "In the fictional kingdom of Daeho, a powerful sorceress trapped in a weak body becomes entangled with a nobleman seeking to change his fate, uncovering secrets, forbidden magic, and a destiny that could reshape the world.",
-  category: "series",
-  genres: ["Fantasy", "Romance", "Action", "Drama"],
-  year: 2022,
-  rating: 8.8,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "The King: Eternal Monarch",
-  tagline: "Two worlds. One destiny.",
-  description: "A modern-day emperor discovers a mysterious portal connecting two parallel worlds and joins forces with a determined detective to stop evil from disrupting reality itself.",
-  category: "series",
-  genres: ["Fantasy", "Romance", "Sci-Fi", "Mystery"],
-  year: 2020,
-  rating: 8.1,
-  poster: placeholder,
-  banner: heroSeries
-},
-{
-  title: "Manipulated",
-  tagline: "Truth is the first victim.",
-  description: "A gripping thriller where hidden agendas, deception, and power struggles intertwine, forcing the protagonists to uncover the truth before they become pawns in a dangerous game.",
-  category: "series",
-  genres: ["Thriller", "Mystery", "Drama"],
-  year: 2025,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
-                { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
+              { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
 
         {
   title: "Ghost Doctor",
@@ -191,18 +180,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
-          {
-  title: "Widow's Bay",
-  tagline: "Some towns have secrets. This one has a curse.",
-  description: "A skeptical mayor tries to transform a remote New England island into a tourist hotspot, only to discover that the town's terrifying legends and supernatural curse may be real.",
+      {
+  title: "Rana Naidu",
+  tagline: "He fixes everyone else's problems except his own.",
+  description: "Rana Naidu is the go-to fixer for the rich and powerful, solving their biggest problems behind the scenes. But when his estranged father is released from prison, his personal life begins to unravel, forcing him to confront family secrets and dangerous enemies.",
   category: "series",
-  genres: ["Horror", "Comedy", "Mystery", "Thriller"],
-  year: 2026,
-  rating: 8.2,
+  genres: ["Crime", "Action", "Drama", "Thriller"],
+  year: 2023,
+  rating: 7.1,
   poster: placeholder,
-  banner: heroSeries,
-},
-{
+  banner: heroSeries
+},    {
   title: "Sisyphus: The Myth",
   tagline: "The future is coming for him.",
   description: "A genius engineer and a mysterious warrior from the future join forces to stop a catastrophic event and uncover the truth behind a dangerous time-travel conspiracy.",
@@ -294,7 +282,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
- { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
 
 {
   title: "Good Boy",
@@ -323,17 +310,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
-    {
-    title: "Dark",
-    tagline: "Time is a closed loop. Escape is an illusion.",
-    description: "In the small town of Winden, the disappearance of a child unravels a multi-generational conspiracy bound by time itself.",
-    category: "series",
-    genres: ["Sci-Fi", "Mystery", "Psychological Thriller"],
-    year: 2017,
-    rating: 9.0,
-    poster: placeholder,
-    banner: heroSeries,
-  },
+    
    {
   title: "Reborn Rich",
   tagline: "A second life. A perfect revenge.",
@@ -370,7 +347,28 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
- { title: "Money Heist", tagline: "The plan is everything.", description: "A criminal mastermind who goes by 'The Professor' recruits a group of thieves to carry out the most ambitious heist in history.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2017, rating: 8.2, poster: placeholder, banner: heroSeries },
+ {
+  title: "Scam 2003: The Telgi Story",
+  tagline: "The man behind India's biggest stamp paper scam.",
+  description: "Based on the life of Abdul Karim Telgi, the series chronicles his rise from a small-time businessman to the mastermind behind one of India's largest financial scams.",
+  category: "series",
+  genres: ["Biography", "Crime", "Drama", "Thriller"],
+  year: 2023,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Harikatha",
+  tagline: "When faith turns into fear.",
+  description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Fantasy"],
+  year: 2024,
+  rating: 7.2,
+  poster: placeholder,
+  banner: heroSeries
+},
             { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
   { title: "The Boys", tagline: "Superheroes aren't always heroes.", description: "A group of vigilantes fights corrupt superheroes who abuse their powers behind the scenes.", category: "series", genres: ["Action", "Crime", "Sci-Fi"], year: 2019, rating: 8.7, poster: placeholder, banner: heroSeries },
           { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
@@ -386,7 +384,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  { title: "Wednesday", tagline: "Darkness runs in the family.", description: "Wednesday Addams investigates supernatural mysteries at Nevermore Academy.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
+  {
+  title: "Puli Meka",
+  tagline: "A hunter becomes the hunted.",
+  description: "When a serial killer begins targeting police officers, an experienced officer returns to investigate the murders. As the mystery deepens, hidden secrets, conspiracies, and dangerous truths come to light.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Drama"],
+  year: 2023,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroSeries
+},
 
 {
   title: "Reborn Rookie",
