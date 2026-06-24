@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Scam 2003: The Telgi Story",
+  tagline: "The man behind India's biggest stamp paper scam.",
+  description: "Based on the life of Abdul Karim Telgi, the series chronicles his rise from a small-time businessman to the mastermind behind one of India's largest financial scams.",
+  category: "series",
+  genres: ["Biography", "Crime", "Drama", "Thriller"],
+  year: 2023,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Harikatha",
   tagline: "When faith turns into fear.",
   description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
