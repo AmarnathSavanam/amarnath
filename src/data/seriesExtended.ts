@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Rana Naidu",
+  tagline: "He fixes everyone else's problems except his own.",
+  description: "Rana Naidu is the go-to fixer for the rich and powerful, solving their biggest problems behind the scenes. But when his estranged father is released from prison, his personal life begins to unravel, forcing him to confront family secrets and dangerous enemies.",
+  category: "series",
+  genres: ["Crime", "Action", "Drama", "Thriller"],
+  year: 2023,
+  rating: 7.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Mirzapur",
   tagline: "Power. Revenge. Blood.",
   description: "Set in the lawless city of Mirzapur, the series follows the ruthless Kaleen Bhaiya, his family, and two brothers who are drawn into a violent world of crime, politics, and revenge as they fight for power and survival.",
