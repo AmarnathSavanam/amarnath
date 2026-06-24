@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Harikatha",
+  tagline: "When faith turns into fear.",
+  description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Fantasy"],
+  year: 2024,
+  rating: 7.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "We Are All Trying Here",
   tagline: "Growing up means finding your own place.",
   description: "A heartfelt coming-of-age story that follows a group of young people as they navigate friendship, family, identity, and the challenges of discovering who they want to become.",
