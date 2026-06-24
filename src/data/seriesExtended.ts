@@ -156,17 +156,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Mirzapur",
-  tagline: "Power. Revenge. Blood.",
-  description: "Set in the lawless city of Mirzapur, the series follows the ruthless Kaleen Bhaiya, his family, and two brothers who are drawn into a violent world of crime, politics, and revenge as they fight for power and survival.",
-  category: "series",
-  genres: ["Crime", "Action", "Thriller", "Drama"],
-  year: 2018,
-  rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
-},
+ 
               { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
 
         {
@@ -282,7 +272,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
-
+ {
+  title: "Mirzapur",
+  tagline: "Power. Revenge. Blood.",
+  description: "Set in the lawless city of Mirzapur, the series follows the ruthless Kaleen Bhaiya, his family, and two brothers who are drawn into a violent world of crime, politics, and revenge as they fight for power and survival.",
+  category: "series",
+  genres: ["Crime", "Action", "Thriller", "Drama"],
+  year: 2018,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
 {
   title: "Good Boy",
   tagline: "Former champions. New fight for justice.",
