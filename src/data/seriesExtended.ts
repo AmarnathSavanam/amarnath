@@ -5,6 +5,28 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Shark: The Storm",
+  tagline: "Survival demands strength.",
+  description: "After his release from prison, Cha Woo-sol is drawn into a brutal underground fighting world where he must confront powerful enemies and fight to protect those he cares about.",
+  category: "series",
+  genres: ["Action", "Crime", "Drama"],
+  year: 2025,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "My Royal Nemesis",
+  tagline: "Enemies by fate, lovers by destiny.",
+  description: "A historical romance that follows two rivals from opposing sides whose conflicts gradually turn into an unexpected bond, threatening the political order around them.",
+  category: "series",
+  genres: ["Romance", "Historical", "Drama"],
+  year: 2025,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "High School Return of a Gangster",
   tagline: "A gangster gets a second chance at youth.",
   description: "After a gangster's soul enters the body of a bullied high school student, he uses his life experience and fighting skills to protect his new friends, confront school violence, and uncover the truth behind the student's suffering.",
