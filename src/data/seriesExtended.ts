@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "We Are All Trying Here",
+  tagline: "Growing up means finding your own place.",
+  description: "A heartfelt coming-of-age story that follows a group of young people as they navigate friendship, family, identity, and the challenges of discovering who they want to become.",
+  category: "series",
+  genres: ["Drama", "Coming-of-Age", "Slice of Life"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Shark: The Storm",
   tagline: "Survival demands strength.",
   description: "After his release from prison, Cha Woo-sol is drawn into a brutal underground fighting world where he must confront powerful enemies and fight to protect those he cares about.",
