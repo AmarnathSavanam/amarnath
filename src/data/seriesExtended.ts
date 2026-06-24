@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Under the Dome",
+  tagline: "Trapped beneath an invisible force.",
+  description: "The residents of a small town suddenly find themselves cut off from the outside world by a mysterious, invisible dome. As resources dwindle and tensions rise, they must uncover the dome's origin before their community collapses.",
+  category: "series",
+  genres: ["Sci-Fi", "Mystery", "Drama", "Thriller"],
+  year: 2013,
+  rating: 6.5,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Puli Meka",
   tagline: "A hunter becomes the hunted.",
   description: "When a serial killer begins targeting police officers, an experienced officer returns to investigate the murders. As the mystery deepens, hidden secrets, conspiracies, and dangerous truths come to light.",
