@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
+{
+  title: "Moving",
+  tagline: "Extraordinary powers. Ordinary lives.",
+  description: "Three high school students inherit superhuman abilities from their parents and become targets of mysterious organizations seeking to exploit their powers, forcing their families to fight for survival.",
+  category: "series",
+  genres: ["Action", "Fantasy", "Sci-Fi", "Drama"],
+  year: 2023,
+  rating: 8.9,
+  poster: placeholder,
+  banner: heroSeries
+},
 
 
   {
@@ -172,14 +183,14 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries,
 },
-      {
-  title: "Rana Naidu",
-  tagline: "He fixes everyone else's problems except his own.",
-  description: "Rana Naidu is the go-to fixer for the rich and powerful, solving their biggest problems behind the scenes. But when his estranged father is released from prison, his personal life begins to unravel, forcing him to confront family secrets and dangerous enemies.",
+    {
+  title: "The Judge from Hell",
+  tagline: "Justice comes straight from hell.",
+  description: "A demon from hell inhabits the body of a judge and punishes criminals who escape the law, while forming an unlikely bond with a compassionate detective who begins to uncover her true identity.",
   category: "series",
-  genres: ["Crime", "Action", "Drama", "Thriller"],
-  year: 2023,
-  rating: 7.1,
+  genres: ["Fantasy", "Crime", "Romance", "Thriller"],
+  year: 2024,
+  rating: 8.5,
   poster: placeholder,
   banner: heroSeries
 },    {
