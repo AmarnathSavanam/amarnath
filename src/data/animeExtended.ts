@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Snowball Earth",
+  tagline: "The frozen world awaits its last hope.",
+  description: "After Earth is covered in ice by alien invaders, a former hero awakens years later to find humanity on the brink of extinction. Alongside old allies and new companions, he must fight to reclaim the planet from the forces that destroyed it.",
+  category: "anime",
+  genres: ["Sci-Fi", "Action", "Adventure", "Post-Apocalyptic"],
+  year: 2026,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Kusunoki's Garden of Gods",
   tagline: "Where ancient gods bloom among mortals.",
   description: "A heartwarming fantasy story about a young man who finds himself connected to a mysterious garden inhabited by divine beings, forging bonds with gods while uncovering secrets hidden within the natural world.",
