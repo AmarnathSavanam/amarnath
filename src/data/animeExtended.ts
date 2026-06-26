@@ -13,7 +13,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
   year: 2026,
   rating: 8.4,
   poster: placeholder,
-  banner: heroSeries
+  banner: heroAnime
 },
   {
   title: "Kusunoki's Garden of Gods",
