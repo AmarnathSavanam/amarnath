@@ -86,13 +86,13 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
   {
-  title: "Fallout",
-  tagline: "The world deserves a better ending.",
-  description: "Two hundred years after a nuclear apocalypse, a young vault dweller leaves the safety of her underground shelter and discovers a violent wasteland filled with raiders, mutants, and hidden secrets that could change the future of humanity.",
+  title: "Agent Kim Reactivated",
+  tagline: "The legend returns to the field.",
+  description: "After years away from active duty, a retired intelligence agent is forced back into action when a dangerous conspiracy threatens national security, uncovering secrets from his past along the way.",
   category: "series",
-  genres: ["Sci-Fi", "Action", "Adventure", "Drama"],
-  year: 2024,
-  rating: 8.4,
+  genres: ["Action", "Spy", "Thriller", "Drama"],
+  year: 2025,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
@@ -249,14 +249,14 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: "/bon-appetit-your-majesty.jpg",
   banner: "/bon-appetit-your-majesty-banner.jpg"
 },
-      {
-  title: "Brinda",
-  tagline: "Every crime hides a deeper truth.",
-  description: "A determined police officer investigates a series of mysterious murders that lead her into a web of secrets, rituals, and conspiracies. As the case grows darker, she must confront her own past to uncover the truth.",
+    {
+  title: "Notes from the Last Row",
+  tagline: "Some lessons stay with you forever.",
+  description: "A former teacher reflects on the choices, relationships, and moments that shaped his life, uncovering long-buried memories and the impact he had on the students who once sat in the last row.",
   category: "series",
-  genres: ["Crime", "Thriller", "Mystery", "Drama"],
-  year: 2024,
-  rating: 7.6,
+  genres: ["Drama"],
+  year: 2026,
+  rating: 8.2,
   poster: placeholder,
   banner: heroSeries
 },
