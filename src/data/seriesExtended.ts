@@ -303,8 +303,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Fantasy", "Romance", "Drama"],
   year: 2016,
   rating: 8.6,
-  poster: goblinPoster,
-  banner: goblinBanner
+ poster: placeholder,
+  banner: heroSeries,
 },
 {
   title: "Good Boy",
