@@ -296,15 +296,15 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
  {
-  title: "Mirzapur",
-  tagline: "Power. Revenge. Blood.",
-  description: "Set in the lawless city of Mirzapur, the series follows the ruthless Kaleen Bhaiya, his family, and two brothers who are drawn into a violent world of crime, politics, and revenge as they fight for power and survival.",
+  title: "Goblin",
+  tagline: "A cursed immortal seeks the one who can end his eternal life.",
+  description: "Kim Shin, an immortal goblin cursed to live forever, searches for his destined bride who can remove the sword from his chest and end his immortality. Along the way, he forms an unlikely friendship with a grim reaper and falls in love with Ji Eun-tak.",
   category: "series",
-  genres: ["Crime", "Action", "Thriller", "Drama"],
-  year: 2018,
-  rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
+  genres: ["Fantasy", "Romance", "Drama"],
+  year: 2016,
+  rating: 8.6,
+  poster: goblinPoster,
+  banner: goblinBanner
 },
 {
   title: "Good Boy",
