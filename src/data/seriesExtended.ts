@@ -411,7 +411,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   title: "Human Vapour",
   tagline: "The perfect weapon leaves no trace.",
   description: "In 2026, a covert experiment grants an ordinary man the ability to transform into vapor. As governments and corporations race to control his power, he becomes humanity's most wanted fugitive, forced to decide whether to save the world or disappear forever.",
-  category: "movie",
+  category: "series",
   genres: ["Sci-Fi", "Action", "Thriller", "Mystery"],
   year: 2026,
   rating: 8.3,
