@@ -409,12 +409,12 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 },
 {
   title: "Human Vapour",
-  tagline: "He vanished into thin air... but his revenge remained.",
-  description: "A man gains the extraordinary ability to transform into vapor after a scientific experiment goes horribly wrong. Hunted by authorities and driven by love and desperation, he uses his powers to evade capture while leaving a trail of mystery and destruction.",
-  category: "series",
-  genres: ["Sci-Fi", "Thriller", "Crime", "Drama"],
-  year: 1960,
-  rating: 7.0,
+  tagline: "The perfect weapon leaves no trace.",
+  description: "In 2026, a covert experiment grants an ordinary man the ability to transform into vapor. As governments and corporations race to control his power, he becomes humanity's most wanted fugitive, forced to decide whether to save the world or disappear forever.",
+  category: "movie",
+  genres: ["Sci-Fi", "Action", "Thriller", "Mystery"],
+  year: 2026,
+  rating: 8.3,
   poster: placeholder,
   banner: heroSeries
 },
