@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Action Monster Big Movie",
+  tagline: "When monsters rise, legends fight back.",
+  description: "As colossal monsters emerge from the depths to bring humanity to the edge of extinction, an elite team of fearless warriors launches a final assault against the ultimate creature. In a battle filled with explosive action, impossible odds, and breathtaking destruction, the fate of the world rests on one last stand.",
+  category: "anime",
+  genres: ["Action", "Monster", "Adventure", "Sci-Fi"],
+  year: 2026,
+  rating: 8.7,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Snowball Earth",
   tagline: "The frozen world awaits its last hope.",
   description: "After Earth is covered in ice by alien invaders, a former hero awakens years later to find humanity on the brink of extinction. Alongside old allies and new companions, he must fight to reclaim the planet from the forces that destroyed it.",
