@@ -407,14 +407,14 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Puli Meka",
-  tagline: "A hunter becomes the hunted.",
-  description: "When a serial killer begins targeting police officers, an experienced officer returns to investigate the murders. As the mystery deepens, hidden secrets, conspiracies, and dangerous truths come to light.",
+{
+  title: "Human Vapour",
+  tagline: "He vanished into thin air... but his revenge remained.",
+  description: "A man gains the extraordinary ability to transform into vapor after a scientific experiment goes horribly wrong. Hunted by authorities and driven by love and desperation, he uses his powers to evade capture while leaving a trail of mystery and destruction.",
   category: "series",
-  genres: ["Crime", "Thriller", "Mystery", "Drama"],
-  year: 2023,
-  rating: 7.8,
+  genres: ["Sci-Fi", "Thriller", "Crime", "Drama"],
+  year: 1960,
+  rating: 7.0,
   poster: placeholder,
   banner: heroSeries
 },
