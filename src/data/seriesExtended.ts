@@ -40,18 +40,19 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  
-  {
-  title: "Under the Dome",
-  tagline: "Trapped beneath an invisible force.",
-  description: "The residents of a small town suddenly find themselves cut off from the outside world by a mysterious, invisible dome. As resources dwindle and tensions rise, they must uncover the dome's origin before their community collapses.",
+
+    {
+  title: "Peaky Blinders",
+  tagline: "By order of the Peaky Blinders.",
+  description: "In the aftermath of World War I, the ambitious Shelby family rises from the streets of Birmingham to build a criminal empire. Led by the brilliant and ruthless Tommy Shelby, they face rival gangs, political conspiracies, and personal struggles while fighting to secure power and protect their legacy.",
   category: "series",
-  genres: ["Sci-Fi", "Mystery", "Drama", "Thriller"],
+  genres: ["Crime", "Drama", "Historical", "Gangster"],
   year: 2013,
-  rating: 6.5,
-  poster: placeholder,
+  rating: 8.8,
+    poster: placeholder,
   banner: heroSeries
 },
+
   {
   title: "Manipulated",
   tagline: "Truth is the first victim.",
@@ -492,9 +493,20 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
  
     { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
   { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
-
+  {
+  title: "Under the Dome",
+  tagline: "Trapped beneath an invisible force.",
+  description: "The residents of a small town suddenly find themselves cut off from the outside world by a mysterious, invisible dome. As resources dwindle and tensions rise, they must uncover the dome's origin before their community collapses.",
+  category: "series",
+  genres: ["Sci-Fi", "Mystery", "Drama", "Thriller"],
+  year: 2013,
+  rating: 6.5,
+  poster: placeholder,
+  banner: heroSeries
+},
     { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
- { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
+
+    { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
 ];
 
