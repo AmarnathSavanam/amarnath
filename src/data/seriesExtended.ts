@@ -220,8 +220,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 },
       { title: "Avatar The Last Airbender", tagline: "Master all four elements.", description: "A young Avatar must restore balance to a world devastated by war.", category: "series", genres: ["Fantasy", "Adventure", "Action"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
           { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
-
-       { title: "Game of Thrones", tagline: "When you play the game of thrones, you win or you die.", description: "Noble families wage war for control of the Iron Throne while an ancient enemy returns after being dormant for millennia.", category: "series", genres: ["Fantasy", "Drama", "Adventure"], year: 2011, rating: 9.2, poster: placeholder, banner: heroSeries },
+  { title: "Game of Thrones", tagline: "When you play the game of thrones, you win or you die.", description: "Noble families wage war for control of the Iron Throne while an ancient enemy returns after being dormant for millennia.", category: "series", genres: ["Fantasy", "Drama", "Adventure"], year: 2011, rating: 9.2, poster: placeholder, banner: heroSeries },
       {
   title: "Bon Appétit, Your Majesty",
   tagline: "Where royal tradition meets culinary excellence.",
@@ -233,10 +232,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: "/bon-appetit-your-majesty.jpg",
   banner: "/bon-appetit-your-majesty-banner.jpg"
 },
-    
-  { title: "Berlin", tagline: "Before the heist came the legend.", description: "Berlin assembles a skilled gang for one of the most ambitious robberies ever attempted.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 7.0, poster: placeholder, banner: heroSeries },
-
-    {
+     { title: "Berlin", tagline: "Before the heist came the legend.", description: "Berlin assembles a skilled gang for one of the most ambitious robberies ever attempted.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 7.0, poster: placeholder, banner: heroSeries },
+   {
   title: "Teach You a Lesson",
   tagline: "Every action has consequences.",
   description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
@@ -247,8 +244,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-    
-    { title: "The Boys", tagline: "Superheroes aren't always heroes.", description: "A group of vigilantes fights corrupt superheroes who abuse their powers behind the scenes.", category: "series", genres: ["Action", "Crime", "Sci-Fi"], year: 2019, rating: 8.7, poster: placeholder, banner: heroSeries },  
+       { title: "The Boys", tagline: "Superheroes aren't always heroes.", description: "A group of vigilantes fights corrupt superheroes who abuse their powers behind the scenes.", category: "series", genres: ["Action", "Crime", "Sci-Fi"], year: 2019, rating: 8.7, poster: placeholder, banner: heroSeries },  
       {
   title: "Legends from the Kitchen",
   tagline: "Every recipe tells a story.",
@@ -262,10 +258,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 },
         { title: "Young Sherlock", tagline: "The world's greatest detective had to begin somewhere.", description: "A young Sherlock Holmes solves mysteries long before becoming the legendary detective.", category: "series", genres: ["Mystery", "Crime"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries },
         { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-
- 
   { title: "The Sandman", tagline: "Dreams shape reality.", description: "After years of imprisonment, Dream escapes to restore balance between worlds.", category: "series", genres: ["Fantasy", "Drama", "Horror"], year: 2022, rating: 7.7, poster: placeholder, banner: heroSeries },       
-
  {
   title: "Goblin",
   tagline: "A cursed immortal seeks the one who can end his eternal life.",
@@ -277,9 +270,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
  poster: placeholder,
   banner: heroSeries,
 },
-    
-  { title: "The Peripheral", tagline: "The future is already connected.", description: "A young woman discovers a hidden connection to a futuristic reality and a dangerous conspiracy.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2022, rating: 8.0, poster: placeholder, banner: heroSeries },
-
+     { title: "The Peripheral", tagline: "The future is already connected.", description: "A young woman discovers a hidden connection to a futuristic reality and a dangerous conspiracy.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2022, rating: 8.0, poster: placeholder, banner: heroSeries },
 {
   title: "Good Boy",
   tagline: "Former champions. New fight for justice.",
@@ -292,9 +283,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
    { title: "Yakshini", tagline: "A forbidden spirit awakens.", description: "A mythical yakshini enters the modern world, bringing love, danger, and dark secrets.", category: "series", genres: ["Fantasy", "Romance", "Thriller"], year: 2024, rating: 6.7, poster: placeholder, banner: heroSeries },
-
-
-     
    {
   title: "Reborn Rich",
   tagline: "A second life. A perfect revenge.",
@@ -307,8 +295,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
       { title: "Lupin", tagline: "The gentleman thief returns.", description: "Inspired by Arsène Lupin, Assane Diop seeks revenge using masterful deception.", category: "series", genres: ["Crime", "Mystery", "Drama"], year: 2021, rating: 7.5, poster: placeholder, banner: heroSeries },
-
-     
 {
   title: "Phantom Lawyer",
   tagline: "The dead deserve justice too.",
@@ -321,8 +307,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
      { title: "Gyaarah Gyaarah", tagline: "Time reveals what truth hides.", description: "A mystery thriller where police officers across different timelines connect through a strange walkie-talkie to solve unresolved crimes.", category: "series", genres: ["Crime", "Sci-Fi", "Thriller"], year: 2024, rating: 8.0, poster: placeholder, banner: heroSeries },
-
-
  {
   title: "Bring It On, Ghost",
   tagline: "Some ghosts need saving too.",
@@ -335,11 +319,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
      { title: "Welcome to Derry", tagline: "Every nightmare starts somewhere.", description: "A prequel exploring the horrifying origins of Pennywise and the cursed town of Derry.", category: "series", genres: ["Horror", "Mystery"], year: 2025, rating: 7.6, poster: placeholder, banner: heroSeries },
-
             { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
-
      { title: "Dhoota", tagline: "Destiny arrives before death.", description: "A journalist discovers newspaper clippings that predict horrifying future tragedies.", category: "series", genres: ["Horror", "Mystery", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
-
       {
   title: "Bloodhounds",
   tagline: "Debt turns friendship into war.",
@@ -351,7 +332,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-
        { title: "Dead Boy Detectives", tagline: "Even death can't stop the investigation.", description: "Two ghost detectives solve supernatural mysteries while navigating the afterlife.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
     
     {
@@ -388,18 +368,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroSeries,
   },
-    
-  {
-  title: "Sweet Home",
-  tagline: "Monsters are born from human desires.",
-  description: "After a mysterious outbreak turns people into terrifying monsters, a reclusive teenager and his neighbors fight to survive inside their apartment complex.",
-  category: "series",
-  genres: ["Horror", "Action", "Thriller"],
-  year: 2020,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
+    { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
     { title: "The Secrets of Shiledars", tagline: "History protects deadly secrets.", description: "A hidden order safeguards treasures and secrets tied to India's forgotten past.", category: "series", genres: ["Adventure", "Mystery", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
        {
   title: "Undercover High School",
@@ -451,7 +420,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
      { title: "1899", tagline: "The ship holds secrets beneath the surface.", description: "Migrants on a steamship heading to New York encounter a second vessel adrift on the open sea, triggering a horrifying chain of events that connects them all.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2022, rating: 7.3, poster: placeholder, banner: heroSeries },
- 
 {
   title: "One High School Heroes",
   tagline: "Heroes rise where fear rules.",
@@ -464,7 +432,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
   { title: "The Last Samurai", tagline: "Honor. Courage. Loyalty.", description: "An American military officer is captured by samurai warriors and becomes immersed in their dying culture, finding himself torn between two worlds.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2003, rating: 7.8, poster: placeholder, banner: heroSeries },
-
 {
   title: "If Wishes Could Kill",
   tagline: "Every wish demands a price.",
@@ -490,7 +457,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
     { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
- 
     { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
   { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
   {
@@ -505,8 +471,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
     { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-
-    { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
+   {
+  title: "One Piece",
+  tagline: "Set sail for the greatest adventure ever told.",
+  description: "Monkey D. Luffy and his Straw Hat Pirates journey across the Grand Line in search of the legendary treasure known as the One Piece. Along the way, they battle powerful enemies, forge unbreakable friendships, and chase the dream of becoming the King of the Pirates.",
+  category: "anime",
+  genres: ["Action", "Adventure", "Fantasy", "Comedy"],
+  year: 1999,
+  rating: 9.0,
+  poster: placeholder,
+  banner: heroSeries
+},
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
 ];
 
