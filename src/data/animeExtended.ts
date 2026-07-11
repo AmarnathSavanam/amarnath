@@ -5,6 +5,28 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "The Warrior Princess and the Barbaric King",
+  tagline: "An enemy's proposal changes everything.",
+  description: "Captured after a crushing defeat in battle, the fearless knight Serafina expects death at the hands of the barbarian king. Instead, she receives an unexpected marriage proposal, beginning a journey of love, trust, and unity between two rival kingdoms.",
+  category: "anime",
+  genres: ["Fantasy", "Romance", "Adventure", "Action"],
+  year: 2026,
+  rating: 7.8,
+   poster: placeholder,
+  banner: heroAnime
+},
+  {
+  title: "The Warrior Princess and the Barbaric King",
+  tagline: "An enemy's proposal changes everything.",
+  description: "Captured after a crushing defeat in battle, the fearless knight Serafina expects death at the hands of the barbarian king. Instead, she receives an unexpected marriage proposal, beginning a journey of love, trust, and unity between two rival kingdoms.",
+  category: "anime",
+  genres: ["Fantasy", "Romance", "Adventure", "Action"],
+  year: 2026,
+  rating: 7.8,
+   poster: placeholder,
+  banner: heroAnime
+},
+  {
   title: "Action Monster Big Movie",
   tagline: "When monsters rise, legends fight back.",
   description: "As colossal monsters emerge from the depths to bring humanity to the edge of extinction, an elite team of fearless warriors launches a final assault against the ultimate creature. In a battle filled with explosive action, impossible odds, and breathtaking destruction, the fate of the world rests on one last stand.",
