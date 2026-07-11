@@ -52,11 +52,14 @@ export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPag
     <div className="relative min-h-[100dvh] flex flex-col">
       {/* 3D hero scene — desktop/tablet only for perf */}
       {!isMobile && (
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-[90vh] z-0 opacity-90">
+        <div
+          className="pointer-events-none absolute inset-x-0 top-0 h-[70vh] z-0"
+          style={{ opacity: 0.55, mixBlendMode: "screen" }}
+        >
           <Suspense fallback={null}>
             <HeroScene />
           </Suspense>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background pointer-events-none" />
         </div>
       )}
 
