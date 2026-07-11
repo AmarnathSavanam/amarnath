@@ -356,8 +356,18 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 
      { title: "Dhoota", tagline: "Destiny arrives before death.", description: "A journalist discovers newspaper clippings that predict horrifying future tragedies.", category: "series", genres: ["Horror", "Mystery", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
 
-  
-           { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
+      {
+  title: "Bloodhounds",
+  tagline: "Debt turns friendship into war.",
+  description: "Two young boxers step into the brutal world of private money lending and ruthless loan sharks to protect the people they love.",
+  category: "series",
+  genres: ["Action", "Crime", "Thriller"],
+  year: 2023,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+
        { title: "Dead Boy Detectives", tagline: "Even death can't stop the investigation.", description: "Two ghost detectives solve supernatural mysteries while navigating the afterlife.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
     
     {
@@ -395,12 +405,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroSeries,
   },
     
-
-    { title: "The Secrets of Shiledars", tagline: "History protects deadly secrets.", description: "A hidden order safeguards treasures and secrets tied to India's forgotten past.", category: "series", genres: ["Adventure", "Mystery", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-    
-        { title: "Kaos", tagline: "The gods are losing control.", description: "A modern reimagining of Greek mythology where gods and humans collide in chaos.", category: "series", genres: ["Fantasy", "Drama"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
-  
-    {
+  {
   title: "Sweet Home",
   tagline: "Monsters are born from human desires.",
   description: "After a mysterious outbreak turns people into terrifying monsters, a reclusive teenager and his neighbors fight to survive inside their apartment complex.",
@@ -411,19 +416,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-          
+    { title: "The Secrets of Shiledars", tagline: "History protects deadly secrets.", description: "A hidden order safeguards treasures and secrets tied to India's forgotten past.", category: "series", genres: ["Adventure", "Mystery", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
        {
-  title: "Bloodhounds",
-  tagline: "Debt turns friendship into war.",
-  description: "Two young boxers step into the brutal world of private money lending and ruthless loan sharks to protect the people they love.",
-  category: "series",
-  genres: ["Action", "Crime", "Thriller"],
-  year: 2023,
-  rating: 8.1,
-  poster: placeholder,
-  banner: heroSeries
-},
-{
   title: "Undercover High School",
   tagline: "One mission. One classroom.",
   description: "An elite intelligence agent goes undercover as a high school student to uncover a hidden conspiracy, balancing dangerous missions with teenage life.",
@@ -434,9 +428,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-   
-    
-{
+        { title: "Kaos", tagline: "The gods are losing control.", description: "A modern reimagining of Greek mythology where gods and humans collide in chaos.", category: "series", genres: ["Fantasy", "Drama"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
+  {
   title: "Duty After School",
   tagline: "Students become soldiers overnight.",
   description: "When mysterious alien spheres invade Earth, high school students are forced into military training and deadly battles to survive.",
@@ -447,8 +440,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },  
-   
-    
+                     { title: "Agent From Above", tagline: "Heaven sent its most unusual protector.", description: "A supernatural agent descends to Earth to solve mysteries involving humanity and fate.", category: "series", genres: ["Fantasy", "Comedy", "Mystery"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
     {
   title: "Deaths Game",
   tagline: "Death is only the beginning.",
@@ -461,17 +453,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
 
-{
-  title: "One High School Heroes",
-  tagline: "Heroes rise where fear rules.",
-  description: "A group of high school students secretly fight violence and corruption inside their school while hiding their extraordinary abilities from the world.",
-  category: "series",
-  genres: ["Action", "School", "Superhero"],
-  year: 2025,
-  rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
     { title: "BET", tagline: "High stakes change lives forever.", description: "A suspense drama revolving around power, betrayal, and dangerous gambling games.", category: "series", genres: ["Thriller", "Drama"], year: 2025, rating: 6.8, poster: placeholder, banner: heroSeries }
 , 
     {
@@ -485,6 +466,20 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+     { title: "1899", tagline: "The ship holds secrets beneath the surface.", description: "Migrants on a steamship heading to New York encounter a second vessel adrift on the open sea, triggering a horrifying chain of events that connects them all.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2022, rating: 7.3, poster: placeholder, banner: heroSeries },
+ 
+{
+  title: "One High School Heroes",
+  tagline: "Heroes rise where fear rules.",
+  description: "A group of high school students secretly fight violence and corruption inside their school while hiding their extraordinary abilities from the world.",
+  category: "series",
+  genres: ["Action", "School", "Superhero"],
+  year: 2025,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+  { title: "The Last Samurai", tagline: "Honor. Courage. Loyalty.", description: "An American military officer is captured by samurai warriors and becomes immersed in their dying culture, finding himself torn between two worlds.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2003, rating: 7.8, poster: placeholder, banner: heroSeries },
 
 {
   title: "If Wishes Could Kill",
@@ -497,20 +492,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  { title: "1899", tagline: "The ship holds secrets beneath the surface.", description: "Migrants on a steamship heading to New York encounter a second vessel adrift on the open sea, triggering a horrifying chain of events that connects them all.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2022, rating: 7.3, poster: placeholder, banner: heroSeries },
-
-
+         { title: "Gen V", tagline: "Superheroes are trained, not born.", description: "At a university for powered students, young superheroes compete for fame while uncovering deadly secrets hidden by Vought International.", category: "series", genres: ["Action", "Sci-Fi", "Drama"], year: 2023, rating: 7.7, poster: placeholder, banner: heroSeries },
   { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
+ 
     { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
     { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
   { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
     { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
  { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-     { title: "Gen V", tagline: "Superheroes are trained, not born.", description: "At a university for powered students, young superheroes compete for fame while uncovering deadly secrets hidden by Vought International.", category: "series", genres: ["Action", "Sci-Fi", "Drama"], year: 2023, rating: 7.7, poster: placeholder, banner: heroSeries },
  { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
       { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "The Last Samurai", tagline: "Honor. Courage. Loyalty.", description: "An American military officer is captured by samurai warriors and becomes immersed in their dying culture, finding himself torn between two worlds.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2003, rating: 7.8, poster: placeholder, banner: heroSeries },
     { title: "The Heavenly Idol", tagline: "A divine power trapped in an idol world.", description: "A high priest from another world suddenly wakes up in the body of an unpopular K-pop idol.", category: "series", genres: ["Fantasy", "Comedy", "Drama"], year: 2023, rating: 7.1, poster: placeholder, banner: heroSeries }
 ];
 
