@@ -218,17 +218,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
       { title: "Avatar The Last Airbender", tagline: "Master all four elements.", description: "A young Avatar must restore balance to a world devastated by war.", category: "series", genres: ["Fantasy", "Adventure", "Action"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-      {
-  title: "Feel Good to Die",
-  tagline: "To save him, she must relive the same day.",
-  description: "A woman becomes trapped in a time loop and repeatedly relives the same day, trying to prevent her difficult boss from meeting a tragic fate while discovering unexpected truths about life and love.",
-  category: "series",
-  genres: ["Romance", "Comedy", "Fantasy"],
-  year: 2018,
-  rating: 7.7,
-  poster: placeholder,
-  banner: heroSeries,
-},
+          { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
+
        { title: "Game of Thrones", tagline: "When you play the game of thrones, you win or you die.", description: "Noble families wage war for control of the Iron Throne while an ancient enemy returns after being dormant for millennia.", category: "series", genres: ["Fantasy", "Drama", "Adventure"], year: 2011, rating: 9.2, poster: placeholder, banner: heroSeries },
       {
   title: "Bon Appétit, Your Majesty",
@@ -504,7 +495,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 
     { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
  { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
-      { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
 ];
 
