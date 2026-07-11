@@ -475,7 +475,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   title: "One Piece",
   tagline: "Set sail for the greatest adventure ever told.",
   description: "Monkey D. Luffy and his Straw Hat Pirates journey across the Grand Line in search of the legendary treasure known as the One Piece. Along the way, they battle powerful enemies, forge unbreakable friendships, and chase the dream of becoming the King of the Pirates.",
-  category: "anime",
+  category: "series",
   genres: ["Action", "Adventure", "Fantasy", "Comedy"],
   year: 1999,
   rating: 9.0,
