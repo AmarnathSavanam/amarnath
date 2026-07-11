@@ -123,14 +123,14 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroSeries,
   },
     
-    {
-  title: "Shark: The Storm",
-  tagline: "Survival demands strength.",
-  description: "After his release from prison, Cha Woo-sol is drawn into a brutal underground fighting world where he must confront powerful enemies and fight to protect those he cares about.",
+   {
+  title: "Vigilante",
+  tagline: "Justice begins after midnight.",
+  description: "A police academy student secretly hunts down criminals who escaped proper punishment, becoming a feared masked vigilante across the city.",
   category: "series",
-  genres: ["Action", "Crime", "Drama"],
-  year: 2025,
-  rating: 8.2,
+  genres: ["Action", "Crime", "Thriller"],
+  year: 2023,
+  rating: 8.0,
   poster: placeholder,
   banner: heroSeries
 },
@@ -245,13 +245,13 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Berlin", tagline: "Before the heist came the legend.", description: "Berlin assembles a skilled gang for one of the most ambitious robberies ever attempted.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 7.0, poster: placeholder, banner: heroSeries },
 
     {
-  title: "Notes from the Last Row",
-  tagline: "Some lessons stay with you forever.",
-  description: "A former teacher reflects on the choices, relationships, and moments that shaped his life, uncovering long-buried memories and the impact he had on the students who once sat in the last row.",
+  title: "Teach You a Lesson",
+  tagline: "Every action has consequences.",
+  description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
   category: "series",
-  genres: ["Drama"],
-  year: 2026,
-  rating: 8.2,
+  genres: ["Drama", "Thriller", "Revenge"],
+  year: 2024,
+  rating: 7.9,
   poster: placeholder,
   banner: heroSeries
 },
@@ -294,6 +294,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
     
+  { title: "The Peripheral", tagline: "The future is already connected.", description: "A young woman discovers a hidden connection to a futuristic reality and a dangerous conspiracy.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2022, rating: 8.0, poster: placeholder, banner: heroSeries },
 
 {
   title: "Good Boy",
@@ -371,15 +372,14 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
         { title: "Farzi", tagline: "Perfect counterfeit. Perfect crime.", description: "A struggling artist enters the dangerous world of counterfeit money.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 8.3, poster: placeholder, banner: heroSeries },
-
 {
-  title: "Human Vapour",
-  tagline: "The perfect weapon leaves no trace.",
-  description: "In 2026, a covert experiment grants an ordinary man the ability to transform into vapor. As governments and corporations race to control his power, he becomes humanity's most wanted fugitive, forced to decide whether to save the world or disappear forever.",
+  title: "Reborn Rookie",
+  tagline: "The boss starts from the bottom.",
+  description: "After a mysterious accident, a legendary business chairman wakes up in the body of a young athlete and returns to his own company as a rookie employee, uncovering corruption and family secrets from the ground up.",
   category: "series",
-  genres: ["Sci-Fi", "Action", "Thriller", "Mystery"],
+  genres: ["Fantasy", "Business", "Mystery"],
   year: 2026,
-  rating: 8.3,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
@@ -395,29 +395,9 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroSeries,
   },
     
-{
-  title: "Reborn Rookie",
-  tagline: "The boss starts from the bottom.",
-  description: "After a mysterious accident, a legendary business chairman wakes up in the body of a young athlete and returns to his own company as a rookie employee, uncovering corruption and family secrets from the ground up.",
-  category: "series",
-  genres: ["Fantasy", "Business", "Mystery"],
-  year: 2026,
-  rating: 8.1,
-  poster: placeholder,
-  banner: heroSeries
-},
+
     { title: "The Secrets of Shiledars", tagline: "History protects deadly secrets.", description: "A hidden order safeguards treasures and secrets tied to India's forgotten past.", category: "series", genres: ["Adventure", "Mystery", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-     {
-  title: "Teach You a Lesson",
-  tagline: "Every action has consequences.",
-  description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
-  category: "series",
-  genres: ["Drama", "Thriller", "Revenge"],
-  year: 2024,
-  rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
+    
         { title: "Kaos", tagline: "The gods are losing control.", description: "A modern reimagining of Greek mythology where gods and humans collide in chaos.", category: "series", genres: ["Fantasy", "Drama"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
   
     {
@@ -432,14 +412,14 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
           
-    {
-  title: "Light Shop",
-  tagline: "Every light hides a secret.",
-  description: "Strangers connected by mysterious pasts are drawn to a strange lamp shop that stands between the world of the living and the dead.",
+       {
+  title: "Bloodhounds",
+  tagline: "Debt turns friendship into war.",
+  description: "Two young boxers step into the brutal world of private money lending and ruthless loan sharks to protect the people they love.",
   category: "series",
-  genres: ["Mystery", "Fantasy", "Drama"],
-  year: 2024,
-  rating: 8.2,
+  genres: ["Action", "Crime", "Thriller"],
+  year: 2023,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
@@ -454,17 +434,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-    {
-  title: "Vigilante",
-  tagline: "Justice begins after midnight.",
-  description: "A police academy student secretly hunts down criminals who escaped proper punishment, becoming a feared masked vigilante across the city.",
-  category: "series",
-  genres: ["Action", "Crime", "Thriller"],
-  year: 2023,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
+   
     
 {
   title: "Duty After School",
@@ -529,19 +499,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 },
   { title: "1899", tagline: "The ship holds secrets beneath the surface.", description: "Migrants on a steamship heading to New York encounter a second vessel adrift on the open sea, triggering a horrifying chain of events that connects them all.", category: "series", genres: ["Mystery", "Sci-Fi", "Thriller"], year: 2022, rating: 7.3, poster: placeholder, banner: heroSeries },
 
-    {
-  title: "Bloodhounds",
-  tagline: "Debt turns friendship into war.",
-  description: "Two young boxers step into the brutal world of private money lending and ruthless loan sharks to protect the people they love.",
-  category: "series",
-  genres: ["Action", "Crime", "Thriller"],
-  year: 2023,
-  rating: 8.1,
-  poster: placeholder,
-  banner: heroSeries
-},
+
   { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "The Peripheral", tagline: "The future is already connected.", description: "A young woman discovers a hidden connection to a futuristic reality and a dangerous conspiracy.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2022, rating: 8.0, poster: placeholder, banner: heroSeries },
     { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
     { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
   { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
