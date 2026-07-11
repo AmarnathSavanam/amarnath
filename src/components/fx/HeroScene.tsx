@@ -12,15 +12,15 @@ function Knot() {
     ref.current.rotation.y = t * 0.2;
   });
   return (
-    <mesh ref={ref} position={[0, 0, -2]} castShadow>
-      <torusKnotGeometry args={[0.7, 0.22, 220, 32]} />
+    <mesh ref={ref} position={[0, 0, -3]} castShadow>
+      <torusKnotGeometry args={[0.45, 0.13, 220, 32]} />
       <MeshDistortMaterial
         color="#ff6b35"
         emissive="#e84393"
-        emissiveIntensity={0.25}
-        distort={0.22}
+        emissiveIntensity={0.08}
+        distort={0.18}
         speed={1.2}
-        roughness={0.2}
+        roughness={0.25}
         metalness={0.9}
       />
     </mesh>
@@ -34,10 +34,10 @@ function OrbitingShapes() {
     group.current.rotation.y = state.clock.getElapsedTime() * 0.25;
   });
   return (
-    <group ref={group} position={[0, 0, -2]}>
+    <group ref={group} position={[0, 0, -3]}>
       {Array.from({ length: 6 }).map((_, i) => {
         const angle = (i / 6) * Math.PI * 2;
-        const r = 1.9;
+        const r = 1.4;
         return (
           <Float key={i} speed={1.6} rotationIntensity={1.2} floatIntensity={1.4}>
             <mesh position={[Math.cos(angle) * r, Math.sin(angle * 1.3) * 0.5, Math.sin(angle) * r]}>
