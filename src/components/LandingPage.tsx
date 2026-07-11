@@ -1,6 +1,11 @@
 import { ArrowRight, Sparkles, Tv, Film } from "lucide-react";
 import type { Category, EntertainmentItem } from "@/data/entertainment";
 import HomeShelves from "./HomeShelves";
+import { Suspense, lazy } from "react";
+import { useIsMobile } from "@/hooks/use-mobile";
+import TiltCard from "./fx/TiltCard";
+
+const HeroScene = lazy(() => import("./fx/HeroScene"));
 
 interface LandingPageProps {
   onSelectCategory: (cat: Category) => void;
@@ -42,8 +47,20 @@ const tiles: {
 ];
 
 export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPageProps) {
+  const isMobile = useIsMobile();
   return (
     <div className="relative min-h-[100dvh] flex flex-col">
+      {/* 3D hero scene — desktop/tablet only for perf */}
+      {!isMobile && (
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-[90vh] z-0 opacity-90">
+          <Suspense fallback={null}>
+            <HeroScene />
+          </Suspense>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background pointer-events-none" />
+        </div>
+      )}
+
+      <div className="relative z-10 flex flex-col flex-1">
       {/* Brand mark */}
       <header className="pt-10 sm:pt-14 px-6 sm:px-10 flex items-center justify-between animate-fade-in">
         <div className="flex items-center gap-3">
@@ -76,14 +93,16 @@ export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPag
 
       {/* Tiles */}
       <main className="flex-1 px-4 sm:px-8 lg:px-12 pt-10 sm:pt-12 pb-16 max-w-5xl w-full mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 perspective-1200">
           {tiles.map((t, i) => (
-            <button
+            <TiltCard
               key={t.key}
+              as="button"
               onClick={() => onSelectCategory(t.key)}
-              className={`group relative overflow-hidden rounded-3xl text-left animate-fade-in-scale vapor-glass ${t.themeClass}`}
+              className={`group overflow-hidden rounded-3xl text-left animate-fade-in-scale vapor-glass depth-card ${t.themeClass}`}
               style={{ animationDelay: `${120 + i * 100}ms` }}
-              aria-label={`Enter ${t.label}`}
+              ariaLabel={`Enter ${t.label}`}
+              max={9}
             >
               {/* Transparent glass tile, no photo */}
               <div className="relative aspect-[16/9] sm:aspect-[4/5] md:aspect-[3/4]">
@@ -122,7 +141,7 @@ export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPag
                   </div>
                 </div>
               </div>
-            </button>
+            </TiltCard>
           ))}
         </div>
 
@@ -132,6 +151,7 @@ export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPag
       </main>
 
       {onOpenItem && <HomeShelves onCardClick={onOpenItem} />}
+      </div>
     </div>
   );
 }
