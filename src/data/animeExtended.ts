@@ -4,14 +4,14 @@ import heroAnime from "@/assets/hero-anime.jpg";
 const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
-  {
-  title: "The Warrior Princess and the Barbaric King",
-  tagline: "An enemy's proposal changes everything.",
-  description: "Captured after a crushing defeat in battle, the fearless knight Serafina expects death at the hands of the barbarian king. Instead, she receives an unexpected marriage proposal, beginning a journey of love, trust, and unity between two rival kingdoms.",
+ {
+  title: "Marriage Toxin",
+  tagline: "A deadly assassin. An impossible marriage mission.",
+  description: "Gero, a legendary assassin raised in a family of poison users, is forced to find a wife to secure his clan's future. With the help of a charismatic marriage swindler, he navigates dangerous enemies, bizarre matchmaking, and unexpected romance.",
   category: "anime",
-  genres: ["Fantasy", "Romance", "Adventure", "Action"],
+  genres: ["Action", "Comedy", "Romance"],
   year: 2026,
-  rating: 7.8,
+  rating: 8.2,
    poster: placeholder,
   banner: heroAnime
 },
