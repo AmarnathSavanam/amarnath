@@ -49,8 +49,8 @@ export default function TiltCard({
     if (glareRef.current) glareRef.current.style.background = "transparent";
   };
 
-  const commonProps = {
-    ref: ref as never,
+  const commonProps: Record<string, unknown> = {
+    ref,
     onMouseMove: onMove,
     onMouseLeave: onLeave,
     onClick,
@@ -73,7 +73,7 @@ export default function TiltCard({
   );
 
   if (as === "button") {
-    return <button {...(commonProps as never)}>{inner}</button>;
+    return <button {...commonProps}>{inner}</button>;
   }
-  return <div {...(commonProps as never)}>{inner}</div>;
+  return <div {...commonProps}>{inner}</div>;
 }
