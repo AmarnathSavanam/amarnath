@@ -5,6 +5,10 @@ import DetailView from "@/components/DetailView";
 import CommandPalette from "@/components/CommandPalette";
 import { useAppState } from "@/hooks/useAppState";
 import type { Category, ViewMode } from "@/data/entertainment";
+import AuroraBackground from "@/components/fx/AuroraBackground";
+import LoadingScreen from "@/components/fx/LoadingScreen";
+import PageTransition from "@/components/fx/PageTransition";
+import { AnimatePresence } from "framer-motion";
 
 const Index = () => {
   const {
@@ -23,10 +27,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground relative overflow-x-hidden">
-      {/* Ambient orbs */}
-      <div className="vapor-orb vapor-orb-anim" style={{ top: "-12%", left: "-8%", width: "55vw", height: "55vw", background: "hsl(var(--vapor-indigo) / 0.18)" }} />
-      <div className="vapor-orb vapor-orb-anim" style={{ bottom: "-15%", right: "-10%", width: "50vw", height: "50vw", background: "hsl(var(--vapor-cyan) / 0.14)", animationDelay: "4s" }} />
-      <div className="vapor-orb" style={{ top: "30%", right: "10%", width: "30vw", height: "30vw", background: "hsl(var(--vapor-lavender) / 0.08)" }} />
+      <LoadingScreen />
+      <AuroraBackground />
 
       {/* Side rail only after entering a section */}
       {!isLanding && (
@@ -38,27 +40,25 @@ const Index = () => {
       )}
 
       <div className={`${!isLanding ? "md:ml-24 lg:ml-32" : ""} relative z-10`}>
-        {isLanding ? (
-          <LandingPage onSelectCategory={handleSelectCategory} onOpenItem={openDetail} />
-        ) : (
-          <main className="px-3 sm:px-6 lg:pr-8 xl:pr-10 max-w-[1600px] mx-auto pt-4 sm:pt-6 pb-16">
-            {selectedItem ? (
-              <DetailView
-                item={selectedItem}
-                onBack={closeDetail}
-                onCardClick={openDetail}
-              />
-            ) : (
-              category && (
-                <CategoryView
-                  category={category}
-                  onCardClick={openDetail}
-                  onBack={goHome}
-                />
-              )
-            )}
-          </main>
-        )}
+        <AnimatePresence mode="wait">
+          {isLanding ? (
+            <PageTransition keyName="landing">
+              <LandingPage onSelectCategory={handleSelectCategory} onOpenItem={openDetail} />
+            </PageTransition>
+          ) : (
+            <PageTransition keyName={`${activeCategory}-${selectedItem?.id ?? "list"}`}>
+              <main className="px-3 sm:px-6 lg:pr-8 xl:pr-10 max-w-[1600px] mx-auto pt-4 sm:pt-6 pb-16">
+                {selectedItem ? (
+                  <DetailView item={selectedItem} onBack={closeDetail} onCardClick={openDetail} />
+                ) : (
+                  category && (
+                    <CategoryView category={category} onCardClick={openDetail} onBack={goHome} />
+                  )
+                )}
+              </main>
+            </PageTransition>
+          )}
+        </AnimatePresence>
       </div>
 
       <CommandPalette onOpenItem={openDetail} onOpenCategory={handleSelectCategory} />

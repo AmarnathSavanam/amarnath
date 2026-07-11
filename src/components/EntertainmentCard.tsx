@@ -1,4 +1,5 @@
 import { Play } from "lucide-react";
+import { useRef } from "react";
 import type { EntertainmentItem, Category } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 
@@ -11,12 +12,32 @@ interface EntertainmentCardProps {
 
 export default function EntertainmentCard({ item, onClick, index, showRank }: EntertainmentCardProps) {
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
+  const btnRef = useRef<HTMLButtonElement>(null);
+
+  const handleMove = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const el = btnRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width;
+    const y = (e.clientY - rect.top) / rect.height;
+    const rx = (0.5 - y) * 8;
+    const ry = (x - 0.5) * 8;
+    el.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
+  };
+  const handleLeave = () => {
+    const el = btnRef.current;
+    if (!el) return;
+    el.style.transform = "perspective(900px) rotateX(0) rotateY(0) translateY(0)";
+  };
 
   return (
     <button
+      ref={btnRef}
       onClick={() => onClick(item)}
-      className="tap-target group relative overflow-hidden rounded-2xl bg-card/40 text-left w-full transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_50px_-12px_hsl(var(--vapor-cyan)/0.35)] active:scale-[0.97] animate-fade-in"
-      style={{ animationDelay: `${index * 30}ms`, opacity: 0 }}
+      onMouseMove={handleMove}
+      onMouseLeave={handleLeave}
+      className="tap-target group relative overflow-hidden rounded-2xl bg-card/40 text-left w-full transition-transform duration-300 ease-out will-change-transform hover:shadow-[0_24px_60px_-16px_hsl(var(--vapor-cyan)/0.45)] active:scale-[0.97] animate-fade-in"
+      style={{ animationDelay: `${index * 30}ms`, opacity: 0, transformStyle: "preserve-3d" }}
     >
       <div className="relative aspect-[2/3] overflow-hidden rounded-2xl border border-white/8 group-hover:border-primary/40 transition-colors">
         <img
