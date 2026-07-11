@@ -63,17 +63,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Peaky Blinders",
-  tagline: "By order of the Peaky Blinders.",
-  description: "Set in post-World War I Birmingham, the series follows Tommy Shelby and the Peaky Blinders gang as they rise from street criminals to powerful figures, facing rival gangs, politicians, and enemies while building a criminal empire.",
-  category: "series",
-  genres: ["Crime", "Drama", "Historical"],
-  year: 2013,
-  rating: 8.8,
-  poster: placeholder,
-  banner: heroSeries
-},
    {
   title: "Alchemy of Souls",
   tagline: "Destiny changes when souls collide.",
@@ -169,9 +158,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
- 
-              { title: "Glory", tagline: "Revenge never forgets.", description: "After years of suffering brutal bullying, a woman carefully executes a long-awaited plan for revenge against those who destroyed her life.", category: "series", genres: ["Drama", "Thriller"], year: 2022, rating: 8.1, poster: placeholder, banner: heroSeries },
-
         {
   title: "Ghost Doctor",
   tagline: "Two doctors. One body. One extraordinary mission.",
@@ -284,17 +270,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
  { title: "Stranger Things", tagline: "The world is turning upside down.", description: "When a boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one very strange little girl.", category: "series", genres: ["Sci-Fi", "Horror", "Mystery"], year: 2016, rating: 8.7, poster: placeholder, banner: heroSeries },
-{
-  title: "Twelve",
-  tagline: "Twelve zodiac warriors. One deadly battle.",
-  description: "Twelve warriors representing the Chinese zodiac fight in a brutal survival tournament where only one can claim victory and have their wish granted.",
-  category: "series",
-  genres: ["Action", "Fantasy", "Psychological"],
-  year: 2017,
-  rating: 6.5,
-  poster: placeholder,
-  banner: heroSeries,
-},
+
  {
   title: "Goblin",
   tagline: "A cursed immortal seeks the one who can end his eternal life.",
@@ -322,28 +298,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
       { title: "3 Body Problem", tagline: "Humanity faces its greatest threat.", description: "Scientists uncover an alien conspiracy that could change the future of civilization forever.", category: "series", genres: ["Sci-Fi", "Mystery", "Drama"], year: 2024, rating: 7.6, poster: placeholder, banner: heroSeries },
 
   { title: "Avatar The Last Airbender", tagline: "Master all four elements.", description: "A young Avatar must restore balance to a world devastated by war.", category: "series", genres: ["Fantasy", "Adventure", "Action"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-{
-  title: "Parasyte: The Grey",
-  tagline: "When humanity becomes the prey.",
-  description: "Parasitic lifeforms secretly invade Earth, taking over human bodies, while a young woman forms an unusual bond with one of them.",
-  category: "series",
-  genres: ["Sci-Fi", "Horror", "Thriller"],
-  year: 2024,
-  rating: 7.8,
-  poster: placeholder,
-  banner: heroSeries,
-},
-     {
-  title: "Harikatha",
-  tagline: "When faith turns into fear.",
-  description: "A police officer with a troubled past investigates a series of mysterious murders in a quiet village, where a self-proclaimed god unleashes terror and hidden secrets begin to surface.",
-  category: "series",
-  genres: ["Crime", "Thriller", "Mystery", "Fantasy"],
-  year: 2024,
-  rating: 7.2,
-  poster: placeholder,
-  banner: heroSeries
-},
+
    {
   title: "Reborn Rich",
   tagline: "A second life. A perfect revenge.",
@@ -377,17 +332,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Fantasy", "Comedy", "Romance"],
   year: 2016,
   rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
- {
-  title: "Scam 2003: The Telgi Story",
-  tagline: "The man behind India's biggest stamp paper scam.",
-  description: "Based on the life of Abdul Karim Telgi, the series chronicles his rise from a small-time businessman to the mastermind behind one of India's largest financial scams.",
-  category: "series",
-  genres: ["Biography", "Crime", "Drama", "Thriller"],
-  year: 2023,
-  rating: 8.0,
   poster: placeholder,
   banner: heroSeries
 },
@@ -482,9 +426,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  { title: "The Bondsman", tagline: "Debt always comes due.", description: "A bounty hunter becomes entangled in supernatural forces while tracking dangerous fugitives.", category: "series", genres: ["Action", "Fantasy", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries }
- ,
-
     {
   title: "Vigilante",
   tagline: "Justice begins after midnight.",
@@ -559,7 +500,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  { title: "Alien Earth", tagline: "The nightmare has arrived on Earth.", description: "Humanity faces terror when deadly xenomorphs threaten life on Earth itself.", category: "series", genres: ["Sci-Fi", "Horror"], year: 2025, rating: 7.5, poster: placeholder, banner: heroSeries },
 
 {
   title: "If Wishes Could Kill",
@@ -589,48 +529,19 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
   { title: "The Peripheral", tagline: "The future is already connected.", description: "A young woman discovers a hidden connection to a futuristic reality and a dangerous conspiracy.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2022, rating: 8.0, poster: placeholder, banner: heroSeries },
     { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-  { title: "Athidhi", tagline: "Every guest hides a dark secret.", description: "A suspense thriller where mysterious visitors begin changing the lives of everyone around them.", category: "series", genres: ["Thriller", "Mystery"], year: 2023, rating: 6.8, poster: placeholder, banner: heroSeries },
     { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
   { title: "Farzi", tagline: "Perfect counterfeit. Perfect crime.", description: "A struggling artist enters the dangerous world of counterfeit money.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 8.3, poster: placeholder, banner: heroSeries },
    { title: "Alice in Borderland", tagline: "Survive the games or disappear forever.", description: "Players trapped in a deadly alternate Tokyo must compete in dangerous survival games.", category: "series", genres: ["Sci-Fi", "Thriller", "Action"], year: 2020, rating: 7.8, poster: placeholder, banner: heroSeries },
   { title: "Dead Boy Detectives", tagline: "Even death can't stop the investigation.", description: "Two ghost detectives solve supernatural mysteries while navigating the afterlife.", category: "series", genres: ["Fantasy", "Mystery", "Comedy"], year: 2024, rating: 7.4, poster: placeholder, banner: heroSeries },
     { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
-  { title: "Aindham Vedham", tagline: "Ancient knowledge holds terrifying power.", description: "A mystical thriller centered around hidden scriptures, forgotten history, and supernatural events.", category: "series", genres: ["Mystery", "Fantasy", "Thriller"], year: 2024, rating: 7.0, poster: placeholder, banner: heroSeries },
  { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
      { title: "Gen V", tagline: "Superheroes are trained, not born.", description: "At a university for powered students, young superheroes compete for fame while uncovering deadly secrets hidden by Vought International.", category: "series", genres: ["Action", "Sci-Fi", "Drama"], year: 2023, rating: 7.7, poster: placeholder, banner: heroSeries },
  { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
-{ title: "Vikkatakavi", tagline: "Every clue leads deeper into darkness.", description: "A mystery investigator uncovers hidden truths tied to ancient secrets and dangerous conspiracies.", category: "series", genres: ["Mystery", "Thriller"], year: 2024, rating: 7.1, poster: placeholder, banner: heroSeries }, 
       { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
-{
-  title: "The Mystery of Moksha Island",
-  tagline: "A deadly invitation. A mysterious island. No one is safe.",
-  description: "After a powerful scientist's death, his relatives are invited to a remote island to claim a vast inheritance. What begins as a family gathering soon turns into a terrifying survival game filled with secrets, betrayals, and shocking discoveries.",
-  category: "series",
-  genres: ["Thriller", "Mystery", "Sci-Fi", "Drama"],
-  year: 2024,
-  rating: 4.2,
-  poster: placeholder,
-  banner: heroSeries,
-},
     { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-  { title: "Scam 1992", tagline: "The man who shook the entire stock market.", description: "A financial thriller based on the life of stockbroker Harshad Mehta and the securities scam that changed India forever.", category: "series", genres: ["Crime", "Drama", "Biography"], year: 2020, rating: 9.3, poster: placeholder, banner: heroSeries },
   { title: "The Last Samurai", tagline: "Honor. Courage. Loyalty.", description: "An American military officer is captured by samurai warriors and becomes immersed in their dying culture, finding himself torn between two worlds.", category: "series", genres: ["Drama", "Action", "Adventure"], year: 2003, rating: 7.8, poster: placeholder, banner: heroSeries },
   { title: "Dhoota", tagline: "Destiny arrives before death.", description: "A journalist discovers newspaper clippings that predict horrifying future tragedies.", category: "series", genres: ["Horror", "Mystery", "Thriller"], year: 2023, rating: 7.8, poster: placeholder, banner: heroSeries },
-    { title: "The Heavenly Idol", tagline: "A divine power trapped in an idol world.", description: "A high priest from another world suddenly wakes up in the body of an unpopular K-pop idol.", category: "series", genres: ["Fantasy", "Comedy", "Drama"], year: 2023, rating: 7.1, poster: placeholder, banner: heroSeries },
-       { title: "Inspector Rishi", tagline: "Fear hides in the forest.", description: "A police inspector investigates mysterious supernatural killings connected to tribal folklore.", category: "series", genres: ["Crime", "Horror", "Mystery"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
-        { title: "Gyeongseong Creature", tagline: "Monsters are born from human greed.", description: "During colonial Korea, two individuals battle terrifying creatures born from secret experiments.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2023, rating: 7.3, poster: placeholder, banner: heroSeries },
-  { title: "Mansion 24", tagline: "Every room hides a nightmare.", description: "A woman searches for her missing father inside a haunted mansion tied to supernatural secrets.", category: "series", genres: ["Horror", "Mystery"], year: 2023, rating: 6.9, poster: placeholder, banner: heroSeries }
-,{
-  title: "Viral Hit",
-  tagline: "One stream can change everything.",
-  description: "A timid high school student unexpectedly becomes an online sensation after starting a channel dedicated to fighting stronger opponents and sharing his strategies with the world.",
-  category: "series",
-  genres: ["Action", "Comedy", "Drama"],
-  year: 2024,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-}
+    { title: "The Heavenly Idol", tagline: "A divine power trapped in an idol world.", description: "A high priest from another world suddenly wakes up in the body of an unpopular K-pop idol.", category: "series", genres: ["Fantasy", "Comedy", "Drama"], year: 2023, rating: 7.1, poster: placeholder, banner: heroSeries }
 ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
