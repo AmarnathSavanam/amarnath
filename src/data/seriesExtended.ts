@@ -63,6 +63,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+     {
+    title: "Dark",
+    tagline: "Time is a closed loop. Escape is an illusion.",
+    description: "In the small town of Winden, the disappearance of a child unravels a multi-generational conspiracy bound by time itself.",
+    category: "series",
+    genres: ["Sci-Fi", "Mystery", "Psychological Thriller"],
+    year: 2017,
+    rating: 9.0,
+    poster: placeholder,
+    banner: heroSeries,
+  },
    {
   title: "Alchemy of Souls",
   tagline: "Destiny changes when souls collide.",
@@ -74,7 +85,9 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
+ 
+    { title: "Money Heist", tagline: "The plan is everything.", description: "A criminal mastermind who goes by 'The Professor' recruits a group of thieves to carry out the most ambitious heist in history.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2017, rating: 8.2, poster: placeholder, banner: heroSeries },
+   {
   title: "Agent Kim Reactivated",
   tagline: "The legend returns to the field.",
   description: "After years away from active duty, a retired intelligence agent is forced back into action when a dangerous conspiracy threatens national security, uncovering secrets from his past along the way.",
@@ -85,6 +98,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+       { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
+
  {
   title: "Big Mouth",
   tagline: "A small-time lawyer trapped in a deadly conspiracy.",
@@ -96,8 +111,19 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-    { title: "Money Heist", tagline: "The plan is everything.", description: "A criminal mastermind who goes by 'The Professor' recruits a group of thieves to carry out the most ambitious heist in history.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2017, rating: 8.2, poster: placeholder, banner: heroSeries },
-  {
+      {
+    title: "12 Monkeys",
+    tagline: "To save the future, rewrite the past.",
+    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
+    category: "series",
+    genres: ["Sci-Fi", "Thriller", "Mystery"],
+    year: 2015,
+    rating: 8.7,
+    poster: placeholder,
+    banner: heroSeries,
+  },
+    
+    {
   title: "Shark: The Storm",
   tagline: "Survival demands strength.",
   description: "After his release from prison, Cha Woo-sol is drawn into a brutal underground fighting world where he must confront powerful enemies and fight to protect those he cares about.",
@@ -108,7 +134,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-   { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
 
 {
   title: "My Royal Nemesis",
@@ -134,17 +159,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-    title: "Dark",
-    tagline: "Time is a closed loop. Escape is an illusion.",
-    description: "In the small town of Winden, the disappearance of a child unravels a multi-generational conspiracy bound by time itself.",
-    category: "series",
-    genres: ["Sci-Fi", "Mystery", "Psychological Thriller"],
-    year: 2017,
-    rating: 9.0,
-    poster: placeholder,
-    banner: heroSeries,
-  },
+ 
  
  
   {
@@ -191,17 +206,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
       
-        {
-    title: "12 Monkeys",
-    tagline: "To save the future, rewrite the past.",
-    description: "A time traveler from a post-apocalyptic future races across fractured timelines to stop the release of a virus that will end civilization.",
-    category: "series",
-    genres: ["Sci-Fi", "Thriller", "Mystery"],
-    year: 2015,
-    rating: 8.7,
-    poster: placeholder,
-    banner: heroSeries,
-  },
+      
        {
   title: "Feel Good to Die",
   tagline: "To save him, she must relive the same day.",
