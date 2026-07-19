@@ -4,6 +4,7 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+
     {
   title: "Super Subbu",
   tagline: "One unexpected job. One unforgettable journey.",
@@ -189,6 +190,27 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Action", "Drama", "Fantasy", "School"],
   year: 2024,
   rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+        {
+  title: "Fallout",
+  tagline: "The world ended. Her journey begins.",
+  description: "After spending her entire life in a luxurious underground vault, Lucy ventures into the brutal post-apocalyptic wasteland, where she encounters ruthless survivors, bounty hunters, and long-buried secrets that could reshape humanity's future.",
+  category: "series",
+  genres: ["Action", "Sci-Fi", "Adventure", "Drama"],
+  year: 2024,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},{
+  title: "Sweet Home",
+  tagline: "Humans are the real monsters.",
+  description: "After a tragic family loss, a withdrawn teenager moves into a rundown apartment complex just as people begin transforming into terrifying monsters. Together with the remaining residents, he must fight to survive while confronting the darkness within humanity.",
+  category: "series",
+  genres: ["Horror", "Thriller", "Action", "Drama"],
+  year: 2020,
+  rating: 7.2,
   poster: placeholder,
   banner: heroSeries
 },
