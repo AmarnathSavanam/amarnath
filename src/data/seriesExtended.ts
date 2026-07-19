@@ -15,7 +15,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-
+{
+  title: "The Worst of Evil",
+  tagline: "To defeat evil, he must become part of it.",
+  description: "An undercover police officer infiltrates a ruthless criminal syndicate controlling the illegal drug trade across South Korea, China, and Japan, risking everything as his true identity hangs by a thread.",
+  category: "series",
+  genres: ["Crime", "Action", "Thriller", "Drama"],
+  year: 2023,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
    
     {
   title: "Super Subbu",
