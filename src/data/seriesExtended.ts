@@ -4,16 +4,16 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
-    {
+{
   title: "Human Vapor",
-  tagline: "Invisible power. Unstoppable consequences.",
-  description: "A man gains the ability to become invisible and drifts into a life of crime, forcing authorities to hunt an enemy they cannot see.",
-  category: "movie",
-  genres: ["Sci-Fi", "Crime", "Thriller"],
-  year: 1960,
-  rating: 6.8,
+  tagline: "Some powers are more dangerous than they seem.",
+  description: "After gaining the ability to become invisible, a man finds himself hunted by powerful forces while struggling to control the consequences of his extraordinary gift.",
+  category: "series",
+  genres: ["Sci-Fi", "Thriller", "Mystery"],
+  year: 2026,
+  rating: 7.8,
   poster: placeholder,
-  banner: heroMovie
+  banner: heroSeries
 },
 
    
