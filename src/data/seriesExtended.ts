@@ -338,6 +338,28 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+    {
+  title: "Inspector Rishi",
+  tagline: "Every mystery has a darker truth.",
+  description: "Inspector Rishi Nandhan investigates a series of mysterious deaths in a remote forest, where folklore, supernatural legends, and hidden human motives collide in a gripping crime thriller.",
+  category: "series",
+  genres: ["Crime", "Thriller", "Mystery", "Horror"],
+  year: 2024,
+  rating: 7.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
+  title: "Notes from the Last Row",
+  tagline: "Every story has a writer. Every writer has a secret.",
+  description: "A failed literature professor discovers an exceptionally gifted student and begins mentoring him, but the student's unsettling stories blur the line between fiction and reality, drawing them both into a dangerous psychological game.",
+  category: "series",
+  genres: ["Psychological", "Thriller", "Drama", "Mystery"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
       { title: "Lupin", tagline: "The gentleman thief returns.", description: "Inspired by Arsène Lupin, Assane Diop seeks revenge using masterful deception.", category: "series", genres: ["Crime", "Mystery", "Drama"], year: 2021, rating: 7.5, poster: placeholder, banner: heroSeries },
 {
   title: "Phantom Lawyer",
