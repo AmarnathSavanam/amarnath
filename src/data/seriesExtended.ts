@@ -5,6 +5,7 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
 
+
     {
   title: "Super Subbu",
   tagline: "One unexpected job. One unforgettable journey.",
@@ -122,6 +123,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+    
        { title: "Better Call Saul", tagline: "Before he was Saul, he was Jimmy.", description: "The transformation of small-time lawyer Jimmy McGill into the criminal attorney Saul Goodman, years before his dealings with Walter White.", category: "series", genres: ["Crime", "Drama", "Thriller"], year: 2015, rating: 9.0, poster: placeholder, banner: heroSeries },
 
  {
@@ -275,6 +277,27 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   rating: 8.1,
   poster: "/bon-appetit-your-majesty.jpg",
   banner: "/bon-appetit-your-majesty-banner.jpg"
+},
+        {
+  title: "Vikkatakavi",
+  tagline: "Every riddle hides a deadly truth.",
+  description: "A brilliant detective is drawn into a series of mysterious crimes linked to ancient folklore, forcing him to unravel cryptic clues before a dangerous conspiracy claims more lives.",
+  category: "series",
+  genres: ["Mystery", "Thriller", "Crime"],
+  year: 2024,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroSeries
+},{
+  title: "Feel Good to Die",
+  tagline: "Relive today until you change tomorrow.",
+  description: "A frustrated office worker becomes trapped in a time loop with her difficult boss, forcing both of them to confront their flaws and transform their lives before they can escape.",
+  category: "series",
+  genres: ["Romance", "Comedy", "Fantasy", "Drama"],
+  year: 2018,
+  rating: 7.7,
+  poster: placeholder,
+  banner: heroSeries
 },
      { title: "Berlin", tagline: "Before the heist came the legend.", description: "Berlin assembles a skilled gang for one of the most ambitious robberies ever attempted.", category: "series", genres: ["Crime", "Thriller", "Drama"], year: 2023, rating: 7.0, poster: placeholder, banner: heroSeries },
    {
