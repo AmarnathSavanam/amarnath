@@ -4,8 +4,19 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+    {
+  title: "Human Vapor",
+  tagline: "Invisible power. Unstoppable consequences.",
+  description: "A man gains the ability to become invisible and drifts into a life of crime, forcing authorities to hunt an enemy they cannot see.",
+  category: "movie",
+  genres: ["Sci-Fi", "Crime", "Thriller"],
+  year: 1960,
+  rating: 6.8,
+  poster: placeholder,
+  banner: heroMovie
+},
 
-
+   
     {
   title: "Super Subbu",
   tagline: "One unexpected job. One unforgettable journey.",
@@ -308,6 +319,75 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Drama", "Thriller", "Revenge"],
   year: 2024,
   rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+     {
+  title: "Mansion 24",
+  tagline: "Some family secrets should stay buried.",
+  description: "A woman searches for her missing uncle and uncovers shocking mysteries surrounding her family's fortune and the haunted Mansion 24.",
+  category: "series",
+  genres: ["Mystery", "Thriller", "Drama"],
+  year: 2023,
+  rating: 7.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
+  title: "Light House",
+  tagline: "Every light casts a shadow.",
+  description: "Strangers connected by mysterious events uncover chilling secrets surrounding an isolated lighthouse where the past refuses to stay buried.",
+  category: "series",
+  genres: ["Mystery", "Thriller", "Drama"],
+  year: 2025,
+  rating: 7.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Aindham Vedham",
+  tagline: "Ancient secrets awaken a modern mystery.",
+  description: "A young woman embarks on a dangerous journey to uncover the truth behind an ancient prophecy, where mythology and science collide.",
+  category: "series",
+  genres: ["Mystery", "Adventure", "Fantasy"],
+  year: 2024,
+  rating: 7.6,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "Gyeongseong Creature",
+  tagline: "Survival comes before humanity.",
+  description: "In 1945 Seoul, two unlikely allies confront terrifying creatures born from human greed while struggling to survive under colonial rule.",
+  category: "series",
+  genres: ["Action", "Horror", "Historical", "Sci-Fi"],
+  year: 2023,
+  rating: 7.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "Alien: Earth",
+  tagline: "The perfect organism has arrived.",
+  description: "When the deadly Xenomorph reaches Earth, survivors must fight for humanity's future against the universe's most terrifying predator.",
+  category: "series",
+  genres: ["Sci-Fi", "Horror", "Action"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+
+{
+  title: "The Heavenly Idol",
+  tagline: "A divine priest becomes an unlikely K-pop star.",
+  description: "A powerful high priest awakens in the body of an unsuccessful K-pop idol and must adapt to modern life while protecting the world from dark forces.",
+  category: "series",
+  genres: ["Fantasy", "Comedy", "Romance"],
+  year: 2023,
+  rating: 7.4,
   poster: placeholder,
   banner: heroSeries
 },
