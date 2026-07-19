@@ -4,6 +4,28 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+    {
+  title: "Super Subbu",
+  tagline: "One unexpected job. One unforgettable journey.",
+  description: "An unlucky young man secretly takes a government job teaching relationship and sex education in a conservative rural village, balancing family expectations, romance, and social resistance with humor.",
+  category: "series",
+  genres: ["Comedy", "Drama"],
+  year: 2026,
+  rating: 7.7,
+  poster: placeholder,
+  banner: heroSeries
+},{
+  title: "The East Palace",
+  tagline: "Some royal secrets should never be awakened.",
+  description: "A ghost-slaying swordsman and a court lady who can hear the dead join forces to uncover the terrifying curse haunting the royal East Palace and threatening the kingdom.",
+  category: "series",
+  genres: ["Fantasy", "Horror", "Mystery", "Historical"],
+  year: 2026,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+    
     { title: "Dark Matter", tagline: "Every choice creates another reality.", description: "A physicist is abducted into an alternate version of his life and must fight through parallel realities to return to his family.", category: "series", genres: ["Sci-Fi", "Thriller", "Drama"], year: 2024, rating: 7.8, poster: placeholder, banner: heroSeries },
 {
   title: "Moving",
