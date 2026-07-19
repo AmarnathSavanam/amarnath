@@ -12,16 +12,16 @@ const imageRegistry: Record<string, ImageEntry> = {
     banner: "/bon-appetit-your-majesty-banner.jpg"
   },
   "light-house": {
-    poster: "/light-house.jpg",
-    banner: "/light-house-banner.jpg"
+    poster: "/light-shop.jpg",
+    banner: "/light-shop-banner.jpg"
   },
   "the-worst-of-evil": {
-  poster: "/the-worst-of-evil.jpg",
+  poster: "/the-worst-of-evil-banner.jpg",
   banner: "/the-worst-of-evil-banner.jpg"
 },
   "human-vapor": {
-  poster: "/human-vapor.jpg",
-  banner: "/human-vapor-banner.jpg"
+  poster: "/human-vapour.jpg",
+  banner: "/human-vapour-banner.jpg"
 },
   "super-subbu": {
   poster: "/super-subbu.jpg",
