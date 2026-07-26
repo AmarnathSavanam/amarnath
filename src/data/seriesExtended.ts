@@ -4,6 +4,17 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+  title: "Spooky in Love",
+  tagline: "Love never dies... it just haunts forever.",
+  description: "A lonely college student begins receiving mysterious letters from a charming stranger, only to discover that the person they're falling in love with is a ghost trapped between two worlds. Together, they must uncover the truth behind an old tragedy before time tears them apart forever.",
+  category: "series",
+  genres: ["Romance", "Supernatural", "Mystery", "Drama"],
+  year: 2026,
+  rating: 8.6,
+  poster: placeholder,
+  banner: heroSeries
+},
 {
   title: "Human Vapor",
   tagline: "Some powers are more dangerous than they seem.",
