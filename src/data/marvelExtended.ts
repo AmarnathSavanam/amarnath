@@ -8,6 +8,17 @@ const heroSpecial = heroMarvel;
 
 const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Mutant X",
+  tagline: "Evolution created a new generation.",
+  description: "A team of genetically enhanced 'New Mutants' fights to protect others like themselves while staying one step ahead of powerful enemies.",
+  category: "marvel",
+  genres: ["Action", "Drama", "Sci-Fi"],
+  year: 2001,
+  rating: 6.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Legion",
   tagline: "Reality is only what you believe.",
   description: "David Haller, a troubled young mutant with immense psychic abilities, struggles to distinguish reality from illusion while discovering the true extent of his powers.",
