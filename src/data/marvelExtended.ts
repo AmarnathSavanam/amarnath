@@ -8,6 +8,50 @@ const heroSpecial = heroMarvel;
 
 const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Marvel Zombies",
+  tagline: "When heroes become monsters.",
+  description: "A horrifying alternate universe where Earth's mightiest heroes are infected by a zombie virus, leaving the few remaining survivors to fight for humanity.",
+  category: "marvel",
+  genres: ["Action", "Horror", "Animation"],
+  year: 2025,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Your Friendly Neighborhood Spider-Man",
+  tagline: "Every hero starts somewhere.",
+  description: "Follow Peter Parker's early days as Spider-Man as he balances school, friendships, and the responsibility of becoming New York City's newest hero.",
+  category: "marvel",
+  genres: ["Action", "Adventure", "Animation"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "X-Men '97",
+  tagline: "The legend continues.",
+  description: "The iconic X-Men return to protect a world that fears and hates them while facing new threats after the loss of Professor Charles Xavier.",
+  category: "marvel",
+  genres: ["Action", "Adventure", "Animation"],
+  year: 2024,
+  rating: 8.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "I Am Groot",
+  tagline: "Small hero, big adventures.",
+  description: "Baby Groot embarks on a series of charming, hilarious adventures, meeting strange creatures and causing delightful chaos across the galaxy.",
+  category: "marvel",
+  genres: ["Animation", "Comedy", "Family"],
+  year: 2022,
+  rating: 7.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
     title: "Eyes of Wakanda",
     tagline: "Legacy shapes the future.",
     description: "Stories across generations reveal Wakanda’s hidden missions and the warriors who protected its secrets.",
