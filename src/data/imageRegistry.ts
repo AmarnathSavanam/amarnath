@@ -65,6 +65,11 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/the-incredible-hulk-1977-banner.jpg"
 },
 
+"the-incredible-hulk": {
+  poster: "/the-incredible-hulk-1977.jpg",
+  banner: "/the-incredible-hulk-1977-banner.jpg"
+},
+
 "agents-of-shield-slingshot": {
   poster: "/agents-of-shield-slingshot.jpg",
   banner: "/agents-of-shield-slingshot-banner.jpg"
