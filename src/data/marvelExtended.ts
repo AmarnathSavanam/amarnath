@@ -250,17 +250,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroMovie
   },
-  {
-    title: "Howard the Duck",
-    tagline: "Trapped on Earth.",
-    description: "A wisecracking alien duck is stranded on Earth and must stop a cosmic threat.",
-    category: "marvel",
-    genres: ["Comedy", "Sci-Fi"],
-    year: 1986,
-    rating: 4.7,
-    poster: placeholder,
-    banner: heroMovie
-  },
+ 
   {
     title: "Captain Marvel",
     tagline: "Higher. Further. Faster.",
