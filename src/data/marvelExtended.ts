@@ -273,16 +273,38 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroMovie
   },
   {
-    title: "Blade",
-    tagline: "Against the undead.",
-    description: "A half-vampire hunter wages war on vampires threatening humanity.",
-    category: "marvel",
-    genres: ["Action", "Horror"],
-    year: 1998,
-    rating: 7.1,
-    poster: placeholder,
-    banner: heroMovie
-  },
+  title: "Blade",
+  tagline: "Half man. Half vampire. All hero.",
+  description: "Blade, a half-human, half-vampire warrior, wages war against the vampire underworld while preventing a powerful blood god from rising.",
+  category: "marvel",
+  genres: ["Action", "Horror", "Superhero"],
+  year: 1998,
+  rating: 7.1,
+  poster: placeholder,
+  banner: heroMovie
+},
+{
+  title: "Blade II",
+  tagline: "The deadliest enemy demands an uneasy alliance.",
+  description: "Blade joins forces with an elite team of vampires to battle the Reapers, a terrifying new breed of creatures that threaten both humans and vampires.",
+  category: "marvel",
+  genres: ["Action", "Horror", "Sci-Fi"],
+  year: 2002,
+  rating: 6.7,
+  poster: placeholder,
+  banner: heroMovie
+},
+{
+  title: "Blade: Trinity",
+  tagline: "The final hunt begins.",
+  description: "Blade teams up with the Nightstalkers to defeat Dracula, the original vampire, in the ultimate battle for humanity's survival.",
+  category: "marvel",
+  genres: ["Action", "Horror", "Fantasy"],
+  year: 2004,
+  rating: 5.8,
+  poster: placeholder,
+  banner: heroMovie
+},
   {
     title: "X-Men",
     tagline: "Protecting a world that fears them.",
