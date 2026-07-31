@@ -5,6 +5,7 @@ import heroSeries from "@/assets/hero-series.jpg";
 import { extendedAnimeData } from "./animeExtended";
 import { extendedMarvelData } from "./marvelExtended";
 import { extendedSeriesData } from "./seriesExtended";
+import { marvelChronologicalRank } from "./marvelChronology";
 
 export type Category = "marvel" | "series" | "anime";
 export type ViewMode = Category | "all";
@@ -50,7 +51,16 @@ export function getAllData(): EntertainmentItem[] {
 }
 
 export function getItemsByCategory(category: Category): EntertainmentItem[] {
-  return getAllData().filter((item) => item.category === category);
+  const items = getAllData().filter((item) => item.category === category);
+  if (category === "marvel") {
+    return items.sort((a, b) => {
+      const ra = marvelChronologicalRank(a.title);
+      const rb = marvelChronologicalRank(b.title);
+      if (ra !== rb) return ra - rb;
+      return a.year - b.year;
+    });
+  }
+  return items;
 }
 
 export function getRecommendations(item: EntertainmentItem, limit = 4): EntertainmentItem[] {
