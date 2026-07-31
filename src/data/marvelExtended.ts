@@ -74,7 +74,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
 {
-  title: "Cloak & Dagger",
+  title: "Cloak Dagger",
   tagline: "Two strangers. One destiny.",
   description: "Two teenagers from different backgrounds develop extraordinary powers that become stronger when they work together.",
   category: "marvel",
