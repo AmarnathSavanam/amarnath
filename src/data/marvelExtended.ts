@@ -284,7 +284,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroMovie
 },
 {
-  title: "Blade II",
+  title: "Blade 2",
   tagline: "The deadliest enemy demands an uneasy alliance.",
   description: "Blade joins forces with an elite team of vampires to battle the Reapers, a terrifying new breed of creatures that threaten both humans and vampires.",
   category: "marvel",
@@ -295,7 +295,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroMovie
 },
 {
-  title: "Blade: Trinity",
+  title: "Blade Trinity",
   tagline: "The final hunt begins.",
   description: "Blade teams up with the Nightstalkers to defeat Dracula, the original vampire, in the ultimate battle for humanity's survival.",
   category: "marvel",
