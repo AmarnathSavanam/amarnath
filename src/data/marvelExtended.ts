@@ -152,7 +152,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroMovie
   },
   {
-    title: "The Punisher",
+    title: "Punisher series",
     tagline: "Vengeance has a name.",
     description: "Frank Castle wages a one-man war against crime after losing his family.",
     category: "marvel",
@@ -160,7 +160,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     year: 2004,
     rating: 6.4,
     poster: placeholder,
-    banner: heroMovie
+    banner: heroSeries
   },
   {
     title: "Spider-Man 2",
