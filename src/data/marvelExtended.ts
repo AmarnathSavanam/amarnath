@@ -8,6 +8,138 @@ const heroSpecial = heroMarvel;
 
 const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "Legion",
+  tagline: "Reality is only what you believe.",
+  description: "David Haller, a troubled young mutant with immense psychic abilities, struggles to distinguish reality from illusion while discovering the true extent of his powers.",
+  category: "marvel",
+  genres: ["Drama", "Sci-Fi", "Psychological"],
+  year: 2017,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Helstrom",
+  tagline: "Born of darkness. Fighting evil.",
+  description: "The children of a mysterious serial killer confront supernatural forces while uncovering the secrets of their terrifying family legacy.",
+  category: "marvel",
+  genres: ["Horror", "Drama", "Supernatural"],
+  year: 2020,
+  rating: 6.7,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Inhumans",
+  tagline: "A royal family divided.",
+  description: "The Inhuman Royal Family is torn apart after a military coup, forcing them to fight for their kingdom and survival on Earth.",
+  category: "marvel",
+  genres: ["Action", "Adventure", "Sci-Fi"],
+  year: 2017,
+  rating: 4.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Runaways",
+  tagline: "Their parents are the villains.",
+  description: "A group of teenagers discovers their parents belong to a dangerous criminal organization and unite to stop them.",
+  category: "marvel",
+  genres: ["Action", "Drama", "Sci-Fi"],
+  year: 2017,
+  rating: 7.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "The Gifted",
+  tagline: "Protecting the next generation.",
+  description: "A suburban family goes on the run after discovering their children possess mutant powers in a world hostile to mutants.",
+  category: "marvel",
+  genres: ["Action", "Drama", "Sci-Fi"],
+  year: 2017,
+  rating: 7.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Cloak & Dagger",
+  tagline: "Two strangers. One destiny.",
+  description: "Two teenagers from different backgrounds develop extraordinary powers that become stronger when they work together.",
+  category: "marvel",
+  genres: ["Action", "Drama", "Romance"],
+  year: 2018,
+  rating: 6.6,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Blade: The Series",
+  tagline: "Half man. Half vampire. Full warrior.",
+  description: "Blade continues his relentless war against vampires while uncovering a deadly conspiracy threatening humanity.",
+  category: "marvel",
+  genres: ["Action", "Horror", "Supernatural"],
+  year: 2006,
+  rating: 6.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "The Incredible Hulk",
+  tagline: "Don't make him angry.",
+  description: "Dr. David Banner travels across America searching for a cure while transforming into the Hulk whenever his emotions spiral out of control.",
+  category: "marvel",
+  genres: ["Action", "Drama", "Sci-Fi"],
+  year: 1977,
+  rating: 7.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Agents of S.H.I.E.L.D.: Slingshot",
+  tagline: "Every second counts.",
+  description: "Elena 'Yo-Yo' Rodriguez faces a dangerous mission that tests her speed powers and loyalty to S.H.I.E.L.D.",
+  category: "marvel",
+  genres: ["Action", "Sci-Fi", "Short"],
+  year: 2016,
+  rating: 7.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Powers",
+  tagline: "Where superheroes meet crime.",
+  description: "Former superhero Christian Walker investigates crimes involving people with extraordinary abilities in a world where heroes are celebrities.",
+  category: "series",
+  genres: ["Crime", "Drama", "Sci-Fi"],
+  year: 2015,
+  rating: 6.7,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "NightMan",
+  tagline: "Guardian of the night.",
+  description: "After a mysterious lightning strike, jazz musician Johnny Domino gains the ability to hear evil thoughts and becomes the masked vigilante NightMan.",
+  category: "series",
+  genres: ["Action", "Fantasy", "Sci-Fi"],
+  year: 1997,
+  rating: 6.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Painkiller Jane",
+  tagline: "She heals. They fear.",
+  description: "An elite agent with regenerative powers battles genetically enhanced criminals while uncovering dangerous conspiracies.",
+  category: "series",
+  genres: ["Action", "Sci-Fi", "Drama"],
+  year: 2007,
+  rating: 5.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
   title: "Marvel Zombies",
   tagline: "When heroes become monsters.",
   description: "A horrifying alternate universe where Earth's mightiest heroes are infected by a zombie virus, leaving the few remaining survivors to fight for humanity.",
