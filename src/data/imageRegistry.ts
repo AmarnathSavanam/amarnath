@@ -7,6 +7,65 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "legion": {
+  poster: "/legion.jpg",
+  banner: "/legion-banner.jpg"
+},
+
+"helstrom": {
+  poster: "/helstrom.jpg",
+  banner: "/helstrom-banner.jpg"
+},
+
+"inhumans": {
+  poster: "/inhumans.jpg",
+  banner: "/inhumans-banner.jpg"
+},
+
+"runaways": {
+  poster: "/runaways.jpg",
+  banner: "/runaways-banner.jpg"
+},
+
+"the-gifted": {
+  poster: "/the-gifted.jpg",
+  banner: "/the-gifted-banner.jpg"
+},
+
+"cloak-and-dagger": {
+  poster: "/cloak-and-dagger.jpg",
+  banner: "/cloak-and-dagger-banner.jpg"
+},
+
+"blade-the-series": {
+  poster: "/blade-the-series.jpg",
+  banner: "/blade-the-series-banner.jpg"
+},
+
+"the-incredible-hulk-1977": {
+  poster: "/the-incredible-hulk-1977.jpg",
+  banner: "/the-incredible-hulk-1977-banner.jpg"
+},
+
+"agents-of-shield-slingshot": {
+  poster: "/agents-of-shield-slingshot.jpg",
+  banner: "/agents-of-shield-slingshot-banner.jpg"
+},
+
+"powers": {
+  poster: "/powers.jpg",
+  banner: "/powers-banner.jpg"
+},
+
+"nightman": {
+  poster: "/nightman.jpg",
+  banner: "/nightman-banner.jpg"
+},
+
+"painkiller-jane": {
+  poster: "/painkiller-jane.jpg",
+  banner: "/painkiller-jane-banner.jpg"
+},
   "marvel-zombies": {
   poster: "/marvel-zombies.jpg",
   banner: "/marvel-zombies-banner.jpg"
