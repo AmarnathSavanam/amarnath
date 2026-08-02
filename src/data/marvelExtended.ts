@@ -1321,6 +1321,39 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     rating: 8.5,
     poster: placeholder,
     banner: heroMovie
+  },
+  {
+    title: "Vision Quest",
+    tagline: "The trilogy concludes.",
+    description: "Vision embarks on a journey of self-discovery that will reshape his understanding of humanity, family, and purpose.",
+    category: "marvel",
+    genres: ["Drama", "Sci-Fi", "Mystery"],
+    year: 2026,
+    rating: 7.8,
+    poster: placeholder,
+    banner: heroSeries
+  },
+  {
+    title: "Spider-Man Noir",
+    tagline: "In the shadows of 1933.",
+    description: "An aging, down-on-his-luck Spider-Man in 1933 New York must confront his past as a monster starts picking off the city's most powerful figures.",
+    category: "marvel",
+    genres: ["Action", "Crime", "Noir"],
+    year: 2026,
+    rating: 8.0,
+    poster: placeholder,
+    banner: heroSeries
+  },
+  {
+    title: "Avengers: Secret Wars",
+    tagline: "The multiverse ends here.",
+    description: "Earth’s Mightiest Heroes face their greatest challenge yet as realities collide in an epic battle that will redefine the Marvel Universe.",
+    category: "marvel",
+    genres: ["Action", "Adventure", "Sci-Fi"],
+    year: 2027,
+    rating: 8.7,
+    poster: placeholder,
+    banner: heroMovie
   }
 ];
 export const extendedMarvelData: EntertainmentItem[] = marvelTitles.map(

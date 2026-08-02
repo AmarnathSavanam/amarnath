@@ -121,7 +121,10 @@ export const marvelChronologicalOrder: string[] = [
   "Venom: The Last Dance",
   "Wonder Man",
   "Spider-Man: Brand New Day",
+  "Vision Quest",
+  "Spider-Man Noir",
   "Avengers: Doomsday",
+  "Avengers: Secret Wars",
 ];
 
 const rank = new Map(marvelChronologicalOrder.map((t, i) => [t.toLowerCase(), i]));
