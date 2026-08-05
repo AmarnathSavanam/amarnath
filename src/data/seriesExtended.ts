@@ -4,6 +4,17 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+{
+  title: "Twinkling Watermelon",
+  tagline: "A journey through time, music, and family.",
+  description: "A gifted CODA (Child of Deaf Adults) student and passionate musician mysteriously travels back to 1995, where he meets his parents as teenagers. Forming a band called Watermelon Sugar, he tries to change the past while discovering the true meaning of family, friendship, and first love.",
+  category: "series",
+  genres: ["Coming-of-Age", "Romance", "Fantasy", "Drama", "Music"],
+  year: 2023,
+  rating: 9.2,
+  poster: placeholder,
+  banner: heroSeries
+},
   {
   title: "Spooky in Love",
   tagline: "Love never dies... it just haunts forever.",
