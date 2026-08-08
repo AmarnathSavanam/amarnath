@@ -118,17 +118,6 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },
 {
-  title: "Powers",
-  tagline: "Where superheroes meet crime.",
-  description: "Former superhero Christian Walker investigates crimes involving people with extraordinary abilities in a world where heroes are celebrities.",
-  category: "marvel",
-  genres: ["Crime", "Drama", "Sci-Fi"],
-  year: 2015,
-  rating: 6.7,
-  poster: placeholder,
-  banner: heroSeries
-},
-{
   title: "NightMan",
   tagline: "Guardian of the night.",
   description: "After a mysterious lightning strike, jazz musician Johnny Domino gains the ability to hear evil thoughts and becomes the masked vigilante NightMan.",
@@ -136,17 +125,6 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Action", "Fantasy", "Sci-Fi"],
   year: 1997,
   rating: 6.0,
-  poster: placeholder,
-  banner: heroSeries
-},
-{
-  title: "Painkiller Jane",
-  tagline: "She heals. They fear.",
-  description: "An elite agent with regenerative powers battles genetically enhanced criminals while uncovering dangerous conspiracies.",
-  category: "marvel",
-  genres: ["Action", "Sci-Fi", "Drama"],
-  year: 2007,
-  rating: 5.8,
   poster: placeholder,
   banner: heroSeries
 },
