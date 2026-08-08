@@ -38,9 +38,8 @@ export const marvelChronologicalOrder: string[] = [
   "Hulk (2003)",
   "The Incredible Hulk",
   "NightMan",
-  "Painkiller Jane",
-  "Powers",
   "Helstrom",
+
   "Captain Marvel",
   "Iron Man",
   "Iron Man 2",
