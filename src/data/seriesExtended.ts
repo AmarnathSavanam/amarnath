@@ -4,6 +4,17 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+  title: "A Sticky Love",
+  tagline: "A sweet romance that brings two hearts together.",
+  description: "A heartfelt romantic series about two people who unexpectedly cross paths and slowly discover love, trust, and the courage to face life's challenges together.",
+  category: "series",
+  genres: ["Romance", "Drama", "Comedy"],
+  year: 2024,
+  rating: 8.5,
+  poster: placeholder,
+  banner: heroSeries
+},
 {
   title: "Twinkling Watermelon",
   tagline: "A journey through time, music, and family.",
