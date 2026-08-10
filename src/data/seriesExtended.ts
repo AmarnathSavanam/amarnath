@@ -267,27 +267,8 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   description: "A heartfelt romantic series about two people who unexpectedly cross paths and slowly discover love, trust, and the courage to face life's challenges together.",
   category: "series",
   genres: ["Romance", "Drama", "Comedy"],
-  year: 2024,
+  year: 2026,
   rating: 8.5,
-  poster: placeholder,
-  banner: heroSeries
-},
-   { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-
-    { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
-  
-  { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
-
-    { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-  
-{
-  title: "Twinkling Watermelon",
-  tagline: "A journey through time, music, and family.",
-  description: "A gifted CODA (Child of Deaf Adults) student and passionate musician mysteriously travels back to 1995, where he meets his parents as teenagers. Forming a band called Watermelon Sugar, he tries to change the past while discovering the true meaning of family, friendship, and first love.",
-  category: "series",
-  genres: ["Coming-of-Age", "Romance", "Fantasy", "Drama", "Music"],
-  year: 2023,
-  rating: 9.2,
   poster: placeholder,
   banner: heroSeries
 },
@@ -302,7 +283,18 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-     {
+ {
+  title: "The East Palace",
+  tagline: "Some royal secrets should never be awakened.",
+  description: "A ghost-slaying swordsman and a court lady who can hear the dead join forces to uncover the terrifying curse haunting the royal East Palace and threatening the kingdom.",
+  category: "series",
+  genres: ["Fantasy", "Horror", "Mystery", "Historical"],
+  year: 2026,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+   {
   title: "Reborn Rookie",
   tagline: "The boss starts from the bottom.",
   description: "After a mysterious accident, a legendary business chairman wakes up in the body of a young athlete and returns to his own company as a rookie employee, uncovering corruption and family secrets from the ground up.",
@@ -313,6 +305,62 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+  {
+  title: "Agent Kim Reactivated",
+  tagline: "The legend returns to the field.",
+  description: "After years away from active duty, a retired intelligence agent is forced back into action when a dangerous conspiracy threatens national security, uncovering secrets from his past along the way.",
+  category: "series",
+  genres: ["Action", "Spy", "Thriller", "Drama"],
+  year: 2026,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+   {
+  title: "Teach You a Lesson",
+  tagline: "Every action has consequences.",
+  description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
+  category: "series",
+  genres: ["Drama", "Thriller", "Revenge"],
+  year: 2026,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Legends from the Kitchen",
+  tagline: "Every recipe tells a story.",
+  description: "A culinary journey exploring the origins, myths, and remarkable stories behind iconic dishes and legendary chefs from around the world.",
+  category: "series",
+  genres: ["Food", "Documentary", "Lifestyle"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},        { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2026, rating: 7.0, poster: placeholder, banner: heroSeries },
+
+   { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
+
+   { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
+
+    { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
+  
+
+    { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
+  
+{
+  title: "Twinkling Watermelon",
+  tagline: "A journey through time, music, and family.",
+  description: "A gifted CODA (Child of Deaf Adults) student and passionate musician mysteriously travels back to 1995, where he meets his parents as teenagers. Forming a band called Watermelon Sugar, he tries to change the past while discovering the true meaning of family, friendship, and first love.",
+  category: "series",
+  genres: ["Coming-of-Age", "Romance", "Fantasy", "Drama", "Music"],
+  year: 2023,
+  rating: 9.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+ 
+   
     { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
    
   {
@@ -345,16 +393,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   category: "series",
   genres: ["Crime", "Action", "Thriller", "Drama"],
   year: 2023,
-  rating: 8.3,
-  poster: placeholder,
-  banner: heroSeries
-},{
-  title: "The East Palace",
-  tagline: "Some royal secrets should never be awakened.",
-  description: "A ghost-slaying swordsman and a court lady who can hear the dead join forces to uncover the terrifying curse haunting the royal East Palace and threatening the kingdom.",
-  category: "series",
-  genres: ["Fantasy", "Horror", "Mystery", "Historical"],
-  year: 2026,
   rating: 8.3,
   poster: placeholder,
   banner: heroSeries
@@ -612,18 +650,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-      {
-  title: "Legends from the Kitchen",
-  tagline: "Every recipe tells a story.",
-  description: "A culinary journey exploring the origins, myths, and remarkable stories behind iconic dishes and legendary chefs from around the world.",
-  category: "series",
-  genres: ["Food", "Documentary", "Lifestyle"],
-  year: 2026,
-  rating: 8.2,
-  poster: placeholder,
-  banner: heroSeries
-},        { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-
+     
   {
   title: "Goblin",
   tagline: "A cursed immortal seeks the one who can end his eternal life.",
@@ -658,17 +685,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries,
 },
   { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
-{
-  title: "Agent Kim Reactivated",
-  tagline: "The legend returns to the field.",
-  description: "After years away from active duty, a retired intelligence agent is forced back into action when a dangerous conspiracy threatens national security, uncovering secrets from his past along the way.",
-  category: "series",
-  genres: ["Action", "Spy", "Thriller", "Drama"],
-  year: 2025,
-  rating: 8.1,
-  poster: placeholder,
-  banner: heroSeries
-},
+
   {
   title: "Feel Good to Die",
   tagline: "Relive today until you change tomorrow.",
@@ -680,17 +697,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-   {
-  title: "Teach You a Lesson",
-  tagline: "Every action has consequences.",
-  description: "After years of bullying and betrayal, a determined victim returns to confront those who ruined their life, turning revenge into a carefully planned lesson.",
-  category: "series",
-  genres: ["Drama", "Thriller", "Revenge"],
-  year: 2024,
-  rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
+
     {
   title: "Light House",
   tagline: "Every light casts a shadow.",
