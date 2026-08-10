@@ -5,6 +5,28 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
  {
+  title: "Twelve",
+  tagline: "Twelve warriors. One final battle.",
+  description: "A group of guardians wielding the powers of the zodiac unite in modern-day Seoul to stop an ancient evil from consuming the world.",
+  category: "series",
+  genres: ["Action", "Fantasy", "Drama"],
+  year: 2024,
+  rating: 7.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
+  title: "Light Shop",
+  tagline: "Every light hides a story.",
+  description: "A mysterious lamp shop on a dim alley draws in strangers whose lives are quietly connected by loss, memory and the thin line between the living and the dead.",
+  category: "series",
+  genres: ["Mystery", "Drama", "Horror"],
+  year: 2024,
+  rating: 8.1,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
   title: "Human Vapor",
   tagline: "Some powers are more dangerous than they seem.",
   description: "After gaining the ability to become invisible, a man finds himself hunted by powerful forces while struggling to control the consequences of his extraordinary gift.",
