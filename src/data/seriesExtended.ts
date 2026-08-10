@@ -4,39 +4,7 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
- {
-  title: "Parasyte: The Grey",
-  tagline: "The parasites have arrived.",
-  description: "When mysterious parasitic life-forms fall to Earth and seize human hosts, a young woman caught between humanity and the invaders joins a special task force fighting the growing threat.",
-  category: "series",
-  genres: ["Sci-Fi", "Horror", "Action", "Thriller"],
-  year: 2024,
-  rating: 7.1,
-  poster: placeholder,
-  banner: heroSeries
- },
- {
-  title: "Twelve",
-  tagline: "Twelve warriors. One final battle.",
-  description: "A group of guardians wielding the powers of the zodiac unite in modern-day Seoul to stop an ancient evil from consuming the world.",
-  category: "series",
-  genres: ["Action", "Fantasy", "Drama"],
-  year: 2024,
-  rating: 7.4,
-  poster: placeholder,
-  banner: heroSeries
-},
- {
-  title: "Light Shop",
-  tagline: "Every light hides a story.",
-  description: "A mysterious lamp shop on a dim alley draws in strangers whose lives are quietly connected by loss, memory and the thin line between the living and the dead.",
-  category: "series",
-  genres: ["Mystery", "Drama", "Horror"],
-  year: 2024,
-  rating: 8.1,
-  poster: placeholder,
-  banner: heroSeries
-},
+
  {
   title: "Human Vapor",
   tagline: "Some powers are more dangerous than they seem.",
@@ -509,6 +477,39 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Action", "Drama", "Fantasy", "School"],
   year: 2024,
   rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Parasyte: The Grey",
+  tagline: "The parasites have arrived.",
+  description: "When mysterious parasitic life-forms fall to Earth and seize human hosts, a young woman caught between humanity and the invaders joins a special task force fighting the growing threat.",
+  category: "series",
+  genres: ["Sci-Fi", "Horror", "Action", "Thriller"],
+  year: 2024,
+  rating: 7.1,
+  poster: placeholder,
+  banner: heroSeries
+ },
+ {
+  title: "Twelve",
+  tagline: "Twelve warriors. One final battle.",
+  description: "A group of guardians wielding the powers of the zodiac unite in modern-day Seoul to stop an ancient evil from consuming the world.",
+  category: "series",
+  genres: ["Action", "Fantasy", "Drama"],
+  year: 2024,
+  rating: 7.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
+  title: "Light Shop",
+  tagline: "Every light hides a story.",
+  description: "A mysterious lamp shop on a dim alley draws in strangers whose lives are quietly connected by loss, memory and the thin line between the living and the dead.",
+  category: "series",
+  genres: ["Mystery", "Drama", "Horror"],
+  year: 2024,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
