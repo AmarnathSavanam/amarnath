@@ -398,27 +398,21 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
    { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
 
    { title: "Mercy for None", tagline: "Revenge leaves no survivors.", description: "A brutal action thriller following a man who returns from the shadows to settle unfinished business.", category: "series", genres: ["Action", "Crime", "Thriller"], year: 2025, rating: 7.2, poster: placeholder, banner: heroSeries },
-
-    { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
   
+    { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
 
     { title: "Trigger", tagline: "One incident can change everything.", description: "A tense action thriller following individuals caught in deadly conspiracies and violence.", category: "series", genres: ["Action", "Thriller"], year: 2025, rating: 7.0, poster: placeholder, banner: heroSeries },
-  
-{
-  title: "Twinkling Watermelon",
-  tagline: "A journey through time, music, and family.",
-  description: "A gifted CODA (Child of Deaf Adults) student and passionate musician mysteriously travels back to 1995, where he meets his parents as teenagers. Forming a band called Watermelon Sugar, he tries to change the past while discovering the true meaning of family, friendship, and first love.",
+   {
+  title: "Bon Appétit, Your Majesty",
+  tagline: "Where royal tradition meets culinary excellence.",
+  description: "An elegant culinary series exploring the lavish feasts, historic recipes, and extraordinary chefs behind the world's most renowned royal courts.",
   category: "series",
-  genres: ["Coming-of-Age", "Romance", "Fantasy", "Drama", "Music"],
-  year: 2023,
-  rating: 9.2,
-  poster: placeholder,
-  banner: heroSeries
+  genres: ["Food", "Documentary", "History"],
+  year: 2025,
+  rating: 8.1,
+  poster: "/bon-appetit-your-majesty.jpg",
+  banner: "/bon-appetit-your-majesty-banner.jpg"
 },
- 
-   
-    { title: "Genie Make a Wish", tagline: "Every wish has consequences.", description: "A magical genie enters the modern world, granting wishes that spiral out of control.", category: "series", genres: ["Fantasy", "Comedy"], year: 2025, rating: 6.9, poster: placeholder, banner: heroSeries },
-   
   {
   title: "Undercover High School",
   tagline: "One mission. One classroom.",
@@ -430,31 +424,96 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Deaths Game",
-  tagline: "Death is only the beginning.",
-  description: "After giving up on life, a desperate man is forced to experience multiple deaths and reincarnations in a deadly punishment designed by Death itself.",
+ {
+  title: "Good Boy",
+  tagline: "Former champions. New fight for justice.",
+  description: "Retired national athletes join a special police unit, using their unique skills to tackle crime and corruption.",
   category: "series",
-  genres: ["Fantasy", "Thriller", "Drama"],
-  year: 2023,
-  rating: 8.5,
+  genres: ["Action", "Comedy", "Crime"],
+  year: 2025,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries,
+},
+    {
+  title: "Study Group",
+  tagline: "Brains fight harder than fists.",
+  description: "A determined student forms a secret study group inside one of the toughest schools, battling bullies and academic pressure to achieve his dream of college success.",
+  category: "series",
+  genres: ["Action", "Comedy", "School"],
+  year: 2025,
+  rating: 8.4,
+  poster: placeholder,
+  banner: heroSeries
+},{
+  title: "One High School Heroes",
+  tagline: "Heroes rise where fear rules.",
+  description: "A group of high school students secretly fight violence and corruption inside their school while hiding their extraordinary abilities from the world.",
+  category: "series",
+  genres: ["Action", "School", "Superhero"],
+  year: 2025,
+  rating: 7.9,
   poster: placeholder,
   banner: heroSeries
 },
 
-   {
-  title: "The Worst of Evil",
-  tagline: "To defeat evil, he must become part of it.",
-  description: "An undercover police officer infiltrates a ruthless criminal syndicate controlling the illegal drug trade across South Korea, China, and Japan, risking everything as his true identity hangs by a thread.",
+       {
+  title: "Manipulated",
+  tagline: "Truth is the first victim.",
+  description: "A gripping thriller where hidden agendas, deception, and power struggles intertwine, forcing the protagonists to uncover the truth before they become pawns in a dangerous game.",
   category: "series",
-  genres: ["Crime", "Action", "Thriller", "Drama"],
-  year: 2023,
+  genres: ["Thriller", "Mystery", "Drama"],
+  year: 2025,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "High School Return of a Gangster",
+  tagline: "A gangster gets a second chance at youth.",
+  description: "After a gangster's soul enters the body of a bullied high school student, he uses his life experience and fighting skills to protect his new friends, confront school violence, and uncover the truth behind the student's suffering.",
+  category: "series",
+  genres: ["Action", "Drama", "Fantasy", "School"],
+  year: 2024,
   rating: 8.3,
   poster: placeholder,
   banner: heroSeries
 },
-       { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
-
+ {
+  title: "The Judge from Hell",
+  tagline: "Justice comes straight from hell.",
+  description: "A demon from hell inhabits the body of a judge and punishes criminals who escape the law, while forming an unlikely bond with a compassionate detective who begins to uncover her true identity.",
+  category: "series",
+  genres: ["Fantasy", "Crime", "Romance", "Thriller"],
+  year: 2024,
+  rating: 8.5,
+  poster: placeholder,
+  banner: heroSeries
+},   
+   
+ {
+  title: "Moving",
+  tagline: "Extraordinary powers. Ordinary lives.",
+  description: "Three high school students inherit superhuman abilities from their parents and become targets of mysterious organizations seeking to exploit their powers, forcing their families to fight for survival.",
+  category: "series",
+  genres: ["Action", "Fantasy", "Sci-Fi", "Drama"],
+  year: 2023,
+  rating: 8.9,
+  poster: placeholder,
+  banner: heroSeries
+},
+    {
+  title: "Vigilante",
+  tagline: "Justice begins after midnight.",
+  description: "A police academy student secretly hunts down criminals who escaped proper punishment, becoming a feared masked vigilante across the city.",
+  category: "series",
+  genres: ["Action", "Crime", "Thriller"],
+  year: 2023,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+ 
   {
   title: "Bloodhounds",
   tagline: "Debt turns friendship into war.",
@@ -478,62 +537,62 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   banner: heroSeries
 },  
     {
-  title: "Study Group",
-  tagline: "Brains fight harder than fists.",
-  description: "A determined student forms a secret study group inside one of the toughest schools, battling bullies and academic pressure to achieve his dream of college success.",
+  title: "The Worst of Evil",
+  tagline: "To defeat evil, he must become part of it.",
+  description: "An undercover police officer infiltrates a ruthless criminal syndicate controlling the illegal drug trade across South Korea, China, and Japan, risking everything as his true identity hangs by a thread.",
   category: "series",
-  genres: ["Action", "Comedy", "School"],
-  year: 2025,
-  rating: 8.4,
-  poster: placeholder,
-  banner: heroSeries
-},{
-  title: "One High School Heroes",
-  tagline: "Heroes rise where fear rules.",
-  description: "A group of high school students secretly fight violence and corruption inside their school while hiding their extraordinary abilities from the world.",
-  category: "series",
-  genres: ["Action", "School", "Superhero"],
-  year: 2025,
-  rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
-  
-    {
-  title: "Mouse",
-  tagline: "Can evil be born?",
-  description: "A rookie police officer becomes entangled in a series of brutal murders that force him to confront shocking truths about psychopathy and human nature.",
-  category: "series",
-  genres: ["Crime", "Mystery", "Thriller"],
-  year: 2021,
-  rating: 8.6,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Moving",
-  tagline: "Extraordinary powers. Ordinary lives.",
-  description: "Three high school students inherit superhuman abilities from their parents and become targets of mysterious organizations seeking to exploit their powers, forcing their families to fight for survival.",
-  category: "series",
-  genres: ["Action", "Fantasy", "Sci-Fi", "Drama"],
+  genres: ["Crime", "Action", "Thriller", "Drama"],
   year: 2023,
-  rating: 8.9,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+}, {
+  title: "Twinkling Watermelon",
+  tagline: "A journey through time, music, and family.",
+  description: "A gifted CODA (Child of Deaf Adults) student and passionate musician mysteriously travels back to 1995, where he meets his parents as teenagers. Forming a band called Watermelon Sugar, he tries to change the past while discovering the true meaning of family, friendship, and first love.",
+  category: "series",
+  genres: ["Coming-of-Age", "Romance", "Fantasy", "Drama", "Music"],
+  year: 2023,
+  rating: 9.2,
   poster: placeholder,
   banner: heroSeries
 },
 
-     {
-  title: "Manipulated",
-  tagline: "Truth is the first victim.",
-  description: "A gripping thriller where hidden agendas, deception, and power struggles intertwine, forcing the protagonists to uncover the truth before they become pawns in a dangerous game.",
+  {
+  title: "Deaths Game",
+  tagline: "Death is only the beginning.",
+  description: "After giving up on life, a desperate man is forced to experience multiple deaths and reincarnations in a deadly punishment designed by Death itself.",
   category: "series",
-  genres: ["Thriller", "Mystery", "Drama"],
-  year: 2025,
-  rating: 8.0,
+  genres: ["Fantasy", "Thriller", "Drama"],
+  year: 2023,
+  rating: 8.5,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
+  title: "Gyeongseong Creature",
+  tagline: "Survival comes before humanity.",
+  description: "In 1945 Seoul, two unlikely allies confront terrifying creatures born from human greed while struggling to survive under colonial rule.",
+  category: "series",
+  genres: ["Action", "Horror", "Historical", "Sci-Fi"],
+  year: 2023,
+  rating: 7.3,
   poster: placeholder,
   banner: heroSeries
 },
    {
+  title: "The Heavenly Idol",
+  tagline: "A divine priest becomes an unlikely K-pop star.",
+  description: "A powerful high priest awakens in the body of an unsuccessful K-pop idol and must adapt to modern life while protecting the world from dark forces.",
+  category: "series",
+  genres: ["Fantasy", "Comedy", "Romance"],
+  year: 2023,
+  rating: 7.4,
+  poster: placeholder,
+  banner: heroSeries
+},
+      { title: "All of Us Are Dead", tagline: "School became ground zero.", description: "Students trapped in a zombie outbreak must fight to survive inside their high school.", category: "series", genres: ["Horror", "Action", "Thriller"], year: 2022, rating: 7.5, poster: placeholder, banner: heroSeries },
+  {
   title: "Alchemy of Souls",
   tagline: "Destiny changes when souls collide.",
   description: "In the fictional kingdom of Daeho, a powerful sorceress trapped in a weak body becomes entangled with a nobleman seeking to change his fate, uncovering secrets, forbidden magic, and a destiny that could reshape the world.",
@@ -541,6 +600,28 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Fantasy", "Romance", "Action", "Drama"],
   year: 2022,
   rating: 8.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Ghost Doctor",
+  tagline: "Two doctors. One body. One extraordinary mission.",
+  description: "A brilliant surgeon becomes a spirit after a tragic accident and teams up with an inexperienced doctor by possessing his body, creating an unusual partnership that saves lives.",
+  category: "series",
+  genres: ["Medical", "Fantasy", "Comedy", "Drama"],
+  year: 2022,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries,
+},
+ {
+  title: "Reborn Rich",
+  tagline: "A second life. A perfect revenge.",
+  description: "After being betrayed and murdered by the powerful Soonyang family, a loyal employee is reborn as their youngest grandson. Armed with knowledge of the future, he plots his revenge while fighting for control of the conglomerate.",
+  category: "series",
+  genres: ["Drama", "Fantasy", "Business", "Revenge"],
+  year: 2022,
+  rating: 8.1,
   poster: placeholder,
   banner: heroSeries
 },
@@ -555,29 +636,34 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 }, 
-   {
-  title: "Vigilante",
-  tagline: "Justice begins after midnight.",
-  description: "A police academy student secretly hunts down criminals who escaped proper punishment, becoming a feared masked vigilante across the city.",
+       { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
+
+    {
+  title: "Mouse",
+  tagline: "Can evil be born?",
+  description: "A rookie police officer becomes entangled in a series of brutal murders that force him to confront shocking truths about psychopathy and human nature.",
   category: "series",
-  genres: ["Action", "Crime", "Thriller"],
-  year: 2023,
-  rating: 8.0,
+  genres: ["Crime", "Mystery", "Thriller"],
+  year: 2021,
+  rating: 8.6,
   poster: placeholder,
   banner: heroSeries
 },
- 
    {
-  title: "High School Return of a Gangster",
-  tagline: "A gangster gets a second chance at youth.",
-  description: "After a gangster's soul enters the body of a bullied high school student, he uses his life experience and fighting skills to protect his new friends, confront school violence, and uncover the truth behind the student's suffering.",
+  title: "Sisyphus: The Myth",
+  tagline: "The future is coming for him.",
+  description: "A genius engineer and a mysterious warrior from the future join forces to stop a catastrophic event and uncover the truth behind a dangerous time-travel conspiracy.",
   category: "series",
-  genres: ["Action", "Drama", "Fantasy", "School"],
-  year: 2024,
-  rating: 8.3,
+  genres: ["Science Fiction", "Action", "Mystery", "Thriller"],
+  year: 2021,
+  rating: 7.1,
   poster: placeholder,
-  banner: heroSeries
-},{
+  banner: heroSeries,
+},
+  { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
+
+ 
+ {
   title: "Sweet Home",
   tagline: "Humans are the real monsters.",
   description: "After a tragic family loss, a withdrawn teenager moves into a rundown apartment complex just as people begin transforming into terrifying monsters. Together with the remaining residents, he must fight to survive while confronting the darkness within humanity.",
@@ -599,40 +685,18 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Ghost Doctor",
-  tagline: "Two doctors. One body. One extraordinary mission.",
-  description: "A brilliant surgeon becomes a spirit after a tragic accident and teams up with an inexperienced doctor by possessing his body, creating an unusual partnership that saves lives.",
+ {
+  title: "Feel Good to Die",
+  tagline: "Relive today until you change tomorrow.",
+  description: "A frustrated office worker becomes trapped in a time loop with her difficult boss, forcing both of them to confront their flaws and transform their lives before they can escape.",
   category: "series",
-  genres: ["Medical", "Fantasy", "Comedy", "Drama"],
-  year: 2022,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries,
-},
-   {
-  title: "The Judge from Hell",
-  tagline: "Justice comes straight from hell.",
-  description: "A demon from hell inhabits the body of a judge and punishes criminals who escape the law, while forming an unlikely bond with a compassionate detective who begins to uncover her true identity.",
-  category: "series",
-  genres: ["Fantasy", "Crime", "Romance", "Thriller"],
-  year: 2024,
-  rating: 8.5,
-  poster: placeholder,
-  banner: heroSeries
-},   
-   {
-  title: "Reborn Rich",
-  tagline: "A second life. A perfect revenge.",
-  description: "After being betrayed and murdered by the powerful Soonyang family, a loyal employee is reborn as their youngest grandson. Armed with knowledge of the future, he plots his revenge while fighting for control of the conglomerate.",
-  category: "series",
-  genres: ["Drama", "Fantasy", "Business", "Revenge"],
-  year: 2022,
-  rating: 8.1,
+  genres: ["Romance", "Comedy", "Fantasy", "Drama"],
+  year: 2018,
+  rating: 7.7,
   poster: placeholder,
   banner: heroSeries
 },
- 
+
   {
   title: "Bring It On, Ghost",
   tagline: "Some ghosts need saving too.",
@@ -641,17 +705,6 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   genres: ["Fantasy", "Comedy", "Romance"],
   year: 2016,
   rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "The Heavenly Idol",
-  tagline: "A divine priest becomes an unlikely K-pop star.",
-  description: "A powerful high priest awakens in the body of an unsuccessful K-pop idol and must adapt to modern life while protecting the world from dark forces.",
-  category: "series",
-  genres: ["Fantasy", "Comedy", "Romance"],
-  year: 2023,
-  rating: 7.4,
   poster: placeholder,
   banner: heroSeries
 },
@@ -667,77 +720,12 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
  poster: placeholder,
   banner: heroSeries,
 },
-{
-  title: "Good Boy",
-  tagline: "Former champions. New fight for justice.",
-  description: "Retired national athletes join a special police unit, using their unique skills to tackle crime and corruption.",
-  category: "series",
-  genres: ["Action", "Comedy", "Crime"],
-  year: 2025,
-  rating: 8.2,
-  poster: placeholder,
-  banner: heroSeries,
-},
-  {
-  title: "Sisyphus: The Myth",
-  tagline: "The future is coming for him.",
-  description: "A genius engineer and a mysterious warrior from the future join forces to stop a catastrophic event and uncover the truth behind a dangerous time-travel conspiracy.",
-  category: "series",
-  genres: ["Science Fiction", "Action", "Mystery", "Thriller"],
-  year: 2021,
-  rating: 7.1,
-  poster: placeholder,
-  banner: heroSeries,
-},
-  { title: "Squid Game", tagline: "Win the game or lose everything.", description: "Hundreds of cash-strapped contestants accept an invitation to compete in deadly children's games for a chance to win a life-changing prize.", category: "series", genres: ["Thriller", "Drama", "Mystery"], year: 2021, rating: 8.0, poster: placeholder, banner: heroSeries },
 
-  {
-  title: "Feel Good to Die",
-  tagline: "Relive today until you change tomorrow.",
-  description: "A frustrated office worker becomes trapped in a time loop with her difficult boss, forcing both of them to confront their flaws and transform their lives before they can escape.",
-  category: "series",
-  genres: ["Romance", "Comedy", "Fantasy", "Drama"],
-  year: 2018,
-  rating: 7.7,
-  poster: placeholder,
-  banner: heroSeries
-},
 
-    {
-  title: "Light House",
-  tagline: "Every light casts a shadow.",
-  description: "Strangers connected by mysterious events uncover chilling secrets surrounding an isolated lighthouse where the past refuses to stay buried.",
-  category: "series",
-  genres: ["Mystery", "Thriller", "Drama"],
-  year: 2025,
-  rating: 7.4,
-  poster: placeholder,
-  banner: heroSeries
-},
-{
-  title: "Gyeongseong Creature",
-  tagline: "Survival comes before humanity.",
-  description: "In 1945 Seoul, two unlikely allies confront terrifying creatures born from human greed while struggling to survive under colonial rule.",
-  category: "series",
-  genres: ["Action", "Horror", "Historical", "Sci-Fi"],
-  year: 2023,
-  rating: 7.3,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Bon Appétit, Your Majesty",
-  tagline: "Where royal tradition meets culinary excellence.",
-  description: "An elegant culinary series exploring the lavish feasts, historic recipes, and extraordinary chefs behind the world's most renowned royal courts.",
-  category: "series",
-  genres: ["Food", "Documentary", "History"],
-  year: 2024,
-  rating: 8.1,
-  poster: "/bon-appetit-your-majesty.jpg",
-  banner: "/bon-appetit-your-majesty-banner.jpg"
-},
+  
 
-  { title: "Cashero", tagline: "Money is power.", description: "A financial thriller where an unlikely hero uses cunning and bravery to navigate a dangerous world of money and power.", category: "series", genres: ["Thriller", "Drama"], year: 2024, rating: 7.2, poster: placeholder, banner: heroSeries },
+
+ 
 ];
 
 export const extendedSeriesData: EntertainmentItem[] = seriesTitles.map(
