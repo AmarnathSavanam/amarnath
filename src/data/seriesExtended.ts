@@ -337,7 +337,63 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   rating: 8.2,
   poster: placeholder,
   banner: heroSeries
-},        { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2026, rating: 7.0, poster: placeholder, banner: heroSeries },
+},  
+   {
+  title: "Notes from the Last Row",
+  tagline: "Every story has a writer. Every writer has a secret.",
+  description: "A failed literature professor discovers an exceptionally gifted student and begins mentoring him, but the student's unsettling stories blur the line between fiction and reality, drawing them both into a dangerous psychological game.",
+  category: "series",
+  genres: ["Psychological", "Thriller", "Drama", "Mystery"],
+  year: 2026,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
+  title: "If Wishes Could Kill",
+  tagline: "Every wish demands a price.",
+  description: "A dark fantasy thriller where mysterious wishes begin coming true, slowly dragging a group of teenagers into deadly consequences and hidden truths.",
+  category: "series",
+  genres: ["Fantasy", "Mystery", "Thriller"],
+  year: 2026,
+  rating: 7.8,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Phantom Lawyer",
+  tagline: "The dead deserve justice too.",
+  description: "A struggling lawyer gains the ability to see and be possessed by ghosts, taking on supernatural cases to help restless spirits uncover the truth and find justice.",
+  category: "series",
+  genres: ["Supernatural", "Mystery", "Legal"],
+  year: 2026,
+  rating: 8.3,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "My Royal Nemesis",
+  tagline: "Enemies by fate, lovers by destiny.",
+  description: "A historical romance that follows two rivals from opposing sides whose conflicts gradually turn into an unexpected bond, threatening the political order around them.",
+  category: "series",
+  genres: ["Romance", "Historical", "Drama"],
+  year: 2026,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+}, 
+  {
+  title: "We Are All Trying Here",
+  tagline: "Growing up means finding your own place.",
+  description: "A heartfelt coming-of-age story that follows a group of young people as they navigate friendship, family, identity, and the challenges of discovering who they want to become.",
+  category: "series",
+  genres: ["Drama", "Coming-of-Age", "Slice of Life"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+ { title: "The WonderFools", tagline: "Heroes don't always look heroic.", description: "A group of misfits unexpectedly gains powers and becomes humanity's unlikely protectors.", category: "series", genres: ["Action", "Comedy", "Fantasy"], year: 2026, rating: 7.0, poster: placeholder, banner: heroSeries },
 
    { title: "Confidence Queen", tagline: "The perfect scam needs the perfect liar.", description: "A genius con artist manipulates powerful criminals and corporations through elaborate schemes.", category: "series", genres: ["Crime", "Drama"], year: 2025, rating: 7.1, poster: placeholder, banner: heroSeries },
 
@@ -442,17 +498,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "If Wishes Could Kill",
-  tagline: "Every wish demands a price.",
-  description: "A dark fantasy thriller where mysterious wishes begin coming true, slowly dragging a group of teenagers into deadly consequences and hidden truths.",
-  category: "series",
-  genres: ["Fantasy", "Mystery", "Thriller"],
-  year: 2024,
-  rating: 7.8,
-  poster: placeholder,
-  banner: heroSeries
-},
+  
     {
   title: "Mouse",
   tagline: "Can evil be born?",
@@ -475,17 +521,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "We Are All Trying Here",
-  tagline: "Growing up means finding your own place.",
-  description: "A heartfelt coming-of-age story that follows a group of young people as they navigate friendship, family, identity, and the challenges of discovering who they want to become.",
-  category: "series",
-  genres: ["Drama", "Coming-of-Age", "Slice of Life"],
-  year: 2025,
-  rating: 8.0,
-  poster: placeholder,
-  banner: heroSeries
-},
+
      {
   title: "Manipulated",
   tagline: "Truth is the first victim.",
@@ -530,17 +566,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-{
-  title: "My Royal Nemesis",
-  tagline: "Enemies by fate, lovers by destiny.",
-  description: "A historical romance that follows two rivals from opposing sides whose conflicts gradually turn into an unexpected bond, threatening the political order around them.",
-  category: "series",
-  genres: ["Romance", "Historical", "Drama"],
-  year: 2025,
-  rating: 7.9,
-  poster: placeholder,
-  banner: heroSeries
-}, 
+ 
    {
   title: "High School Return of a Gangster",
   tagline: "A gangster gets a second chance at youth.",
@@ -606,28 +632,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-  {
-  title: "Notes from the Last Row",
-  tagline: "Every story has a writer. Every writer has a secret.",
-  description: "A failed literature professor discovers an exceptionally gifted student and begins mentoring him, but the student's unsettling stories blur the line between fiction and reality, drawing them both into a dangerous psychological game.",
-  category: "series",
-  genres: ["Psychological", "Thriller", "Drama", "Mystery"],
-  year: 2026,
-  rating: 8.2,
-  poster: placeholder,
-  banner: heroSeries
-},
-  {
-  title: "Phantom Lawyer",
-  tagline: "The dead deserve justice too.",
-  description: "A struggling lawyer gains the ability to see and be possessed by ghosts, taking on supernatural cases to help restless spirits uncover the truth and find justice.",
-  category: "series",
-  genres: ["Supernatural", "Mystery", "Legal"],
-  year: 2026,
-  rating: 8.3,
-  poster: placeholder,
-  banner: heroSeries
-},
+ 
   {
   title: "Bring It On, Ghost",
   tagline: "Some ghosts need saving too.",
