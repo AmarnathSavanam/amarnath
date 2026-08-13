@@ -511,7 +511,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   year: 2024,
   rating: 8.7,
   poster: placeholder,
-  banner: heroSeries"
+  banner: heroSeries
 },
  {
   title: "Light Shop",
