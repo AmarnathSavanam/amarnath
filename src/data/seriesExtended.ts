@@ -502,6 +502,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+  {
+  title: "The Judge Returns",
+  tagline: "Justice gets a second chance.",
+  description: "A ruthless judge who once abused his power is given a second chance at life after a tragic death. Determined to change his fate, he returns to the past and uses his knowledge of the future to expose corruption, protect the innocent, and deliver the justice he once failed to uphold.",
+  category: "series",
+  genres: ["Drama", "Crime", "Fantasy", "Mystery", "Thriller"],
+  year: 2024,
+  rating: 8.7,
+  poster: placeholder,
+  banner: heroSeries"
+},
  {
   title: "Light Shop",
   tagline: "Every light hides a story.",
