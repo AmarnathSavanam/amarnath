@@ -694,6 +694,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
+ {
+  title: "Hellbound",
+  tagline: "Your fate is already decided.",
+  description: "Mysterious supernatural beings appear without warning to condemn people to hell, while a powerful religious group called The New Truth gains influence by claiming these terrifying events are divine justice. As society descends into chaos, a group of people searches for the truth behind the mysterious phenomenon.",
+  category: "series",
+  genres: ["Supernatural", "Thriller", "Horror", "Mystery", "Drama"],
+  year: 2021,
+  rating: 7.9,
+  poster: placeholder,
+  banner: heroSeries
+},
    {
   title: "Sisyphus: The Myth",
   tagline: "The future is coming for him.",
