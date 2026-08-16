@@ -329,17 +329,6 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroMovie
   },
   {
-    title: "Punisher series",
-    tagline: "Vengeance has a name.",
-    description: "Frank Castle wages a one-man war against crime after losing his family.",
-    category: "marvel",
-    genres: ["Action", "Crime"],
-    year: 2004,
-    rating: 6.4,
-    poster: placeholder,
-    banner: heroSeries
-  },
-  {
     title: "Spider-Man 2",
     tagline: "Rise above.",
     description: "Peter struggles with responsibility while facing Doctor Octopus.",
@@ -727,7 +716,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroMovie
   },
   {
-    title: "The Punisher",
+    title: "Punisher series",
     tagline: "Justice served cold.",
     description: "Frank Castle hunts those responsible for his family’s death.",
     category: "marvel",
