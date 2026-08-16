@@ -35,7 +35,6 @@ export const marvelChronologicalOrder: string[] =
   "Inhumans",
   "Runaways",
   "Cloak and Dagger",
-  "The Punisher",
   "Agents of S.H.I.E.L.D.",
   "Agents of S.H.I.E.L.D.: Slingshot",
   "Ant-Man and the Wasp",
@@ -49,10 +48,13 @@ export const marvelChronologicalOrder: string[] =
   "Shang-Chi and the Legend of the Ten Rings",
   "Spider-Man: Far From Home",
   "Spider-Man: No Way Home",
+  "Doctor Strange in the Multiverse of Madness",
   "Eternals",
   "Hawkeye",
   "Moon Knight",
   "Ms. Marvel",
+  "Thor: Love and Thunder",
+  "I Am Groot",
   "She-Hulk",
   "Werewolf by Night",
   "The Guardians of the Galaxy Holiday Special",
@@ -62,6 +64,7 @@ export const marvelChronologicalOrder: string[] =
   "Guardians of the Galaxy Vol. 3",
   "Secret Invasion",
   "The Marvels",
+  "Deadpool & Wolverine",
   "Agatha All Along",
   "Ironheart",
   "Daredevil: Born Again Season 1",
@@ -89,6 +92,7 @@ export const marvelChronologicalOrder: string[] =
   "Logan",
   "Legion",
   "The Gifted",
+  "Mutant X",
   "X-Men '97",
 
   "Spider-Man",
@@ -124,6 +128,13 @@ export const marvelChronologicalOrder: string[] =
 ];
 const rank = new Map(marvelChronologicalOrder.map((t, i) => [t.toLowerCase(), i]));
 
+// Dataset titles that differ slightly from the canonical chronology names.
+const aliases: Record<string, string> = {
+  "the incredible hulk (2008)": "the incredible hulk",
+  "punisher series": "the punisher",
+};
+
 export function marvelChronologicalRank(title: string): number {
-  return rank.get(title.toLowerCase()) ?? Number.MAX_SAFE_INTEGER;
+  const key = title.toLowerCase();
+  return rank.get(key) ?? rank.get(aliases[key] ?? "") ?? Number.MAX_SAFE_INTEGER;
 }
