@@ -71,6 +71,7 @@ export const marvelChronologicalOrder: string[] =
   "The Punisher (Special Presentation)",
   "Captain America: Brave New World",
   "Thunderbolts*",
+  "The Fantastic Four: First Steps",
   "Wonder Man",
   "Spider-Man: Brand New Day",
   "Vision Quest",
@@ -121,7 +122,6 @@ export const marvelChronologicalOrder: string[] =
   "Ghost Rider: Spirit of Vengeance",
   "Fantastic Four",
   "Fantastic Four: Rise of the Silver Surfer",
-  "The Fantastic Four: First Steps",
   "Hulk (2003)",
   "NightMan",
   "Helstrom"
