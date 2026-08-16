@@ -95,17 +95,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-{
-  title: "The Incredible Hulk",
-  tagline: "Don't make him angry.",
-  description: "Dr. David Banner travels across America searching for a cure while transforming into the Hulk whenever his emotions spiral out of control.",
-  category: "marvel",
-  genres: ["Action", "Drama", "Sci-Fi"],
-  year: 1977,
-  rating: 7.0,
-  poster: placeholder,
-  banner: heroSeries
-},
+
 {
   title: "Agents of S.H.I.E.L.D.: Slingshot",
   tagline: "Every second counts.",
