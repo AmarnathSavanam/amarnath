@@ -297,17 +297,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
     poster: placeholder,
     banner: heroMovie
   },
-  {
-    title: "Daredevil",
-    tagline: "Justice is blind.",
-    description: "A blind lawyer with heightened senses fights crime as a masked vigilante.",
-    category: "marvel",
-    genres: ["Action", "Crime"],
-    year: 2003,
-    rating: 5.3,
-    poster: placeholder,
-    banner: heroMovie
-  },
+
   {
     title: "Spider-Man 2",
     tagline: "Rise above.",
