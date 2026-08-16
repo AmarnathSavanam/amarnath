@@ -107,17 +107,7 @@ const marvelTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
-{
-  title: "NightMan",
-  tagline: "Guardian of the night.",
-  description: "After a mysterious lightning strike, jazz musician Johnny Domino gains the ability to hear evil thoughts and becomes the masked vigilante NightMan.",
-  category: "marvel",
-  genres: ["Action", "Fantasy", "Sci-Fi"],
-  year: 1997,
-  rating: 6.0,
-  poster: placeholder,
-  banner: heroSeries
-},
+
   {
   title: "Marvel Zombies",
   tagline: "When heroes become monsters.",
