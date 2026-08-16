@@ -122,7 +122,6 @@ export const marvelChronologicalOrder: string[] =
   "Ghost Rider: Spirit of Vengeance",
   "Fantastic Four",
   "Fantastic Four: Rise of the Silver Surfer",
-  "The Fantastic Four: First Steps",
   "Hulk (2003)",
   "NightMan",
   "Helstrom"
