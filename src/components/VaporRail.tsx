@@ -1,4 +1,4 @@
-import { Home, Film, Tv, Sparkles } from "lucide-react";
+import { Home, Film, Tv, Sparkles, Clapperboard } from "lucide-react";
 import type { Category } from "@/data/entertainment";
 
 interface VaporRailProps {
@@ -11,6 +11,7 @@ const items: { key: Category; label: string; Icon: typeof Home }[] = [
   { key: "marvel", label: "Marvel", Icon: Sparkles },
   { key: "series", label: "Series", Icon: Tv },
   { key: "anime", label: "Anime", Icon: Film },
+  { key: "movies", label: "Movies", Icon: Clapperboard },
 ];
 
 export default function VaporRail({ activeCategory, onCategoryChange, onLogoClick }: VaporRailProps) {

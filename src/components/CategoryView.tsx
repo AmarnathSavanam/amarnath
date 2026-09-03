@@ -14,12 +14,14 @@ const themeClassFor: Record<Category, string> = {
   marvel: "theme-marvel",
   series: "theme-series",
   anime: "theme-anime",
+  movies: "theme-movies",
 };
 
 const subtitleFor: Record<Category, string> = {
   marvel: "Multiverse archive · live feed",
   series: "Episodic stories · binge ready",
   anime: "Neon worlds · hand-drawn futures",
+  movies: "Feature films · one sitting",
 };
 
 export default function CategoryView({ category, onCardClick, onBack }: CategoryViewProps) {

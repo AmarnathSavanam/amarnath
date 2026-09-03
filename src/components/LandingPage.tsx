@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles, Tv, Film } from "lucide-react";
+import { ArrowRight, Sparkles, Tv, Film, Clapperboard } from "lucide-react";
 import type { Category, EntertainmentItem } from "@/data/entertainment";
 import HomeShelves from "./HomeShelves";
 import { Suspense, lazy } from "react";
@@ -43,6 +43,14 @@ const tiles: {
     blurb: "Iconic anime, cyberpunk futures and worlds painted frame-by-frame.",
     themeClass: "theme-anime",
     Icon: Film,
+  },
+  {
+    key: "movies",
+    label: "Movies",
+    tagline: "Big screen, one sitting",
+    blurb: "Standalone feature films — sci-fi, thrillers and modern classics.",
+    themeClass: "theme-movies",
+    Icon: Clapperboard,
   },
 ];
 
@@ -96,7 +104,7 @@ export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPag
 
       {/* Tiles */}
       <main className="flex-1 px-4 sm:px-8 lg:px-12 pt-10 sm:pt-12 pb-16 max-w-5xl w-full mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 perspective-1200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 perspective-1200">
           {tiles.map((t, i) => (
             <TiltCard
               key={t.key}

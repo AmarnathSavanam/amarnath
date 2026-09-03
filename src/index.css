@@ -274,6 +274,11 @@
     --theme-b: 250 95% 76%;
     --theme-c: 187 92% 69%;
   }
+  .theme-movies {
+    --theme-a: 38 95% 60%;
+    --theme-b: 14 90% 58%;
+    --theme-c: 265 85% 66%;
+  }
   .theme-anime {
     --theme-a: 280 95% 65%;   /* purple */
     --theme-b: 187 92% 69%;   /* cyan */
