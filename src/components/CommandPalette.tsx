@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Search, X, Film, Tv, Sparkles, Star } from "lucide-react";
+import { Search, X, Film, Tv, Sparkles, Star, Clapperboard } from "lucide-react";
 import { getAllData, type EntertainmentItem, type Category } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 
@@ -12,6 +12,7 @@ const catIcon: Record<Category, typeof Sparkles> = {
   marvel: Sparkles,
   series: Tv,
   anime: Film,
+  movies: Clapperboard,
 };
 
 export default function CommandPalette({ onOpenItem, onOpenCategory }: CommandPaletteProps) {
