@@ -1,6 +1,5 @@
-import { Play } from "lucide-react";
-import { useRef } from "react";
-import type { EntertainmentItem, Category } from "@/data/entertainment";
+import { Play, Plus } from "lucide-react";
+import type { EntertainmentItem } from "@/data/entertainment";
 import { resolveImages } from "@/data/imageRegistry";
 
 interface EntertainmentCardProps {
@@ -12,68 +11,48 @@ interface EntertainmentCardProps {
 
 export default function EntertainmentCard({ item, onClick, index, showRank }: EntertainmentCardProps) {
   const images = resolveImages(item.title, item.poster, item.banner, item.category);
-  const btnRef = useRef<HTMLButtonElement>(null);
-
-  const handleMove = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const el = btnRef.current;
-    if (!el) return;
-    const rect = el.getBoundingClientRect();
-    const x = (e.clientX - rect.left) / rect.width;
-    const y = (e.clientY - rect.top) / rect.height;
-    const rx = (0.5 - y) * 8;
-    const ry = (x - 0.5) * 8;
-    el.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
-  };
-  const handleLeave = () => {
-    const el = btnRef.current;
-    if (!el) return;
-    el.style.transform = "perspective(900px) rotateX(0) rotateY(0) translateY(0)";
-  };
 
   return (
     <button
-      ref={btnRef}
       onClick={() => onClick(item)}
-      onMouseMove={handleMove}
-      onMouseLeave={handleLeave}
-      className="tap-target group relative overflow-hidden rounded-2xl bg-card/40 text-left w-full transition-transform duration-300 ease-out will-change-transform hover:shadow-[0_24px_60px_-16px_hsl(var(--vapor-cyan)/0.45)] active:scale-[0.97] animate-fade-in"
-      style={{ animationDelay: `${index * 30}ms`, opacity: 0, transformStyle: "preserve-3d" }}
+      className="tap-target group relative block w-full text-left rounded-md overflow-hidden transition-transform duration-300 ease-out hover:scale-[1.06] hover:z-20 active:scale-[0.97]"
     >
-      <div className="relative aspect-[2/3] overflow-hidden rounded-2xl border border-white/8 group-hover:border-primary/40 transition-colors">
+      <div className="relative aspect-[2/3] overflow-hidden rounded-md bg-secondary">
         <img
           src={images.poster}
           alt={item.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover"
           loading="lazy"
         />
 
-        {/* Hover overlay */}
-        <div className="absolute inset-0 bg-background/0 group-hover:bg-background/30 transition-colors duration-300" />
-
-        {/* Play icon */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full vapor-gradient-bg flex items-center justify-center transform scale-75 group-hover:scale-100 transition-transform duration-300 shadow-[0_0_30px_hsl(var(--vapor-cyan)/0.55)]">
-            <Play className="w-4 h-4 sm:w-5 sm:h-5 text-background ml-0.5 fill-background" />
-          </div>
-        </div>
-
-        {/* Rank number */}
+        {/* Rank badge */}
         {showRank && (
-          <div className="absolute -bottom-2 -left-1 z-10">
-            <span className="font-display text-5xl sm:text-6xl font-black vapor-gradient-text leading-none drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
-              {String(index + 1).padStart(2, '0')}
-            </span>
-          </div>
+          <span className="absolute top-1.5 left-1.5 z-10 rounded bg-primary px-1.5 py-0.5 text-[10px] font-black text-primary-foreground">
+            #{index + 1}
+          </span>
         )}
 
-        {/* Bottom info gradient */}
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background via-background/85 to-transparent p-3 sm:p-3.5 pt-10 sm:pt-14">
-          <h3 className="font-display text-[12px] sm:text-sm font-semibold text-foreground leading-tight line-clamp-2 tracking-tight">{item.title}</h3>
-          <div className="mt-1 flex items-center gap-1.5">
-            <span className="text-[10px] text-foreground/45">{item.year}</span>
-            <span className="w-0.5 h-0.5 rounded-full bg-foreground/30" />
-            <span className="text-[10px] font-semibold text-primary">★ {item.rating}</span>
+        {/* Hover panel */}
+        <div className="absolute inset-x-0 bottom-0 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 bg-gradient-to-t from-background via-background/90 to-transparent p-2.5 pt-8">
+          <div className="flex items-center gap-1.5 mb-1.5">
+            <span className="w-6 h-6 rounded-full bg-foreground flex items-center justify-center">
+              <Play className="w-3 h-3 text-background fill-background ml-[1px]" />
+            </span>
+            <span className="w-6 h-6 rounded-full border border-foreground/50 flex items-center justify-center">
+              <Plus className="w-3 h-3 text-foreground" />
+            </span>
           </div>
+          <p className="text-[10px] text-foreground/70 line-clamp-1">{item.genres.slice(0, 2).join(" · ")}</p>
+        </div>
+      </div>
+
+      <div className="pt-2">
+        <h3 className="text-[12px] sm:text-[13px] font-semibold text-foreground/90 leading-tight line-clamp-1">
+          {item.title}
+        </h3>
+        <div className="mt-0.5 flex items-center gap-1.5 text-[10px] text-foreground/45">
+          <span className="font-semibold text-primary">★ {item.rating}</span>
+          <span>{item.year}</span>
         </div>
       </div>
     </button>
