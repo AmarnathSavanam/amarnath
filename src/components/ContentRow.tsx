@@ -25,50 +25,48 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
   const scroll = (direction: "left" | "right") => {
     const el = scrollRef.current;
     if (!el) return;
-    const amount = el.clientWidth * 0.75;
+    const amount = el.clientWidth * 0.85;
     el.scrollBy({ left: direction === "left" ? -amount : amount, behavior: "smooth" });
   };
 
   if (items.length === 0) return null;
 
   return (
-    <section className="mb-10 sm:mb-12 relative group/row">
-      <div className="flex items-center justify-between mb-4 sm:mb-5">
-        <h3 className="font-display text-lg sm:text-2xl font-extrabold tracking-tight">
-          <span className="vapor-gradient-text">{title}</span>
-        </h3>
-        <div className="flex items-center gap-1">
-          <button
-            onClick={() => scroll("left")}
-            disabled={!canScrollLeft}
-            className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl vapor-glass flex items-center justify-center text-foreground/60 hover:text-primary hover:border-primary/40 disabled:opacity-30 disabled:cursor-default transition-colors"
-            aria-label="Scroll left"
-          >
-            <ChevronLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-          </button>
-          <button
-            onClick={() => scroll("right")}
-            disabled={!canScrollRight}
-            className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl vapor-glass flex items-center justify-center text-foreground/60 hover:text-primary hover:border-primary/40 disabled:opacity-30 disabled:cursor-default transition-colors"
-            aria-label="Scroll right"
-          >
-            <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-          </button>
-        </div>
-      </div>
+    <section className="mb-8 sm:mb-12 relative group/row">
+      <h3 className="px-4 sm:px-8 lg:px-12 mb-2.5 sm:mb-3 font-display text-base sm:text-xl font-bold tracking-tight text-foreground/90">
+        {title}
+      </h3>
 
       <div className="relative">
+        <button
+          onClick={() => scroll("left")}
+          disabled={!canScrollLeft}
+          aria-label="Scroll left"
+          className="hidden md:flex absolute left-0 top-0 bottom-6 z-30 w-10 items-center justify-center bg-background/70 text-foreground opacity-0 group-hover/row:opacity-100 disabled:opacity-0 transition-opacity"
+        >
+          <ChevronLeft className="w-6 h-6" />
+        </button>
+
         <div
           ref={scrollRef}
           onScroll={updateScrollState}
-          className="scroll-row flex gap-3 sm:gap-4 overflow-x-auto scrollbar-hide pb-2 -mx-1 px-1"
+          className="scroll-row flex gap-2 sm:gap-3 overflow-x-auto scrollbar-hide px-4 sm:px-8 lg:px-12 pb-2"
         >
           {items.map((item, i) => (
-            <div key={item.id} className="flex-shrink-0 w-[140px] sm:w-[160px] lg:w-[180px] xl:w-[200px]">
+            <div key={item.id} className="flex-shrink-0 w-[112px] sm:w-[150px] lg:w-[170px]">
               <EntertainmentCard item={item} onClick={onCardClick} index={i} showRank={showRank} />
             </div>
           ))}
         </div>
+
+        <button
+          onClick={() => scroll("right")}
+          disabled={!canScrollRight}
+          aria-label="Scroll right"
+          className="hidden md:flex absolute right-0 top-0 bottom-6 z-30 w-10 items-center justify-center bg-background/70 text-foreground opacity-0 group-hover/row:opacity-100 disabled:opacity-0 transition-opacity"
+        >
+          <ChevronRight className="w-6 h-6" />
+        </button>
       </div>
     </section>
   );
