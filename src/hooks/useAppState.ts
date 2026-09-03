@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from "react";
 import type { EntertainmentItem, ViewMode } from "@/data/entertainment";
 import { getAllData } from "@/data/entertainment";
 
-const validCategories: ViewMode[] = ["all", "marvel", "series", "anime"];
+const validCategories: ViewMode[] = ["all", "marvel", "series", "anime", "movies"];
 
 function parseURL() {
   const path = window.location.pathname;

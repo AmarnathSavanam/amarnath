@@ -2,12 +2,14 @@
 import heroMarvel from "@/assets/hero-marvel.jpg";
 import heroAnime from "@/assets/hero-anime.jpg";
 import heroSeries from "@/assets/hero-series.jpg";
+import heroMovies from "@/assets/hero-movies.jpg";
 import { extendedAnimeData } from "./animeExtended";
 import { extendedMarvelData } from "./marvelExtended";
 import { extendedSeriesData } from "./seriesExtended";
+import { extendedMovieData } from "./movieExtended";
 import { marvelChronologicalRank } from "./marvelChronology";
 
-export type Category = "marvel" | "series" | "anime";
+export type Category = "marvel" | "series" | "anime" | "movies";
 export type ViewMode = Category | "all";
 
 export interface EntertainmentItem {
@@ -27,6 +29,7 @@ export const heroImages: Record<Category, string> = {
   marvel: heroMarvel,
   anime: heroAnime,
   series: heroSeries,
+  movies: heroMovies,
 };
 
 export const categoryLabels: Record<ViewMode, string> = {
@@ -34,6 +37,7 @@ export const categoryLabels: Record<ViewMode, string> = {
   marvel: "Marvel",
   anime: "Anime",
   series: "Series",
+  movies: "Movies",
 };
 
 export const entertainmentData: EntertainmentItem[] = [
@@ -47,7 +51,7 @@ export const entertainmentData: EntertainmentItem[] = [
 ];
 
 export function getAllData(): EntertainmentItem[] {
-  return [...entertainmentData, ...extendedAnimeData, ...extendedMarvelData, ...extendedSeriesData];
+  return [...entertainmentData, ...extendedAnimeData, ...extendedMarvelData, ...extendedSeriesData, ...extendedMovieData];
 }
 
 export function getItemsByCategory(category: Category): EntertainmentItem[] {
