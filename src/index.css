@@ -102,11 +102,7 @@
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image:
-      radial-gradient(ellipse 80% 60% at 12% 0%, hsl(var(--vapor-indigo) / 0.10), transparent 60%),
-      radial-gradient(ellipse 70% 60% at 90% 100%, hsl(var(--vapor-cyan) / 0.08), transparent 60%),
-      radial-gradient(ellipse 60% 50% at 80% 20%, hsl(var(--vapor-lavender) / 0.06), transparent 60%);
-    background-attachment: scroll;
+    background-image: none;
     overflow-x: hidden;
     overscroll-behavior-y: auto;
     -webkit-overflow-scrolling: touch;
