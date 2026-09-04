@@ -61,7 +61,7 @@ export default function DetailView({ item, onBack, onCardClick, onGenreClick }: 
 
         {/* Title overlay */}
         <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8 lg:p-12 max-w-[1400px] mx-auto">
-          <h1 className="font-display text-2xl sm:text-4xl lg:text-6xl font-extrabold vapor-gradient-text mb-2 tracking-tight">
+          <h1 className="font-display text-2xl sm:text-4xl lg:text-6xl font-extrabold text-foreground mb-2 tracking-tight">
             {item.title}
           </h1>
           <p className="text-xs sm:text-sm text-muted-foreground/70 italic max-w-xl">"{item.tagline}"</p>

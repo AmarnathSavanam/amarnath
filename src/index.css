@@ -6,75 +6,75 @@
 
 @layer base {
   :root {
-    /* Sunset Blaze — deep plum void with warm orange/magenta/indigo */
-    --background: 280 25% 7%;            /* deep plum-black */
-    --foreground: 30 30% 96%;
+    /* STREAM — cinematic near-black with signal red */
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
 
-    --card: 285 22% 11%;
-    --card-foreground: 30 30% 96%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 285 22% 9%;
-    --popover-foreground: 30 30% 96%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    /* Primary: blaze orange #ff6b35 */
-    --primary: 14 100% 60%;
-    --primary-foreground: 280 25% 7%;
+    /* Primary: signal red */
+    --primary: 357 92% 47%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 285 20% 15%;
-    --secondary-foreground: 30 25% 90%;
+    --secondary: 0 0% 16%;
+    --secondary-foreground: 0 0% 94%;
 
-    --muted: 285 18% 18%;
-    --muted-foreground: 25 12% 68%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 66%;
 
-    --accent: 330 78% 58%;               /* magenta #e84393 */
-    --accent-foreground: 280 25% 7%;
+    --accent: 357 92% 47%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 30 30% 96%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 285 18% 22%;
-    --input: 285 18% 18%;
-    --ring: 14 100% 60%;
+    --border: 0 0% 18%;
+    --input: 0 0% 16%;
+    --ring: 357 92% 47%;
 
-    --radius: 1.25rem;
+    --radius: 0.35rem;
 
-    /* Sunset palette — names kept so existing class refs still resolve */
-    --vapor-lavender: 248 73% 63%;       /* indigo #6c5ce7 */
-    --vapor-indigo:   330 78% 58%;       /* magenta #e84393 */
-    --vapor-cyan:     14 100% 60%;       /* orange #ff6b35 */
-    --vapor-ice:      32 93% 54%;        /* amber #f7931e */
-    --vapor-void:     280 25% 7%;
+    /* Legacy palette names kept so existing class refs still resolve */
+    --vapor-lavender: 0 0% 40%;
+    --vapor-indigo:   357 80% 38%;
+    --vapor-cyan:     357 92% 47%;
+    --vapor-ice:      0 0% 92%;
+    --vapor-void:     0 0% 6%;
 
     /* Category accents */
-    --marvel: 14 100% 60%;
-    --marvel-glow: 32 93% 54%;
-    --anime: 330 78% 58%;
-    --anime-glow: 248 73% 63%;
-    --series: 32 93% 54%;
-    --series-glow: 14 100% 60%;
+    --marvel: 357 92% 47%;
+    --marvel-glow: 0 0% 92%;
+    --anime: 357 92% 47%;
+    --anime-glow: 0 0% 92%;
+    --series: 357 92% 47%;
+    --series-glow: 0 0% 92%;
 
     /* Legacy aliases */
-    --gold: 32 93% 54%;
-    --gold-dim: 14 100% 60%;
-    --neon-blue: 248 73% 63%;
-    --neon-purple: 330 78% 58%;
-    --neon-cyan: 14 100% 60%;
+    --gold: 0 0% 92%;
+    --gold-dim: 357 92% 47%;
+    --neon-blue: 0 0% 40%;
+    --neon-purple: 357 80% 38%;
+    --neon-cyan: 357 92% 47%;
 
-    --glass-bg: 280 25% 7% / 0.55;
-    --glass-border: 30 30% 90% / 0.08;
-    --glass-blur: 24px;
+    --glass-bg: 0 0% 6% / 0.7;
+    --glass-border: 0 0% 100% / 0.08;
+    --glass-blur: 18px;
 
     --font-display: 'Outfit', sans-serif;
     --font-body: 'Figtree', sans-serif;
 
-    --sidebar-background: 280 25% 7%;
-    --sidebar-foreground: 30 25% 92%;
-    --sidebar-primary: 14 100% 60%;
-    --sidebar-primary-foreground: 280 25% 7%;
-    --sidebar-accent: 285 20% 15%;
-    --sidebar-accent-foreground: 30 25% 92%;
-    --sidebar-border: 285 18% 20%;
-    --sidebar-ring: 14 100% 60%;
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 0 0% 92%;
+    --sidebar-primary: 357 92% 47%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 16%;
+    --sidebar-accent-foreground: 0 0% 92%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 357 92% 47%;
   }
 }
 
@@ -102,11 +102,7 @@
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image:
-      radial-gradient(ellipse 80% 60% at 12% 0%, hsl(var(--vapor-indigo) / 0.10), transparent 60%),
-      radial-gradient(ellipse 70% 60% at 90% 100%, hsl(var(--vapor-cyan) / 0.08), transparent 60%),
-      radial-gradient(ellipse 60% 50% at 80% 20%, hsl(var(--vapor-lavender) / 0.06), transparent 60%);
-    background-attachment: scroll;
+    background-image: none;
     overflow-x: hidden;
     overscroll-behavior-y: auto;
     -webkit-overflow-scrolling: touch;

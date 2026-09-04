@@ -67,11 +67,11 @@ function Shelf({ title, subtitle, icon: Icon, children }: ShelfProps) {
     <section className="animate-fade-in">
       <header className="flex items-end justify-between mb-4 sm:mb-5">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-2xl vapor-glass-strong flex items-center justify-center text-primary">
+          <div className="w-9 h-9 rounded-2xl bg-secondary/80 border border-border flex items-center justify-center text-primary">
             <Icon className="w-4 h-4" />
           </div>
           <div>
-            <h2 className="font-display text-xl sm:text-2xl font-extrabold tracking-tight vapor-gradient-text leading-none">
+            <h2 className="font-display text-xl sm:text-2xl font-extrabold tracking-tight text-foreground leading-none">
               {title}
             </h2>
             {subtitle && (
@@ -102,7 +102,7 @@ function RowGrid({ items, onCardClick, progressById }: RowGridProps) {
           {progressById && progressById[item.id] != null && (
             <div className="absolute left-2 right-2 bottom-2 h-1 rounded-full bg-white/10 overflow-hidden pointer-events-none">
               <div
-                className="h-full vapor-gradient-bg"
+                className="h-full bg-primary"
                 style={{ width: `${Math.min(100, Math.round(progressById[item.id] * 100))}%` }}
               />
             </div>

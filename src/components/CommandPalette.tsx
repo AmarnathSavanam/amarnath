@@ -49,8 +49,13 @@ export default function CommandPalette({ onOpenItem, onOpenCategory }: CommandPa
         setOpen(false);
       }
     };
+    const onExternalOpen = () => setOpen(true);
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("open-command-palette", onExternalOpen);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("open-command-palette", onExternalOpen);
+    };
   }, [open]);
 
   useEffect(() => {
