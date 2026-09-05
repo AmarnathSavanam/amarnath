@@ -50,7 +50,7 @@ export default function EntertainmentCard({ item, onClick, index, showRank }: En
       </div>
 
       <div className="pt-2">
-        <h3 className="text-[12px] sm:text-[13px] font-semibold text-foreground/90 leading-tight line-clamp-1">
+        <h3 className="text-[12px] sm:text-[13px] font-semibold text-foreground/90 leading-tight line-clamp-1 transition-colors duration-200 group-hover:text-primary">
           {item.title}
         </h3>
         <div className="mt-0.5 flex items-center gap-1.5 text-[10px] text-foreground/45">
