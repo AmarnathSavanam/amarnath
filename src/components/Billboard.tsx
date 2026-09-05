@@ -48,20 +48,20 @@ export default function Billboard({ item, eyebrow, onPlay }: BillboardProps) {
         <div className="mt-5 sm:mt-7 flex items-center gap-3">
           <button
             onClick={() => onPlay(item)}
-            className="inline-flex items-center gap-2 rounded bg-foreground text-background px-5 sm:px-7 py-2.5 text-sm font-bold hover:bg-foreground/85 transition-colors active:scale-95"
+            className="btn-shine inline-flex items-center gap-2 rounded bg-foreground text-background px-5 sm:px-7 py-2.5 text-sm font-bold transition-all duration-200 hover:bg-foreground/85 hover:scale-105 hover:shadow-[0_8px_28px_-6px_hsl(0_0%_100%/0.35)] active:scale-95"
           >
             <Play className="w-4 h-4 fill-background" /> Play
           </button>
           <button
             onClick={() => onPlay(item)}
-            className="inline-flex items-center gap-2 rounded bg-secondary/80 px-5 sm:px-6 py-2.5 text-sm font-semibold text-foreground hover:bg-secondary transition-colors active:scale-95"
+            className="inline-flex items-center gap-2 rounded bg-secondary/80 backdrop-blur-sm px-5 sm:px-6 py-2.5 text-sm font-semibold text-foreground transition-all duration-200 hover:bg-secondary hover:scale-105 hover:shadow-[0_8px_28px_-8px_hsl(0_0%_0%/0.8)] active:scale-95"
           >
             <Info className="w-4 h-4" /> More Info
           </button>
           <button
             onClick={() => toggle(item.id)}
             aria-label={saved ? "Remove from My List" : "Add to My List"}
-            className="w-10 h-10 rounded-full border border-border/80 bg-background/40 flex items-center justify-center text-foreground hover:border-foreground transition-colors"
+            className="w-10 h-10 rounded-full border border-border/80 bg-background/40 flex items-center justify-center text-foreground transition-all duration-200 hover:border-primary hover:text-primary hover:scale-110 hover:shadow-[0_0_18px_hsl(var(--primary)/0.4)] active:scale-95"
           >
             {saved ? <Check className="w-4 h-4 text-primary" /> : <Plus className="w-4 h-4" />}
           </button>
