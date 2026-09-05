@@ -15,15 +15,18 @@ export default function EntertainmentCard({ item, onClick, index, showRank }: En
   return (
     <button
       onClick={() => onClick(item)}
-      className="tap-target group relative block w-full text-left rounded-md overflow-hidden transition-transform duration-300 ease-out hover:scale-[1.06] hover:z-20 active:scale-[0.97]"
+      className="tap-target group relative block w-full text-left rounded-md overflow-hidden transition-all duration-300 ease-out hover:scale-[1.08] hover:-translate-y-1 hover:z-20 active:scale-[0.97] hover:shadow-[0_16px_40px_-8px_hsl(var(--primary)/0.45)]"
     >
-      <div className="relative aspect-[2/3] overflow-hidden rounded-md bg-secondary">
+      <div className="relative aspect-[2/3] overflow-hidden rounded-md bg-secondary ring-1 ring-white/5 transition-all duration-300 group-hover:ring-primary/50">
         <img
           src={images.poster}
           alt={item.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
           loading="lazy"
         />
+
+        {/* Sheen sweep on hover */}
+        <div className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-700 ease-out group-hover:translate-x-full" />
 
         {/* Rank badge */}
         {showRank && (
