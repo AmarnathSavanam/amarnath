@@ -33,7 +33,7 @@ export default function TopNav({ activeCategory, onCategoryChange, onLogoClick }
     >
       <nav className="flex items-center gap-4 sm:gap-8 px-4 sm:px-8 lg:px-12 h-14 sm:h-16">
         <button onClick={onLogoClick} className="shrink-0" aria-label="Home">
-          <span className="font-display text-xl sm:text-2xl font-black tracking-[0.18em] text-primary uppercase">
+          <span className="font-display text-xl sm:text-2xl font-black tracking-[0.18em] text-primary uppercase transition-all duration-300 hover:drop-shadow-[0_0_14px_hsl(var(--primary)/0.7)] hover:scale-105 inline-block">
             Stream
           </span>
         </button>
@@ -42,7 +42,7 @@ export default function TopNav({ activeCategory, onCategoryChange, onLogoClick }
           <li>
             <button
               onClick={onLogoClick}
-              className={`text-[13px] sm:text-sm whitespace-nowrap transition-colors ${
+              className={`nav-link text-[13px] sm:text-sm whitespace-nowrap transition-all duration-200 ${
                 activeCategory === "all" ? "font-semibold text-foreground" : "text-foreground/65 hover:text-foreground"
               }`}
             >
@@ -53,7 +53,7 @@ export default function TopNav({ activeCategory, onCategoryChange, onLogoClick }
             <li key={cat}>
               <button
                 onClick={() => onCategoryChange(cat)}
-                className={`text-[13px] sm:text-sm whitespace-nowrap transition-colors ${
+                className={`nav-link text-[13px] sm:text-sm whitespace-nowrap transition-all duration-200 ${
                   activeCategory === cat ? "font-semibold text-foreground" : "text-foreground/65 hover:text-foreground"
                 }`}
               >

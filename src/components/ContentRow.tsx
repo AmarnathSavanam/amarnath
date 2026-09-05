@@ -42,7 +42,7 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
           onClick={() => scroll("left")}
           disabled={!canScrollLeft}
           aria-label="Scroll left"
-          className="hidden md:flex absolute left-0 top-0 bottom-6 z-30 w-10 items-center justify-center bg-background/70 text-foreground opacity-0 group-hover/row:opacity-100 disabled:opacity-0 transition-opacity"
+          className="hidden md:flex absolute left-0 top-0 bottom-6 z-30 w-10 items-center justify-center bg-background/70 text-foreground opacity-0 group-hover/row:opacity-100 disabled:opacity-0 transition-all duration-300 hover:bg-background/90 hover:w-12 hover:text-primary hover:drop-shadow-[0_0_8px_hsl(var(--primary)/0.6)]"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
@@ -63,7 +63,7 @@ export default function ContentRow({ title, items, onCardClick, showRank }: Cont
           onClick={() => scroll("right")}
           disabled={!canScrollRight}
           aria-label="Scroll right"
-          className="hidden md:flex absolute right-0 top-0 bottom-6 z-30 w-10 items-center justify-center bg-background/70 text-foreground opacity-0 group-hover/row:opacity-100 disabled:opacity-0 transition-opacity"
+          className="hidden md:flex absolute right-0 top-0 bottom-6 z-30 w-10 items-center justify-center bg-background/70 text-foreground opacity-0 group-hover/row:opacity-100 disabled:opacity-0 transition-all duration-300 hover:bg-background/90 hover:w-12 hover:text-primary hover:drop-shadow-[0_0_8px_hsl(var(--primary)/0.6)]"
         >
           <ChevronRight className="w-6 h-6" />
         </button>
