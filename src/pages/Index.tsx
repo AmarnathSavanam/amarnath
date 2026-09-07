@@ -33,19 +33,21 @@ const Index = () => {
 
       <div className="relative z-10 pt-14 sm:pt-16">
         <AnimatePresence mode="wait">
-          {isLanding ? (
+          {selectedItem ? (
+            <PageTransition keyName={`detail-${selectedItem.id}`}>
+              <main className="px-4 sm:px-8 lg:px-12 pb-16">
+                <DetailView item={selectedItem} onBack={closeDetail} onCardClick={openDetail} />
+              </main>
+            </PageTransition>
+          ) : isLanding ? (
             <PageTransition keyName="landing">
               <LandingPage onSelectCategory={handleSelectCategory} onOpenItem={openDetail} />
             </PageTransition>
           ) : (
-            <PageTransition keyName={`${activeCategory}-${selectedItem?.id ?? "list"}`}>
+            <PageTransition keyName={`${activeCategory}-list`}>
               <main className="px-4 sm:px-8 lg:px-12 pb-16">
-                {selectedItem ? (
-                  <DetailView item={selectedItem} onBack={closeDetail} onCardClick={openDetail} />
-                ) : (
-                  category && (
-                    <CategoryView category={category} onCardClick={openDetail} onBack={goHome} />
-                  )
+                {category && (
+                  <CategoryView category={category} onCardClick={openDetail} onBack={goHome} />
                 )}
               </main>
             </PageTransition>
