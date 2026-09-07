@@ -3,6 +3,7 @@ import type { Category, EntertainmentItem } from "@/data/entertainment";
 import { getAllData, getItemsByCategory, categoryLabels } from "@/data/entertainment";
 import Billboard from "./Billboard";
 import ContentRow from "./ContentRow";
+import GenreSection from "./GenreSection";
 import { useContinueWatching } from "@/hooks/useContinueWatching";
 import { useWatchlist } from "@/hooks/useWatchlist";
 
@@ -51,6 +52,8 @@ export default function LandingPage({ onSelectCategory, onOpenItem }: LandingPag
         {listItems.length > 0 && <ContentRow title="My List" items={listItems} onCardClick={open} />}
 
         <ContentRow title="Top 10 Today" items={trending} onCardClick={open} showRank />
+
+        <GenreSection items={all} onCardClick={open} />
 
         {rows.map((cat) => (
           <div key={cat}>
