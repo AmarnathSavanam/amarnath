@@ -23,6 +23,8 @@ const links: Category[] = ["marvel", "series", "anime", "movies"];
 
 export default function TopNav({ activeCategory, onCategoryChange, onLogoClick }: TopNavProps) {
   const [scrolled, setScrolled] = useState(false);
+  const { user, profile, signOut } = useAuth();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
