@@ -16,13 +16,16 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/:category" element={<Index />} />
-          <Route path="/detail/:id" element={<Index />} />
-          <Route path="/:category/detail/:id" element={<Index />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <AuthProvider>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/auth" element={<Auth />} />
+            <Route path="/detail/:id" element={<Index />} />
+            <Route path="/:category" element={<Index />} />
+            <Route path="/:category/detail/:id" element={<Index />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </AuthProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
