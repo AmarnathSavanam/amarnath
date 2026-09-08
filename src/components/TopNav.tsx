@@ -1,7 +1,17 @@
 import { useEffect, useState } from "react";
-import { Search, Bookmark } from "lucide-react";
+import { Search, Bookmark, LogOut } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import type { Category, ViewMode } from "@/data/entertainment";
 import { categoryLabels } from "@/data/entertainment";
+import { useAuth } from "@/hooks/useAuth";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 interface TopNavProps {
   activeCategory: ViewMode;
@@ -13,6 +23,8 @@ const links: Category[] = ["marvel", "series", "anime", "movies"];
 
 export default function TopNav({ activeCategory, onCategoryChange, onLogoClick }: TopNavProps) {
   const [scrolled, setScrolled] = useState(false);
+  const { user, profile, signOut } = useAuth();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -78,7 +90,35 @@ export default function TopNav({ activeCategory, onCategoryChange, onLogoClick }
           >
             <Bookmark className="w-[18px] h-[18px]" />
           </button>
-          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded bg-gradient-to-br from-primary to-accent" aria-hidden />
+          {user ? (
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  aria-label="Account"
+                  className="w-7 h-7 sm:w-8 sm:h-8 rounded bg-gradient-to-br from-primary to-accent grid place-items-center text-[11px] sm:text-xs font-bold text-white uppercase transition-transform duration-200 hover:scale-110"
+                >
+                  {(profile?.display_name ?? user.email ?? "?").charAt(0)}
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-52">
+                <DropdownMenuLabel className="truncate">
+                  {profile?.display_name ?? user.email}
+                </DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => void signOut()}>
+                  <LogOut className="w-4 h-4 mr-2" />
+                  Sign out
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          ) : (
+            <button
+              onClick={() => navigate("/auth")}
+              className="rounded bg-primary text-primary-foreground text-xs sm:text-sm font-semibold px-3 sm:px-4 py-1.5 transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_24px_-8px_hsl(var(--primary)/0.7)]"
+            >
+              Sign In
+            </button>
+          )}
         </div>
       </nav>
     </header>
