@@ -1,7 +1,17 @@
 import { useEffect, useState } from "react";
-import { Search, Bookmark } from "lucide-react";
+import { Search, Bookmark, LogOut } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import type { Category, ViewMode } from "@/data/entertainment";
 import { categoryLabels } from "@/data/entertainment";
+import { useAuth } from "@/hooks/useAuth";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 interface TopNavProps {
   activeCategory: ViewMode;
