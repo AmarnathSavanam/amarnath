@@ -1320,6 +1320,1618 @@ const movieSeeds: MovieSeed[] = [
     description:
       "A journalist falls for a woman with an ancient secret and joins a world he never believed in.",
   },
+  // ── Indian cinema collection ──────────────────────────────────
+  {
+    title: "Rakshasa",
+    year: 2025,
+    rating: 6.8,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Shambhala",
+    year: 2024,
+    rating: 7.0,
+    genres: ["Drama", "Adventure"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, adventure feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Dude",
+    year: 2025,
+    rating: 6.9,
+    genres: ["Romance", "Comedy"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kantara",
+    year: 2022,
+    rating: 8.2,
+    genres: ["Action", "Drama", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kantara: A Legend Chapter 1",
+    year: 2025,
+    rating: 8.4,
+    genres: ["Action", "Drama", "Fantasy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Mirai",
+    year: 2025,
+    rating: 7.4,
+    genres: ["Action", "Fantasy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, fantasy feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Zombie Reddy",
+    year: 2021,
+    rating: 6.5,
+    genres: ["Comedy", "Horror"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, horror feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Mahavatar Narsimha",
+    year: 2025,
+    rating: 8.5,
+    genres: ["Animation", "Mythology", "Action"],
+    tagline: "Animation on the big screen.",
+    description:
+      "A animation, mythology feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Aghathiyaa",
+    year: 2025,
+    rating: 6.3,
+    genres: ["Fantasy", "Thriller"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, thriller feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Chhaava",
+    year: 2025,
+    rating: 7.6,
+    genres: ["Action", "Historical", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, historical feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kanguva",
+    year: 2024,
+    rating: 6.0,
+    genres: ["Action", "Fantasy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, fantasy feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Amaran",
+    year: 2024,
+    rating: 8.1,
+    genres: ["Action", "Biography", "War"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, biography feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kill",
+    year: 2024,
+    rating: 7.5,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Suriya's Saturday",
+    year: 2025,
+    rating: 6.7,
+    genres: ["Comedy", "Drama"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, drama feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Devara: Part 1",
+    year: 2024,
+    rating: 6.8,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Om Bheem Bush",
+    year: 2024,
+    rating: 7.3,
+    genres: ["Comedy", "Horror"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, horror feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Masooda",
+    year: 2022,
+    rating: 7.1,
+    genres: ["Horror", "Thriller"],
+    tagline: "Horror on the big screen.",
+    description:
+      "A horror, thriller feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "HIT: The First Case",
+    year: 2020,
+    rating: 7.2,
+    genres: ["Crime", "Thriller"],
+    tagline: "Crime on the big screen.",
+    description:
+      "A crime, thriller feature from 2020 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "HIT: The Second Case",
+    year: 2022,
+    rating: 7.1,
+    genres: ["Crime", "Thriller"],
+    tagline: "Crime on the big screen.",
+    description:
+      "A crime, thriller feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "HIT: The Third Case",
+    year: 2025,
+    rating: 7.0,
+    genres: ["Crime", "Action"],
+    tagline: "Crime on the big screen.",
+    description:
+      "A crime, action feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Ghajini",
+    year: 2005,
+    rating: 8.1,
+    genres: ["Action", "Romance", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, romance feature from 2005 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Eega",
+    year: 2012,
+    rating: 7.7,
+    genres: ["Fantasy", "Action", "Comedy"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, action feature from 2012 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Petta",
+    year: 2019,
+    rating: 7.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2019 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Bigil",
+    year: 2019,
+    rating: 6.6,
+    genres: ["Sports", "Action", "Drama"],
+    tagline: "Sports on the big screen.",
+    description:
+      "A sports, action feature from 2019 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Nannaku Prematho",
+    year: 2016,
+    rating: 7.3,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Dasavathaaram",
+    year: 2008,
+    rating: 6.8,
+    genres: ["Action", "Sci-Fi", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, sci-fi feature from 2008 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kanthaswamy",
+    year: 2009,
+    rating: 5.9,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2009 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Saamy",
+    year: 2003,
+    rating: 7.5,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2003 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Saamy Square",
+    year: 2018,
+    rating: 5.5,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Ponniyin Selvan: Part I",
+    year: 2022,
+    rating: 7.6,
+    genres: ["Historical", "Drama", "Action"],
+    tagline: "Historical on the big screen.",
+    description:
+      "A historical, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Ponniyin Selvan: Part II",
+    year: 2023,
+    rating: 7.7,
+    genres: ["Historical", "Drama", "Action"],
+    tagline: "Historical on the big screen.",
+    description:
+      "A historical, drama feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Brahmastra Part One: Shiva",
+    year: 2022,
+    rating: 6.3,
+    genres: ["Fantasy", "Action", "Adventure"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, action feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Sita Ramam",
+    year: 2022,
+    rating: 8.5,
+    genres: ["Romance", "Drama", "War"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "777 Charlie",
+    year: 2022,
+    rating: 8.7,
+    genres: ["Drama", "Adventure", "Family"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, adventure feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Godse",
+    year: 2022,
+    rating: 6.2,
+    genres: ["Thriller", "Drama"],
+    tagline: "Thriller on the big screen.",
+    description:
+      "A thriller, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "DJ Tillu",
+    year: 2022,
+    rating: 7.4,
+    genres: ["Comedy", "Crime"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, crime feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Tillu Square",
+    year: 2024,
+    rating: 7.0,
+    genres: ["Comedy", "Romance"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, romance feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Shyam Singha Roy",
+    year: 2021,
+    rating: 7.9,
+    genres: ["Drama", "Fantasy", "Romance"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, fantasy feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Maharshi",
+    year: 2019,
+    rating: 7.0,
+    genres: ["Drama", "Action"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 2019 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Jersey",
+    year: 2019,
+    rating: 8.4,
+    genres: ["Sports", "Drama"],
+    tagline: "Sports on the big screen.",
+    description:
+      "A sports, drama feature from 2019 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "118",
+    year: 2019,
+    rating: 6.9,
+    genres: ["Mystery", "Thriller"],
+    tagline: "Mystery on the big screen.",
+    description:
+      "A mystery, thriller feature from 2019 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Arjun Reddy",
+    year: 2017,
+    rating: 8.1,
+    genres: ["Romance", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Jai Lava Kusa",
+    year: 2017,
+    rating: 6.8,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Raja The Great",
+    year: 2017,
+    rating: 6.4,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "ISM",
+    year: 2016,
+    rating: 5.8,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Ekkadiki Pothavu Chinnavada",
+    year: 2016,
+    rating: 7.6,
+    genres: ["Thriller", "Fantasy", "Romance"],
+    tagline: "Thriller on the big screen.",
+    description:
+      "A thriller, fantasy feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Premam",
+    year: 2015,
+    rating: 8.3,
+    genres: ["Romance", "Comedy", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2015 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Janatha Garage",
+    year: 2016,
+    rating: 6.5,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Winner",
+    year: 2017,
+    rating: 5.5,
+    genres: ["Action", "Romance"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, romance feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kick",
+    year: 2009,
+    rating: 7.0,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2009 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Son of Satyamurthy",
+    year: 2015,
+    rating: 6.4,
+    genres: ["Drama", "Action"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 2015 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Okkadu",
+    year: 2003,
+    rating: 8.0,
+    genres: ["Action", "Romance"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, romance feature from 2003 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Venky",
+    year: 2004,
+    rating: 7.2,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2004 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Naa Autograph Sweet Memories",
+    year: 2004,
+    rating: 7.5,
+    genres: ["Romance", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2004 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Robo",
+    year: 2010,
+    rating: 7.1,
+    genres: ["Sci-Fi", "Action"],
+    tagline: "Sci-Fi on the big screen.",
+    description:
+      "A sci-fi, action feature from 2010 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Rebel",
+    year: 2012,
+    rating: 5.9,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2012 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Damarukam",
+    year: 2012,
+    rating: 5.3,
+    genres: ["Fantasy", "Action"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, action feature from 2012 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Businessman",
+    year: 2012,
+    rating: 7.5,
+    genres: ["Action", "Crime"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2012 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Julayi",
+    year: 2012,
+    rating: 7.2,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2012 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Yevadu",
+    year: 2014,
+    rating: 6.6,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2014 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "1: Nenokkadine",
+    year: 2014,
+    rating: 8.0,
+    genres: ["Thriller", "Action", "Mystery"],
+    tagline: "Thriller on the big screen.",
+    description:
+      "A thriller, action feature from 2014 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Dangal",
+    year: 2016,
+    rating: 8.3,
+    genres: ["Sports", "Biography", "Drama"],
+    tagline: "Sports on the big screen.",
+    description:
+      "A sports, biography feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Lie",
+    year: 2017,
+    rating: 5.9,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Paisa Vasool",
+    year: 2017,
+    rating: 4.8,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Oxygen",
+    year: 2017,
+    rating: 5.6,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Jawan",
+    year: 2023,
+    rating: 7.0,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "MCA",
+    year: 2017,
+    rating: 6.7,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Rangasthalam",
+    year: 2018,
+    rating: 8.3,
+    genres: ["Drama", "Action", "Period"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Pantham",
+    year: 2018,
+    rating: 5.4,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Goodachari",
+    year: 2018,
+    rating: 8.0,
+    genres: ["Spy", "Action", "Thriller"],
+    tagline: "Spy on the big screen.",
+    description:
+      "A spy, action feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Neevevaro",
+    year: 2018,
+    rating: 7.2,
+    genres: ["Thriller", "Mystery"],
+    tagline: "Thriller on the big screen.",
+    description:
+      "A thriller, mystery feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Next Enti?",
+    year: 2018,
+    rating: 6.0,
+    genres: ["Romance", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Sarileru Neekevvaru",
+    year: 2020,
+    rating: 6.7,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2020 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Ala Vaikunthapurramuloo",
+    year: 2020,
+    rating: 7.3,
+    genres: ["Drama", "Action", "Comedy"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 2020 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Aswathama",
+    year: 2020,
+    rating: 6.6,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2020 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Virupaksha",
+    year: 2023,
+    rating: 7.7,
+    genres: ["Horror", "Mystery", "Thriller"],
+    tagline: "Horror on the big screen.",
+    description:
+      "A horror, mystery feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Hidimbha",
+    year: 2023,
+    rating: 5.9,
+    genres: ["Thriller", "Mystery"],
+    tagline: "Thriller on the big screen.",
+    description:
+      "A thriller, mystery feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "DD Returns",
+    year: 2023,
+    rating: 6.4,
+    genres: ["Horror", "Comedy"],
+    tagline: "Horror on the big screen.",
+    description:
+      "A horror, comedy feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Chandramukhi",
+    year: 2005,
+    rating: 7.7,
+    genres: ["Horror", "Comedy", "Drama"],
+    tagline: "Horror on the big screen.",
+    description:
+      "A horror, comedy feature from 2005 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "12th Fail",
+    year: 2023,
+    rating: 8.8,
+    genres: ["Biography", "Drama"],
+    tagline: "Biography on the big screen.",
+    description:
+      "A biography, drama feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kalinga",
+    year: 2024,
+    rating: 6.1,
+    genres: ["Horror", "Thriller"],
+    tagline: "Horror on the big screen.",
+    description:
+      "A horror, thriller feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Pushpa: The Rise",
+    year: 2021,
+    rating: 7.6,
+    genres: ["Action", "Crime", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Pushpa 2: The Rule",
+    year: 2024,
+    rating: 6.7,
+    genres: ["Action", "Crime", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Korean Kanakaraju",
+    year: 2024,
+    rating: 5.8,
+    genres: ["Comedy", "Drama"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, drama feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Toxic",
+    year: 2026,
+    rating: 7.5,
+    genres: ["Action", "Crime"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2026 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Middle Class Melodies",
+    year: 2020,
+    rating: 7.7,
+    genres: ["Comedy", "Drama"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, drama feature from 2020 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Aravinda Sametha Veera Raghava",
+    year: 2018,
+    rating: 7.3,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "HanuMan",
+    year: 2024,
+    rating: 8.0,
+    genres: ["Superhero", "Fantasy", "Action"],
+    tagline: "Superhero on the big screen.",
+    description:
+      "A superhero, fantasy feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Karthikeya",
+    year: 2014,
+    rating: 7.4,
+    genres: ["Mystery", "Thriller"],
+    tagline: "Mystery on the big screen.",
+    description:
+      "A mystery, thriller feature from 2014 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Karthikeya 2",
+    year: 2022,
+    rating: 7.5,
+    genres: ["Adventure", "Mystery", "Thriller"],
+    tagline: "Adventure on the big screen.",
+    description:
+      "A adventure, mystery feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Bimbisara",
+    year: 2022,
+    rating: 7.0,
+    genres: ["Fantasy", "Action"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, action feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "DJ: Duvvada Jagannadham",
+    year: 2017,
+    rating: 6.0,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Bharat Ane Nenu",
+    year: 2018,
+    rating: 7.5,
+    genres: ["Political", "Drama", "Action"],
+    tagline: "Political on the big screen.",
+    description:
+      "A political, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Indra",
+    year: 2002,
+    rating: 8.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2002 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Simhadri",
+    year: 2003,
+    rating: 7.6,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2003 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Magadheera",
+    year: 2009,
+    rating: 7.7,
+    genres: ["Fantasy", "Action", "Romance"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, action feature from 2009 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Gabbar Singh",
+    year: 2012,
+    rating: 7.3,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2012 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Pokiri",
+    year: 2006,
+    rating: 8.0,
+    genres: ["Action", "Crime"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2006 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Mirchi",
+    year: 2013,
+    rating: 7.5,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2013 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Temper",
+    year: 2015,
+    rating: 7.4,
+    genres: ["Action", "Crime"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2015 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Srimanthudu",
+    year: 2015,
+    rating: 7.2,
+    genres: ["Drama", "Action"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 2015 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Mad",
+    year: 2023,
+    rating: 7.4,
+    genres: ["Comedy", "Drama"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, drama feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Major",
+    year: 2022,
+    rating: 8.2,
+    genres: ["Biography", "Action", "Drama"],
+    tagline: "Biography on the big screen.",
+    description:
+      "A biography, action feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "RX 100",
+    year: 2018,
+    rating: 7.0,
+    genres: ["Romance", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Khaidi No. 150",
+    year: 2017,
+    rating: 6.3,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Seethamma Vakitlo Sirimalle Chettu",
+    year: 2013,
+    rating: 7.6,
+    genres: ["Family", "Drama", "Comedy"],
+    tagline: "Family on the big screen.",
+    description:
+      "A family, drama feature from 2013 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Manam",
+    year: 2014,
+    rating: 8.4,
+    genres: ["Fantasy", "Drama", "Family"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, drama feature from 2014 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Race Gurram",
+    year: 2014,
+    rating: 7.2,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2014 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Bhale Bhale Magadivoy",
+    year: 2015,
+    rating: 7.7,
+    genres: ["Comedy", "Romance"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, romance feature from 2015 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Narasimha Naidu",
+    year: 2001,
+    rating: 7.5,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2001 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Manasantha Nuvve",
+    year: 2001,
+    rating: 7.6,
+    genres: ["Romance", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2001 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Aadi",
+    year: 2002,
+    rating: 7.6,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2002 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Tagore",
+    year: 2003,
+    rating: 7.4,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2003 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Arya",
+    year: 2004,
+    rating: 7.9,
+    genres: ["Romance", "Comedy", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2004 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Sye",
+    year: 2004,
+    rating: 7.5,
+    genres: ["Sports", "Action"],
+    tagline: "Sports on the big screen.",
+    description:
+      "A sports, action feature from 2004 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Andhrawala",
+    year: 2004,
+    rating: 4.9,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2004 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Chatrapathi",
+    year: 2005,
+    rating: 7.6,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2005 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Athadu",
+    year: 2005,
+    rating: 8.5,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2005 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Vikramarkudu",
+    year: 2006,
+    rating: 7.8,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2006 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Desamuduru",
+    year: 2007,
+    rating: 7.0,
+    genres: ["Action", "Romance"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, romance feature from 2007 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Jalsa",
+    year: 2008,
+    rating: 7.6,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2008 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Arundhati",
+    year: 2009,
+    rating: 8.1,
+    genres: ["Horror", "Fantasy", "Thriller"],
+    tagline: "Horror on the big screen.",
+    description:
+      "A horror, fantasy feature from 2009 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Leader",
+    year: 2010,
+    rating: 7.7,
+    genres: ["Political", "Drama"],
+    tagline: "Political on the big screen.",
+    description:
+      "A political, drama feature from 2010 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Simha",
+    year: 2010,
+    rating: 7.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2010 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "100% Love",
+    year: 2011,
+    rating: 7.4,
+    genres: ["Romance", "Comedy"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2011 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Hi Nanna",
+    year: 2023,
+    rating: 8.0,
+    genres: ["Romance", "Drama", "Family"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Mahaan",
+    year: 2022,
+    rating: 7.5,
+    genres: ["Crime", "Drama"],
+    tagline: "Crime on the big screen.",
+    description:
+      "A crime, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Baasha",
+    year: 1995,
+    rating: 8.5,
+    genres: ["Action", "Crime", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 1995 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Annamalai",
+    year: 1992,
+    rating: 8.0,
+    genres: ["Drama", "Action"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 1992 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Muthu",
+    year: 1995,
+    rating: 7.8,
+    genres: ["Action", "Comedy", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 1995 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Padayappa",
+    year: 1999,
+    rating: 8.0,
+    genres: ["Drama", "Action"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 1999 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Sivaji",
+    year: 2007,
+    rating: 8.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2007 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Love Today",
+    year: 2022,
+    rating: 8.0,
+    genres: ["Romance", "Comedy"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Dragon",
+    year: 2025,
+    rating: 8.1,
+    genres: ["Comedy", "Drama", "Romance"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, drama feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Veedokkade",
+    year: 2009,
+    rating: 7.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2009 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Surya S/O Krishnan",
+    year: 2008,
+    rating: 8.2,
+    genres: ["Drama", "Action"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, action feature from 2008 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "24",
+    year: 2016,
+    rating: 8.1,
+    genres: ["Sci-Fi", "Action", "Thriller"],
+    tagline: "Sci-Fi on the big screen.",
+    description:
+      "A sci-fi, action feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Yamudu",
+    year: 2010,
+    rating: 7.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2010 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Singam",
+    year: 2010,
+    rating: 7.4,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2010 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Singam 3",
+    year: 2017,
+    rating: 5.8,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Manoharudu",
+    year: 2013,
+    rating: 6.8,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2013 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Policeodu",
+    year: 2016,
+    rating: 7.4,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Adirindhi",
+    year: 2017,
+    rating: 6.6,
+    genres: ["Sports", "Action", "Drama"],
+    tagline: "Sports on the big screen.",
+    description:
+      "A sports, action feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Doctor",
+    year: 2021,
+    rating: 7.5,
+    genres: ["Comedy", "Action", "Thriller"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, action feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "7th Sense",
+    year: 2011,
+    rating: 7.5,
+    genres: ["Action", "Sci-Fi", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, sci-fi feature from 2011 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Aparichitudu",
+    year: 2005,
+    rating: 8.6,
+    genres: ["Thriller", "Drama", "Psychological"],
+    tagline: "Thriller on the big screen.",
+    description:
+      "A thriller, drama feature from 2005 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Aaru",
+    year: 2005,
+    rating: 7.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2005 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "2.0",
+    year: 2018,
+    rating: 6.4,
+    genres: ["Sci-Fi", "Action"],
+    tagline: "Sci-Fi on the big screen.",
+    description:
+      "A sci-fi, action feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Don",
+    year: 2022,
+    rating: 7.5,
+    genres: ["Comedy", "Romance", "Drama"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, romance feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Chinna Babu",
+    year: 2018,
+    rating: 7.0,
+    genres: ["Drama", "Romance"],
+    tagline: "Drama on the big screen.",
+    description:
+      "A drama, romance feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Remo",
+    year: 2016,
+    rating: 6.8,
+    genres: ["Romance", "Comedy"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Maari",
+    year: 2015,
+    rating: 6.4,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2015 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Prince",
+    year: 2022,
+    rating: 5.3,
+    genres: ["Romance", "Comedy"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, comedy feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Vivegam",
+    year: 2017,
+    rating: 5.6,
+    genres: ["Action", "Spy", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, spy feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Cobra",
+    year: 2022,
+    rating: 5.9,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Rayaan",
+    year: 2024,
+    rating: 7.0,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2024 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Darbar",
+    year: 2020,
+    rating: 5.9,
+    genres: ["Action", "Crime"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2020 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Sarkar",
+    year: 2018,
+    rating: 7.4,
+    genres: ["Political", "Action", "Drama"],
+    tagline: "Political on the big screen.",
+    description:
+      "A political, action feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Irumbu Thirai",
+    year: 2018,
+    rating: 7.7,
+    genres: ["Cyber", "Action", "Thriller"],
+    tagline: "Cyber on the big screen.",
+    description:
+      "A cyber, action feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Theri",
+    year: 2016,
+    rating: 7.5,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Spyder",
+    year: 2017,
+    rating: 6.3,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Oke Oka Jeevitham",
+    year: 2022,
+    rating: 7.9,
+    genres: ["Sci-Fi", "Drama", "Emotional"],
+    tagline: "Sci-Fi on the big screen.",
+    description:
+      "A sci-fi, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Orange",
+    year: 2010,
+    rating: 7.2,
+    genres: ["Romance", "Drama"],
+    tagline: "Romance on the big screen.",
+    description:
+      "A romance, drama feature from 2010 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Seema Raja",
+    year: 2018,
+    rating: 5.6,
+    genres: ["Action", "Comedy"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, comedy feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Jai Bhim",
+    year: 2021,
+    rating: 8.8,
+    genres: ["Legal", "Drama", "Crime"],
+    tagline: "Legal on the big screen.",
+    description:
+      "A legal, drama feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Etharkkum Thunindhavan",
+    year: 2022,
+    rating: 6.2,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Thaanaa Serndha Koottam",
+    year: 2018,
+    rating: 6.6,
+    genres: ["Heist", "Action", "Comedy"],
+    tagline: "Heist on the big screen.",
+    description:
+      "A heist, action feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kadaikutty Singam",
+    year: 2018,
+    rating: 7.6,
+    genres: ["Family", "Drama"],
+    tagline: "Family on the big screen.",
+    description:
+      "A family, drama feature from 2018 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Theeran Adhigaaram Ondru",
+    year: 2017,
+    rating: 8.4,
+    genres: ["Crime", "Action", "Thriller"],
+    tagline: "Crime on the big screen.",
+    description:
+      "A crime, action feature from 2017 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kaashmora",
+    year: 2016,
+    rating: 6.0,
+    genres: ["Fantasy", "Horror", "Comedy"],
+    tagline: "Fantasy on the big screen.",
+    description:
+      "A fantasy, horror feature from 2016 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kaithi",
+    year: 2019,
+    rating: 8.4,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2019 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Vikram",
+    year: 2022,
+    rating: 8.3,
+    genres: ["Action", "Crime", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Coolie",
+    year: 2025,
+    rating: 7.2,
+    genres: ["Action", "Crime"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, crime feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Leo",
+    year: 2023,
+    rating: 7.2,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2023 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Maareesan",
+    year: 2025,
+    rating: 7.6,
+    genres: ["Comedy", "Drama", "Road"],
+    tagline: "Comedy on the big screen.",
+    description:
+      "A comedy, drama feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Minnal Murali",
+    year: 2021,
+    rating: 7.8,
+    genres: ["Superhero", "Action", "Comedy"],
+    tagline: "Superhero on the big screen.",
+    description:
+      "A superhero, action feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Beast",
+    year: 2022,
+    rating: 5.3,
+    genres: ["Action", "Thriller"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, thriller feature from 2022 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Master",
+    year: 2021,
+    rating: 7.3,
+    genres: ["Action", "Drama"],
+    tagline: "Action on the big screen.",
+    description:
+      "A action, drama feature from 2021 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
+  {
+    title: "Kuberaa",
+    year: 2025,
+    rating: 7.9,
+    genres: ["Crime", "Drama"],
+    tagline: "Crime on the big screen.",
+    description:
+      "A crime, drama feature from 2025 that follows its characters through high-stakes turns, building to a confrontation that decides everything.",
+  },
 ];
 
 const seen = new Set<string>();
