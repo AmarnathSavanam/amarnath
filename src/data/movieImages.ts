@@ -25,7 +25,7 @@ export interface MovieImageEntry {
 export const movieImages: Record<string, MovieImageEntry> = {
     inception: { poster: inceptionPoster, banner: inceptionBanner },
   jumanji: { poster: jumanjiPoster, banner: jumanjiBanner },
-    harryPotterandthePhilosopher’sStone: { poster: h1Poster, banner: h1Banner },
+    harry-potter-and-the-philosopher-s-stone: { poster: h1Poster, banner: h1Banner },
 
   
 };
