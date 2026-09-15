@@ -14,6 +14,8 @@ import inceptionPoster from "@/assets/movies/inception-poster.jpg";
 import inceptionBanner from "@/assets/movies/inception-banner.jpg";
 import jumanjiPoster from "@/assets/movies/Jumanji-poster.jpg";
 import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
+import h1Poster from "@/assets/movies/h1-poster.jpg";
+import h1Banner from "@/assets/movies/h1-banner.jpg";
 
 export interface MovieImageEntry {
   poster: string;
@@ -23,6 +25,9 @@ export interface MovieImageEntry {
 export const movieImages: Record<string, MovieImageEntry> = {
     inception: { poster: inceptionPoster, banner: inceptionBanner },
   jumanji: { poster: jumanjiPoster, banner: jumanjiBanner },
+    harryPotterandthePhilosopher’sStone: { poster: h1Poster, banner: h1Banner },
+
+  
 };
 
 export function slugifyMovie(title: string): string {
