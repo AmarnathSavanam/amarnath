@@ -12,8 +12,8 @@
  */
 import inceptionPoster from "@/assets/movies/inception-poster.jpg";
 import inceptionBanner from "@/assets/movies/inception-banner.jpg";
-import jumanjiPoster from "@/assets/movies/jumanji-poster.jpg";
-import jumanjiBanner from "@/assets/movies/jumanji-banner.jpg";
+import jumanjiPoster from "@/assets/movies/Jumanji-poster.jpg";
+import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
 
 export interface MovieImageEntry {
   poster: string;
