@@ -1,19 +1,21 @@
+
 /**
  * Movie image store.
  *
- * Real artwork lives in `src/assets/movies/` (bundled by Vite) — NOT in `public/`.
- * To add a real image for a movie:
+ * Real artwork lives in `src/assets/movies/` (bundled by Vite).
+ *
+ * To add a real image:
  *   1. Drop the file into `src/assets/movies/`
  *   2. Import it below
- *   3. Add an entry to `movieImages` keyed by the movie's slug (lowercase, dashes)
- *
- * Any movie without an entry automatically gets a generated artwork card
- * (gradient + title), so the Movies section never shows a broken image.
+ *   3. Add an entry to `movieImages` using the movie slug
  */
+
 import inceptionPoster from "@/assets/movies/inception-poster.jpg";
 import inceptionBanner from "@/assets/movies/inception-banner.jpg";
+
 import jumanjiPoster from "@/assets/movies/Jumanji-poster.jpg";
 import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
+
 import h1Poster from "@/assets/movies/h1-poster.jpg";
 import h1Banner from "@/assets/movies/h1-banner.jpg";
 
@@ -23,11 +25,21 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
-    inception: { poster: inceptionPoster, banner: inceptionBanner },
-  jumanji: { poster: jumanjiPoster, banner: jumanjiBanner },
-    harry-potter-and-the-philosopher-s-stone: { poster: h1Poster, banner: h1Banner },
+  inception: {
+    poster: inceptionPoster,
+    banner: inceptionBanner,
+  },
 
-  
+  jumanji: {
+    poster: jumanjiPoster,
+    banner: jumanjiBanner,
+  },
+
+  // Harry Potter and the Philosopher's Stone
+  "harry-potter-and-the-philosopher-s-stone": {
+    poster: h1Poster,
+    banner: h1Banner,
+  },
 };
 
 export function slugifyMovie(title: string): string {
@@ -39,9 +51,11 @@ export function slugifyMovie(title: string): string {
 
 function hashString(value: string): number {
   let hash = 0;
+
   for (let i = 0; i < value.length; i += 1) {
     hash = (hash * 31 + value.charCodeAt(i)) % 100000;
   }
+
   return hash;
 }
 
@@ -58,6 +72,7 @@ function wrapTitle(title: string, perLine: number): string[] {
   const words = title.split(/\s+/);
   const lines: string[] = [];
   let current = "";
+
   for (const word of words) {
     if ((current + " " + word).trim().length > perLine && current) {
       lines.push(current.trim());
@@ -66,17 +81,31 @@ function wrapTitle(title: string, perLine: number): string[] {
       current = `${current} ${word}`.trim();
     }
   }
-  if (current) lines.push(current);
+
+  if (current) {
+    lines.push(current);
+  }
+
   return lines.slice(0, 5);
 }
 
-function makeArtwork(title: string, width: number, height: number, perLine: number): string {
+function makeArtwork(
+  title: string,
+  width: number,
+  height: number,
+  perLine: number,
+): string {
   const hue = hashString(title) % 360;
   const hue2 = (hue + 48) % 360;
+
   const lines = wrapTitle(title, perLine);
+
   const fontSize = Math.round(width / 12);
   const lineHeight = Math.round(fontSize * 1.18);
-  const startY = height / 2 - ((lines.length - 1) * lineHeight) / 2;
+
+  const startY =
+    height / 2 - ((lines.length - 1) * lineHeight) / 2;
+
   const text = lines
     .map(
       (line, i) =>
@@ -93,35 +122,49 @@ function makeArtwork(title: string, width: number, height: number, perLine: numb
       <stop offset="55%" stop-color="hsl(${hue2} 55% 12%)"/>
       <stop offset="100%" stop-color="hsl(${hue} 40% 6%)"/>
     </linearGradient>
+
     <radialGradient id="r" cx="50%" cy="28%" r="70%">
       <stop offset="0%" stop-color="hsl(${hue} 90% 60%)" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="hsl(${hue} 90% 60%)" stop-opacity="0"/>
     </radialGradient>
   </defs>
+
   <rect width="${width}" height="${height}" fill="url(#g)"/>
   <rect width="${width}" height="${height}" fill="url(#r)"/>
+
   ${text}
 </svg>`;
 
   return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
 }
 
-/** Poster (2:3) for a movie — real asset if present, generated artwork otherwise. */
+/** Poster (2:3) for a movie. */
 export function getMoviePoster(title: string): string {
   const entry = movieImages[slugifyMovie(title)];
-  if (entry) return entry.poster;
+
+  if (entry) {
+    return entry.poster;
+  }
+
   return makeArtwork(title, 600, 900, 14);
 }
 
-/** Banner (16:9) for a movie — real asset if present, generated artwork otherwise. */
+/** Banner (16:9) for a movie. */
 export function getMovieBanner(title: string): string {
   const entry = movieImages[slugifyMovie(title)];
-  if (entry) return entry.banner;
+
+  if (entry) {
+    return entry.banner;
+  }
+
   return makeArtwork(title, 1600, 900, 22);
 }
 
-export function getMovieImages(slug: string): MovieImageEntry | undefined {
+export function getMovieImages(
+  slug: string,
+): MovieImageEntry | undefined {
   return movieImages[slug];
 }
 
 export default movieImages;
+
