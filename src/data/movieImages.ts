@@ -21,7 +21,8 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
-  inception: { poster: jumanjiPoster, banner: jumanjiBanner },
+    inception: { poster: inceptionPoster, banner: inceptionBanner },
+  jumanji: { poster: jumanjiPoster, banner: jumanjiBanner },
 };
 
 export function slugifyMovie(title: string): string {
