@@ -125,10 +125,6 @@ export const movieImages: Record<string, MovieImageEntry> = {
 
   // Harry Potter and the Philosopher's Stone
   "harry-potter-and-the-philosopher-s-stone": {
-    poster: h1Poster,
-    banner: h1Banner,
-  },
-  "harry-potter-and-the-philosopher-s-stone": {
   poster: h1Poster,
   banner: h1Banner,
 },
