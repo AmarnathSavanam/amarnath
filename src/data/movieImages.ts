@@ -40,6 +40,73 @@ import h7Banner from "@/assets/movies/h7-banner.jpg";
 import h8Poster from "@/assets/movies/h8-poster.jpg";
 import h8Banner from "@/assets/movies/h8-banner.jpg";
 
+import k1Poster from "@/assets/movies/k1-poster.jpg";
+import k1Banner from "@/assets/movies/k1-banner.jpg";
+
+import k2Poster from "@/assets/movies/k2-poster.jpg";
+import k2Banner from "@/assets/movies/k2-banner.jpg";
+
+import k3Poster from "@/assets/movies/k3-poster.jpg";
+import k3Banner from "@/assets/movies/k3-banner.jpg";
+
+import k4Poster from "@/assets/movies/k4-poster.jpg";
+import k4Banner from "@/assets/movies/k4-banner.jpg";
+
+// J1 - J7
+import j1Poster from "@/assets/movies/j1-poster.jpg";
+import j1Banner from "@/assets/movies/j1-banner.jpg";
+import j2Poster from "@/assets/movies/j2-poster.jpg";
+import j2Banner from "@/assets/movies/j2-banner.jpg";
+import j3Poster from "@/assets/movies/j3-poster.jpg";
+import j3Banner from "@/assets/movies/j3-banner.jpg";
+import j4Poster from "@/assets/movies/j4-poster.jpg";
+import j4Banner from "@/assets/movies/j4-banner.jpg";
+import j5Poster from "@/assets/movies/j5-poster.jpg";
+import j5Banner from "@/assets/movies/j5-banner.jpg";
+import j6Poster from "@/assets/movies/j6-poster.jpg";
+import j6Banner from "@/assets/movies/j6-banner.jpg";
+import j7Poster from "@/assets/movies/j7-poster.jpg";
+import j7Banner from "@/assets/movies/j7-banner.jpg";
+
+// R1 - R3
+import r1Poster from "@/assets/movies/r1-poster.jpg";
+import r1Banner from "@/assets/movies/r1-banner.jpg";
+import r2Poster from "@/assets/movies/r2-poster.jpg";
+import r2Banner from "@/assets/movies/r2-banner.jpg";
+import r3Poster from "@/assets/movies/r3-poster.jpg";
+import r3Banner from "@/assets/movies/r3-banner.jpg";
+
+// A1 - A3
+import a1Poster from "@/assets/movies/a1-poster.jpg";
+import a1Banner from "@/assets/movies/a1-banner.jpg";
+import a2Poster from "@/assets/movies/a2-poster.jpg";
+import a2Banner from "@/assets/movies/a2-banner.jpg";
+import a3Poster from "@/assets/movies/a3-poster.jpg";
+import a3Banner from "@/assets/movies/a3-banner.jpg";
+
+// M1 - M4
+import m1Poster from "@/assets/movies/m1-poster.jpg";
+import m1Banner from "@/assets/movies/m1-banner.jpg";
+import m2Poster from "@/assets/movies/m2-poster.jpg";
+import m2Banner from "@/assets/movies/m2-banner.jpg";
+import m3Poster from "@/assets/movies/m3-poster.jpg";
+import m3Banner from "@/assets/movies/m3-banner.jpg";
+import m4Poster from "@/assets/movies/m4-poster.jpg";
+import m4Banner from "@/assets/movies/m4-banner.jpg";
+
+// P1 - P5
+import p1Poster from "@/assets/movies/p1-poster.jpg";
+import p1Banner from "@/assets/movies/p1-banner.jpg";
+import p2Poster from "@/assets/movies/p2-poster.jpg";
+import p2Banner from "@/assets/movies/p2-banner.jpg";
+import p3Poster from "@/assets/movies/p3-poster.jpg";
+import p3Banner from "@/assets/movies/p3-banner.jpg";
+import p4Poster from "@/assets/movies/p4-poster.jpg";
+import p4Banner from "@/assets/movies/p4-banner.jpg";
+import p5Poster from "@/assets/movies/p5-poster.jpg";
+import p5Banner from "@/assets/movies/p5-banner.jpg";
+
+
 export interface MovieImageEntry {
   poster: string;
   banner: string;
@@ -99,6 +166,134 @@ export const movieImages: Record<string, MovieImageEntry> = {
 "harry-potter-and-the-deathly-hallows-part-2": {
   poster: h8Poster,
   banner: h8Banner,
+},
+  "Kung-Fu-Panda": {
+  poster: k1Poster,
+  banner: k1Banner,
+},
+
+"Kung-Fu-Panda-2": {
+  poster: k2Poster,
+  banner: k2Banner,
+},
+
+"Kung-Fu-Panda-3": {
+  poster: k3Poster,
+  banner: k3Banner,
+},
+
+"Kung-Fu-Panda-4": {
+  poster: k4Poster,
+  banner: k4Banner,
+},
+  "pirates-of-the-caribbean-the-curse-of-the-black-pearl": {
+  poster: p1Poster,
+  banner: p1Banner,
+},
+
+"pirates-of-the-caribbean-dead-mans-chest": {
+  poster: p2Poster,
+  banner: p2Banner,
+},
+
+"pirates-of-the-caribbean-at-worlds-end": {
+  poster: p3Poster,
+  banner: p3Banner,
+},
+
+"pirates-of-the-caribbean-on-stranger-tides": {
+  poster: p4Poster,
+  banner: p4Banner,
+},
+
+"pirates-of-the-caribbean-dead-men-tell-no-tales": {
+  poster: p5Poster,
+  banner: p5Banner,
+},
+
+"rush-hour": {
+  poster: r1Poster,
+  banner: r1Banner,
+},
+
+"rush-hour-2": {
+  poster: r2Poster,
+  banner: r2Banner,
+},
+
+"rush-hour-3": {
+  poster: r3Poster,
+  banner: r3Banner,
+},
+
+"men-in-black": {
+  poster: m1Poster,
+  banner: m1Banner,
+},
+
+"men-in-black-ii": {
+  poster: m2Poster,
+  banner: m2Banner,
+},
+
+"men-in-black-3": {
+  poster: m3Poster,
+  banner: m3Banner,
+},
+
+"men-in-black-international": {
+  poster: m4Poster,
+  banner: m4Banner,
+},
+
+"avatar": {
+  poster: a1Poster,
+  banner: a1Banner,
+},
+
+"avatar-the-way-of-water": {
+  poster: a2Poster,
+  banner: a2Banner,
+},
+
+"avatar-fire-and-ash": {
+  poster: a3Poster,
+  banner: a3Banner,
+},
+
+"jurassic-park": {
+  poster: j1Poster,
+  banner: j1Banner,
+},
+
+"the-lost-world-jurassic-park": {
+  poster: j2Poster,
+  banner: j2Banner,
+},
+
+"jurassic-park-iii": {
+  poster: j3Poster,
+  banner: j3Banner,
+},
+
+"jurassic-world": {
+  poster: j4Poster,
+  banner: j4Banner,
+},
+
+"jurassic-world-fallen-kingdom": {
+  poster: j5Poster,
+  banner: j5Banner,
+},
+
+"jurassic-world-dominion": {
+  poster: j6Poster,
+  banner: j6Banner,
+},
+
+"jurassic-world-rebirth": {
+  poster: j7Poster,
+  banner: j7Banner,
 },
 };
 
