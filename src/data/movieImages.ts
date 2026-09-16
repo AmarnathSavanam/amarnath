@@ -163,22 +163,22 @@ export const movieImages: Record<string, MovieImageEntry> = {
   poster: h8Poster,
   banner: h8Banner,
 },
-  "Kung-Fu-Panda": {
+  "kung-fu-panda": {
   poster: k1Poster,
   banner: k1Banner,
 },
 
-"Kung-Fu-Panda-2": {
+"kung-fu-panda-2": {
   poster: k2Poster,
   banner: k2Banner,
 },
 
-"Kung-Fu-Panda-3": {
+"kung-fu-panda-3": {
   poster: k3Poster,
   banner: k3Banner,
 },
 
-"Kung-Fu-Panda-4": {
+"kung-fu-panda-4": {
   poster: k4Poster,
   banner: k4Banner,
 },
@@ -187,12 +187,12 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: p1Banner,
 },
 
-"pirates-of-the-caribbean-dead-mans-chest": {
+"pirates-of-the-caribbean-dead-man-s-chest": {
   poster: p2Poster,
   banner: p2Banner,
 },
 
-"pirates-of-the-caribbean-at-worlds-end": {
+"pirates-of-the-caribbean-at-world-s-end": {
   poster: p3Poster,
   banner: p3Banner,
 },
