@@ -19,6 +19,27 @@ import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
 import h1Poster from "@/assets/movies/h1-poster.jpg";
 import h1Banner from "@/assets/movies/h1-banner.jpg";
 
+import h2Poster from "@/assets/movies/h2-poster.jpg";
+import h2Banner from "@/assets/movies/h2-banner.jpg";
+
+import h3Poster from "@/assets/movies/h3-poster.jpg";
+import h3Banner from "@/assets/movies/h3-banner.jpg";
+
+import h4Poster from "@/assets/movies/h4-poster.jpg";
+import h4Banner from "@/assets/movies/h4-banner.jpg";
+
+import h5Poster from "@/assets/movies/h5-poster.jpg";
+import h5Banner from "@/assets/movies/h5-banner.jpg";
+
+import h6Poster from "@/assets/movies/h6-poster.jpg";
+import h6Banner from "@/assets/movies/h6-banner.jpg";
+
+import h7Poster from "@/assets/movies/h7-poster.jpg";
+import h7Banner from "@/assets/movies/h7-banner.jpg";
+
+import h8Poster from "@/assets/movies/h8-poster.jpg";
+import h8Banner from "@/assets/movies/h8-banner.jpg";
+
 export interface MovieImageEntry {
   poster: string;
   banner: string;
@@ -40,6 +61,45 @@ export const movieImages: Record<string, MovieImageEntry> = {
     poster: h1Poster,
     banner: h1Banner,
   },
+  "harry-potter-and-the-philosopher-s-stone": {
+  poster: h1Poster,
+  banner: h1Banner,
+},
+
+"harry-potter-and-the-chamber-of-secrets": {
+  poster: h2Poster,
+  banner: h2Banner,
+},
+
+"harry-potter-and-the-prisoner-of-azkaban": {
+  poster: h3Poster,
+  banner: h3Banner,
+},
+
+"harry-potter-and-the-goblet-of-fire": {
+  poster: h4Poster,
+  banner: h4Banner,
+},
+
+"harry-potter-and-the-order-of-the-phoenix": {
+  poster: h5Poster,
+  banner: h5Banner,
+},
+
+"harry-potter-and-the-half-blood-prince": {
+  poster: h6Poster,
+  banner: h6Banner,
+},
+
+"harry-potter-and-the-deathly-hallows-part-1": {
+  poster: h7Poster,
+  banner: h7Banner,
+},
+
+"harry-potter-and-the-deathly-hallows-part-2": {
+  poster: h8Poster,
+  banner: h8Banner,
+},
 };
 
 export function slugifyMovie(title: string): string {
