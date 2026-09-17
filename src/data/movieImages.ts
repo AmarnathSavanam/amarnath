@@ -404,8 +404,36 @@ export const movieImages: Record<string, MovieImageEntry> = {
    poster: f1Poster,
   banner: f1Banner,
  },
+  "transformers" : {
+poster:t1Poster,
+banner:t1Banner,
+},
   
-  
+"transformers-revenge-of-the-fallen" : {
+poster:t2Poster,
+banner:t2Banner,
+},
+"transformers-dark-of-the-moon" : {
+poster:t3Poster,
+banner:t3Banner,
+},
+"transformers-age-of-extinction" : {
+poster:t4Poster,
+banner:t4Banner,
+},
+"transformers-the-last-knight" : {
+poster:t5Poster,
+banner:t5Banner,
+},
+"bumblebee" : {
+poster:t6Poster,
+banner:t6Banner,
+},
+"transformers-rise-of-the-beasts" : {
+poster:t7Poster,
+banner:t7Banner,
+},
+
   
 };
 
