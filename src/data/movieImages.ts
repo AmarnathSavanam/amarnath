@@ -361,8 +361,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
    poster: fgPoster,
   banner: fgBanner,
  },
-    "the-adam-project
-":{
+    "the-adam-project":{
    poster: apPoster,
   banner: apBanner,
  },  "f1":{
