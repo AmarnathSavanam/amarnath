@@ -433,6 +433,26 @@ banner:t6Banner,
 poster:t7Poster,
 banner:t7Banner,
 },
+  "john-wick" : {
+poster:jw1Poster,
+banner:jw1Banner,
+},
+    "john-wick-chapter-2" : {
+poster:jw2Poster,
+banner:jw2Banner,
+},
+    "john-wick-chapter-3-parabellum" : {
+poster:jw3Poster,
+banner:jw3Banner,
+},
+"john-wick-chapter-4" : {
+poster:jw4Poster,
+banner:jw4Banner,
+},
+    "ballerina" : {
+poster:jw5Poster,
+banner:jw5Banner,
+},
 
   
 };
