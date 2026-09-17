@@ -52,6 +52,8 @@ import k3Banner from "@/assets/movies/k3-banner.jpg";
 import k4Poster from "@/assets/movies/k4-poster.jpg";
 import k4Banner from "@/assets/movies/k4-banner.jpg";
 
+
+
 // J1 - J7
 import j1Poster from "@/assets/movies/j1-poster.jpg";
 import j1Banner from "@/assets/movies/j1-banner.jpg";
@@ -67,6 +69,17 @@ import j6Poster from "@/assets/movies/j6-poster.jpg";
 import j6Banner from "@/assets/movies/j6-banner.jpg";
 import j7Poster from "@/assets/movies/j7-poster.jpg";
 import j7Banner from "@/assets/movies/j7-banner.jpg";
+
+import jw1Poster from "@/assets/movies/jw1-poster.jpg";
+import jw1Banner from "@/assets/movies/jw1-banner.jpg";
+import jw2Poster from "@/assets/movies/jw2-poster.jpg";
+import jw2Banner from "@/assets/movies/jw2-banner.jpg";
+import jw3Poster from "@/assets/movies/jw3-poster.jpg";
+import jw3Banner from "@/assets/movies/jw3-banner.jpg";
+import jw4Poster from "@/assets/movies/jw4-poster.jpg";
+import jw4Banner from "@/assets/movies/jw4-banner.jpg";
+import jw5Poster from "@/assets/movies/jw5-poster.jpg";
+import jw5Banner from "@/assets/movies/jw5-banner.jpg";
 
 // R1 - R3
 import r1Poster from "@/assets/movies/r1-poster.jpg";
@@ -105,6 +118,21 @@ import p4Poster from "@/assets/movies/p4-poster.jpg";
 import p4Banner from "@/assets/movies/p4-banner.jpg";
 import p5Poster from "@/assets/movies/p5-poster.jpg";
 import p5Banner from "@/assets/movies/p5-banner.jpg";
+
+import t1Poster from "@/assets/movies/t1-poster.jpg";
+import t1Banner from "@/assets/movies/t1-banner.jpg";
+import t2Poster from "@/assets/movies/t2-poster.jpg";
+import t2Banner from "@/assets/movies/t2-banner.jpg";
+import t3Poster from "@/assets/movies/t3-poster.jpg";
+import t3Banner from "@/assets/movies/t3-banner.jpg";
+import t4Poster from "@/assets/movies/t4-poster.jpg";
+import t4Banner from "@/assets/movies/t4-banner.jpg";
+import t5Poster from "@/assets/movies/t5-poster.jpg";
+import t5Banner from "@/assets/movies/t5-banner.jpg";
+import t6Poster from "@/assets/movies/t6-poster.jpg";
+import t6Banner from "@/assets/movies/t6-banner.jpg";
+import t7Poster from "@/assets/movies/t7-poster.jpg";
+import t7Banner from "@/assets/movies/t7-banner.jpg";
 
 import jmPoster from "@/assets/movies/jm-poster.jpg";
 import jmBanner from "@/assets/movies/jm-banner.jpg";
