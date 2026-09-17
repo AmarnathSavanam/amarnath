@@ -106,6 +106,32 @@ import p4Banner from "@/assets/movies/p4-banner.jpg";
 import p5Poster from "@/assets/movies/p5-poster.jpg";
 import p5Banner from "@/assets/movies/p5-banner.jpg";
 
+import jmPoster from "@/assets/movies/jm-poster.jpg";
+import jmBanner from "@/assets/movies/jm-banner.jpg";
+import bbPoster from "@/assets/movies/bb-poster.jpg";
+import bbBanner from "@/assets/movies/bb-banner.jpg";
+import alPoster from "@/assets/movies/al-poster.jpg";
+import alBanner from "@/assets/movies/al-banner.jpg";
+import lkPoster from "@/assets/movies/lk-poster.jpg";
+import lkBanner from "@/assets/movies/lk-banner.jpg";
+import jbPoster from "@/assets/movies/jb-poster.jpg";
+import jbBanner from "@/assets/movies/jb-banner.jpg";
+import jwPoster from "@/assets/movies/jw-poster.jpg";
+import jwBanner from "@/assets/movies/jw-banner.jpg";
+import jnPoster from "@/assets/movies/jn-poster.jpg";
+import jnBanner from "@/assets/movies/jn-banner.jpg";
+import rnPoster from "@/assets/movies/rn-poster.jpg";
+import rnBanner from "@/assets/movies/rn-banner.jpg";
+import btPoster from "@/assets/movies/bt-poster.jpg";
+import jnBanner from "@/assets/movies/bt-banner.jpg";
+import frPoster from "@/assets/movies/fr-poster.jpg";
+import frBanner from "@/assets/movies/fr-banner.jpg";
+import ucPoster from "@/assets/movies/uc-poster.jpg";
+import ucBanner from "@/assets/movies/uc-banner.jpg";
+import apPoster from "@/assets/movies/ap-poster.jpg";
+import apBanner from "@/assets/movies/ap-banner.jpg";
+import f1Poster from "@/assets/movies/f1-poster.jpg";
+import f1Banner from "@/assets/movies/f1-banner.jpg";
 
 export interface MovieImageEntry {
   poster: string;
@@ -291,6 +317,61 @@ export const movieImages: Record<string, MovieImageEntry> = {
   poster: j7Poster,
   banner: j7Banner,
 },
+  "journey-2-the-mysterious-island" : {
+    poster:jmPoster,
+    banner:jmBanner,
+  },
+  "beauty-and-the-beast":{
+    poster:bbPoster,
+    banner:bbBanner,
+  },
+  "aladdin" : {
+    poster:alPoster,
+    banner:alBanner,
+  },
+  "the-lion-king": {
+  poster: lkPoster,
+  banner: lkBanner,
+},
+    "the-jungle-book": {
+  poster: jbPoster,
+  banner: jbBanner,
+},
+   "jumanji-welcome-to-the-jungle": {
+  poster: jwPoster,
+  banner: jwBanner,
+}, 
+  "jumanji-the-next-level": {
+  poster: jnPoster,
+  banner: jnBanner,
+},
+ "red-notice":{
+   poster: rnPoster,
+  banner: rnBanner,
+ },
+   "bullet-train":{
+   poster: btPoster,
+  banner: btBanner,
+ },
+   "uncharted":{
+   poster: ucPoster,
+  banner: ucBanner,
+ },
+    "free-guy":{
+   poster: fgPoster,
+  banner: fgBanner,
+ },
+    "the-adam-project
+":{
+   poster: apPoster,
+  banner: apBanner,
+ },  "f1":{
+   poster: f1Poster,
+  banner: f1Banner,
+ },
+  
+  
+  
 };
 
 export function slugifyMovie(title: string): string {
