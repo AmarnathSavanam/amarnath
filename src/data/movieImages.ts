@@ -52,10 +52,17 @@ import dc1Banner from "@/assets/movies/dc1-banner.jpg";
 import dc2Poster from "@/assets/movies/dc2-poster.jpg";
 import dc2Banner from "@/assets/movies/dc2-banner.jpg";
 
+
 import du1Poster from "@/assets/movies/du1-poster.jpg";
 import du1Banner from "@/assets/movies/du1-banner.jpg";
 import du2Poster from "@/assets/movies/du2-poster.jpg";
 import du2Banner from "@/assets/movies/du2-banner.jpg";
+
+import e1Poster from "@/assets/movies/e1-poster.jpg";
+import e1Banner from "@/assets/movies/e1-banner.jpg";
+import e2Poster from "@/assets/movies/e2-poster.jpg";
+import e2Banner from "@/assets/movies/e2-banner.jpg";
+
 import fd1Poster from "@/assets/movies/fd1-poster.jpg";
 import fd1Banner from "@/assets/movies/fd1-banner.jpg";
 import fd2Poster from "@/assets/movies/fd2-poster.jpg";
@@ -226,6 +233,16 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  "extraction": {
+  poster: e1Poster,
+  banner: e1Banner,
+},
+
+"extraction-2": {
+  poster: e2Poster,
+  banner: e2Banner,
+},
+  
   "demonte-colony": {
   poster: dc1Poster,
   banner: dc1Banner,
@@ -246,7 +263,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: du2Banner,
 },
 
-  "dharandhar": {
+  "dhurandhar": {
   poster: d1Poster,
   banner: d1Banner,
 },
