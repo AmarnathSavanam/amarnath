@@ -212,6 +212,20 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  "baahubali-the-beginning": {
+  poster: btb1Poster,
+  banner: btb1Banner,
+},
+
+"baahubali-2-the-conclusion": {
+  poster: btb2Poster,
+  banner: btb2Banner,
+},
+
+"baahubali-the-lost-legends": {
+  poster: btb3Poster,
+  banner: btb3Banner,
+},
   inception: {
     poster: inceptionPoster,
     banner: inceptionBanner,
