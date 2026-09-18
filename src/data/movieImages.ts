@@ -16,27 +16,57 @@ import inceptionBanner from "@/assets/movies/inception-banner.jpg";
 import jumanjiPoster from "@/assets/movies/Jumanji-poster.jpg";
 import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
 
+import c1Poster from "@/assets/movies/c1-poster.jpg";
+import c1Banner from "@/assets/movies/c1-banner.jpg";
+import c2Poster from "@/assets/movies/c2-poster.jpg";
+import c2Banner from "@/assets/movies/c2-banner.jpg";
+import c3Poster from "@/assets/movies/c3-poster.jpg";
+import c3Banner from "@/assets/movies/c3-banner.jpg";
+import c4Poster from "@/assets/movies/c4-poster.jpg";
+import c4Banner from "@/assets/movies/c4-banner.jpg";
+import c5Poster from "@/assets/movies/c5-poster.jpg";
+import c5Banner from "@/assets/movies/c5-banner.jpg";
+import c6Poster from "@/assets/movies/c6-poster.jpg";
+import c6Banner from "@/assets/movies/c6-banner.jpg";
+import c7Poster from "@/assets/movies/c7-poster.jpg";
+import c7Banner from "@/assets/movies/c7-banner.jpg";
+import c8Poster from "@/assets/movies/c8-poster.jpg";
+import c8Banner from "@/assets/movies/c8-banner.jpg";
+import c9Poster from "@/assets/movies/c9-poster.jpg";
+import c9Banner from "@/assets/movies/c9-banner.jpg";
+
+import fd1Poster from "@/assets/movies/fd1-poster.jpg";
+import fd1Banner from "@/assets/movies/fd1-banner.jpg";
+import fd2Poster from "@/assets/movies/fd2-poster.jpg";
+import fd2Banner from "@/assets/movies/fd2-banner.jpg";
+import fd3Poster from "@/assets/movies/fd3-poster.jpg";
+import fd3Banner from "@/assets/movies/fd3-banner.jpg";
+import fd4Poster from "@/assets/movies/fd4-poster.jpg";
+import fd4Banner from "@/assets/movies/fd4-banner.jpg";
+import fd5Poster from "@/assets/movies/fd5-poster.jpg";
+import fd5Banner from "@/assets/movies/fd5-banner.jpg";
+import fd6Poster from "@/assets/movies/fd6-poster.jpg";
+import fd6Banner from "@/assets/movies/fd6-banner.jpg";
+
+import it1Poster from "@/assets/movies/it1-poster.jpg";
+import it1Banner from "@/assets/movies/it1-banner.jpg";
+import it2Poster from "@/assets/movies/it2-poster.jpg";
+import it2Banner from "@/assets/movies/it2-banner.jpg";
+
 import h1Poster from "@/assets/movies/h1-poster.jpg";
 import h1Banner from "@/assets/movies/h1-banner.jpg";
-
 import h2Poster from "@/assets/movies/h2-poster.jpg";
 import h2Banner from "@/assets/movies/h2-banner.jpg";
-
 import h3Poster from "@/assets/movies/h3-poster.jpg";
 import h3Banner from "@/assets/movies/h3-banner.jpg";
-
 import h4Poster from "@/assets/movies/h4-poster.jpg";
 import h4Banner from "@/assets/movies/h4-banner.jpg";
-
 import h5Poster from "@/assets/movies/h5-poster.jpg";
 import h5Banner from "@/assets/movies/h5-banner.jpg";
-
 import h6Poster from "@/assets/movies/h6-poster.jpg";
 import h6Banner from "@/assets/movies/h6-banner.jpg";
-
 import h7Poster from "@/assets/movies/h7-poster.jpg";
 import h7Banner from "@/assets/movies/h7-banner.jpg";
-
 import h8Poster from "@/assets/movies/h8-poster.jpg";
 import h8Banner from "@/assets/movies/h8-banner.jpg";
 
@@ -454,6 +484,86 @@ poster:jw5Poster,
 banner:jw5Banner,
 },
 
+
+"final-destination": {
+  poster: fd1Poster,
+  banner: fd1Banner,
+},
+
+"final-destination-2": {
+  poster: fd2Poster,
+  banner: fd2Banner,
+},
+
+"final-destination-3": {
+  poster: fd3Poster,
+  banner: fd3Banner,
+},
+
+"the-final-destination": {
+  poster: fd4Poster,
+  banner: fd4Banner,
+},
+
+"final-destination-5": {
+  poster: fd5Poster,
+  banner: fd5Banner,
+},
+
+"final-destination-bloodlines": {
+  poster: fd6Poster,
+  banner: fd6Banner,
+},
+
+"the-conjuring": {
+  poster: c1Poster,
+  banner: c1Banner,
+},
+
+"the-conjuring-2": {
+  poster: c2Poster,
+  banner: c2Banner,
+},
+
+"the-conjuring-the-devil-made-me-do-it": {
+  poster: c3Poster,
+  banner: c3Banner,
+},
+
+"the-conjuring-last-rites": {
+  poster: c4Poster,
+  banner: c4Banner,
+},
+
+"annabelle": {
+  poster: c5Poster,
+  banner: c5Banner,
+},
+
+"annabelle-creation": {
+  poster: c6Poster,
+  banner: c6Banner,
+},
+
+"annabelle-comes-home": {
+  poster: c7Poster,
+  banner: c7Banner,
+},
+
+"the-nun": {
+  poster: c8Poster,
+  banner: c8Banner,
+},
+
+"the-nun-ii": {
+  poster: c9Poster,
+  banner: c9Banner,
+},
+
+"it-chapter-two": {
+  poster: it2Poster,
+  banner: it2Banner,
+},
   
 };
 
