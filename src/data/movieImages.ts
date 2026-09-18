@@ -1,3 +1,4 @@
+
 /**
  * Movie image store.
  *
@@ -15,31 +16,6 @@ import inceptionBanner from "@/assets/movies/inception-banner.jpg";
 import jumanjiPoster from "@/assets/movies/Jumanji-poster.jpg";
 import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
 
-// Avatar
-import a1Poster from "@/assets/movies/a1-poster.jpg";
-import a1Banner from "@/assets/movies/a1-banner.jpg";
-import a2Poster from "@/assets/movies/a2-poster.jpg";
-import a2Banner from "@/assets/movies/a2-banner.jpg";
-import a3Poster from "@/assets/movies/a3-poster.jpg";
-import a3Banner from "@/assets/movies/a3-banner.jpg";
-
-// Baahubali
-import btb1Poster from "@/assets/movies/btb1-poster.jpg";
-import btb1Banner from "@/assets/movies/btb1-banner.jpg";
-import btb2Poster from "@/assets/movies/btb2-poster.jpg";
-import btb2Banner from "@/assets/movies/btb2-banner.jpg";
-import btb3Poster from "@/assets/movies/btb3-poster.jpg";
-import btb3Banner from "@/assets/movies/btb3-banner.jpg";
-
-// Beauty and the Beast
-import bbPoster from "@/assets/movies/bb-poster.jpg";
-import bbBanner from "@/assets/movies/bb-banner.jpg";
-
-// Aladdin
-import alPoster from "@/assets/movies/al-poster.jpg";
-import alBanner from "@/assets/movies/al-banner.jpg";
-
-// The Conjuring
 import c1Poster from "@/assets/movies/c1-poster.jpg";
 import c1Banner from "@/assets/movies/c1-banner.jpg";
 import c2Poster from "@/assets/movies/c2-poster.jpg";
@@ -59,35 +35,6 @@ import c8Banner from "@/assets/movies/c8-banner.jpg";
 import c9Poster from "@/assets/movies/c9-poster.jpg";
 import c9Banner from "@/assets/movies/c9-banner.jpg";
 
-// Dhurandhar
-import d1Poster from "@/assets/movies/d1-poster.jpg";
-import d1Banner from "@/assets/movies/d1-banner.jpg";
-import d2Poster from "@/assets/movies/d2-poster.jpg";
-import d2Banner from "@/assets/movies/d2-banner.jpg";
-
-// Demonte Colony
-import dc1Poster from "@/assets/movies/dc1-poster.jpg";
-import dc1Banner from "@/assets/movies/dc1-banner.jpg";
-import dc2Poster from "@/assets/movies/dc2-poster.jpg";
-import dc2Banner from "@/assets/movies/dc2-banner.jpg";
-
-// Dune
-import du1Poster from "@/assets/movies/du1-poster.jpg";
-import du1Banner from "@/assets/movies/du1-banner.jpg";
-import du2Poster from "@/assets/movies/du2-poster.jpg";
-import du2Banner from "@/assets/movies/du2-banner.jpg";
-
-// Extraction
-import e1Poster from "@/assets/movies/e1-poster.jpg";
-import e1Banner from "@/assets/movies/e1-banner.jpg";
-import e2Poster from "@/assets/movies/e2-poster.jpg";
-import e2Banner from "@/assets/movies/e2-banner.jpg";
-
-// F1
-import f1Poster from "@/assets/movies/f1-poster.jpg";
-import f1Banner from "@/assets/movies/f1-banner.jpg";
-
-// Final Destination
 import fd1Poster from "@/assets/movies/fd1-poster.jpg";
 import fd1Banner from "@/assets/movies/fd1-banner.jpg";
 import fd2Poster from "@/assets/movies/fd2-poster.jpg";
@@ -101,11 +48,11 @@ import fd5Banner from "@/assets/movies/fd5-banner.jpg";
 import fd6Poster from "@/assets/movies/fd6-poster.jpg";
 import fd6Banner from "@/assets/movies/fd6-banner.jpg";
 
-// Free Guy
-import fgPoster from "@/assets/movies/fg-poster.jpg";
-import fgBanner from "@/assets/movies/fg-banner.jpg";
+import it1Poster from "@/assets/movies/it1-poster.jpg";
+import it1Banner from "@/assets/movies/it1-banner.jpg";
+import it2Poster from "@/assets/movies/it2-poster.jpg";
+import it2Banner from "@/assets/movies/it2-banner.jpg";
 
-// Harry Potter
 import h1Poster from "@/assets/movies/h1-poster.jpg";
 import h1Banner from "@/assets/movies/h1-banner.jpg";
 import h2Poster from "@/assets/movies/h2-poster.jpg";
@@ -123,13 +70,21 @@ import h7Banner from "@/assets/movies/h7-banner.jpg";
 import h8Poster from "@/assets/movies/h8-poster.jpg";
 import h8Banner from "@/assets/movies/h8-banner.jpg";
 
-// IT
-import it1Poster from "@/assets/movies/it1-poster.jpg";
-import it1Banner from "@/assets/movies/it1-banner.jpg";
-import it2Poster from "@/assets/movies/it2-poster.jpg";
-import it2Banner from "@/assets/movies/it2-banner.jpg";
+import k1Poster from "@/assets/movies/k1-poster.jpg";
+import k1Banner from "@/assets/movies/k1-banner.jpg";
 
-// Jurassic Park / Jurassic World
+import k2Poster from "@/assets/movies/k2-poster.jpg";
+import k2Banner from "@/assets/movies/k2-banner.jpg";
+
+import k3Poster from "@/assets/movies/k3-poster.jpg";
+import k3Banner from "@/assets/movies/k3-banner.jpg";
+
+import k4Poster from "@/assets/movies/k4-poster.jpg";
+import k4Banner from "@/assets/movies/k4-banner.jpg";
+
+
+
+// J1 - J7
 import j1Poster from "@/assets/movies/j1-poster.jpg";
 import j1Banner from "@/assets/movies/j1-banner.jpg";
 import j2Poster from "@/assets/movies/j2-poster.jpg";
@@ -145,17 +100,6 @@ import j6Banner from "@/assets/movies/j6-banner.jpg";
 import j7Poster from "@/assets/movies/j7-poster.jpg";
 import j7Banner from "@/assets/movies/j7-banner.jpg";
 
-// Jungle Book / Journey / Jumanji
-import jbPoster from "@/assets/movies/jb-poster.jpg";
-import jbBanner from "@/assets/movies/jb-banner.jpg";
-import jmPoster from "@/assets/movies/jm-poster.jpg";
-import jmBanner from "@/assets/movies/jm-banner.jpg";
-import jnPoster from "@/assets/movies/jn-poster.jpg";
-import jnBanner from "@/assets/movies/jn-banner.jpg";
-import jwPoster from "@/assets/movies/jw-poster.jpg";
-import jwBanner from "@/assets/movies/jw-banner.jpg";
-
-// John Wick
 import jw1Poster from "@/assets/movies/jw1-poster.jpg";
 import jw1Banner from "@/assets/movies/jw1-banner.jpg";
 import jw2Poster from "@/assets/movies/jw2-poster.jpg";
@@ -167,27 +111,23 @@ import jw4Banner from "@/assets/movies/jw4-banner.jpg";
 import jw5Poster from "@/assets/movies/jw5-poster.jpg";
 import jw5Banner from "@/assets/movies/jw5-banner.jpg";
 
-// Kung Fu Panda
-import k1Poster from "@/assets/movies/k1-poster.jpg";
-import k1Banner from "@/assets/movies/k1-banner.jpg";
-import k2Poster from "@/assets/movies/k2-poster.jpg";
-import k2Banner from "@/assets/movies/k2-banner.jpg";
-import k3Poster from "@/assets/movies/k3-poster.jpg";
-import k3Banner from "@/assets/movies/k3-banner.jpg";
-import k4Poster from "@/assets/movies/k4-poster.jpg";
-import k4Banner from "@/assets/movies/k4-banner.jpg";
+// R1 - R3
+import r1Poster from "@/assets/movies/r1-poster.jpg";
+import r1Banner from "@/assets/movies/r1-banner.jpg";
+import r2Poster from "@/assets/movies/r2-poster.jpg";
+import r2Banner from "@/assets/movies/r2-banner.jpg";
+import r3Poster from "@/assets/movies/r3-poster.jpg";
+import r3Banner from "@/assets/movies/r3-banner.jpg";
 
-// KGF
-import kgf1Poster from "@/assets/movies/kgf1-poster.jpg";
-import kgf1Banner from "@/assets/movies/kgf1-banner.jpg";
-import kgf2Poster from "@/assets/movies/kgf2-poster.jpg";
-import kgf2Banner from "@/assets/movies/kgf2-banner.jpg";
+// A1 - A3
+import a1Poster from "@/assets/movies/a1-poster.jpg";
+import a1Banner from "@/assets/movies/a1-banner.jpg";
+import a2Poster from "@/assets/movies/a2-poster.jpg";
+import a2Banner from "@/assets/movies/a2-banner.jpg";
+import a3Poster from "@/assets/movies/a3-poster.jpg";
+import a3Banner from "@/assets/movies/a3-banner.jpg";
 
-// Lion King
-import lkPoster from "@/assets/movies/lk-poster.jpg";
-import lkBanner from "@/assets/movies/lk-banner.jpg";
-
-// Men in Black
+// M1 - M4
 import m1Poster from "@/assets/movies/m1-poster.jpg";
 import m1Banner from "@/assets/movies/m1-banner.jpg";
 import m2Poster from "@/assets/movies/m2-poster.jpg";
@@ -197,13 +137,7 @@ import m3Banner from "@/assets/movies/m3-banner.jpg";
 import m4Poster from "@/assets/movies/m4-poster.jpg";
 import m4Banner from "@/assets/movies/m4-banner.jpg";
 
-// The Meg
-import me1Poster from "@/assets/movies/me1-poster.jpg";
-import me1Banner from "@/assets/movies/me1-banner.jpg";
-import me2Poster from "@/assets/movies/me2-poster.jpg";
-import me2Banner from "@/assets/movies/me2-banner.jpg";
-
-// Pirates of the Caribbean
+// P1 - P5
 import p1Poster from "@/assets/movies/p1-poster.jpg";
 import p1Banner from "@/assets/movies/p1-banner.jpg";
 import p2Poster from "@/assets/movies/p2-poster.jpg";
@@ -215,17 +149,6 @@ import p4Banner from "@/assets/movies/p4-banner.jpg";
 import p5Poster from "@/assets/movies/p5-poster.jpg";
 import p5Banner from "@/assets/movies/p5-banner.jpg";
 
-// Rush Hour / Red Notice
-import r1Poster from "@/assets/movies/r1-poster.jpg";
-import r1Banner from "@/assets/movies/r1-banner.jpg";
-import r2Poster from "@/assets/movies/r2-poster.jpg";
-import r2Banner from "@/assets/movies/r2-banner.jpg";
-import r3Poster from "@/assets/movies/r3-poster.jpg";
-import r3Banner from "@/assets/movies/r3-banner.jpg";
-import rnPoster from "@/assets/movies/rn-poster.jpg";
-import rnBanner from "@/assets/movies/rn-banner.jpg";
-
-// Transformers
 import t1Poster from "@/assets/movies/t1-poster.jpg";
 import t1Banner from "@/assets/movies/t1-banner.jpg";
 import t2Poster from "@/assets/movies/t2-poster.jpg";
@@ -241,13 +164,40 @@ import t6Banner from "@/assets/movies/t6-banner.jpg";
 import t7Poster from "@/assets/movies/t7-poster.jpg";
 import t7Banner from "@/assets/movies/t7-banner.jpg";
 
-// Uncharted
+import jmPoster from "@/assets/movies/jm-poster.jpg";
+import jmBanner from "@/assets/movies/jm-banner.jpg";
+import bbPoster from "@/assets/movies/bb-poster.jpg";
+import bbBanner from "@/assets/movies/bb-banner.jpg";
+import alPoster from "@/assets/movies/al-poster.jpg";
+import alBanner from "@/assets/movies/al-banner.jpg";
+import lkPoster from "@/assets/movies/lk-poster.jpg";
+import lkBanner from "@/assets/movies/lk-banner.jpg";
+import jbPoster from "@/assets/movies/jb-poster.jpg";
+import jbBanner from "@/assets/movies/jb-banner.jpg";
+import jwPoster from "@/assets/movies/jw-poster.jpg";
+import jwBanner from "@/assets/movies/jw-banner.jpg";
+import jnPoster from "@/assets/movies/jn-poster.jpg";
+import jnBanner from "@/assets/movies/jn-banner.jpg";
+import rnPoster from "@/assets/movies/rn-poster.jpg";
+import rnBanner from "@/assets/movies/rn-banner.jpg";
+
+import btPoster from "@/assets/movies/bt-poster.jpg";
+import btBanner from "@/assets/movies/bt-banner.jpg";
+
+import frPoster from "@/assets/movies/fr-poster.jpg";
+import frBanner from "@/assets/movies/fr-banner.jpg";
+
 import ucPoster from "@/assets/movies/uc-poster.jpg";
 import ucBanner from "@/assets/movies/uc-banner.jpg";
 
-// The Adam Project
+import fgPoster from "@/assets/movies/fg-poster.jpg";
+import fgBanner from "@/assets/movies/fg-banner.jpg";
+
 import apPoster from "@/assets/movies/ap-poster.jpg";
 import apBanner from "@/assets/movies/ap-banner.jpg";
+
+import f1Poster from "@/assets/movies/f1-poster.jpg";
+import f1Banner from "@/assets/movies/f1-banner.jpg";
 
 export interface MovieImageEntry {
   poster: string;
@@ -265,479 +215,360 @@ export const movieImages: Record<string, MovieImageEntry> = {
     banner: jumanjiBanner,
   },
 
-  // Harry Potter
+  // Harry Potter and the Philosopher's Stone
   "harry-potter-and-the-philosopher-s-stone": {
-    poster: h1Poster,
-    banner: h1Banner,
-  },
+  poster: h1Poster,
+  banner: h1Banner,
+},
 
-  "harry-potter-and-the-chamber-of-secrets": {
-    poster: h2Poster,
-    banner: h2Banner,
-  },
+"harry-potter-and-the-chamber-of-secrets": {
+  poster: h2Poster,
+  banner: h2Banner,
+},
 
-  "harry-potter-and-the-prisoner-of-azkaban": {
-    poster: h3Poster,
-    banner: h3Banner,
-  },
+"harry-potter-and-the-prisoner-of-azkaban": {
+  poster: h3Poster,
+  banner: h3Banner,
+},
 
-  "harry-potter-and-the-goblet-of-fire": {
-    poster: h4Poster,
-    banner: h4Banner,
-  },
+"harry-potter-and-the-goblet-of-fire": {
+  poster: h4Poster,
+  banner: h4Banner,
+},
 
-  "harry-potter-and-the-order-of-the-phoenix": {
-    poster: h5Poster,
-    banner: h5Banner,
-  },
+"harry-potter-and-the-order-of-the-phoenix": {
+  poster: h5Poster,
+  banner: h5Banner,
+},
 
-  "harry-potter-and-the-half-blood-prince": {
-    poster: h6Poster,
-    banner: h6Banner,
-  },
+"harry-potter-and-the-half-blood-prince": {
+  poster: h6Poster,
+  banner: h6Banner,
+},
 
-  "harry-potter-and-the-deathly-hallows-part-1": {
-    poster: h7Poster,
-    banner: h7Banner,
-  },
+"harry-potter-and-the-deathly-hallows-part-1": {
+  poster: h7Poster,
+  banner: h7Banner,
+},
 
-  "harry-potter-and-the-deathly-hallows-part-2": {
-    poster: h8Poster,
-    banner: h8Banner,
-  },
-
-  // Kung Fu Panda
+"harry-potter-and-the-deathly-hallows-part-2": {
+  poster: h8Poster,
+  banner: h8Banner,
+},
   "kung-fu-panda": {
-    poster: k1Poster,
-    banner: k1Banner,
-  },
+  poster: k1Poster,
+  banner: k1Banner,
+},
 
-  "kung-fu-panda-2": {
-    poster: k2Poster,
-    banner: k2Banner,
-  },
+"kung-fu-panda-2": {
+  poster: k2Poster,
+  banner: k2Banner,
+},
 
-  "kung-fu-panda-3": {
-    poster: k3Poster,
-    banner: k3Banner,
-  },
+"kung-fu-panda-3": {
+  poster: k3Poster,
+  banner: k3Banner,
+},
 
-  "kung-fu-panda-4": {
-    poster: k4Poster,
-    banner: k4Banner,
-  },
-
-  // Pirates of the Caribbean
+"kung-fu-panda-4": {
+  poster: k4Poster,
+  banner: k4Banner,
+},
   "pirates-of-the-caribbean-the-curse-of-the-black-pearl": {
-    poster: p1Poster,
-    banner: p1Banner,
-  },
+  poster: p1Poster,
+  banner: p1Banner,
+},
 
-  "pirates-of-the-caribbean-dead-man-s-chest": {
-    poster: p2Poster,
-    banner: p2Banner,
-  },
+"pirates-of-the-caribbean-dead-man-s-chest": {
+  poster: p2Poster,
+  banner: p2Banner,
+},
 
-  "pirates-of-the-caribbean-at-world-s-end": {
-    poster: p3Poster,
-    banner: p3Banner,
-  },
+"pirates-of-the-caribbean-at-world-s-end": {
+  poster: p3Poster,
+  banner: p3Banner,
+},
 
-  "pirates-of-the-caribbean-on-stranger-tides": {
-    poster: p4Poster,
-    banner: p4Banner,
-  },
+"pirates-of-the-caribbean-on-stranger-tides": {
+  poster: p4Poster,
+  banner: p4Banner,
+},
 
-  "pirates-of-the-caribbean-dead-men-tell-no-tales": {
-    poster: p5Poster,
-    banner: p5Banner,
-  },
+"pirates-of-the-caribbean-dead-men-tell-no-tales": {
+  poster: p5Poster,
+  banner: p5Banner,
+},
 
-  // Rush Hour
-  "rush-hour": {
-    poster: r1Poster,
-    banner: r1Banner,
-  },
+"rush-hour": {
+  poster: r1Poster,
+  banner: r1Banner,
+},
 
-  "rush-hour-2": {
-    poster: r2Poster,
-    banner: r2Banner,
-  },
+"rush-hour-2": {
+  poster: r2Poster,
+  banner: r2Banner,
+},
 
-  "rush-hour-3": {
-    poster: r3Poster,
-    banner: r3Banner,
-  },
+"rush-hour-3": {
+  poster: r3Poster,
+  banner: r3Banner,
+},
 
-  // Men in Black
-  "men-in-black": {
-    poster: m1Poster,
-    banner: m1Banner,
-  },
+"men-in-black": {
+  poster: m1Poster,
+  banner: m1Banner,
+},
 
-  "men-in-black-ii": {
-    poster: m2Poster,
-    banner: m2Banner,
-  },
+"men-in-black-ii": {
+  poster: m2Poster,
+  banner: m2Banner,
+},
 
-  "men-in-black-3": {
-    poster: m3Poster,
-    banner: m3Banner,
-  },
+"men-in-black-3": {
+  poster: m3Poster,
+  banner: m3Banner,
+},
 
-  "men-in-black-international": {
-    poster: m4Poster,
-    banner: m4Banner,
-  },
+"men-in-black-international": {
+  poster: m4Poster,
+  banner: m4Banner,
+},
 
-  // Avatar
-  avatar: {
-    poster: a1Poster,
-    banner: a1Banner,
-  },
+"avatar": {
+  poster: a1Poster,
+  banner: a1Banner,
+},
 
-  "avatar-the-way-of-water": {
-    poster: a2Poster,
-    banner: a2Banner,
-  },
+"avatar-the-way-of-water": {
+  poster: a2Poster,
+  banner: a2Banner,
+},
 
-  "avatar-fire-and-ash": {
-    poster: a3Poster,
-    banner: a3Banner,
-  },
+"avatar-fire-and-ash": {
+  poster: a3Poster,
+  banner: a3Banner,
+},
 
-  // Jurassic Park / World
-  "jurassic-park": {
-    poster: j1Poster,
-    banner: j1Banner,
-  },
+"jurassic-park": {
+  poster: j1Poster,
+  banner: j1Banner,
+},
 
-  "the-lost-world-jurassic-park": {
-    poster: j2Poster,
-    banner: j2Banner,
-  },
+"the-lost-world-jurassic-park": {
+  poster: j2Poster,
+  banner: j2Banner,
+},
 
-  "jurassic-park-iii": {
-    poster: j3Poster,
-    banner: j3Banner,
-  },
+"jurassic-park-iii": {
+  poster: j3Poster,
+  banner: j3Banner,
+},
 
-  "jurassic-world": {
-    poster: j4Poster,
-    banner: j4Banner,
-  },
+"jurassic-world": {
+  poster: j4Poster,
+  banner: j4Banner,
+},
 
-  "jurassic-world-fallen-kingdom": {
-    poster: j5Poster,
-    banner: j5Banner,
-  },
+"jurassic-world-fallen-kingdom": {
+  poster: j5Poster,
+  banner: j5Banner,
+},
 
-  "jurassic-world-dominion": {
-    poster: j6Poster,
-    banner: j6Banner,
-  },
+"jurassic-world-dominion": {
+  poster: j6Poster,
+  banner: j6Banner,
+},
 
-  "jurassic-world-rebirth": {
-    poster: j7Poster,
-    banner: j7Banner,
+"jurassic-world-rebirth": {
+  poster: j7Poster,
+  banner: j7Banner,
+},
+  "journey-2-the-mysterious-island" : {
+    poster:jmPoster,
+    banner:jmBanner,
   },
-
-  "journey-2-the-mysterious-island": {
-    poster: jmPoster,
-    banner: jmBanner,
+  "beauty-and-the-beast":{
+    poster:bbPoster,
+    banner:bbBanner,
   },
-
-  "beauty-and-the-beast": {
-    poster: bbPoster,
-    banner: bbBanner,
+  "aladdin" : {
+    poster:alPoster,
+    banner:alBanner,
   },
-
-  aladdin: {
-    poster: alPoster,
-    banner: alBanner,
-  },
-
   "the-lion-king": {
-    poster: lkPoster,
-    banner: lkBanner,
-  },
-
-  "the-jungle-book": {
-    poster: jbPoster,
-    banner: jbBanner,
-  },
-
-  "jumanji-welcome-to-the-jungle": {
-    poster: jwPoster,
-    banner: jwBanner,
-  },
-
+  poster: lkPoster,
+  banner: lkBanner,
+},
+    "the-jungle-book": {
+  poster: jbPoster,
+  banner: jbBanner,
+},
+   "jumanji-welcome-to-the-jungle": {
+  poster: jwPoster,
+  banner: jwBanner,
+}, 
   "jumanji-the-next-level": {
-    poster: jnPoster,
-    banner: jnBanner,
-  },
+  poster: jnPoster,
+  banner: jnBanner,
+},
+ "red-notice":{
+   poster: rnPoster,
+  banner: rnBanner,
+ },
+   "bullet-train":{
+   poster: btPoster,
+  banner: btBanner,
+ },
+   "uncharted":{
+   poster: ucPoster,
+  banner: ucBanner,
+ },
+    "free-guy":{
+   poster: fgPoster,
+  banner: fgBanner,
+ },
+    "the-adam-project":{
+   poster: apPoster,
+  banner: apBanner,
+ },  "f1":{
+   poster: f1Poster,
+  banner: f1Banner,
+ },
+  "transformers" : {
+poster:t1Poster,
+banner:t1Banner,
+},
 
-  "red-notice": {
-    poster: rnPoster,
-    banner: rnBanner,
-  },
+"transformers-revenge-of-the-fallen" : {
+poster:t2Poster,
+banner:t2Banner,
+},
+"transformers-dark-of-the-moon" : {
+poster:t3Poster,
+banner:t3Banner,
+},
+"transformers-age-of-extinction" : {
+poster:t4Poster,
+banner:t4Banner,
+},
+"transformers-the-last-knight" : {
+poster:t5Poster,
+banner:t5Banner,
+},
+"bumblebee" : {
+poster:t6Poster,
+banner:t6Banner,
+},
+"transformers-rise-of-the-beasts" : {
+poster:t7Poster,
+banner:t7Banner,
+},
+  "john-wick" : {
+poster:jw1Poster,
+banner:jw1Banner,
+},
+    "john-wick-chapter-2" : {
+poster:jw2Poster,
+banner:jw2Banner,
+},
+    "john-wick-chapter-3-parabellum" : {
+poster:jw3Poster,
+banner:jw3Banner,
+},
+"john-wick-chapter-4" : {
+poster:jw4Poster,
+banner:jw4Banner,
+},
+    "ballerina" : {
+poster:jw5Poster,
+banner:jw5Banner,
+},
 
-  "bullet-train": {
-    poster: btPoster,
-    banner: btBanner,
-  },
 
-  uncharted: {
-    poster: ucPoster,
-    banner: ucBanner,
-  },
+"final-destination": {
+  poster: fd1Poster,
+  banner: fd1Banner,
+},
 
-  "free-guy": {
-    poster: fgPoster,
-    banner: fgBanner,
-  },
+"final-destination-2": {
+  poster: fd2Poster,
+  banner: fd2Banner,
+},
 
-  "the-adam-project": {
-    poster: apPoster,
-    banner: apBanner,
-  },
+"final-destination-3": {
+  poster: fd3Poster,
+  banner: fd3Banner,
+},
 
-  f1: {
-    poster: f1Poster,
-    banner: f1Banner,
-  },
+"the-final-destination": {
+  poster: fd4Poster,
+  banner: fd4Banner,
+},
 
-  // Transformers
-  transformers: {
-    poster: t1Poster,
-    banner: t1Banner,
-  },
+"final-destination-5": {
+  poster: fd5Poster,
+  banner: fd5Banner,
+},
 
-  "transformers-revenge-of-the-fallen": {
-    poster: t2Poster,
-    banner: t2Banner,
-  },
+"final-destination-bloodlines": {
+  poster: fd6Poster,
+  banner: fd6Banner,
+},
 
-  "transformers-dark-of-the-moon": {
-    poster: t3Poster,
-    banner: t3Banner,
-  },
+"the-conjuring": {
+  poster: c1Poster,
+  banner: c1Banner,
+},
 
-  "transformers-age-of-extinction": {
-    poster: t4Poster,
-    banner: t4Banner,
-  },
+"the-conjuring-2": {
+  poster: c2Poster,
+  banner: c2Banner,
+},
 
-  "transformers-the-last-knight": {
-    poster: t5Poster,
-    banner: t5Banner,
-  },
+"the-conjuring-the-devil-made-me-do-it": {
+  poster: c3Poster,
+  banner: c3Banner,
+},
 
-  bumblebee: {
-    poster: t6Poster,
-    banner: t6Banner,
-  },
+"the-conjuring-last-rites": {
+  poster: c4Poster,
+  banner: c4Banner,
+},
 
-  "transformers-rise-of-the-beasts": {
-    poster: t7Poster,
-    banner: t7Banner,
-  },
+"annabelle": {
+  poster: c5Poster,
+  banner: c5Banner,
+},
 
-  // John Wick
-  "john-wick": {
-    poster: jw1Poster,
-    banner: jw1Banner,
-  },
+"annabelle-creation": {
+  poster: c6Poster,
+  banner: c6Banner,
+},
 
-  "john-wick-chapter-2": {
-    poster: jw2Poster,
-    banner: jw2Banner,
-  },
+"annabelle-comes-home": {
+  poster: c7Poster,
+  banner: c7Banner,
+},
 
-  "john-wick-chapter-3-parabellum": {
-    poster: jw3Poster,
-    banner: jw3Banner,
-  },
+"the-nun": {
+  poster: c8Poster,
+  banner: c8Banner,
+},
 
-  "john-wick-chapter-4": {
-    poster: jw4Poster,
-    banner: jw4Banner,
-  },
+"the-nun-ii": {
+  poster: c9Poster,
+  banner: c9Banner,
+},
 
-  ballerina: {
-    poster: jw5Poster,
-    banner: jw5Banner,
-  },
+"it": {
+  poster: it1Poster,
+  banner: it1Banner,
+},
+"it-chapter-two": {
+  poster: it2Poster,
+  banner: it2Banner,
+},
 
-  // Final Destination
-  "final-destination": {
-    poster: fd1Poster,
-    banner: fd1Banner,
-  },
-
-  "final-destination-2": {
-    poster: fd2Poster,
-    banner: fd2Banner,
-  },
-
-  "final-destination-3": {
-    poster: fd3Poster,
-    banner: fd3Banner,
-  },
-
-  "the-final-destination": {
-    poster: fd4Poster,
-    banner: fd4Banner,
-  },
-
-  "final-destination-5": {
-    poster: fd5Poster,
-    banner: fd5Banner,
-  },
-
-  "final-destination-bloodlines": {
-    poster: fd6Poster,
-    banner: fd6Banner,
-  },
-
-  // The Conjuring
-  "the-conjuring": {
-    poster: c1Poster,
-    banner: c1Banner,
-  },
-
-  "the-conjuring-2": {
-    poster: c2Poster,
-    banner: c2Banner,
-  },
-
-  "the-conjuring-the-devil-made-me-do-it": {
-    poster: c3Poster,
-    banner: c3Banner,
-  },
-
-  "the-conjuring-last-rites": {
-    poster: c4Poster,
-    banner: c4Banner,
-  },
-
-  annabelle: {
-    poster: c5Poster,
-    banner: c5Banner,
-  },
-
-  "annabelle-creation": {
-    poster: c6Poster,
-    banner: c6Banner,
-  },
-
-  "annabelle-comes-home": {
-    poster: c7Poster,
-    banner: c7Banner,
-  },
-
-  "the-nun": {
-    poster: c8Poster,
-    banner: c8Banner,
-  },
-
-  "the-nun-ii": {
-    poster: c9Poster,
-    banner: c9Banner,
-  },
-
-  // IT
-  it: {
-    poster: it1Poster,
-    banner: it1Banner,
-  },
-
-  "it-chapter-two": {
-    poster: it2Poster,
-    banner: it2Banner,
-  },
-
-  // Dhurandhar
-  dhurandhar: {
-    poster: d1Poster,
-    banner: d1Banner,
-  },
-
-  "dhurandhar-the-revenge": {
-    poster: d2Poster,
-    banner: d2Banner,
-  },
-
-  // The Meg
-  "the-meg": {
-    poster: me1Poster,
-    banner: me1Banner,
-  },
-
-  "meg-2-the-trench": {
-    poster: me2Poster,
-    banner: me2Banner,
-  },
-
-  // Extraction
-  extraction: {
-    poster: e1Poster,
-    banner: e1Banner,
-  },
-
-  "extraction-2": {
-    poster: e2Poster,
-    banner: e2Banner,
-  },
-
-  // Demonte Colony
-  "demonte-colony": {
-    poster: dc1Poster,
-    banner: dc1Banner,
-  },
-
-  "demonte-colony-2": {
-    poster: dc2Poster,
-    banner: dc2Banner,
-  },
-
-  // Dune
-  dune: {
-    poster: du1Poster,
-    banner: du1Banner,
-  },
-
-  "dune-part-two": {
-    poster: du2Poster,
-    banner: du2Banner,
-  },
-
-  // Baahubali
-  "baahubali-the-beginning": {
-    poster: btb1Poster,
-    banner: btb1Banner,
-  },
-
-  "baahubali-2-the-conclusion": {
-    poster: btb2Poster,
-    banner: btb2Banner,
-  },
-
-  "baahubali-the-lost-legends": {
-    poster: btb3Poster,
-    banner: btb3Banner,
-  },
-
-  // KGF
-  "kgf-chapter-1": {
-    poster: kgf1Poster,
-    banner: kgf1Banner,
-  },
-
-  "kgf-chapter-2": {
-    poster: kgf2Poster,
-    banner: kgf2Banner,
-  },
 };
 
 export function slugifyMovie(title: string): string {
@@ -865,3 +696,4 @@ export function getMovieImages(
 }
 
 export default movieImages;
+~
