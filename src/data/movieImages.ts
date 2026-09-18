@@ -42,6 +42,20 @@ import c8Banner from "@/assets/movies/c8-banner.jpg";
 import c9Poster from "@/assets/movies/c9-poster.jpg";
 import c9Banner from "@/assets/movies/c9-banner.jpg";
 
+import d1Poster from "@/assets/movies/d1-poster.jpg";
+import d1Banner from "@/assets/movies/d1-banner.jpg";
+import d2Poster from "@/assets/movies/d2-poster.jpg";
+import d2Banner from "@/assets/movies/d2-banner.jpg";
+
+import dc1Poster from "@/assets/movies/dc1-poster.jpg";
+import dc1Banner from "@/assets/movies/dc1-banner.jpg";
+import dc2Poster from "@/assets/movies/dc2-poster.jpg";
+import dc2Banner from "@/assets/movies/dc2-banner.jpg";
+
+import du1Poster from "@/assets/movies/du1-poster.jpg";
+import du1Banner from "@/assets/movies/du1-banner.jpg";
+import du2Poster from "@/assets/movies/du2-poster.jpg";
+import du2Banner from "@/assets/movies/du2-banner.jpg";
 import fd1Poster from "@/assets/movies/fd1-poster.jpg";
 import fd1Banner from "@/assets/movies/fd1-banner.jpg";
 import fd2Poster from "@/assets/movies/fd2-poster.jpg";
@@ -212,6 +226,36 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  "demonte-colony": {
+  poster: dc1Poster,
+  banner: dc1Banner,
+},
+
+"demonte-colony-2": {
+  poster: dc2Poster,
+  banner: dc2Banner,
+},
+
+"dune": {
+  poster: du1Poster,
+  banner: du1Banner,
+},
+
+"dune-part-two": {
+  poster: du2Poster,
+  banner: du2Banner,
+},
+
+  "dharandhar": {
+  poster: d1Poster,
+  banner: d1Banner,
+},
+
+"dhurandhar-the-revenge": {
+  poster: d2Poster,
+  banner: d2Banner,
+},
+
   "baahubali-the-beginning": {
   poster: btb1Poster,
   banner: btb1Banner,
