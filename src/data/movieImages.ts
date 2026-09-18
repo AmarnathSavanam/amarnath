@@ -559,7 +559,10 @@ banner:jw5Banner,
   poster: c9Poster,
   banner: c9Banner,
 },
-
+"it": {
+  poster: it1Poster,
+  banner: it1Banner,
+},
 "it-chapter-two": {
   poster: it2Poster,
   banner: it2Banner,
