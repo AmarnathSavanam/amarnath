@@ -16,6 +16,13 @@ import inceptionBanner from "@/assets/movies/inception-banner.jpg";
 import jumanjiPoster from "@/assets/movies/Jumanji-poster.jpg";
 import jumanjiBanner from "@/assets/movies/Jumanji-banner.jpg";
 
+import btb1Poster from "@/assets/movies/btb1-poster.jpg";
+import btb1Banner from "@/assets/movies/btb1-banner.jpg";
+import btb2Poster from "@/assets/movies/btb2-poster.jpg";
+import btb2Banner from "@/assets/movies/btb2-banner.jpg";
+import btb3Poster from "@/assets/movies/btb3-poster.jpg";
+import btb3Banner from "@/assets/movies/btb3-banner.jpg";
+
 import c1Poster from "@/assets/movies/c1-poster.jpg";
 import c1Banner from "@/assets/movies/c1-banner.jpg";
 import c2Poster from "@/assets/movies/c2-poster.jpg";
