@@ -696,4 +696,3 @@ export function getMovieImages(
 }
 
 export default movieImages;
-~
