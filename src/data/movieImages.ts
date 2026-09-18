@@ -110,6 +110,11 @@ import k3Banner from "@/assets/movies/k3-banner.jpg";
 import k4Poster from "@/assets/movies/k4-poster.jpg";
 import k4Banner from "@/assets/movies/k4-banner.jpg";
 
+import kgf1Poster from "@/assets/movies/kgf1-poster.jpg";
+import kgf1Banner from "@/assets/movies/kgf1-banner.jpg";
+import kgf2Poster from "@/assets/movies/kgf2-poster.jpg";
+import kgf2Banner from "@/assets/movies/kgf2-banner.jpg";
+
 
 
 // J1 - J7
@@ -227,12 +232,27 @@ import apBanner from "@/assets/movies/ap-banner.jpg";
 import f1Poster from "@/assets/movies/f1-poster.jpg";
 import f1Banner from "@/assets/movies/f1-banner.jpg";
 
+import me1Poster from "@/assets/movies/me1-poster.jpg";
+import me1Banner from "@/assets/movies/me1-banner.jpg";
+import me2Poster from "@/assets/movies/me2-poster.jpg";
+import me2Banner from "@/assets/movies/me2-banner.jpg";
+
 export interface MovieImageEntry {
   poster: string;
   banner: string;
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  "kgf-chapter-1": {
+  poster: kgf1Poster,
+  banner: kgf1Banner,
+},
+
+"kgf-chapter-2": {
+  poster: kgf2Poster,
+  banner: kgf2Banner,
+},
+  
   "extraction": {
   poster: e1Poster,
   banner: e1Banner,
