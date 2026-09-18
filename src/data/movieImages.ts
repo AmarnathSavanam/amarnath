@@ -243,6 +243,15 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  "the-meg": {
+  poster: me1Poster,
+  banner: me1Banner,
+},
+
+"meg-2-the-trench": {
+  poster: me2Poster,
+  banner: me2Banner,
+},
   "kgf-chapter-1": {
   poster: kgf1Poster,
   banner: kgf1Banner,
