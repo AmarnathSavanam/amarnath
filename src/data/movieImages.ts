@@ -113,6 +113,14 @@ import h8Banner from "@/assets/movies/h8-banner.jpg";
 import inceptionPoster from "@/assets/movies/inception-poster.jpg";
 import inceptionBanner from "@/assets/movies/inception-banner.jpg";
 
+import isPoster from "@/assets/movies/is-poster.jpg";
+import isBanner from "@/assets/movies/is-banner.jpg";
+
+import irPoster from "@/assets/movies/ir-poster.jpg";
+import irBanner from "@/assets/movies/ir-banner.jpg";
+
+
+
 import it1Poster from "@/assets/movies/it1-poster.jpg";
 import it1Banner from "@/assets/movies/it1-banner.jpg";
 import it2Poster from "@/assets/movies/it2-poster.jpg";
@@ -165,6 +173,9 @@ import k3Banner from "@/assets/movies/k3-banner.jpg";
 import k4Poster from "@/assets/movies/k4-poster.jpg";
 import k4Banner from "@/assets/movies/k4-banner.jpg";
 
+import looperPoster from "@/assets/movies/looper-poster.jpg";
+import looperBanner from "@/assets/movies/looper-banner.jpg";
+
 import kgf1Poster from "@/assets/movies/kgf1-poster.jpg";
 import kgf1Banner from "@/assets/movies/kgf1-banner.jpg";
 import kgf2Poster from "@/assets/movies/kgf2-poster.jpg";
@@ -182,6 +193,9 @@ import m3Banner from "@/assets/movies/m3-banner.jpg";
 import m4Poster from "@/assets/movies/m4-poster.jpg";
 import m4Banner from "@/assets/movies/m4-banner.jpg";
 
+import mfPoster from "@/assets/movies/mf-poster.jpg";
+import mfBanner from "@/assets/movies/mf-banner.jpg";
+
 import me1Poster from "@/assets/movies/me1-poster.jpg";
 import me1Banner from "@/assets/movies/me1-banner.jpg";
 import me2Poster from "@/assets/movies/me2-poster.jpg";
@@ -197,6 +211,9 @@ import p4Poster from "@/assets/movies/p4-poster.jpg";
 import p4Banner from "@/assets/movies/p4-banner.jpg";
 import p5Poster from "@/assets/movies/p5-poster.jpg";
 import p5Banner from "@/assets/movies/p5-banner.jpg";
+
+import passPoster from "@/assets/movies/pass-poster.jpg";
+import passBanner from "@/assets/movies/pass-banner.jpg";
 
 import r1Poster from "@/assets/movies/r1-poster.jpg";
 import r1Banner from "@/assets/movies/r1-banner.jpg";
@@ -221,6 +238,12 @@ import t6Poster from "@/assets/movies/t6-poster.jpg";
 import t6Banner from "@/assets/movies/t6-banner.jpg";
 import t7Poster from "@/assets/movies/t7-poster.jpg";
 import t7Banner from "@/assets/movies/t7-banner.jpg";
+
+import ttbPoster from "@/assets/movies/ttb-poster.jpg";
+import ttbBanner from "@/assets/movies/ttb-banner.jpg";
+
+import ttwPoster from "@/assets/movies/ttw-poster.jpg";
+import ttwBanner from "@/assets/movies/ttw-banner.jpg";
 
 import ucPoster from "@/assets/movies/uc-poster.jpg";
 import ucBanner from "@/assets/movies/uc-banner.jpg";
