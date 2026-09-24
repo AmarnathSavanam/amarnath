@@ -254,6 +254,41 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  "train-to-busan": {
+  poster: ttbPoster,
+  banner: ttbBanner,
+},
+
+"the-tomorrow-war": {
+  poster: ttwPoster,
+  banner: ttwBanner,
+},
+
+"i-robot": {
+  poster: irPoster,
+  banner: irBanner,
+},
+
+"looper": {
+  poster: looperPoster,
+  banner: looperBanner,
+},
+
+"passengers": {
+  poster: passPoster,
+  banner: passBanner,
+},
+
+"moonfall": {
+  poster: mfPoster,
+  banner: mfBanner,
+},
+
+"interstellar": {
+  poster: isPoster,
+  banner: isBanner,
+},
+  
   "the-meg": {
   poster: me1Poster,
   banner: me1Banner,
