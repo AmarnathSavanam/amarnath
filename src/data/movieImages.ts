@@ -24,6 +24,9 @@ import apBanner from "@/assets/movies/ap-banner.jpg";
 import bbPoster from "@/assets/movies/bb-poster.jpg";
 import bbBanner from "@/assets/movies/bb-banner.jpg";
 
+import brPoster from "@/assets/movies/br-poster.jpg";
+import brBanner from "@/assets/movies/br-banner.jpg";
+
 import btPoster from "@/assets/movies/bt-poster.jpg";
 import btBanner from "@/assets/movies/bt-banner.jpg";
 
@@ -63,6 +66,9 @@ import dc1Banner from "@/assets/movies/dc1-banner.jpg";
 import dc2Poster from "@/assets/movies/dc2-poster.jpg";
 import dc2Banner from "@/assets/movies/dc2-banner.jpg";
 
+import dlPoster from "@/assets/movies/dl-poster.jpg";
+import dlBanner from "@/assets/movies/dl-banner.jpg";
+
 import du1Poster from "@/assets/movies/du1-poster.jpg";
 import du1Banner from "@/assets/movies/du1-banner.jpg";
 import du2Poster from "@/assets/movies/du2-poster.jpg";
@@ -72,6 +78,12 @@ import e1Poster from "@/assets/movies/e1-poster.jpg";
 import e1Banner from "@/assets/movies/e1-banner.jpg";
 import e2Poster from "@/assets/movies/e2-poster.jpg";
 import e2Banner from "@/assets/movies/e2-banner.jpg";
+
+import fcPoster from "@/assets/movies/fc-poster.jpg";
+import fcBanner from "@/assets/movies/fc-banner.jpg";
+
+import fsPoster from "@/assets/movies/fs-poster.jpg";
+import fsBanner from "@/assets/movies/fs-banner.jpg";
 
 import f1Poster from "@/assets/movies/f1-poster.jpg";
 import f1Banner from "@/assets/movies/f1-banner.jpg";
@@ -184,6 +196,9 @@ import kgf2Banner from "@/assets/movies/kgf2-banner.jpg";
 import lkPoster from "@/assets/movies/lk-poster.jpg";
 import lkBanner from "@/assets/movies/lk-banner.jpg";
 
+import mPoster from "@/assets/movies/m-poster.jpg";
+import mBanner from "@/assets/movies/m-banner.jpg";
+
 import m1Poster from "@/assets/movies/m1-poster.jpg";
 import m1Banner from "@/assets/movies/m1-banner.jpg";
 import m2Poster from "@/assets/movies/m2-poster.jpg";
@@ -215,6 +230,9 @@ import p5Banner from "@/assets/movies/p5-banner.jpg";
 import passPoster from "@/assets/movies/pass-poster.jpg";
 import passBanner from "@/assets/movies/pass-banner.jpg";
 
+import phmPoster from "@/assets/movies/phm-poster.jpg";
+import phmBanner from "@/assets/movies/phm-banner.jpg";
+
 import r1Poster from "@/assets/movies/r1-poster.jpg";
 import r1Banner from "@/assets/movies/r1-banner.jpg";
 import r2Poster from "@/assets/movies/r2-poster.jpg";
@@ -223,6 +241,25 @@ import r3Poster from "@/assets/movies/r3-poster.jpg";
 import r3Banner from "@/assets/movies/r3-banner.jpg";
 import rnPoster from "@/assets/movies/rn-poster.jpg";
 import rnBanner from "@/assets/movies/rn-banner.jpg";
+
+import roPoster from "@/assets/movies/ro-poster.jpg";
+import roBanner from "@/assets/movies/ro-banner.jpg";
+
+import rrrPoster from "@/assets/movies/rrr-poster.jpg";
+import rrrBanner from "@/assets/movies/rrr-banner.jpg";
+
+
+import tPoster from "@/assets/movies/t-poster.jpg";
+import tBanner from "@/assets/movies/t-banner.jpg";
+
+import tenetPoster from "@/assets/movies/tenet-poster.jpg";
+import tenetBanner from "@/assets/movies/tenet-banner.jpg";
+
+import tesPoster from "@/assets/movies/tes-poster.jpg";
+import tesBanner from "@/assets/movies/tes-banner.jpg";
+
+import toPoster from "@/assets/movies/to-poster.jpg";
+import toBanner from "@/assets/movies/to-banner.jpg";
 
 import t1Poster from "@/assets/movies/t1-poster.jpg";
 import t1Banner from "@/assets/movies/t1-banner.jpg";
@@ -248,16 +285,68 @@ import ttwBanner from "@/assets/movies/ttw-banner.jpg";
 import ucPoster from "@/assets/movies/uc-poster.jpg";
 import ucBanner from "@/assets/movies/uc-banner.jpg";
 
+
 export interface MovieImageEntry {
   poster: string;
   banner: string;
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
-  "train-to-busan": {
+  
+"train-to-busan": {
   poster: ttbPoster,
   banner: ttbBanner,
 },
+
+"odyssey": {
+  poster: toPoster,
+  banner: toBanner,
+},
+
+"frankenstein": {
+  poster: fsPoster,
+  banner: fsBanner,
+},
+
+"mercey": {
+  poster: mPoster,
+  banner: mBanner,
+},
+
+"red-one": {
+  poster: roPoster,
+  banner: roBanner,
+},
+
+"dolittle": {
+  poster: dlPoster,
+  banner: dlBanner,
+},
+
+"titanic": {
+  poster: tPoster,
+  banner: tBanner,
+},
+
+"fight-club": {
+  poster: fcPoster,
+  banner: fcBanner,
+},
+
+"the-electric-state": {
+  poster: tesPoster,
+  banner: tesBanner,
+},
+
+"project-hail-mary": {
+  poster: phmPoster,
+  banner: phmBanner,
+},
+  "Blade Runner 2049":{
+      poster: brPoster,
+  banner: brBanner,
+},
+  
 
 "the-tomorrow-war": {
   poster: ttwPoster,
