@@ -9,6 +9,12 @@
  *   2. Import it below
  *   3. Add an entry to `movieImages` using the movie slug
  */
+
+
+
+
+
+
 import a1Poster from "@/assets/movies/a1-poster.jpg";
 import a1Banner from "@/assets/movies/a1-banner.jpg";
 import a2Poster from "@/assets/movies/a2-poster.jpg";
@@ -24,6 +30,9 @@ import apBanner from "@/assets/movies/ap-banner.jpg";
 import bbPoster from "@/assets/movies/bb-poster.jpg";
 import bbBanner from "@/assets/movies/bb-banner.jpg";
 
+import bePoster from "@/assets/movies/be-poster.jpg";
+import beBanner from "@/assets/movies/be-banner.jpg";
+
 import brPoster from "@/assets/movies/br-poster.jpg";
 import brBanner from "@/assets/movies/br-banner.jpg";
 
@@ -36,6 +45,11 @@ import btb2Poster from "@/assets/movies/btb2-poster.jpg";
 import btb2Banner from "@/assets/movies/btb2-banner.jpg";
 import btb3Poster from "@/assets/movies/btb3-poster.jpg";
 import btb3Banner from "@/assets/movies/btb3-banner.jpg";
+
+
+
+import coPoster from "@/assets/movies/co-poster.jpg";
+import coBanner from "@/assets/movies/co-banner.jpg";
 
 import c1Poster from "@/assets/movies/c1-poster.jpg";
 import c1Banner from "@/assets/movies/c1-banner.jpg";
@@ -73,6 +87,9 @@ import du1Poster from "@/assets/movies/du1-poster.jpg";
 import du1Banner from "@/assets/movies/du1-banner.jpg";
 import du2Poster from "@/assets/movies/du2-poster.jpg";
 import du2Banner from "@/assets/movies/du2-banner.jpg";
+
+import dhPoster from "@/assets/movies/dh-poster.jpg";
+import dhBanner from "@/assets/movies/dh-banner.jpg";
 
 import e1Poster from "@/assets/movies/e1-poster.jpg";
 import e1Banner from "@/assets/movies/e1-banner.jpg";
@@ -122,6 +139,9 @@ import h7Banner from "@/assets/movies/h7-banner.jpg";
 import h8Poster from "@/assets/movies/h8-poster.jpg";
 import h8Banner from "@/assets/movies/h8-banner.jpg";
 
+import idPoster from "@/assets/movies/id-poster.jpg";
+import idBanner from "@/assets/movies/id-banner.jpg"; 
+
 import inceptionPoster from "@/assets/movies/inception-poster.jpg";
 import inceptionBanner from "@/assets/movies/inception-banner.jpg";
 
@@ -132,6 +152,8 @@ import irPoster from "@/assets/movies/ir-poster.jpg";
 import irBanner from "@/assets/movies/ir-banner.jpg";
 
 
+import ibPoster from "@/assets/movies/ib-poster.jpg";
+import ibBanner from "@/assets/movies/ib-banner.jpg";
 
 import it1Poster from "@/assets/movies/it1-poster.jpg";
 import it1Banner from "@/assets/movies/it1-banner.jpg";
@@ -152,6 +174,7 @@ import j6Poster from "@/assets/movies/j6-poster.jpg";
 import j6Banner from "@/assets/movies/j6-banner.jpg";
 import j7Poster from "@/assets/movies/j7-poster.jpg";
 import j7Banner from "@/assets/movies/j7-banner.jpg";
+
 
 import jbPoster from "@/assets/movies/jb-poster.jpg";
 import jbBanner from "@/assets/movies/jb-banner.jpg";
@@ -185,6 +208,18 @@ import k3Banner from "@/assets/movies/k3-banner.jpg";
 import k4Poster from "@/assets/movies/k4-poster.jpg";
 import k4Banner from "@/assets/movies/k4-banner.jpg";
 
+import kaPoster from "@/assets/movies/ka-poster.jpg";
+import kaBanner from "@/assets/movies/ka-banner.jpg";
+
+import kdPoster from "@/assets/movies/kd-poster.jpg";
+import kdBanner from "@/assets/movies/kd-banner.jpg";
+
+import kkPoster from "@/assets/movies/kk-poster.jpg";
+import kkBanner from "@/assets/movies/kk-banner.jpg";
+
+import kuPoster from "@/assets/movies/ku-poster.jpg";
+import kuBanner from "@/assets/movies/ku-banner.jpg";
+
 import looperPoster from "@/assets/movies/looper-poster.jpg";
 import looperBanner from "@/assets/movies/looper-banner.jpg";
 
@@ -195,6 +230,9 @@ import kgf2Banner from "@/assets/movies/kgf2-banner.jpg";
 
 import lkPoster from "@/assets/movies/lk-poster.jpg";
 import lkBanner from "@/assets/movies/lk-banner.jpg";
+
+import leoPoster from "@/assets/movies/leo-poster.jpg";
+import leoBanner from "@/assets/movies/leo-banner.jpg"; 
 
 import mPoster from "@/assets/movies/m-poster.jpg";
 import mBanner from "@/assets/movies/m-banner.jpg";
@@ -215,6 +253,21 @@ import me1Poster from "@/assets/movies/me1-poster.jpg";
 import me1Banner from "@/assets/movies/me1-banner.jpg";
 import me2Poster from "@/assets/movies/me2-poster.jpg";
 import me2Banner from "@/assets/movies/me2-banner.jpg";
+
+import maPoster from "@/assets/movies/ma-poster.jpg";
+import maBanner from "@/assets/movies/ma-banner.jpg";
+
+import manPoster from "@/assets/movies/man-poster.jpg";
+import manBanner from "@/assets/movies/man-banner.jpg";
+
+import masPoster from "@/assets/movies/mas-poster.jpg";
+import masBanner from "@/assets/movies/mas-banner.jpg";
+
+import mdPoster from "@/assets/movies/md-poster.jpg";
+import mdBanner from "@/assets/movies/md-banner.jpg";
+
+import mmPoster from "@/assets/movies/mm-poster.jpg";
+import mmBanner from "@/assets/movies/mm-banner.jpg";
 
 import ohPoster from "@/assets/movies/oh-poster.jpg";
 import ohBanner from "@/assets/movies/oh-banner.jpg";
@@ -251,6 +304,17 @@ import roBanner from "@/assets/movies/ro-banner.jpg";
 import rrrPoster from "@/assets/movies/rrr-poster.jpg";
 import rrrBanner from "@/assets/movies/rrr-banner.jpg";
 
+import scPoster from "@/assets/movies/sc-poster.jpg";
+import scBanner from "@/assets/movies/sc-banner.jpg";
+
+import soPoster from "@/assets/movies/so-poster.jpg";
+import soBanner from "@/assets/movies/so-banner.jpg";
+
+import spPoster from "@/assets/movies/sp-poster.jpg";
+import spBanner from "@/assets/movies/sp-banner.jpg";
+
+import ssPoster from "@/assets/movies/ss-poster.jpg";
+import ssBanner from "@/assets/movies/ss-banner.jpg"; 
 
 import tPoster from "@/assets/movies/t-poster.jpg";
 import tBanner from "@/assets/movies/t-banner.jpg";
@@ -288,6 +352,9 @@ import ttwBanner from "@/assets/movies/ttw-banner.jpg";
 import ucPoster from "@/assets/movies/uc-poster.jpg";
 import ucBanner from "@/assets/movies/uc-banner.jpg";
 
+import viPoster from "@/assets/movies/vi-poster.jpg";
+import viBanner from "@/assets/movies/vi-banner.jpg";
+
 
 export interface MovieImageEntry {
   poster: string;
@@ -295,6 +362,106 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+  
+"salaar": {
+  poster: scPoster,
+  banner: scBanner,
+},
+
+"saaho": {
+  poster: soPoster,
+  banner: soBanner,
+},
+
+"dhruva": {
+  poster: dhPoster,
+  banner: dhBanner,
+},
+
+"kalki-2898-ad": {
+  poster: kkPoster,
+  banner: kkBanner,
+},
+
+"kaithi": {
+  poster: kdPoster,
+  banner: kdBanner,
+},
+
+"vikram": {
+  poster: viPoster,
+  banner: viBanner,
+},
+
+"coolie": {
+  poster: coPoster,
+  banner: coBanner,
+},
+
+"leo": {
+  poster: leoPoster,
+  banner: leoBanner,
+},
+
+"beast": {
+  poster: bePoster,
+  banner: beBanner,
+},
+
+"master": {
+  poster: maPoster,
+  banner: maBanner,
+},
+
+"madharaasi": {
+  poster: mdPoster,
+  banner: mdBanner,
+},
+
+"maareesan": {
+  poster: masPoster,
+  banner: masBanner,
+},
+
+"maanaadu": {
+  poster: manPoster,
+  banner: manBanner,
+},
+
+"soorarai-pottru": {
+  poster: spPoster,
+  banner: spBanner,
+},
+
+"lucky-baskhar": {
+  poster: lbPoster,
+  banner: lbBanner,
+},
+
+"kuberaa": {
+  poster: kuPoster,
+  banner: kuBanner,
+},
+
+"satyam-sundaram": {
+  poster: ssPoster,
+  banner: ssBanner,
+},
+
+"karuppu": {
+  poster: kaPoster,
+  banner: kaBanner,
+},
+
+"idli-kadai": {
+  poster: idPoster,
+  banner: idBanner,
+},
+
+"minnal-murali": {
+  poster: mmPoster,
+  banner: mmBanner,
+},
       "oppenheimer": {
   poster: ohPoster,
   banner: ohBanner,
