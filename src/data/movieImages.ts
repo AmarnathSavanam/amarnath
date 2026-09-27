@@ -292,6 +292,14 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+    "rrr": {
+  poster: rrrPoster,
+  banner: rrrBanner,
+},
+  "tenant": {
+  poster: tenetPoster,
+  banner: tenetBanner,
+},
   
 "train-to-busan": {
   poster: ttbPoster,
@@ -308,7 +316,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: fsBanner,
 },
 
-"mercey": {
+"mercy": {
   poster: mPoster,
   banner: mBanner,
 },
@@ -342,7 +350,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   poster: phmPoster,
   banner: phmBanner,
 },
-  "Blade Runner 2049":{
+  "blade-runner-2049":{
       poster: brPoster,
   banner: brBanner,
 },
