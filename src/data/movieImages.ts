@@ -216,6 +216,9 @@ import me1Banner from "@/assets/movies/me1-banner.jpg";
 import me2Poster from "@/assets/movies/me2-poster.jpg";
 import me2Banner from "@/assets/movies/me2-banner.jpg";
 
+import ohPoster from "@/assets/movies/oh-poster.jpg";
+import ohBanner from "@/assets/movies/oh-banner.jpg";
+
 import p1Poster from "@/assets/movies/p1-poster.jpg";
 import p1Banner from "@/assets/movies/p1-banner.jpg";
 import p2Poster from "@/assets/movies/p2-poster.jpg";
@@ -292,6 +295,10 @@ export interface MovieImageEntry {
 }
 
 export const movieImages: Record<string, MovieImageEntry> = {
+      "oppenheimer": {
+  poster: ohPoster,
+  banner: ohBanner,
+},
     "rrr": {
   poster: rrrPoster,
   banner: rrrBanner,
