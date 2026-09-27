@@ -220,16 +220,21 @@ import kkBanner from "@/assets/movies/kk-banner.jpg";
 import kuPoster from "@/assets/movies/ku-poster.jpg";
 import kuBanner from "@/assets/movies/ku-banner.jpg";
 
-import looperPoster from "@/assets/movies/looper-poster.jpg";
-import looperBanner from "@/assets/movies/looper-banner.jpg";
+
 
 import kgf1Poster from "@/assets/movies/kgf1-poster.jpg";
 import kgf1Banner from "@/assets/movies/kgf1-banner.jpg";
 import kgf2Poster from "@/assets/movies/kgf2-poster.jpg";
 import kgf2Banner from "@/assets/movies/kgf2-banner.jpg";
 
+import lbPoster from "@/assets/movies/lb-poster.jpg";
+import lbBanner from "@/assets/movies/lb-banner.jpg";
+
 import lkPoster from "@/assets/movies/lk-poster.jpg";
 import lkBanner from "@/assets/movies/lk-banner.jpg";
+
+import looperPoster from "@/assets/movies/looper-poster.jpg";
+import looperBanner from "@/assets/movies/looper-banner.jpg"; 
 
 import leoPoster from "@/assets/movies/leo-poster.jpg";
 import leoBanner from "@/assets/movies/leo-banner.jpg"; 
