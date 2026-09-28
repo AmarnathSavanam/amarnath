@@ -9,6 +9,7 @@
  *   2. Import it below
  *   3. Add an entry to `movieImages` using the movie slug
  */
+
 import aPoster from "@/assets/movies/a-poster.jpg";
 import aBanner from "@/assets/movies/a-banner.jpg";
 
