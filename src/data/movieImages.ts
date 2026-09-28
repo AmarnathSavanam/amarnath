@@ -143,8 +143,8 @@ import h7Banner from "@/assets/movies/h7-banner.jpg";
 import h8Poster from "@/assets/movies/h8-poster.jpg";
 import h8Banner from "@/assets/movies/h8-banner.jpg";
 
-import iccPoster from "@/assets/movies/icc-poster.jpg";
-import iccBanner from "@/assets/movies/icc-banner.jpg";
+import lccPoster from "@/assets/movies/lcc-poster.jpg";
+import lccBanner from "@/assets/movies/lcc-banner.jpg";
 
 import idPoster from "@/assets/movies/id-poster.jpg";
 import idBanner from "@/assets/movies/id-banner.jpg"; 
@@ -420,8 +420,8 @@ export const movieImages: Record<string, MovieImageEntry> = {
 },
 
 "lokah-chapter-1-chandra": {
-  poster: iccPoster,
-  banner: iccBanner,
+  poster: lccPoster,
+  banner: lccBanner,
 },
 
 "munjya": {
