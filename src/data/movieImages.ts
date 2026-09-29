@@ -738,7 +738,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   poster: rrrPoster,
   banner: rrrBanner,
 },
-  "tenet": {
+  "tenant": {
   poster: tenetPoster,
   banner: tenetBanner,
 },
