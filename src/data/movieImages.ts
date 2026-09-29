@@ -115,6 +115,9 @@ import e2Banner from "@/assets/movies/e2-banner.jpg";
 import egPoster from "@/assets/movies/eg-poster.jpg";
 import egBanner from "@/assets/movies/eg-banner.jpg";
 
+import fsPoster from "@/assets/movies/fs-poster.jpg";
+import fsBanner from "@/assets/movies/fs-banner.jpg";
+
 import f1Poster from "@/assets/movies/f1-poster.jpg";
 import f1Banner from "@/assets/movies/f1-banner.jpg";
 
@@ -522,10 +525,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: kgBanner,
 },
 
-"amaran": {
-  poster: arPoster,
-  banner: arBanner,
-},
+
 
 "kill": {
   poster: killPoster,
@@ -738,7 +738,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   poster: rrrPoster,
   banner: rrrBanner,
 },
-  "tenant": {
+  "tenet": {
   poster: tenetPoster,
   banner: tenetBanner,
 },
