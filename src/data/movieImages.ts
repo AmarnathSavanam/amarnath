@@ -9,16 +9,6 @@
  *   2. Import it below
  *   3. Add an entry to `movieImages` using the movie slug
  */
-
-
-
-
-
-
-
-
-
-
 import aPoster from "@/assets/movies/a-poster.jpg";
 import aBanner from "@/assets/movies/a-banner.jpg";
 
@@ -499,7 +489,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: ktBanner,
 },
 
-"kantara-the-legend": {
+"kantara-a-legend-chapter-1": {
   poster: klPoster,
   banner: klBanner,
 },
@@ -549,7 +539,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: killBanner,
 },
 
-"suryas-saturday": {
+"surya-s-saturday": {
   poster: sssPoster,
   banner: sssBanner,
 },
@@ -564,18 +554,17 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: obbBanner,
 },
 
-
-"hit-1": {
+"hit-the-first-case": {
   poster: hitPoster,
   banner: hitBanner,
 },
 
-"hit-2": {
+"hit-the-second-case": {
   poster: hit2Poster,
   banner: hit2Banner,
 },
 
-"hit-3": {
+"hit-the-third-case": {
   poster: hit3Poster,
   banner: hit3Banner,
 },
@@ -649,7 +638,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: ogBanner,
 },
   
-"salaar": {
+"salaar-part1-ceasefire": {
   poster: scPoster,
   banner: scBanner,
 },
