@@ -539,7 +539,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: killBanner,
 },
 
-"surya-s-saturday": {
+"suriya-s-saturday": {
   poster: sssPoster,
   banner: sssBanner,
 },
@@ -638,7 +638,7 @@ export const movieImages: Record<string, MovieImageEntry> = {
   banner: ogBanner,
 },
   
-"salaar-part1-ceasefire": {
+"salaar-part-1-ceasefire": {
   poster: scPoster,
   banner: scBanner,
 },
