@@ -262,7 +262,31 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   rating: 9.0,
   poster: placeholder,
   banner: heroSeries
-}, {
+},
+ 
+{
+  title: "Take Charge of My Heart",
+  tagline: "One electric touch could save his heart—and change their lives.",
+  description: "Baek Ho-rang, a corporate heir with an artificial heart running out of power, meets Na Bo-bae, a writer with unusual electrical abilities. They strike an unexpected deal that brings them together, sparking romance amid corporate power struggles.",
+  category: "drama",
+  genres: ["Romance", "Comedy", "Fantasy"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Mousetrap",
+  tagline: "His identity is stolen. The hunt for the truth begins.",
+  description: "Reclusive novelist Je Moon-jae discovers that a mysterious impostor has stolen his identity and financial assets. Forced into an uneasy alliance with a ruthless loan shark, he fights to reclaim his life while uncovering a dangerous mystery surrounding a figure known as The Rat.",
+  category: "drama",
+  genres: ["Mystery", "Thriller", "Crime"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+ {
   title: "A Sticky Love",
   tagline: "A sweet romance that brings two hearts together.",
   description: "A heartfelt romantic series about two people who unexpectedly cross paths and slowly discover love, trust, and the courage to face life's challenges together.",
@@ -681,6 +705,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 }, 
+ {
+  title: "Again My Life",
+  tagline: "Killed once. Reborn to deliver justice.",
+  description: "Kim Hee-woo, a determined prosecutor investigating a powerful corrupt politician, is killed during his investigation. Given another chance at life, he returns to the past and uses his knowledge of the future to pursue justice and bring down his enemies.",
+  category: "drama",
+  genres: ["Action", "Crime", "Fantasy", "Revenge"],
+  year: 2022,
+  rating: 8.2,
+  poster: placeholder,
+  banner: heroSeries
+},
        { title: "Weak Hero", tagline: "Brains can defeat brutality.", description: "A quiet student fights back against violent bullies using intelligence and strategy.", category: "series", genres: ["Action", "Drama"], year: 2022, rating: 8.5, poster: placeholder, banner: heroSeries },
 
     {
