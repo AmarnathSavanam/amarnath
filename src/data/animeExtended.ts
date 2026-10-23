@@ -4,6 +4,51 @@ import heroAnime from "@/assets/hero-anime.jpg";
 const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+    title: "Roll Over and Die",
+    tagline: "Betrayed by her party. Reborn through forbidden power.",
+    description: "Flum Apricot is a powerless adventurer betrayed by her companions and sold into slavery. After obtaining a mysterious cursed weapon, she discovers a terrifying power that changes her fate and sets her on a path of survival and revenge.",
+    category: "anime",
+    genres: ["Action", "Dark Fantasy", "Adventure"],
+    year: 2026,
+    rating: 7.8,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Yowayowa Teacher",
+    tagline: "A timid teacher with a surprisingly powerful secret.",
+    description: "A gentle and physically weak teacher struggles to manage her classroom and connect with her students. Despite her fragile appearance and nervous personality, she gradually builds confidence while navigating hilarious school-life situations.",
+    category: "anime",
+    genres: ["Comedy", "School", "Slice of Life"],
+    year: 2026,
+    rating: 7.5,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Above Myriad People",
+    tagline: "An ordinary man becomes a god in a world of immortals.",
+    description: "Yun Qingyan discovers that he possesses extraordinary power in a world filled with immortals, cultivation, and divine mysteries. As he encounters powerful enemies and uncovers hidden secrets, his journey transforms him into a formidable force.",
+    category: "anime",
+    genres: ["Action", "Fantasy", "Cultivation"],
+    year: 2026,
+    rating: 7.6,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Tomb Raider King",
+    tagline: "Ancient relics. Deadly dungeons. A second chance at revenge.",
+    description: "After mysterious tombs containing supernatural relics appear around the world, Seo Joo-heon becomes a powerful relic hunter. Betrayed and killed by those he trusted, he returns to the past with his memories intact and sets out to claim the world's greatest relics.",
+    category: "anime",
+    genres: ["Action", "Fantasy", "Adventure"],
+    year: 2026,
+    rating: 8.0,
+    poster: placeholder,
+    banner: heroAnime
+  }
+,
  {
   title: "Marriage Toxin",
   tagline: "A deadly assassin. An impossible marriage mission.",
