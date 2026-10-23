@@ -4,7 +4,50 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
-
+{
+  title: "Carrie",
+  tagline: "Bullied for years. Unleashed by supernatural power.",
+  description: "Carrie White, a shy teenager raised by her controlling mother, struggles with bullying at school while discovering her telekinetic abilities. As cruelty escalates, her powers threaten to change everyone's lives forever.",
+  category: "series",
+  genres: ["Horror", "Supernatural", "Drama"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "Ali Baba Aur 40 Bhoot",
+  tagline: "Forty ghosts. One legendary adventure.",
+  description: "A fantasy adventure inspired by the legendary Ali Baba tale, blending supernatural mysteries, magical encounters, and dangerous adventures involving forty ghosts.",
+  category: "series",
+  genres: ["Fantasy", "Adventure", "Comedy"],
+  year: 2026,
+  rating: 7.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "East of Eden",
+  tagline: "Family, desire, and the darkness within.",
+  description: "Set in the early twentieth century, this multigenerational family drama follows the Trask family as love, rivalry, ambition, and moral choices shape the destinies of two brothers and those around them.",
+  category: "series",
+  genres: ["Drama", "Family", "Romance"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+{
+  title: "The Final Problem",
+  tagline: "One isolated hotel. One suspicious death. Everyone is a suspect.",
+  description: "In 1959, a group of travelers becomes stranded on an island near Mallorca during a violent storm. When a woman is found dead at a secluded hotel, a retired actor famous for portraying Sherlock Holmes investigates the murder as suspicion falls on every guest.",
+  category: "series",
+  genres: ["Mystery", "Crime", "Thriller"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
  {
   title: "Human Vapor",
   tagline: "Some powers are more dangerous than they seem.",
