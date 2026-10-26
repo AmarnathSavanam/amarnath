@@ -16,7 +16,7 @@ const animeTitles: Omit<EntertainmentItem, "id">[] = [
     banner: heroAnime
   },
   {
-    title: "I Became a Legend After My 10 Year-Long Last Stand",
+    title: "I Became a Legend After My 10 Year Long Last Stand",
     tagline: "Ten years of survival. One warrior's legendary return.",
     description: "After enduring a seemingly endless battle against overwhelming enemies, a lone warrior survives a ten-year last stand and emerges as a legendary figure. With extraordinary experience and hard-earned strength, he faces a world that has changed while he was away.",
     category: "anime",
