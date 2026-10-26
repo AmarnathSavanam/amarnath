@@ -11,7 +11,7 @@ const imageRegistry: Record<string, ImageEntry> = {
   poster: "/overshadowed-to-overpowered.jpg",
   banner: "/overshadowed-to-overpowered-banner.jpg"
 },
-"i-became-a-legend-after-my-10-year-last-stand": {
+"i-became-a-legend-after-my-10-year-long-last-stand": {
   poster: "/legend-after-10-year-last-stand.jpg",
   banner: "/legend-after-10-year-last-stand-banner.jpg"
 },
