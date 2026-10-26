@@ -5,6 +5,73 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+    title: "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+    tagline: "Reborn for a second chance. Destined for overwhelming power.",
+    description: "A sage who once lived without talent gets another chance at life through a second reincarnation. Armed with knowledge from his past lives, he sets out to overcome his former limitations, unlock extraordinary abilities, and prove that true strength comes from experience and determination.",
+    category: "anime",
+    genres: ["Fantasy", "Action", "Reincarnation"],
+    year: 2026,
+    rating: 7.5,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "I Became a Legend After My 10 Year-Long Last Stand",
+    tagline: "Ten years of survival. One warrior's legendary return.",
+    description: "After enduring a seemingly endless battle against overwhelming enemies, a lone warrior survives a ten-year last stand and emerges as a legendary figure. With extraordinary experience and hard-earned strength, he faces a world that has changed while he was away.",
+    category: "anime",
+    genres: ["Action", "Fantasy", "Adventure"],
+    year: 2026,
+    rating: 7.6,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "The Villager of Level 999",
+    tagline: "An ordinary villager with power beyond imagination.",
+    description: "In a world governed by levels and abilities, a seemingly ordinary villager reaches the astonishing level of 999. Despite his humble origins, his overwhelming strength sets him apart from heroes and powerful adventurers, leading him into extraordinary encounters and adventures.",
+    category: "anime",
+    genres: ["Fantasy", "Action", "Adventure", "Comedy"],
+    year: 2023,
+    rating: 6.5,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "The Cat and the Dragon",
+    tagline: "A dragon, a family of cats, and magical adventures.",
+    description: "A gentle dragon lives alongside a family of cats, creating an unusual bond between a mighty mythical creature and adorable feline companions. Through heartwarming encounters, magical discoveries, and everyday adventures, their unlikely family finds friendship, warmth, and a place to belong.",
+    category: "anime",
+    genres: ["Fantasy", "Adventure", "Slice of Life"],
+    year: 2026,
+    rating: 7.5,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Daemons of the Shadow Realm",
+    tagline: "Two siblings. A hidden power. A destiny beyond the ordinary.",
+    description: "Yuru and Asa are twins separated by a mysterious fate. When strange supernatural forces begin to reveal the truth behind their existence, Yuru discovers a world filled with powerful beings known as Daemons. Their journey uncovers ancient secrets, dangerous enemies, and a destiny that could change everything.",
+    category: "anime",
+    genres: ["Action", "Dark Fantasy", "Supernatural", "Mystery"],
+    year: 2026,
+    rating: 8.0,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Liar Game",
+    tagline: "Trust is a weakness. Deception is the ultimate weapon.",
+    description: "College student Nao Kanzaki becomes trapped in a high-stakes psychological game where contestants must deceive and outsmart one another to win enormous sums of money. With honesty working against her, she turns to the brilliant and manipulative Shinichi Akiyama for help navigating a dangerous world of betrayal, strategy, and mind games.",
+    category: "anime",
+    genres: ["Psychological", "Thriller", "Mystery", "Drama"],
+    year: 2026,
+    rating: 8.2,
+    poster: placeholder,
+    banner: heroAnime
+  }
+,
+  {
     title: "Roll Over and Die",
     tagline: "Betrayed by her party. Reborn through forbidden power.",
     description: "Flum Apricot is a powerless adventurer betrayed by her companions and sold into slavery. After obtaining a mysterious cursed weapon, she discovers a terrifying power that changes her fate and sets her on a path of survival and revenge.",
