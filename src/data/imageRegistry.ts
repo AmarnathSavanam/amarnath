@@ -7,6 +7,30 @@ interface ImageEntry {
   banner?: string;
 }
 const imageRegistry: Record<string, ImageEntry> = {
+  "from-overshadowed-to-overpowered-second-reincarnation-of-a-talentless-sage": {
+  poster: "/overshadowed-to-overpowered.jpg",
+  banner: "/overshadowed-to-overpowered-banner.jpg"
+},
+"i-became-a-legend-after-10-year-last-stand": {
+  poster: "/legend-after-10-year-last-stand.jpg",
+  banner: "/legend-after-10-year-last-stand-banner.jpg"
+},
+"villager-of-level-999": {
+  poster: "/villager-of-level-999.jpg",
+  banner: "/villager-of-level-999-banner.jpg"
+},
+"the-cat-and-the-dragon": {
+  poster: "/the-cat-and-the-dragon.jpg",
+  banner: "/the-cat-and-the-dragon-banner.jpg"
+},
+"daemons-of-the-shadow-realm": {
+  poster: "/daemons-of-the-shadow-realm.jpg",
+  banner: "/daemons-of-the-shadow-realm-banner.jpg"
+},
+"liar-game": {
+  poster: "/liar-game.jpg",
+  banner: "/liar-game-banner.jpg"
+},
   "carrie": {
   poster: "/carrie.jpg",
   banner: "/carrie-banner.jpg"
