@@ -752,7 +752,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   title: "Again My Life",
   tagline: "Killed once. Reborn to deliver justice.",
   description: "Kim Hee-woo, a determined prosecutor investigating a powerful corrupt politician, is killed during his investigation. Given another chance at life, he returns to the past and uses his knowledge of the future to pursue justice and bring down his enemies.",
-  category: "drama",
+  category: "series",
   genres: ["Action", "Crime", "Fantasy", "Revenge"],
   year: 2022,
   rating: 8.2,
