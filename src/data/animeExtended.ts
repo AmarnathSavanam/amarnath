@@ -5,6 +5,72 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+    title: "The World's Strongest Rearguard",
+    tagline: "The weakest position hides the strongest potential.",
+    description: "After being transported to a mysterious fantasy world, Arihito joins a dangerous labyrinth expedition as a Rearguard, a support role that protects allies and strengthens the entire party. Using his unique abilities, he discovers that even the back line can become the key to survival and victory.",
+    category: "anime",
+    genres: ["Action", "Fantasy", "Adventure", "Isekai"],
+    year: 2026,
+    rating: 7.5,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Kamui: He's Behind You",
+    tagline: "Something is watching you from the shadows.",
+    description: "A chilling supernatural horror story in which mysterious forces and terrifying presences lurk just beyond sight. As fear spreads and disturbing events unfold, the characters must confront the darkness surrounding them and uncover the truth behind what follows them.",
+    category: "anime",
+    genres: ["Horror", "Supernatural", "Mystery", "Thriller"],
+    year: 2026,
+    rating: 7.0,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "I'm Dating a Dark Summoner",
+    tagline: "Love is complicated when your partner commands darkness.",
+    description: "An unconventional romance unfolds around a powerful dark summoner whose supernatural abilities bring danger, mystery, and unexpected complications into a relationship. As affection grows, the couple navigates the strange and unpredictable world surrounding dark magic.",
+    category: "anime",
+    genres: ["Romance", "Fantasy", "Supernatural", "Comedy"],
+    year: 2026,
+    rating: 7.0,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "My Girlfriend's Friend",
+    tagline: "One unexpected friendship changes everything.",
+    description: "A complicated relationship story explores attraction, friendship, jealousy, and the boundaries between loyalty and temptation. As unexpected feelings develop between people connected through a romantic relationship, every decision threatens to change their lives.",
+    category: "anime",
+    genres: ["Romance", "Drama", "Comedy"],
+    year: 2026,
+    rating: 6.8,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "Chuhai Lips",
+    tagline: "A casual drink. Unexpected feelings. Complicated nights.",
+    description: "A contemporary romantic comedy about adults navigating attraction, personal boundaries, and unexpected emotional connections. Casual conversations and intimate moments gradually reveal feelings that are more complicated than either person initially expects.",
+    category: "anime",
+    genres: ["Romance", "Comedy", "Drama", "Slice of Life"],
+    year: 2026,
+    rating: 7.0,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
+    title: "The Lonely Snow Widow and the Cursed Ring",
+    tagline: "A lonely heart. A mysterious ring. A curse that binds them.",
+    description: "In a wintry fantasy world, a lonely widow encounters a mysterious ring carrying a dangerous curse. As its secrets begin to unfold, she is drawn into a journey filled with supernatural mysteries, emotional struggles, and the possibility of finding connection amid isolation.",
+    category: "anime",
+    genres: ["Fantasy", "Romance", "Supernatural", "Drama"],
+    year: 2026,
+    rating: 7.2,
+    poster: placeholder,
+    banner: heroAnime
+  },
+  {
     title: "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
     tagline: "Reborn for a second chance. Destined for overwhelming power.",
     description: "A sage who once lived without talent gets another chance at life through a second reincarnation. Armed with knowledge from his past lives, he sets out to overcome his former limitations, unlock extraordinary abilities, and prove that true strength comes from experience and determination.",
