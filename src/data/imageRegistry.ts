@@ -21,10 +21,9 @@ const imageRegistry: Record<string, ImageEntry> = {
     banner: "/dead-end-job-banner.jpg"
   },
   "kauriburi-the-cursed-temple": {
-    poster: "/kauriburi-the-cursed-temple.jpg",
-    banner: "/kauriburi-the-cursed-temple-banner.jpg"
-  }
-,
+    poster: "/auriburi-the-cursed-temple.jpg",
+    banner: "/auriburi-the-cursed-temple-banner.jpg"
+  },
   "the-worlds-strongest-rearguard": {
   poster: "/the-worlds-strongest-rearguard.jpg",
   banner: "/the-worlds-strongest-rearguard-banner.jpg"
