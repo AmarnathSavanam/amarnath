@@ -5,7 +5,7 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
-  title: "The Ogre's Bride",
+  title: "The Ogres Bride",
   tagline: "Chosen by an ogre. Destined for a love beyond the human world.",
   description: "In a world where humans and ayakashi coexist, Yuzu Shinonome is an ordinary high school girl who has always been neglected by her family in favor of her younger sister Karin. After enduring heartbreak, betrayal and cruelty, her life takes an unexpected turn when Reiya Kiryuin, a powerful ogre from a prestigious clan, chooses her as his destined bride. As Yuzu enters the mysterious world of ayakashi, she discovers love, acceptance and a completely new destiny.",
   category: "anime",
