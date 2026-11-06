@@ -5,6 +5,17 @@ const placeholder = "/placeholder.svg";
 
 const animeTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  title: "The Ogre's Bride",
+  tagline: "Chosen by an ogre. Destined for a love beyond the human world.",
+  description: "In a world where humans and ayakashi coexist, Yuzu Shinonome is an ordinary high school girl who has always been neglected by her family in favor of her younger sister Karin. After enduring heartbreak, betrayal and cruelty, her life takes an unexpected turn when Reiya Kiryuin, a powerful ogre from a prestigious clan, chooses her as his destined bride. As Yuzu enters the mysterious world of ayakashi, she discovers love, acceptance and a completely new destiny.",
+  category: "anime",
+  genres: ["Fantasy", "Romance", "Supernatural", "Drama"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroAnime
+},
+  {
     title: "The World's Strongest Rearguard",
     tagline: "The weakest position hides the strongest potential.",
     description: "After being transported to a mysterious fantasy world, Arihito joins a dangerous labyrinth expedition as a Rearguard, a support role that protects allies and strengthens the entire party. Using his unique abilities, he discovers that even the back line can become the key to survival and victory.",
