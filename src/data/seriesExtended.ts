@@ -4,6 +4,28 @@ import heroSeries from "@/assets/hero-series.jpg";
 const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
+  {
+  title: "Kauriburi The Cursed Temple",
+  tagline: "An ancient curse. A forbidden forest. A desperate fight against fate.",
+  description: "Bhavataran possesses a mysterious psychic ability that allows him to see a person's past or future through touch. When he foresees the death of Madhuri, the woman he once loved, he sets out to find a mystical flower that could save her. His journey leads him into the haunted forests of Assam and the mysterious Kauriburi temple, where ancient curses, dark rituals and dangerous secrets await.",
+  category: "series",
+  genres: ["Horror", "Supernatural", "Mystery", "Thriller"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
+  {
+  title: "Varam",
+  tagline: "A boon that changes his destiny. A future that comes at a price.",
+  description: "Raju, a poverty-stricken man living in a slum, struggles through humiliation and financial hardship. His life takes an unexpected turn when he receives mysterious news alerts revealing events from the future. With this extraordinary power, he tries to escape poverty and build a better life. But as he uses his knowledge to gain wealth and success, his blessing begins to bring unexpected consequences.",
+  category: "series",
+  genres: ["Drama", "Crime", "Fantasy", "Thriller"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
 {
   title: "Carrie",
   tagline: "Bullied for years. Unleashed by supernatural power.",
@@ -306,7 +328,17 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   poster: placeholder,
   banner: heroSeries
 },
- 
+ {
+  title: "Dead-End Job",
+  tagline: "50 times the pay. One rule. Survive every shift.",
+  description: "Desperate to escape his crushing debt, Byeon Hyeok-jun accepts an unbelievably high-paying part-time job at the mysterious Spider Staffing Agency. Assigned to seemingly ordinary workplaces with terrifying secrets, he soon discovers that every shift comes with strange rules and deadly consequences. As he struggles to survive, an investigator begins uncovering the dark truth behind the agency.",
+  category: "series",
+  genres: ["Horror", "Mystery", "Fantasy", "Thriller"],
+  year: 2026,
+  rating: 8.0,
+  poster: placeholder,
+  banner: heroSeries
+},
 {
   title: "Take Charge of My Heart",
   tagline: "One electric touch could save his heart—and change their lives.",
