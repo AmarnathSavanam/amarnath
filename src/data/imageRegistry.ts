@@ -23,7 +23,7 @@ const imageRegistry: Record<string, ImageEntry> = {
 },
 "harry-potter": {
   poster: h1Poster,
-  banner: h1Banner"
+  banner: h1Banner
 },
   
   "varam": {
