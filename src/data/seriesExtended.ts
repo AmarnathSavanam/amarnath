@@ -5,6 +5,42 @@ const placeholder = "/placeholder.svg";
 
 const seriesTitles: Omit<EntertainmentItem, "id">[] = [
   {
+  "dexter": {
+    title: "Dexter",
+    tagline: "A serial killer who hunts serial killers. Justice has a dark side.",
+    description: "Dexter Morgan is a forensic blood-spatter analyst for the Miami Metro Police Department who leads a secret double life as a vigilante serial killer. Guided by a strict code taught by his adoptive father, Dexter targets criminals who have escaped justice while struggling to hide his dark nature from those closest to him.",
+    category: "series",
+    genres: ["Crime", "Drama", "Mystery", "Thriller"],
+    year: 2006,
+    rating: 8.6,
+    poster: placeholder,
+    banner: heroSeries
+  },
+  "pushpaka-vimanam": {
+    title: "Pushpaka Vimanam",
+    tagline: "A missing bride. A mysterious disappearance. A life full of lies.",
+    description: "A newly married schoolteacher's life takes an unexpected turn when his wife mysteriously disappears shortly after their wedding. Determined to protect his reputation and uncover the truth, he gets caught in a series of bizarre situations, unexpected twists and hilarious complications.",
+    category: "series",
+    genres: ["Comedy", "Crime", "Mystery", "Thriller"],
+    year: 2021,
+    rating: 6.2,
+    poster: placeholder,
+    banner: heroSeries
+  },
+
+  "harry-potter": {
+    title: "Harry Potter",
+    tagline: "Magic is real. Destiny awaits. The wizarding world is calling.",
+    description: "Harry Potter, an ordinary boy who discovers he is a wizard, enters Hogwarts School of Witchcraft and Wizardry, where he forms lifelong friendships with Ron Weasley and Hermione Granger. As he learns the secrets of magic, he uncovers his connection to the dark wizard Lord Voldemort and faces a destiny that will change the wizarding world forever.",
+    category: "series",
+    genres: ["Fantasy", "Adventure", "Drama", "Mystery"],
+    year: 2001,
+    rating: 8.0,
+    poster: placeholder,
+    banner: heroSeries
+  }
+,
+  {
   title: "Kauriburi The Cursed Temple",
   tagline: "An ancient curse. A forbidden forest. A desperate fight against fate.",
   description: "Bhavataran possesses a mysterious psychic ability that allows him to see a person's past or future through touch. When he foresees the death of Madhuri, the woman he once loved, he sets out to find a mystical flower that could save her. His journey leads him into the haunted forests of Assam and the mysterious Kauriburi temple, where ancient curses, dark rituals and dangerous secrets await.",
