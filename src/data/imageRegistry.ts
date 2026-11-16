@@ -1,6 +1,8 @@
 /**
  * Image Registry — centralised image lookup for any title.
  */
+import h1Poster from "@/assets/movies/h1-poster.jpg";
+import h1Banner from "@/assets/movies/h1-banner.jpg";
 
 interface ImageEntry {
   poster?: string;
@@ -20,8 +22,8 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/pushpaka-vimanam-banner.jpg"
 },
 "harry-potter": {
-  poster: "/assets/movies/h1-poster.jpg",
-  banner: "/assets/movies/h1-banner.jpg"
+  poster: h1Poster,
+  banner: h1Banner"
 },
   
   "varam": {
