@@ -36,8 +36,7 @@ const seriesTitles: Omit<EntertainmentItem, "id">[] = [
     rating: 8.0,
     poster: placeholder,
     banner: heroSeries
-  }
-,
+  },
   {
   title: "Kauriburi The Cursed Temple",
   tagline: "An ancient curse. A forbidden forest. A desperate fight against fate.",
