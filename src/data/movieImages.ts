@@ -146,22 +146,6 @@ import fd6Banner from "@/assets/movies/fd6-banner.jpg";
 import gjPoster from "@/assets/movies/gj-poster.jpg";
 import gjBanner from "@/assets/movies/gj-banner.jpg";
 
-import h1Poster from "@/assets/movies/h1-poster.jpg";
-import h1Banner from "@/assets/movies/h1-banner.jpg";
-import h2Poster from "@/assets/movies/h2-poster.jpg";
-import h2Banner from "@/assets/movies/h2-banner.jpg";
-import h3Poster from "@/assets/movies/h3-poster.jpg";
-import h3Banner from "@/assets/movies/h3-banner.jpg";
-import h4Poster from "@/assets/movies/h4-poster.jpg";
-import h4Banner from "@/assets/movies/h4-banner.jpg";
-import h5Poster from "@/assets/movies/h5-poster.jpg";
-import h5Banner from "@/assets/movies/h5-banner.jpg";
-import h6Poster from "@/assets/movies/h6-poster.jpg";
-import h6Banner from "@/assets/movies/h6-banner.jpg";
-import h7Poster from "@/assets/movies/h7-poster.jpg";
-import h7Banner from "@/assets/movies/h7-banner.jpg";
-import h8Poster from "@/assets/movies/h8-poster.jpg";
-import h8Banner from "@/assets/movies/h8-banner.jpg";
 
 import hitPoster from "@/assets/movies/hit-poster.jpg";
 import hitBanner from "@/assets/movies/hit-banner.jpg";
