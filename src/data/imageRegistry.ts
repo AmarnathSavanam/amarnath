@@ -20,8 +20,8 @@ const imageRegistry: Record<string, ImageEntry> = {
   banner: "/pushpaka-vimanam-banner.jpg"
 },
 "harry-potter": {
-  poster: @/assets/movies/h1-poster.jpg,
-  banner: @/assets/movies/h1-banner.jpg
+  poster: "/assets/movies/h1-poster.jpg",
+  banner: "/assets/movies/h1-banner.jpg"
 },
   
   "varam": {
